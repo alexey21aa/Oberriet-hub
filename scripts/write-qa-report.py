@@ -36,7 +36,7 @@ Security checks cover allowlisted HTTPS/SSRF rejection, import validation, dupli
 | Live Lighthouse/PageSpeed / WPVibe public URL | Unavailable because no registered site/public URL exists |
 | Large-corpus production PHP time/memory sizing | Must be measured; final index is one request |
 
-GitHub returns account alexey21aa with zero repositories/installations and no repository-creation operation. WPVibe returns zero registered sites. No public deployment, paid hosting purchase or remote repository creation is claimed.
+GitHub identifies account alexey21aa, but the connector returns zero accessible repositories/installations and exposes no repository-creation operation. This does not establish whether inaccessible private repositories exist. WPVibe returns zero registered sites. No public deployment, paid hosting purchase or remote repository creation is claimed.
 
 ## Main check evidence
 
