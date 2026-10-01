@@ -6,7 +6,7 @@
 
 | Провайдер | Опубликованная стартовая цена | Основание |
 |---|---:|---|
-| [hosttech](https://www.hosttech.ch/webhosting/) | от CHF 6.90/месяц | Swiss datacenter, SSL, PHP/MariaDB, 50 GB, 512 MB PHP memory |
+| [hosttech](https://www.hosttech.ch/webhosting/) | от CHF 6.90/месяц | Swiss datacenter, SSL, PHP/MariaDB, 50 GB; PHP memory_limit подтвердить до заказа |
 | [Infomaniak](https://www.infomaniak.com/de/hosting/webhosting) | от CHF 10.91/месяц | Swiss hosting, резервные копии, 20 сайтов, 250 GB |
 | [cyon](https://www.cyon.ch/hosting/webhosting) | от CHF 14.90/месяц | Swiss Basel hosting, поддержка, 30-дневное тестирование |
 
@@ -64,3 +64,15 @@ git push -u origin main
 Операции GitHub push можно выполнить через коннектор после выдачи доступа. Не публиковать секреты, рабочую базу, `.git`, журналы и backups в web-root.
 
 В WPVibe список сайтов пуст. После появления WordPress HTTPS URL подключить сайт через авторизацию WPVibe и установить его бесплатный коннектор. WPVibe не создаёт хостинг или базу и не может активировать несуществующий сайт. Далее использовать его для read-only проверки, обслуживания и безопасных черновиков темы. Авторизация владельцем обязательна.
+
+## Изменения для сборки 0.2.0
+
+Активируйте Two Factor и OberHub Core 0.2.0, затем OberHub Theme 0.2.0. Большая база 364 услуг/2548 ответов ставится в возобновляемую очередь. Откройте Oberriet Hub в wp-admin и дождитесь стадии complete; можно закрыть страницу и продолжить позже. Во время установки публичная часть сообщает о setup (HTTP 503). На реальном сервере проверьте PHP memory_limit 512 MB и лимит времени final index phase; размер starter JSON 27.2 MB (25.9 MiB). Для HTTP-импорта целого файла post_max_size≥34MB/upload_max_filesize≥32MB; начальная установка из плагина не требует загрузки JSON.
+
+Источник — seed внутри плагина; не импортируйте дополнительно knowledge-expansion поверх него без понимания overwrite. data/base-seed.json — восстановленный исходный маленький набор; data/seed.json — итоговый полный набор. Скрипт build-knowledge.py воспроизводит исследовательское расширение из base-seed и проверенных evidence, а окончательные офисы/FAQ/provenance включены в итоговый seed.
+
+Публичные ответы работают без LLM API. Не добавляйте endpoint/key/model constants для бесплатной эксплуатации. Native браузерный адаптер не требует серверных ключей, не загружает модель и не гарантирует доступность на каждом устройстве.
+
+Git bundle содержит восстановленную исходную историю и новые изменения. После появления разрешённого репозитория: git clone /private/path/oberriet-hub.git.bundle oberriet-hub; cd oberriet-hub; git remote rename origin recovered; git remote add origin <реальный GitHub URL>; git push -u origin main. Не размещайте bundle/.git/source/tests/backup в web-root.
+
+Для первого импорта выделите PHP memory_limit=512M до активации плагина (через настройки хостинга). WP_MEMORY_LIMIT и WP_MAX_MEMORY_LIMIT можно установить в wp-config.php до строки stop editing. Это требование к PHP-процессу, а не гарантия достаточности любого дешёвого тарифа. Финальную фазу индекса измерьте на выбранном сервере и выставьте достаточный max_execution_time; тестовая среда WASM заметно медленнее native PHP.

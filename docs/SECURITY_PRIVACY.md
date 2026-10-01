@@ -19,7 +19,7 @@ Server controls included as configuration examples, **require a real host before
 
 ## Data flow
 
-Search and routing execute in the browser against a local curated index. Names, addresses and free text remain in memory/DOM. There is no server-side email sender, form submission, email queue, dialog store, localStorage or sessionStorage. Copy writes the local clipboard only; mailto opens the visitor's own mail client with an editable draft. The Hub does not send messages itself.
+Main search sends only its query to the same-site read-only POST search endpoint; the application does not persist the raw query. Contact routing and email preparation use an index in browser memory. Resident names, addresses, the contact question and email drafts remain in memory/DOM. The optional GET search interface can expose a query in infrastructure URL logs; the default UI uses POST. There is no server-side email sender, form submission, email queue, dialog store, localStorage or sessionStorage. Copy writes the local clipboard only; mailto opens the visitor's own mail client with an editable draft. The Hub does not send messages itself.
 
 Analytics receive only allowed event names and canonical IDs/known language/locality values. The application does not record raw queries, request bodies, query strings, cookies, auth headers, generated emails or draft fields. Unknown paths are logged as a category to avoid copying arbitrary text. Minimal technical logs contain UTC time, IP, method, normalized path, HTTP status, bounded UA and referrer domain. They are private admin data.
 
@@ -34,7 +34,7 @@ Analytics receive only allowed event names and canonical IDs/known language/loca
 
 The host may keep independent web/security logs and backups. Configure those separately and name the actual provider/country in Privacy. HTTPS does not itself make a third-party provider Swiss-hosted. No advertising trackers or third-party web fonts are loaded. Necessary WordPress login cookies are disclosed; a fictitious public consent wall is not added.
 
-Optional AI is OFF. An approved HTTPS provider/model/key may be configured server-side for admin previews only. It receives an administrator's question plus allowlisted source context; output always requires review. Before enabling, establish legal basis, minimization, provider location/subprocessors and update the privacy statement. No browser bundle contains an AI key.
+Optional remote AI is OFF. An approved HTTPS provider/model/key may be configured server-side for admin previews only. It receives an administrator's question plus allowlisted source context; output always requires review. Before enabling, establish legal basis, minimization, provider location/subprocessors and update the privacy statement. No browser bundle contains an AI key.
 
 ## Official legal verification on 2026-10-01
 
@@ -45,3 +45,9 @@ Optional AI is OFF. An approved HTTPS provider/model/key may be configured serve
 - [IGE guidance on protected public signs](https://www.ige.ch/de/etwas-schuetzen/marken/vor-der-anmeldung/schutzvoraussetzungen/eintragungshindernisse/geschuetzte-oeffentliche-zeichen)
 
 Public authority duties under cantonal law are not automatically represented as obligations of an independent private Hub. No municipal coat of arms, official flag or official affiliation is asserted. The logo is an original abstract five-point mark. GDPR is not described as automatically applicable merely due to access from the EU. No unverified article numbers or legal entitlement decisions are given. Hosting/operator facts remain owner inputs, not fictional placeholder identities.
+
+## Local generation and import queue in 0.2.0
+
+The visitor may explicitly ask the browser’s already available native LanguageModel to rephrase checked source context. No automatic model download, external inference request or resident fields are passed by the Hub adapter. The draft is labelled unverified and never replaces the factual navigation answer. Availability depends on browser/hardware; unavailable/error paths retain deterministic retrieval.
+
+Import chunks and intent/alias metadata are non-autoloaded private WordPress options. Capability and nonce checks guard progress requests. Stable checkpoints preserve records between requests, while the public Hub returns a temporary 503 during an unfinished import. Chunk options are removed on successful completion. Search index rebuilding remains a single final phase; large production corpora need measured PHP/database resources.

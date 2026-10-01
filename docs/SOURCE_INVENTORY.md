@@ -1,30 +1,11 @@
-# Provenance inventory
+# Source inventory 0.2.0
 
-Machine-readable inventory: `data/sources.json`; complete record-to-source relationships: `data/seed.json`. Dates are ISO; manual verification date 2026-10-01. Exact source URLs, publisher, authority level, TTL, verification scope, status and reuse notes are exported. HTTP status/hash are present only where an actual direct download succeeded; null/empty is not presented as an HTTP success.
+Authoritative exports: `data/sources.json` (293 records) and `data/source-records.csv`; every service/answer links via source_id and the official source URL. The corpus includes 258 newly directly fetched official pages from ch.ch, SVA St.Gallen and Hallo SG with HTTP status/content hashes/date, plus the recovered 35 original sources. Original municipal/waste/contact dates are retained rather than falsely renewed.
 
-A — public authorities; B — public institutions; C — organisations; D — community. In this MVP, administrative procedure facts use A sources; school, hospital and public transport facts use their official institution sources B. A page on a public website does not turn Hub into a public authority. Municipal directory routes are `routing-metadata`, not a complete legal procedure audit.
+Metadata includes authority/name, domain/type, language, public-source trust level, last_checked/date_added, verification status, geographic coverage and related service IDs. `routing-metadata` means the title/destination was verified: it does not certify every fee/document/procedure on the page. `page` and `page-subscenario` identify richer original guidance. Translation drafts remain drafts.
 
-Key original sources:
+`data/expansion/verified-pages.json` and `hallo-pages.json` retain factual verification receipts, not mirrored articles. `scripts/build-knowledge.py` uses the verified evidence and curated translations. Current final `data/seed.json` additionally includes offices/FAQ and fuller provenance.
 
-| Subject | Source |
-|---|---|
-| Municipal service directory | https://www.oberriet.ch/dienstleistungen |
-| Offices/contact routing | https://www.oberriet.ch/aemter |
-| Registration after moving | https://www.oberriet.ch/dienstleistungen/23620 |
-| Residence certificate | https://www.oberriet.ch/dienstleistungen/23627 |
-| Einwohneramt | https://www.oberriet.ch/aemter/10674 |
-| 2026 waste plan | https://www.oberriet.ch/online-schalter/101755/download |
-| Five localities | https://www.oberriet.ch/5doerfer1gemeinde |
-| Current Kilbi / Marvin event | https://www.oberriet.ch/aktuellesinformationen/2996749 |
-| Primary school moving registration | https://www.orschulen.ch/primarschule-ekmo/e.html |
-| School administration | https://www.orschulen.ch/kontakt-227.html |
-| Montlingen holiday dates | https://www.orschulen.ch/ferienplan-se-montlingen.html |
-| EKMO day care | https://www.orschulen.ch/tagesstrukturen-ekmo.html |
-| RAV districts | https://www.sg.ch/wirtschaft-arbeit/arbeitslos-arbeit-finden/rav.html |
-| Transport | https://www.sbb.ch/de |
-| HOCH medical emergency | https://www.h-och.ch/notfall/ |
-| Music-school contact | https://msor.ch/kontakt/ |
+Source-health checks use approved HTTPS hosts, no redirects, bounded body/time and rotating batches; a change requires human review. They never replace legal/administrative facts automatically. The table's `checked` review state corresponds to verification; incomplete/outdated source or translation states remain visible.
 
-Only normalized facts and original short summaries are included. Original municipal PDF, full downloaded website prose and protected images are not redistributed. Private research extraction text is excluded from the release and Git bundle. The factual inventory includes all 94 records and source links even when unknown procedural fields remain null. No source image/logo/coat of arms was copied.
-
-TTL defaults: procedures 30 days, events/waste daily source check, school calendars 7 days, legal/source documentation 90 days. Editorial review is required after a source change. Source availability checking does not automatically assert that every fact is legally current.
+Coverage includes Oberriet administration and institutions, schools, waste/current local calendar, regional hospital/transit, federal administrative topics, cantonal integration/housing/work/education/health guidance and SVA social insurance. No fabricated business, doctor, phone, fee, deadline or waste date was added to meet quotas.

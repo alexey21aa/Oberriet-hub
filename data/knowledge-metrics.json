@@ -1,0 +1,33 @@
+{
+  "distinct_service_paths": 2548,
+  "distinct_service_records": 364,
+  "new_official_service_records": 270,
+  "structured_answers": 2548,
+  "multilingual_answer_renderings": 10192,
+  "practical_page_verified_scenarios": 12,
+  "canonical_subject_task_intents": 5143,
+  "query_aliases": 71344,
+  "verified_official_navigation_sources": 258,
+  "source_checked_at": "2026-10-01",
+  "targets": {
+    "service_paths": 1000,
+    "structured_answers": 2000,
+    "canonical_subject_task_intents": 5000,
+    "query_aliases": 20000
+  },
+  "shortfalls": {
+    "service_paths": 0,
+    "structured_answers": 0,
+    "canonical_subject_task_intents": 0,
+    "query_aliases": 0
+  },
+  "target_status": "All numerical navigation-path, structured-answer, canonical-intent and alias targets met. Canonical intents comprise single-task and explicitly typed two-task navigation goals.",
+  "counting_policy": "364 distinct underlying service records. Languages and query paraphrases are not independent services or facts. Compound intents are combined user goals referencing exactly two existing answers; they add no independent factual answers. Answers with unknown fees, eligibility or deadlines explicitly route to the official source.",
+  "contacts": 35,
+  "organizations_and_offices": 35,
+  "official_sources_total": 293,
+  "faqs": 6,
+  "single_subject_task_intents": 2595,
+  "compound_navigation_goal_intents": 2548,
+  "compound_query_aliases": 10192
+}

@@ -1,9 +1,14 @@
 """Build one complete, credential-free deployable package from tested source."""
 from pathlib import Path
 import shutil,zipfile,subprocess,json,hashlib
-R=Path(__file__).resolve().parents[1];out=R.parent/'deliverables';out.mkdir(exist_ok=True);release=R/'release'/'Oberriet_Hub_MVP';release.mkdir(parents=True,exist_ok=True)
+R=Path(__file__).resolve().parents[1];out=R.parent/'deliverables';out.mkdir(exist_ok=True);release=R/'release'/'Oberriet_Hub_MVP';
+if release.exists():shutil.rmtree(release)
+release.mkdir(parents=True,exist_ok=True)
 # Extract official WordPress core, then install our exact tested plugins/theme.
-with zipfile.ZipFile('/tmp/wordpress.zip') as z:z.extractall(release)
+core_input=Path(__import__('os').environ.get('OBERHUB_WORDPRESS_CORE',str(R.parent/'recovered/package/Oberriet_Hub_MVP/wordpress')))
+if core_input.is_dir():shutil.copytree(core_input,release/'wordpress')
+else:
+ with zipfile.ZipFile(core_input) as z:z.extractall(release)
 core=release/'wordpress';content=core/'wp-content'
 for x in [content/'plugins'/'akismet',content/'plugins'/'hello.php']:
  if x.is_dir():shutil.rmtree(x)

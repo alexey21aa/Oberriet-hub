@@ -1,35 +1,41 @@
-# Oberriet Hub · WordPress MVP 0.1.0
+# Oberriet Hub · WordPress 0.2.0
 
-Независимый навигатор для Oberriet, Montlingen, Kriessern, Eichenwies и Kobelwald. DE / EN / RU / UK. Подготовлен 1 октября 2026 года.
+Independent civic navigation for Oberriet, Montlingen, Kriessern, Eichenwies and Kobelwald. DE / EN / UK / RU. Updated 2026-10-01.
 
-**Пакет работает и протестирован в WordPress. Публичный сайт не опубликован:** в подключённом WPVibe нет сайтов, GitHub не предоставил доступных репозиториев. Платежи не совершались. Правило ТЗ для отсутствующего хостинга выполнено через пакет установки.
+This is a deployable, tested application package. It is not a public live deployment: WPVibe has no registered WordPress site, and the authenticated GitHub account exposes no installation/repository or repository-creation operation. No payments were made. Existing source and Git history were recovered before changes.
 
-Состав: WordPress 7.1.2, собственная блоковая тема `oberhub-theme`, плагин `oberhub-core` 0.1.0, Two Factor 0.17.0. Fuse.js 7.5.0 встроен локально. Платные плагины, внешние шрифты, рекламная аналитика и обязательный платный ИИ отсутствуют.
+## Included
 
-94 услуги/справочных материала, 35 контактов, 47 намерений, 35 источников, 5 местностей, 10 категорий отходов, 4 подтверждённых события/периода. Дата проверки — 2026-10-01. Календарь отходов имеет жёсткую границу 2026-12-31.
+WordPress 7.1.2, original block theme `oberhub-theme` 0.2.0, `oberhub-core` 0.2.0 and Two Factor 0.17.0. No paid plugin, query API, advertising tracker or external font is required.
 
-## Установка
+| Corpus | Count | Meaning |
+|---|---:|---|
+| Distinct services and scenarios | 364 | 94 originals + 270 additional official navigation/practical records |
+| Service-task paths | 2,548 | Seven explicit navigation facets per service; not 2,548 separate municipal services |
+| Structured navigation answers | 2,548 | Four languages; unknown fees/documents/deadlines explicitly remain unknown |
+| Canonical intents | 5,143 | 2,595 single-task/curated intents + 2,548 explicitly typed compound navigation goals |
+| Query formulations | 71,344 | Paraphrases counted as aliases, not independent facts |
+| Source records | 293 | 258 newly checked official URLs with HTTP status/hashes |
+| Offices/institutions and contacts | 35 / 35 | Institution/office entities derived from existing verified contact records |
 
-Откройте `docs/DEPLOYMENT_RU.md`. В поставке:
+Each compound goal combines two meaningful tasks and references exactly two existing source-backed navigation answers. Compounds add no services or factual answers. All four numerical minimum targets are met.
 
-- `wordpress/` — готовый корень WordPress с темой и плагинами; загрузить на PHP/MariaDB-хостинг и пройти штатный установщик;
-- `source/` — исходный проект, seed, документация, сценарии проверки;
-- `oberriet-hub.git.bundle` — полный локальный Git-репозиторий для импорта в GitHub;
-- `docs/` — инструкция установки, админка, защита, резервные копии, QA и ограничения;
-- `previews/` — снимки интерфейса из реального браузера.
+Details: `data/knowledge-metrics.json`. Translations are editorial drafts. URL/headline verification is navigation verification, not confirmation of every entitlement, tariff or procedure on that source. The local source date is shown on every answer.
 
-Не загружайте `source/`, Git bundle, документацию или тесты в публичный web-root. Доступ к базе/админу задаётся владельцем при установке: в пакете нет паролей, API-ключей или рабочих учётных данных.
+## Install
 
-## Что работает
+Read `docs/DEPLOYMENT_RU.md`. For a new installation upload only `wordpress/` into your Swiss PHP/MariaDB document root and use the WordPress installer. For an existing site use the theme/core/Two Factor ZIPs. Keep source, tests, Git bundle and backups outside the public directory.
 
-Поиск с нормализацией и Fuse.js, ссылки на первоисточники, поиск по четырём языкам и фиксированным намерениям; страницы услуг и пяти местностей; календарь с фильтрами и ICS; вывоз отходов по местности; маршрутизация обращения и немецкий шаблон письма через copy/mailto; закрытая штатная админка; JSON импорт/экспорт; редакционные статусы переводов; ежедневная проверка источников; агрегаты без сырых поисковых запросов; очистка технических журналов; hreflang, canonical, sitemap и schema.org; правовые страницы на четырёх языках.
+Activate Two Factor, OberHub Core and the theme. The large initial corpus is queued privately; open **Oberriet Hub** in wp-admin to import in resumable batches. Wait until both records and index report **complete**. A setup screen prevents incomplete content from appearing live. Configure operator identity, real host/country, HTTPS, TOTP/recovery codes, cron and backups before enabling indexing.
 
-Неизвестные условия, цены, сроки и даты не додумываются. Большая часть муниципального каталога — проверенная маршрутизация, а не исчерпывающее изложение процедуры. Это отмечено полем `verification_scope`. EN/RU/UK — редакционные черновики, а не официальные переводы.
+## Search and privacy
 
-## Локальная проверка
+The server uses indexed weighted Unicode tokens and typo signatures, deterministic navigation answers, source/locality relevance and bounded pagination. Main search uses read-only POST; queries are not saved in Hub analytics or put into the request URL. Contact routing runs in the browser. Names, addresses and drafts remain in the page, with copy/mailto only.
 
-`npm test` запускает 23 проверки поиска, дат, ICS и источников без WordPress. Для браузерного теста установить dev-зависимости (`npm install`), браузеры (`npx playwright install`) и запустить WordPress Playground. `tests/run-wordpress.mjs` использует переменную `OBERHUB_RUNTIME` для каталога с `node_modules/.bin/wp-playground-cli`; по умолчанию — `/tmp/oberhub-runtime` в среде разработки. После `npm install` в папке исходников запустить `OBERHUB_RUNTIME="$PWD" npm run test:wordpress`. Для системного Chromium можно задать `OBERHUB_CHROMIUM_PATH`; обычный Playwright используется по умолчанию. Требуется Node 24.18+; это среда проверки, а не зависимость PHP-сайта. Встроенные тестовые секреты и Playground admin/password используются только в временной лаборатории и никогда не импортируются в рабочую базу.
+Optional native browser AI is activated only by a visitor click where `LanguageModel` is exposed and its model is already available. No automatic model download or API billing. The adapter returns a separate unverified draft and preserves deterministic results on failure. Adapter/fallback tests pass; actual hardware model inference is not claimed tested. WebLLM was researched but is not a shipped dependency.
 
-Обязательные действия перед публичным запуском: реальные реквизиты оператора и хостера, собственный сложный пароль, TOTP и recovery codes, HTTPS, реальный cron, резервная копия и повторная проверка на выбранном MariaDB-хостинге. Пока реквизиты не заполнены, сайт выдаёт noindex.
+## Development and handover
 
-Подробный статус, включая непроверенные браузеры и внешние действия, — `docs/HANDOVER_RU.md` и `docs/QA_REPORT.md`.
+`npm ci`; `npm test`; `npm run test:search`; `npm run test:queue`; `npm run test:local-ai`. For WordPress QA, set `OBERHUB_RUNTIME` to this project's absolute directory and `OBERHUB_CHROMIUM_PATH` to a working browser binary, then `npm run test:wordpress`. Development dependencies do not belong in production.
+
+The package contains source, import data, provenance exports, restored Git history, installer ZIPs, QA results, previews, architecture, configuration/server examples and operating/backup instructions. Inspect `docs/QA_REPORT.md` and `docs/KNOWN_LIMITATIONS.md` for the exact verification scope.

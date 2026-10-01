@@ -1,35 +1,16 @@
-# Known limits and Phase 2
+# Known limitations — 0.2.0
 
-Operational MVP is delivered as an installation package, **not a live site**. No production domain/Swiss host/database was supplied and WPVibe has no connected site. No repository was accessible to the GitHub connector and it has no repository-creation operation. A complete local Git bundle is provided; remote import requires an authorized target repository.
+- **No remote deployment.** WPVibe account exists but has zero registered sites. No WordPress URL, Swiss host or domain was provided. WPVibe is a site manager, not a hosting factory. GitHub identifies alexey21aa, but repository lists and installations are empty. No repository-creation tool is exposed. Restored local Git history and an importable bundle are included; no remote repository URL is claimed.
+- **Counting scope.** 5,143 canonical navigation goals comprise 2,595 single-task/curated intents and 2,548 typed two-task compound goals. Each compound references exactly two existing answers; it adds no factual answer or service. The 2,548 service-task paths represent 364 distinct underlying service records. Language renderings/paraphrases do not add independent services or facts.
+- **Depth varies.** Municipal priority journeys and 12 new practical scenarios contain verified summaries. Many new official pages provide verified routing/title/source only. General navigation facets explicitly decline unverified costs, document lists and time limits. They are not legal decisions or exhaustive procedure summaries.
+- **Languages.** All UI and summaries/answers have DE/EN/UK/RU. EN/UK/RU are editorial drafts; institution names remain official German. Arbitrary free-text letter descriptions are retained in their original language with disclosure. They are not silently translated. The short streetlight template has German deterministic wording.
+- **Waste/events.** The waste plan is valid only through 2026-12-31. Kobelwald refuse route must be confirmed; unsupported collection dates are not inferred. Calendar includes four sourced events/periods and waste/cardboard rounds. It is not an exhaustive maintained event feed. ICS exports all-day dates.
+- **Production testing.** Local WordPress tests use PHP WASM/SQLite. MariaDB/MySQL deployment, real HTTPS/proxy rules, cache/cron and actual Swiss hosting remain to be checked after authorisation. Physical Android/Samsung/Safari/Edge and independent penetration/WCAG certification are not claimed. See QA report for Firefox/WebKit availability.
+- **Optional AI.** Native LanguageModel adapter/fallback is implemented and mocked tests pass. Real on-device inference requires browser API/model/hardware/origin eligibility, and was not available here. No model is automatically downloaded; no promise of unlimited hosted free AI. Deterministic search always remains available.
+- **Admin/import scaling.** Native content JSON editor, list filters/trash/review actions and JSON/CSV import/export work. Large dictionaries use file-based batch editing; service synonyms can be edited individually. The private queue checkpoints every record; final index rebuild is currently one bounded batch phase. Very large future corpora require measuring PHP memory/time limits before import; maximum supported targets are architecture goals, not a certified production benchmark.
+- **Analytics/logs.** Fixed-dimension counters are indicative, not verified unique usage. They can be automated. Hub does not retain queries or resident draft text. Infrastructure logs are controlled by the actual host; GET integration queries/browser history may contain query text. Configure query omission/retention and complete the actual privacy notice.
+- **Legal identity.** Owner, organisation, responsible person, postal address, email, optional phone, host/country and production TOTP/recovery codes require the actual operator. Missing identity keeps indexing disabled. No invented operator or municipal affiliation is used.
 
-Data is verified as of 2026-10-01. 94 service/guide entries include 76 municipal catalogue routes and 18 richer original summaries/local institution guides. Most catalogue routes deliberately leave price, eligibility, processing time and document lists unknown until verified. Directory validation proves the service/contact routing, not every procedure in its full source page. `verification_scope` differentiates this. Do not present completeness of the directory as legal completeness.
+## Cooperation still needed from Gemeinde
 
-EN/RU/UK text exists for all services and UI, but is an editorial draft. Native institution names remain German. German email templates are ready to edit: arbitrary foreign-language free text is explicitly retained as original rather than silently misrepresented as a machine translation. A short broken-light message has a German deterministic formulation. No automatic translator is required or activated.
-
-Waste data is valid for 2026 only. Fixed paper dates are the remaining dates from the official plan at the research date. Household/cardboard weekly routes are known for Oberriet, Montlingen, Eichenwies and Kriessern. Kobelwald paper is mapped to Berggebiet with a route-confirmation notice; ordinary refuse is not inferred there. Green collection rounds were discontinued; self-delivery is linked. On expiry, unknown dates are shown and the official plan remains available. Calendar has four verified events/periods plus computed waste events, not a fabricated full local-events feed. ICS uses all-day dates; timed events/timezone export needs a later extension.
-
-Official St.Gallen OpenData API documentation was inspected: [shared mobility dataset/API](https://daten.sg.ch/explore/dataset/stationsbasierte-shared-mobility-angebote-im-kanton-stgallen/api/). No verified Oberriet-specific automated waste/events feed suitable for this MVP was found. Therefore the application uses the source registry, human-curated facts and monitored changes instead of inventing an endpoint or inferring unsupported local records. Dataset licensing must be recorded before any future dataset import.
-
-WordPress 7.1.2/PHP 8.3 was actually run in Playground with its SQLite adapter. The production target is MariaDB/MySQL; a real-host smoke test and HTTPS/file/cache checks are required before launch. The suite covers Chromium desktop/mobile viewport emulation, not physical Android/Samsung/Edge devices. Firefox and WebKit downloads were unavailable in this environment; their checks are explicitly skipped, not passed. Full WCAG certification and an independent penetration test are not claimed.
-
-The admin editor is the native WordPress CPT screen with validated structured JSON. It is functional and revision-supported, but a friendlier field-by-field editor is a reasonable Phase 2 improvement. `oh_guide` exists; current navigation guides are searchable Services. Import is validated before starting but is not a cross-database transaction; on a DB failure, restore/retry from backup. No automated content deletion by missing ID.
-
-## Phase 2, after launch
-
-- Official Gemeinde review, approved data feeds and clear ownership of corrections.
-- Direct authorised Mängelmelder tickets; AGOV/E-Login only with official integration.
-- Timed ICS events, additional verified calendar feeds, 2027 waste plan.
-- Professional review of EN/RU/UK and optional privacy-approved translation.
-- Friendly admin fields, richer editorial approval/revision UI and cache purge integration.
-- Real Firefox/WebKit and physical mobile testing; full manual accessibility audit.
-- Push/PWA offline, richer maps/community/business directory only after verified source rights.
-- Advanced monitoring/B2G dashboards and enterprise SLA only when justified.
-
-## Exact items requiring Gemeinde cooperation
-
-1. Confirm streetlight fault recipient and emergency/non-emergency escalation for each locality; current Hub routes uncertainty to the general administration.
-2. Confirm Kobelwald/Holzrhode refuse district, exceptional holidays and route-specific collection details.
-3. Supply maintained waste/calendar feeds, reuse rights, source contacts and the next year's plan; agree correction cadence.
-4. Review administrative fees/documents/eligibility and authoritative German summaries; approve translations separately.
-5. Authorise any official integration, branding/insignia, ticket API, AGOV or exchange of residents' data. Hub uses none of these implicitly.
-6. Identify responsible staff and response expectations if a formal cooperation agreement is made. Do not promise service levels on their behalf.
+Confirm recipients for streetlight/other defects, Kobelwald/Holzrhode waste routes and holiday exceptions; provide maintained 2027 waste/calendar feeds and reuse rights; review administrative fees/documents/eligibility and translations. No AGOV, case system, ticket submission or municipal insignia integration is implied.

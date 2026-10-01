@@ -11,3 +11,7 @@ define('DISABLE_WP_CRON', true); // Only after installing the real server cron b
 // define('OBERHUB_AI_ENDPOINT', 'https://your-approved-vendor.example/v1/chat/completions');
 // define('OBERHUB_AI_KEY', getenv('OBERHUB_AI_KEY'));
 // define('OBERHUB_AI_MODEL', 'your-approved-model');
+
+// Set hosting PHP memory_limit to at least 512M before activating the large seed.
+define('WP_MEMORY_LIMIT', '512M');
+define('WP_MAX_MEMORY_LIMIT', '512M');
