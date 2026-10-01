@@ -1,0 +1,26 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "7.1.2"
+  },
+  "landingPage": "/de/",
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "two-factor/two-factor.php"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "oberhub-core/oberhub-core.php"
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "oberhub-theme"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; \\OberHub\\Frontend::rewrite(); flush_rewrite_rules(); update_option('blogname','Oberriet Hub'); update_option('blog_public',0);"
+    }
+  ]
+}

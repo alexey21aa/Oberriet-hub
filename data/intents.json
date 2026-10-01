@@ -1,0 +1,504 @@
+[
+  {
+    "id": "23529",
+    "phrases": [
+      "Gemeindesteuern",
+      "Municipal taxes",
+      "Муниципальные налоги",
+      "Муніципальні податки"
+    ]
+  },
+  {
+    "id": "23620",
+    "phrases": [
+      "wo anmelden",
+      "umzug",
+      "zuzug",
+      "переезд",
+      "куда сообщить адрес",
+      "прописка",
+      "переїзд",
+      "де оформити прописку",
+      "moving register address",
+      "Anmeldung",
+      "Register after moving",
+      "Регистрация после переезда",
+      "Реєстрація після переїзду"
+    ]
+  },
+  {
+    "id": "23622",
+    "phrases": [
+      "Auskunft über Beistandschaft und Vorsorgeauftrag (früher: Handlungsfähigkeitszeugnis)",
+      "Capacity and advance directive certificate",
+      "Справка об опеке и распоряжении на будущее",
+      "Довідка про опіку та розпорядження на майбутнє"
+    ]
+  },
+  {
+    "id": "23623",
+    "phrases": [
+      "Identitätskarte",
+      "Swiss identity card",
+      "Швейцарская удостоверительная карта",
+      "Швейцарська посвідчувальна картка"
+    ]
+  },
+  {
+    "id": "23624",
+    "phrases": [
+      "Pass",
+      "Swiss passport",
+      "Швейцарский паспорт",
+      "Швейцарський паспорт"
+    ]
+  },
+  {
+    "id": "23625",
+    "phrases": [
+      "Zivilstandsausweise",
+      "Civil status certificates",
+      "Документы гражданского состояния",
+      "Документи цивільного стану"
+    ]
+  },
+  {
+    "id": "23626",
+    "phrases": [
+      "Abmeldung",
+      "Deregister when leaving",
+      "Снятие с регистрации при выезде",
+      "Зняття з реєстрації при виїзді"
+    ]
+  },
+  {
+    "id": "23627",
+    "phrases": [
+      "wohnsitzbestätigung",
+      "residence certificate",
+      "справка о месте жительства",
+      "довідка про місце проживання",
+      "работодателя",
+      "Wohnsitzbestätigung",
+      "Residence certificate",
+      "Справка о месте жительства",
+      "Довідка про місце проживання"
+    ]
+  },
+  {
+    "id": "23628",
+    "phrases": [
+      "Ausländerbewilligungen",
+      "Residence permits",
+      "Разрешения на проживание",
+      "Дозволи на проживання"
+    ]
+  },
+  {
+    "id": "23702",
+    "phrases": [
+      "Beglaubigung",
+      "Document authentication",
+      "Заверение документов",
+      "Засвідчення документів"
+    ]
+  },
+  {
+    "id": "23707",
+    "phrases": [
+      "Betreibungsauskunft",
+      "Debt enforcement register extract",
+      "Выписка из реестра взысканий",
+      "Витяг із реєстру стягнень"
+    ]
+  },
+  {
+    "id": "23895",
+    "phrases": [
+      "hund",
+      "dog",
+      "собака",
+      "собаку",
+      "Hundehaltung",
+      "Dog registration and tax",
+      "Регистрация собаки и налог",
+      "Реєстрація собаки та податок"
+    ]
+  },
+  {
+    "id": "23903",
+    "phrases": [
+      "Elternschaftsbeiträge",
+      "Parental assistance contributions",
+      "Родительские пособия",
+      "Батьківські виплати"
+    ]
+  },
+  {
+    "id": "23980",
+    "phrases": [
+      "Lernfahrausweis",
+      "Learner driving permit",
+      "Разрешение на обучение вождению",
+      "Дозвіл на навчання водінню"
+    ]
+  },
+  {
+    "id": "23984",
+    "phrases": [
+      "adressänderung",
+      "new address",
+      "новый адрес",
+      "нову адресу",
+      "Adressänderung innerhalb der Gemeinde",
+      "Change address within the municipality",
+      "Изменение адреса внутри общины",
+      "Зміна адреси в межах громади"
+    ]
+  },
+  {
+    "id": "23986",
+    "phrases": [
+      "Steuererklärung",
+      "Tax return",
+      "Налоговая декларация",
+      "Податкова декларація"
+    ]
+  },
+  {
+    "id": "23987",
+    "phrases": [
+      "Steuerrechnung defintiv",
+      "Final tax bill",
+      "Окончательный налоговый счёт",
+      "Остаточний податковий рахунок"
+    ]
+  },
+  {
+    "id": "23988",
+    "phrases": [
+      "Steuerrechnung provisorisch",
+      "Provisional tax bill",
+      "Предварительный налоговый счёт",
+      "Попередній податковий рахунок"
+    ]
+  },
+  {
+    "id": "23989",
+    "phrases": [
+      "Wegzug Ausland / längerer Auslandaufenthalt",
+      "Moving abroad and taxes",
+      "Налоги при выезде за границу",
+      "Податки при виїзді за кордон"
+    ]
+  },
+  {
+    "id": "23992",
+    "phrases": [
+      "Kilbi Oberriet",
+      "Oberriet village fair",
+      "Ярмарка Oberriet",
+      "Ярмарок Oberriet"
+    ]
+  },
+  {
+    "id": "23993",
+    "phrases": [
+      "Kilbi Montlingen",
+      "Montlingen village fair",
+      "Ярмарка Montlingen",
+      "Ярмарок Montlingen"
+    ]
+  },
+  {
+    "id": "23994",
+    "phrases": [
+      "Kilbi Kriessern",
+      "Kriessern village fair",
+      "Ярмарка Kriessern",
+      "Ярмарок Kriessern"
+    ]
+  },
+  {
+    "id": "23997",
+    "phrases": [
+      "AHV-Leistungen",
+      "AHV pension benefits",
+      "Пенсионные выплаты AHV",
+      "Пенсійні виплати AHV"
+    ]
+  },
+  {
+    "id": "23998",
+    "phrases": [
+      "AHV-Beiträge / Beitragspflicht",
+      "AHV contributions",
+      "Взносы AHV",
+      "Внески AHV"
+    ]
+  },
+  {
+    "id": "23999",
+    "phrases": [
+      "Überbrückungsleistungen für ältere Arbeitslose (ÜL)",
+      "Bridge benefits for older unemployed people",
+      "Переходные выплаты пожилым безработным",
+      "Перехідні виплати літнім безробітним"
+    ]
+  },
+  {
+    "id": "24000",
+    "phrases": [
+      "Invalidenversicherung (IV)",
+      "Disability insurance IV",
+      "Страхование инвалидности IV",
+      "Страхування інвалідності IV"
+    ]
+  },
+  {
+    "id": "24001",
+    "phrases": [
+      "Erwerbsersatz (EO)",
+      "Income compensation EO",
+      "Компенсация заработка EO",
+      "Компенсація заробітку EO"
+    ]
+  },
+  {
+    "id": "24004",
+    "phrases": [
+      "Individuelle Prämienverbilligung (IPV)",
+      "Health insurance premium reduction",
+      "Субсидия на медицинскую страховку",
+      "Субсидія на медичне страхування"
+    ]
+  },
+  {
+    "id": "24005",
+    "phrases": [
+      "Pflegefinanzierung (PF)",
+      "Care financing",
+      "Финансирование ухода",
+      "Фінансування догляду"
+    ]
+  },
+  {
+    "id": "24006",
+    "phrases": [
+      "Ergänzungsleistungen (EL)",
+      "Supplementary benefits EL",
+      "Дополнительные выплаты EL",
+      "Додаткові виплати EL"
+    ]
+  },
+  {
+    "id": "24008",
+    "phrases": [
+      "Mutterschaftsentschädigung (MSE)",
+      "Maternity allowance",
+      "Пособие по материнству",
+      "Допомога у зв’язку з материнством"
+    ]
+  },
+  {
+    "id": "24009",
+    "phrases": [
+      "Familienzulagen (FamZ)",
+      "Family allowances",
+      "Семейные пособия",
+      "Сімейні виплати"
+    ]
+  },
+  {
+    "id": "24014",
+    "phrases": [
+      "Betreibungsverfahren",
+      "Debt enforcement procedure",
+      "Процедура взыскания долгов",
+      "Процедура стягнення боргів"
+    ]
+  },
+  {
+    "id": "24017",
+    "phrases": [
+      "Abstimmungen und Bürgerversammlungen, Unterlagen bestellen",
+      "Order voting documents",
+      "Заказать документы для голосования",
+      "Замовити документи для голосування"
+    ]
+  },
+  {
+    "id": "24057",
+    "phrases": [
+      "Asylwesen und Flüchtlinge",
+      "Asylum and refugees",
+      "Убежище и беженцы",
+      "Притулок і біженці"
+    ]
+  },
+  {
+    "id": "school",
+    "phrases": [
+      "school registration",
+      "where do i register my child",
+      "schule",
+      "kindergarten",
+      "школа",
+      "дитину до школи",
+      "Kind zur Schule anmelden",
+      "Register a child for school",
+      "Записать ребёнка в школу",
+      "Записати дитину до школи"
+    ]
+  },
+  {
+    "id": "lighting",
+    "phrases": [
+      "фонарь не работает",
+      "не работает уличный фонарь",
+      "streetlight",
+      "lampe defekt",
+      "ліхтар",
+      "strassenbeleuchtung",
+      "Strassenbeleuchtung melden",
+      "Report a broken streetlight",
+      "Сообщить о неисправном фонаре",
+      "Повідомити про несправний ліхтар"
+    ]
+  },
+  {
+    "id": "rav",
+    "phrases": [
+      "rav",
+      "arbeit",
+      "job",
+      "безработица",
+      "робота",
+      "RAV Heerbrugg / Arbeit finden",
+      "RAV Heerbrugg / find work",
+      "RAV Heerbrugg / поиск работы",
+      "RAV Heerbrugg / пошук роботи"
+    ]
+  },
+  {
+    "id": "transport",
+    "phrases": [
+      "zug",
+      "bus",
+      "train",
+      "поезд",
+      "поїзд",
+      "Fahrplan Oberriet SG",
+      "Public transport timetable",
+      "Расписание транспорта",
+      "Розклад транспорту"
+    ]
+  },
+  {
+    "id": "childcare",
+    "phrases": [
+      "Tagesstrukturen EKMO",
+      "EKMO day care",
+      "Дневной уход EKMO",
+      "Денний догляд EKMO",
+      "daycare",
+      "childcare",
+      "betreuung",
+      "продлёнка",
+      "група продовженого дня"
+    ]
+  },
+  {
+    "id": "school-holidays",
+    "phrases": [
+      "Schulferien 2026: OZ / Montlingen",
+      "2026 school holidays: OZ / Montlingen",
+      "Каникулы 2026: OZ / Montlingen",
+      "Канікули 2026: OZ / Montlingen",
+      "schulferien",
+      "school holidays",
+      "каникулы",
+      "канікули"
+    ]
+  },
+  {
+    "id": "music-school",
+    "phrases": [
+      "Musikschule Oberrheintal",
+      "Oberrheintal music school",
+      "Музыкальная школа Oberrheintal",
+      "Музична школа Oberrheintal",
+      "musikunterricht",
+      "music lessons",
+      "музыка",
+      "музика"
+    ]
+  },
+  {
+    "id": "health-emergency",
+    "phrases": [
+      "Medizinischer Notfall / Spital Grabs",
+      "Medical emergency / Grabs hospital",
+      "Медицинская экстренная помощь / Grabs",
+      "Екстрена медична допомога / Grabs",
+      "hospital",
+      "medical emergency",
+      "spital",
+      "больница",
+      "лікарня",
+      "arzt",
+      "врач",
+      "лікар"
+    ]
+  },
+  {
+    "id": "crystal-cave",
+    "phrases": [
+      "Kristallhöhle Kobelwald",
+      "Kobelwald crystal cave",
+      "Кристальная пещера Kobelwald",
+      "Кришталева печера Kobelwald",
+      "höhle",
+      "cave",
+      "пещера",
+      "печера"
+    ]
+  },
+  {
+    "id": "blatten",
+    "phrases": [
+      "Burgruine Blatten",
+      "Blatten castle ruins",
+      "Руины замка Blatten",
+      "Руїни замку Blatten",
+      "burgruine",
+      "castle ruins",
+      "замок",
+      "замку"
+    ]
+  },
+  {
+    "id": "museum",
+    "phrases": [
+      "Museum Rothus",
+      "Rothus museum",
+      "Музей Rothus",
+      "Музей Rothus",
+      "museum",
+      "музей"
+    ]
+  },
+  {
+    "id": "sbb-daycard",
+    "phrases": [
+      "SBB Spartageskarte",
+      "SBB Saver Day Pass",
+      "Дневной проездной SBB",
+      "Денний проїзний SBB",
+      "tageskarte",
+      "day pass",
+      "дневной проездной",
+      "денний проїзний"
+    ]
+  }
+]

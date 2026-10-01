@@ -1,0 +1,12 @@
+node_modules/
+.env*
+wp-config.php
+*.sql
+*.sqlite*
+*.log
+data/evidence/
+tests/results/qa-blueprint.json
+release/
+
+__pycache__/
+*.pyc

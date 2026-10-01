@@ -1,0 +1,79 @@
+import Fuse from './fuse.min.mjs';
+export function normalise(text) {return String(text).toLocaleLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').replace(/[^\p{L}\p{N}\s]/gu,' ').replace(/\s+/g,' ').trim();}
+export function findServices(data,query,lang='de',locality='all') {
+ const q=normalise(query);if(q.length<2)return [];
+ const words=q.split(' ');const fuse=new Fuse(data.services.map(s=>({...s,label:s.title[lang],aliases:[...(s.synonyms||[]),...(data.intents.find(i=>i.id===s.id)?.phrases||[])]})),{keys:[{name:'label',weight:3},{name:'aliases',weight:5},{name:'keywords',weight:1},{name:'description_short.'+lang,weight:.3}],threshold:.32,ignoreLocation:true,includeScore:true});
+ const scores=new Map(fuse.search(q).map(x=>[x.item.id,1-(x.score||0)]));
+ for(const s of data.services){const fields=[s.title[lang],...(s.synonyms||[]),...(data.intents.find(i=>i.id===s.id)?.phrases||[])].map(normalise);let best=0;
+  for(const field of fields){if(field===q)best=Math.max(best,8);else if(q.includes(field)&&field.length>=4)best=Math.max(best,4+field.length/100);else {const terms=field.split(' ');const hits=terms.filter(w=>w.length>=3&&words.includes(w));if(hits.length&&hits.length/terms.length>=.5)best=Math.max(best,1.3+hits.length/terms.length);}}
+  if(best)scores.set(s.id,Math.max(scores.get(s.id)||0,best)+(s.locality===locality?.2:0));
+ }
+ // Unknown queries never return arbitrary fallback cards as a verified answer.
+ return data.services.filter(s=>scores.has(s.id)).sort((a,b)=>scores.get(b.id)-scores.get(a.id)).slice(0,5);
+}
+export function swissToday(now=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Zurich',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
+function addDay(iso,n=1){const d=new Date(iso+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);}
+export function nextWaste(record,locality,today=swissToday()){
+ if(today<record.valid_from||today>record.valid_to)return null;
+ const exact=(record.dates[locality]||[]).filter(x=>x>=today).sort()[0];if(exact)return exact;
+ const weekday=record.weekday[locality];if(!weekday)return null;
+ const date=new Date(today+'T12:00:00Z');let offset=(weekday-date.getUTCDay()+7)%7;
+ // Day-of collection after 06:00 is already over; at date-only test time return that day.
+ let next=addDay(today,offset);return next<=record.valid_to?next:null;
+}
+export function icsEscape(x){return String(x).replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');}
+export function makeICS(events,lang='de'){
+ const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Oberriet Hub//Calendar 0.1//DE','CALSCALE:GREGORIAN'];
+ for(const e of events){lines.push('BEGIN:VEVENT','UID:'+icsEscape(e.id+'@oberriet-hub'),'DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,''),'DTSTART;VALUE=DATE:'+e.date.replaceAll('-',''),'DTEND;VALUE=DATE:'+addDay(e.end_date||e.date).replaceAll('-',''),'SUMMARY:'+icsEscape(e.title[lang]),'DESCRIPTION:'+icsEscape((e.description?.[lang]||'')+'\n'+e.source_url),'LOCATION:'+icsEscape(e.location||''),'URL:'+e.source_url,'END:VEVENT');}lines.push('END:VCALENDAR');
+ // RFC5545 folding: at most 75 octets per physical line; do not split UTF-8 chars.
+ return lines.map(line=>{let out='',part='';const enc=new TextEncoder();for(const c of line){if(enc.encode(part+c).length>74){out+=part+'\r\n ';part='';}part+=c;}return out+part;}).join('\r\n')+'\r\n';
+}
+const root=typeof document!=='undefined'?document.getElementById('oberhub-app'):null;
+if(root)boot().catch(()=>{const target=document.getElementById('search-results');if(target){const p=document.createElement('p');p.textContent=({de:'Suche derzeit nicht verfügbar. Nutzen Sie das Dienstleistungsverzeichnis.',en:'Search is currently unavailable. Use the service directory.',ru:'Поиск пока недоступен. Используйте каталог услуг.',uk:'Пошук поки недоступний. Скористайтеся каталогом послуг.'})[root.dataset.lang];target.append(p);}});
+async function boot(){
+ const lang=root.dataset.lang,path=root.dataset.path,base=root.dataset.base,api=root.dataset.api;
+ const [data,uis]=await Promise.all([fetch(api+'/index').then(r=>{if(!r.ok)throw Error('index');return r.json();}),fetch(root.dataset.assets+'../ui.json').then(r=>r.json())]);const u=uis[lang];
+ const $=id=>document.getElementById(id);let locality=path.startsWith('places/')?path.split('/')[1]:'all';let selected=null,shownEvents=[];
+ if($('locality'))$('locality').value=locality;
+ const url=p=>base+lang+'/'+(p?p.replace(/^\/|\/$/g,'')+'/':'');
+ const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+ const link=(text,href,cls)=>{const n=el('a',text,cls);if(/^https:\/\//.test(href)||href.startsWith(base)||href.startsWith('mailto:'))n.href=href;return n;};
+ function metric(intent,event='search_success'){if(!data.services.some(s=>s.id===intent)&&intent!=='unknown')return;fetch(api+'/index?intent='+encodeURIComponent(intent)+'&event='+encodeURIComponent(event),{credentials:'omit',cache:'no-store'}).catch(()=>{});}
+ const date=x=>new Intl.DateTimeFormat({de:'de-CH',en:'en-GB',ru:'ru-RU',uk:'uk-UA'}[lang],{day:'2-digit',month:'long',year:'numeric',timeZone:'Europe/Zurich'}).format(new Date(x+'T12:00:00Z'));
+ function source(node,row){const box=el('div',undefined,'provenance');box.append(link(u.source+' ↗',row.source_url),el('span',u.checked+' '+row.source_checked_at));const registry=data.sources.find(s=>s.source_id===row.source_id);if(registry?.review_status!=='checked'||(registry&&addDay(row.source_checked_at,registry.ttl_days||30)<swissToday()))box.append(el('span',u.needsreview,'warning'));node.append(box);}
+ function card(s,choose=false){const a=el('article',undefined,'service-card');a.append(el('div',u[s.topic],'eyebrow'));const h=el('h3');h.append(link(s.title[lang],url('services/'+s.id)));a.append(h,el('p',s.description_short[lang]),el('small',s.authority));if(choose){const b=el('button',u.compose,'button');b.type='button';b.addEventListener('click',()=>selectService(s));a.append(b);}else{a.append(link(u.details+' →',url('services/'+s.id)));}source(a,s);return a;}
+ function results(target,q,choose=false){target.replaceChildren();
+  if(!choose){const loc=['montlingen','kriessern','eichenwies','kobelwald','oberriet'].find(x=>normalise(q).includes(x))||(locality==='all'?'oberriet':locality);
+   const waste=data.waste.find(w=>[...Object.values(w.title),w.id].some(t=>normalise(q).includes(normalise(t))));
+   if(waste){const box=el('article',undefined,'panel');const next=nextWaste(waste,loc);box.append(el('h2',waste.title[lang]+' · '+loc[0].toUpperCase()+loc.slice(1)),el('p',next?date(next):u.noconfirmeddate),el('p',waste.instruction[lang]),link(u.waste+' →',url('waste')));source(box,waste);target.append(box);}
+  }const matches=findServices(data,q,lang,locality);if(!matches.length){target.append(el('p',u.noresults),link(u.contact+' →',url('contact')));metric('unknown');return;}target.append(el('h2',u.results));const cards=el('div',undefined,'cards');matches.forEach(s=>cards.append(card(s,choose)));target.append(cards);metric(matches[0].id);}
+ if($('search-form')){let timer;const run=()=>results($('search-results'),$('query').value);$('search-form').addEventListener('submit',e=>{e.preventDefault();run();});$('query').addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{if($('query').value.trim().length>=2)run();else $('search-results').replaceChildren();},250);});}
+ if($('topic'))$('topic').addEventListener('change',()=>{document.querySelectorAll('#directory .service-card').forEach(c=>c.hidden=$('topic').value!=='all'&&c.dataset.topic!==$('topic').value);});
+ function wasteRecords(){return path===''?data.waste.filter(w=>['kehricht','karton','papier'].includes(w.id)):data.waste;}
+ function renderWaste(){if(!$('waste-list'))return;const target=$('waste-list');target.replaceChildren();if(locality==='all'&&path!==''){target.append(el('p',u.locality));}
+ const loc=locality==='all'?'oberriet':locality;const today=swissToday();for(const w of wasteRecords()){const n=el('article',undefined,path==='waste'?'service-card':'event-row');n.append(el('h3',w.title[lang]));let next=nextWaste(w,loc,today);
+ // Suppress same-day collection after 06:00 Europe/Zurich.
+ if(next===today&&w.weekday[loc]){const hour=Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Zurich',hour:'2-digit',hourCycle:'h23'}).format(new Date()));if(hour>=6)next=nextWaste(w,loc,addDay(today));}
+ if(today>w.valid_to)n.append(el('p',u.expired,'warning'));else if(next)n.append(el('span',date(next),'date-pill'));else n.append(el('p',u.noconfirmeddate,'quiet'));
+ n.append(el('p',w.instruction[lang]));if(loc==='kobelwald')n.append(el('p',u.routeconfirm,'warning'));source(n,w);target.append(n);}}
+ function calendarEvents(){let events=data.events.filter(e=>(e.end_date||e.date)>=swissToday()&&(locality==='all'||e.locality===locality||e.locality==='all'));const today=swissToday();let end=null;const period=$('period')?.value||'future';if(period==='today')end=today;if(period==='week'){const day=new Date(today+'T12:00Z').getUTCDay();end=addDay(today,(7-day)%7);}if(period==='month')end=today.slice(0,7)+'-31';
+ const type=$('event-type')?.value||'all';if(type==='waste'||(path==='calendar'&&type==='all')){for(const loc of locality==='all'?['oberriet','montlingen','kriessern','eichenwies','kobelwald']: [locality]){for(const w of data.waste.filter(x=>['kehricht','papier'].includes(x.id))){let next=nextWaste(w,loc,today),count=0;while(next && (!end||next<=end) && count++<60){events.push({id:w.id+'-'+loc+'-'+next,title:w.title,date:next,end_date:next,description:w.instruction,source_url:w.source_url,source_checked_at:w.source_checked_at,source_id:w.source_id,locality:loc,type:'waste',location:loc});next=nextWaste(w,loc,addDay(next));}}}}
+ return events.filter(e=>(!end||e.date<=end)&&(type==='all'||e.type===type)).sort((a,b)=>a.date.localeCompare(b.date));}
+ function renderEvents(){if(!$('event-list'))return;const target=$('event-list');target.replaceChildren();shownEvents=calendarEvents();const shown=path===''?shownEvents.slice(0,3):shownEvents;if(!shown.length){target.append(el('p',u.noevents));return;}for(const e of shown){const n=el('article',undefined,'event-row');n.append(el('div',date(e.date)+(e.end_date&&e.end_date!==e.date?' — '+date(e.end_date):''),'event-date'),el('h3',e.title[lang]),el('p',e.location),el('p',e.description[lang]));source(n,e);target.append(n);}}
+ const refresh=()=>{if($('place-link'))$('place-link').href=url('places/'+(locality==='all'?'oberriet':locality));renderWaste();renderEvents();};
+ if($('locality'))$('locality').addEventListener('change',()=>{locality=$('locality').value;refresh();});for(const id of ['period','event-type'])if($(id))$(id).addEventListener('change',()=>{renderEvents();fetch(api+'/calendar?locality='+encodeURIComponent(locality),{credentials:'omit'}).catch(()=>{});});refresh();
+ if($('ics'))$('ics').addEventListener('click',()=>{const blob=new Blob([makeICS(shownEvents,lang)],{type:'text/calendar;charset=utf-8'});const href=URL.createObjectURL(blob);const a=el('a');a.href=href;a.download='oberriet-hub.ics';a.click();setTimeout(()=>URL.revokeObjectURL(href),1000);});
+ function draft(){if(!selected)return;const c=data.contacts.find(c=>c.id===selected.contact)||data.contacts[0];const subject='Anfrage: '+selected.title.de;const name=$('resident-name').value.trim();const location=$('location').value.trim();let desc=$('description').value.trim();
+ if(lang!=='de' && selected.id!=='lighting' && desc)desc='Beschreibung in der Originalsprache (bitte bei Bedarf übersetzen):\n'+desc;
+ if(selected.id==='lighting'&&/фонар|ліхтар|streetlight/i.test(desc)&&desc.length<120)desc='Die Strassenbeleuchtung am unten genannten Standort funktioniert nicht. Bitte prüfen Sie die Störung.';
+ const body='Guten Tag\n\nich habe ein Anliegen zum Thema «'+selected.title.de+'».\n\n'+(location?'Standort: '+location+'\n\n':'')+(desc?desc+'\n\n':'')+'Bitte teilen Sie mir mit, ob Sie dafür zuständig sind und welche nächsten Schritte erforderlich sind. Falls eine andere Stelle zuständig ist, bitte ich um deren Kontaktdaten.\n\nVielen Dank.\nFreundliche Grüsse\n'+(name||'[Name]');$('draft').value='Betreff: '+subject+'\n\n'+body;$('mailto').href='mailto:'+encodeURIComponent(c.email)+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);$('recipient').textContent=u.recipient+': '+c.title+' · '+(c.email||c.phone);if(!c.email)$('mailto').hidden=true;else $('mailto').hidden=false;
+ }
+ function selectService(s){selected=s;$('composer').hidden=false;$('description').value=$('problem').value;draft();metric(s.id,'email_generated');$('composer').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
+ if($('classify')){$('classify').addEventListener('click',()=>results($('router-results'),$('problem').value,true));['resident-name','location','description'].forEach(id=>$(id).addEventListener('input',draft));const id=locationHash();const s=data.services.find(s=>s.id===id);if(s)selectService(s);}
+ if($('copy'))$('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('draft').value);$('copy-status').textContent=u.copied;}catch{$('draft').focus();$('draft').select();$('copy-status').textContent=u.copyfailed;}});
+ if($('clear'))$('clear').addEventListener('click',()=>{['resident-name','location','description','problem','draft'].forEach(id=>$(id).value='');$('composer').hidden=true;$('router-results').replaceChildren();selected=null;$('problem').focus();});
+ document.querySelectorAll('.languages a').forEach(a=>a.addEventListener('click',()=>{fetch(api+'/index?event=language_switch&dimension='+a.lang,{credentials:'omit',keepalive:true}).catch(()=>{});}));
+ document.querySelectorAll('[data-official]').forEach(a=>a.addEventListener('click',()=>metric(a.dataset.official,'official_link_click')));
+ // No localStorage/sessionStorage, no user text in analytics, no form submission.
+}
+function locationHash(){return typeof window==='undefined'?'':decodeURIComponent(window.location.hash.slice(1));}

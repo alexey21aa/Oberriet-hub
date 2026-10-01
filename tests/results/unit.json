@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Search Wohnsitzbestätigung",
+    "passed": true
+  },
+  {
+    "name": "Search wo anmelden",
+    "passed": true
+  },
+  {
+    "name": "Search переезд",
+    "passed": true
+  },
+  {
+    "name": "Search куда сообщить адрес",
+    "passed": true
+  },
+  {
+    "name": "Search сміття Montlingen",
+    "passed": true
+  },
+  {
+    "name": "Search garbage Kriessern",
+    "passed": true
+  },
+  {
+    "name": "Search school registration",
+    "passed": true
+  },
+  {
+    "name": "Search фонарь не работает",
+    "passed": true
+  },
+  {
+    "name": "Search Steuererklärung",
+    "passed": true
+  },
+  {
+    "name": "Unknown question returns no invented result",
+    "passed": true
+  },
+  {
+    "name": "Unicode and Swiss orthography",
+    "passed": true
+  },
+  {
+    "name": "Montlingen cardboard next Wednesday",
+    "passed": true
+  },
+  {
+    "name": "Kriessern household waste Monday",
+    "passed": true
+  },
+  {
+    "name": "Montlingen paper 7 November",
+    "passed": true
+  },
+  {
+    "name": "Kobelwald mountain-area paper 2 November",
+    "passed": true
+  },
+  {
+    "name": "No invented green collection date",
+    "passed": true
+  },
+  {
+    "name": "2026 waste data never reused for 2027",
+    "passed": true
+  },
+  {
+    "name": "Swiss local-date rollover",
+    "passed": true
+  },
+  {
+    "name": "ICS UTF-8 folding <=75 octets",
+    "passed": true
+  },
+  {
+    "name": "ICS inclusive event end exported exclusive",
+    "passed": true
+  },
+  {
+    "name": "ICS mandatory delimiters and CRLF",
+    "passed": true
+  },
+  {
+    "name": "Provenance references consistent",
+    "passed": true
+  },
+  {
+    "name": "Four-language service summaries complete",
+    "passed": true
+  }
+]

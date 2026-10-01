@@ -1,0 +1,9 @@
+# Add inside a TLS server{} block; configure certificates and root with your host.
+# Redirect the separate port-80 server to https://$host$request_uri.
+autoindex off;
+location ~ /\.(git|env) { deny all; }
+location = /wp-config.php { deny all; }
+location = /xmlrpc.php { deny all; }
+location / { try_files $uri $uri/ /index.php?$args; }
+# Use the host's standard PHP-FPM block. Never cache /wp-admin/, /wp-login.php,
+# /wp-json/, authenticated requests, or responses with a Set-Cookie header.

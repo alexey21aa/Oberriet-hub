@@ -1,0 +1,232 @@
+[
+  {
+    "name": "<a href=\"/_rte/amt/10683\">Abwasserentsorgung</a>",
+    "name-sort": "#2a2c562a4e4e324c3244504e464c36524436011601dc15",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636390\">+41 71 763 63 90</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1904251301140114",
+    "email": "<a href=\"mailto:reto.hutter@oberriet.ch\">reto.hutter@oberriet.ch</a>",
+    "email-sort": "#4c3250460838525050324c0a92462c324c4c3a3250082e38011b011b"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "name-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "email": "<a href=\"mailto:ahvzweigstelle@oberriet.ch\">ahvzweigstelle@oberriet.ch</a>",
+    "email-sort": "#2a38545c56323a364e50324040320a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/12205\">Amtsnotariat Buchs</a>",
+    "name-sort": "#2a42504e4446502a4c3a2a50042c522e384e011601dcbadc08",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41582297691\">+41 58 229 76 91</a>",
+    "telefon-sort": "#0c7a1b15041d230417172504211f04251501140114",
+    "email": "<a href=\"mailto:info.anbu@sg.ch\">info.anbu@sg.ch</a>",
+    "email-sort": "#3a443446082a442c520a924e36082e3801130113"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10807\">Arbeitsamt</a>",
+    "name-sort": "#2a4c2c323a504e2a4250010e01dc0d",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41582292200\">+41 58 229 22 00</a>",
+    "telefon-sort": "#0c7a1b15041d230417172504171704131301140114",
+    "email": ""
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "name-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "email": "<a href=\"mailto:bauamt@oberriet.ch\">bauamt@oberriet.ch</a>",
+    "email-sort": "#2c2a522a42500a92462c324c4c3a3250082e3801160116"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/11010\">Bauamt - Tiefbau</a>",
+    "name-sort": "#2c2a522a425004050e04503a32342c2a52011401dcbedc0a",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636471\">+41 71 763 64 71</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04211501140114",
+    "email": "<a href=\"mailto:damian.hutter@oberriet.ch\">damian.hutter@oberriet.ch</a>",
+    "email-sort": "#302a423a2a440838525050324c0a92462c324c4c3a3250082e38011d011d"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10806\">Bestattungsamt</a>",
+    "name-sort": "#2c324e502a50505244364e2a4250011201dc11",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "email": "<a href=\"mailto:einwohneramt@oberriet.ch\">einwohneramt@oberriet.ch</a>",
+    "email-sort": "#323a4456463844324c2a42500a92462c324c4c3a3250082e38011c011c"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10673\">Betreibungsamt</a>",
+    "name-sort": "#2c32504c323a2c5244364e2a4250011201dc11",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636491\">+41 71 763 64 91</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04251501140114",
+    "email": "<a href=\"mailto:betreibungsamt@oberriet.ch\">betreibungsamt@oberriet.ch</a>",
+    "email-sort": "#2c32504c323a2c5244364e2a42500a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "name-sort": "#323a4456463844324c2a4250011001dc0f",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "email": "<a href=\"mailto:einwohneramt@oberriet.ch\">einwohneramt@oberriet.ch</a>",
+    "email-sort": "#323a4456463844324c2a42500a92462c324c4c3a3250082e38011c011c"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/11024\">Elektrizitätsversorgung Oberriet</a>",
+    "name-sort": "#3240323e504c3a5c3a502a504e54324c4e464c3652443604462c324c4c3a3250013b961901dcaedc0b",
+    "telefon": "Betriebsleitung: +41 71 763 75 40 / Technische Betriebe: +41 71 763 75 75 ",
+    "telefon-sort": "#2c32504c3a322c4e40323a505244360736040c7a1b1504211504211f1904211d041b13040a9e0450322e38443a4e2e3832042c32504c3a322c320736040c7a1b1504211504211f1904211d04211d040125250c01dca3dcbcdc1e",
+    "email": "<a href=\"mailto:tboberriet@elconsultag.ch\">tboberriet@elconsultag.ch</a>",
+    "email-sort": "#502c462c324c4c3a32500a9232402e46444e5240502a36082e38011d011d"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10676\">Feuerschutz</a>",
+    "name-sort": "#343252324c4e2e3852505c010f01dc0e",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636475\">+41 71 763 64 75</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04211d01140114",
+    "email": "<a href=\"mailto:urs.buschor@oberriet.ch\">urs.buschor@oberriet.ch</a>",
+    "email-sort": "#524c4e082c524e2e38464c0a92462c324c4c3a3250082e38011b011b"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/19753\">Feuerwehr</a>",
+    "name-sort": "#343252324c5632384c010d01dc0c",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636415\">+41 71 763 64 15</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04151d01140114",
+    "email": ""
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10678\">Gemeindepräsidium</a>",
+    "name-sort": "#363242323a443032484c2a4e3a303a5242013b960a01dc15",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "email": "<a href=\"mailto:rolf.huber@oberriet.ch\">rolf.huber@oberriet.ch</a>",
+    "email-sort": "#4c4640340838522c324c0a92462c324c4c3a3250082e38011a011a"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "name-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "email": "<a href=\"mailto:kanzlei@oberriet.ch\">kanzlei@oberriet.ch</a>",
+    "email-sort": "#3e2a445c40323a0a92462c324c4c3a3250082e3801170117"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10680\">Gemeinderatsweibel</a>",
+    "name-sort": "#363242323a4430324c2a504e56323a2c3240011601dc15",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636449\">+41 71 763 64 49</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b041b2501140114",
+    "email": "<a href=\"mailto:thomas.kuratli@oberriet.ch\">thomas.kuratli@oberriet.ch</a>",
+    "email-sort": "#503846422a4e083e524c2a50403a0a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10681\">Grundbuchamt Oberriet-Rüthi</a>",
+    "name-sort": "#364c5244302c522e382a425004462c324c4c3a3250050e4c5250383a012e960701dcbadcbedc09",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636460\">+41 71 763 64 60</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b041f1301140114",
+    "email": "<a href=\"mailto:grundbuchamt@oberriet.ch\">grundbuchamt@oberriet.ch</a>",
+    "email-sort": "#364c5244302c522e382a42500a92462c324c4c3a3250082e38011c011c"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10682\">Kassieramt</a>",
+    "name-sort": "#3e2a4e4e3a324c2a4250010e01dc0d",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636440\">+41 71 763 64 40</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b041b1301140114",
+    "email": "<a href=\"mailto:kassieramt@oberriet.ch\">kassieramt@oberriet.ch</a>",
+    "email-sort": "#3e2a4e4e3a324c2a42500a92462c324c4c3a3250082e38011a011a"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/11748\">Kindes- und Erwachsenenschutzbehörde Rheintal (KESB)</a>",
+    "name-sort": "#3e3a4430324e050e0452443004324c562a2e384e324432444e2e3852505c2c3238464c3032044c38323a44502a400409923e324e2c09940125961701dcbbdcaddcbddcdcdcdc05",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717577280\">+41 71 757 72 80</a>",
+    "telefon-sort": "#0c7a1b1504211504211d2104211704231301140114",
+    "email": "<a href=\"mailto:info@kesb-rheintal.ch\">info@kesb-rheintal.ch</a>",
+    "email-sort": "#3a4434460a923e324e2c050e4c38323a44502a40082e3801190119"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10684\">Landwirtschaftssekretariat</a>",
+    "name-sort": "#402a4430563a4c504e2e382a34504e4e323e4c32502a4c3a2a50011e01dc1d",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:0787466797\">078 746 67 97</a>",
+    "telefon-sort": "#13212304211b1f041f2104252101110111",
+    "email": "<a href=\"mailto:a.hoch@fahrmaadhof.ch\">a.hoch@fahrmaadhof.ch</a>",
+    "email-sort": "#2a0838462e380a92342a384c422a2a30384634082e3801190119"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/11011\">Ortsquartiermeister</a>",
+    "name-sort": "#464c504e4a522a4c503a324c42323a4e50324c011701dc16",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636393\">+41 71 763 63 93</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1904251901140114",
+    "email": "<a href=\"mailto:thomas.buechel@oberriet.ch\">thomas.buechel@oberriet.ch</a>",
+    "email-sort": "#503846422a4e082c52322e3832400a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/22640\">Regionaler Führungsstab Oberes Rheintal (RFS OR)</a>",
+    "name-sort": "#4c32363a46442a40324c043452384c5244364e4e502a2c04462c324c324e044c38323a44502a400409924c344e04464c0994013996250601dcbcdcb9dcc0dcbddcdcdcc5dcdc05",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717677785\">+41 71 767 77 85</a>",
+    "telefon-sort": "#0c7a1b1504211504211f2104212104231d01140114",
+    "email": "<a href=\"mailto:zivilschutzstelle@rzso-rheintal.ch\">zivilschutzstelle@rzso-rheintal.ch</a>",
+    "email-sort": "#5c3a543a404e2e3852505c4e50324040320a924c5c4e46050e4c38323a44502a40082e380125050126"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "name-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "email": "<a href=\"mailto:sozialedienste@oberriet.ch\">sozialedienste@oberriet.ch</a>",
+    "email-sort": "#4e465c3a2a4032303a32444e50320a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/14367\">Soziale Dienste Oberes Rheintal (Berufsbeistandschaft)</a>",
+    "name-sort": "#4e465c3a2a403204303a32444e503204462c324c324e044c38323a44502a400409922c324c52344e2c323a4e502a44304e2e382a3450099401251901dcbfdcbfdcc0dcbddc18",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:0582558383\">058 255 83 83</a>",
+    "telefon-sort": "#131d2304171d1d04231904231901110111",
+    "email": "<a href=\"mailto:info@sdor.ch\">info@sdor.ch</a>",
+    "email-sort": "#3a4434460a924e30464c082e3801100110"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/12283\">Sportanlage Bildstöckli</a>",
+    "name-sort": "#4e48464c502a44402a3632042c3a40304e50462e3e403a0133960801dcbbdc0f",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636452\">+41 71 763 64 52</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b041d1701140114",
+    "email": "<a href=\"mailto:bildstoeckli@oberriet.ch\">bildstoeckli@oberriet.ch</a>",
+    "email-sort": "#2c3a40304e5046322e3e403a0a92462c324c4c3a3250082e38011c011c"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "name-sort": "#4e503252324c2a425004010e01dc0d",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "email": "<a href=\"mailto:steueramt@oberriet.ch\">steueramt@oberriet.ch</a>",
+    "email-sort": "#4e503252324c2a42500a92462c324c4c3a3250082e3801190119"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10688\">Wasserversorgung</a>",
+    "name-sort": "#562a4e4e324c54324c4e464c36524436011401e013",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636394\">+41 71 763 63 94</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1904251b01140114",
+    "email": "<a href=\"mailto:thomas.weder@oberriet.ch\">thomas.weder@oberriet.ch</a>",
+    "email-sort": "#503846422a4e08563230324c0a92462c324c4c3a3250082e38011c011c"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10689\">Werkhof</a>",
+    "name-sort": "#56324c3e384634010b01e00a",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636393\">+41 71 763 63 93</a>",
+    "telefon-sort": "#0c7a1b1504211504211f19041f1904251901140114",
+    "email": "<a href=\"mailto:thomas.buechel@oberriet.ch\">thomas.buechel@oberriet.ch</a>",
+    "email-sort": "#503846422a4e082c52322e3832400a92462c324c4c3a3250082e38011e011e"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10690\">Zivilschutzstelle (RZSO Rheintal)</a>",
+    "name-sort": "#5c3a543a404e2e3852505c4e50324040320409924c5c4e46044c38323a44502a400994012501dcb4dcdcdcdcc5dc0c",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717677785\">+41 71 767 77 85</a>",
+    "telefon-sort": "#0c7a1b1504211504211f2104212104231d01140114",
+    "email": "<a href=\"mailto:zivilschutzstelle@rzso-rheintal.ch\">zivilschutzstelle@rzso-rheintal.ch</a>",
+    "email-sort": "#5c3a543a404e2e3852505c4e50324040320a924c5c4e46050e4c38323a44502a40082e380125050126"
+  },
+  {
+    "name": "<a href=\"/_rte/amt/10691\">Zivilstandsamt Rheintal</a>",
+    "name-sort": "#5c3a543a404e502a44304e2a4250044c38323a44502a40011b01dcb8dc0b",
+    "telefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717577730\">+41 71 757 77 30</a>",
+    "telefon-sort": "#0c7a1b1504211504211d2104212104191301140114",
+    "email": "<a href=\"mailto:zivilstandsamt@altstaetten.ch\">zivilstandsamt@altstaetten.ch</a>",
+    "email-sort": "#5c3a543a404e502a44304e2a42500a922a40504e502a3250503244082e3801210121"
+  }
+]

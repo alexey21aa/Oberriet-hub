@@ -1,0 +1,149 @@
+record_type,id,title_de,source_id,source_url,source_checked_at,verification_scope
+services,23529,Gemeindesteuern,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23529,2026-10-01,routing-metadata
+services,23620,Anmeldung,s-9517d09b5f47,https://www.oberriet.ch/dienstleistungen/23620,2026-10-01,page
+services,23622,Auskunft über Beistandschaft und Vorsorgeauftrag (früher: Handlungsfähigkeitszeugnis),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23622,2026-10-01,routing-metadata
+services,23623,Identitätskarte,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23623,2026-10-01,routing-metadata
+services,23624,Pass,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23624,2026-10-01,routing-metadata
+services,23625,Zivilstandsausweise,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23625,2026-10-01,routing-metadata
+services,23626,Abmeldung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23626,2026-10-01,routing-metadata
+services,23627,Wohnsitzbestätigung,s-c0a3eec35753,https://www.oberriet.ch/dienstleistungen/23627,2026-10-01,page
+services,23628,Ausländerbewilligungen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23628,2026-10-01,routing-metadata
+services,23702,Beglaubigung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23702,2026-10-01,routing-metadata
+services,23707,Betreibungsauskunft,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23707,2026-10-01,routing-metadata
+services,23895,Hundehaltung,s-04500ce6c246,https://www.oberriet.ch/dienstleistungen/23895,2026-10-01,page
+services,23903,Elternschaftsbeiträge,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23903,2026-10-01,routing-metadata
+services,23980,Lernfahrausweis,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23980,2026-10-01,routing-metadata
+services,23984,Adressänderung innerhalb der Gemeinde,s-8828e6b4f586,https://www.oberriet.ch/dienstleistungen/23984,2026-10-01,page
+services,23986,Steuererklärung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23986,2026-10-01,routing-metadata
+services,23987,Steuerrechnung defintiv,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23987,2026-10-01,routing-metadata
+services,23988,Steuerrechnung provisorisch,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23988,2026-10-01,routing-metadata
+services,23989,Wegzug Ausland / längerer Auslandaufenthalt,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23989,2026-10-01,routing-metadata
+services,23992,Kilbi Oberriet,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23992,2026-10-01,routing-metadata
+services,23993,Kilbi Montlingen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23993,2026-10-01,routing-metadata
+services,23994,Kilbi Kriessern,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23994,2026-10-01,routing-metadata
+services,23997,AHV-Leistungen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23997,2026-10-01,routing-metadata
+services,23998,AHV-Beiträge / Beitragspflicht,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23998,2026-10-01,routing-metadata
+services,23999,Überbrückungsleistungen für ältere Arbeitslose (ÜL),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/23999,2026-10-01,routing-metadata
+services,24000,Invalidenversicherung (IV),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24000,2026-10-01,routing-metadata
+services,24001,Erwerbsersatz (EO),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24001,2026-10-01,routing-metadata
+services,24004,Individuelle Prämienverbilligung (IPV),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24004,2026-10-01,routing-metadata
+services,24005,Pflegefinanzierung (PF),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24005,2026-10-01,routing-metadata
+services,24006,Ergänzungsleistungen (EL),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24006,2026-10-01,routing-metadata
+services,24008,Mutterschaftsentschädigung (MSE),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24008,2026-10-01,routing-metadata
+services,24009,Familienzulagen (FamZ),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24009,2026-10-01,routing-metadata
+services,24014,Betreibungsverfahren,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24014,2026-10-01,routing-metadata
+services,24017,"Abstimmungen und Bürgerversammlungen, Unterlagen bestellen",s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24017,2026-10-01,routing-metadata
+services,24057,Asylwesen und Flüchtlinge,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24057,2026-10-01,routing-metadata
+services,24058,Sozialhilfe,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24058,2026-10-01,routing-metadata
+services,24060,Persönliche Hilfe,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24060,2026-10-01,routing-metadata
+services,24061,Pflegekinderwesen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24061,2026-10-01,routing-metadata
+services,24168,Baubewilligungsverfahren,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24168,2026-10-01,routing-metadata
+services,24170,Energieförderung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24170,2026-10-01,routing-metadata
+services,24172,Werkleitungspläne,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24172,2026-10-01,routing-metadata
+services,24173,Zonenplan,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24173,2026-10-01,routing-metadata
+services,24174,Feuerungskontrolle,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24174,2026-10-01,routing-metadata
+services,24176,Abfallentsorgung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24176,2026-10-01,routing-metadata
+services,24199,Lehrlingswesen / Berufsbildung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24199,2026-10-01,routing-metadata
+services,24200,Mieterwechsel,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24200,2026-10-01,routing-metadata
+services,24206,Abstimmungen und Wahlen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24206,2026-10-01,routing-metadata
+services,24208,Broschüren und Verordnungen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24208,2026-10-01,routing-metadata
+services,24230,Einbürgerungsverfahren,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24230,2026-10-01,routing-metadata
+services,24232,Strafregisterauszug,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24232,2026-10-01,routing-metadata
+services,24236,Patent für einen Anlass (Festwirtschaftspatent),s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24236,2026-10-01,routing-metadata
+services,24237,Gastwirtschaftspatent,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24237,2026-10-01,routing-metadata
+services,24238,Rechtsberatung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24238,2026-10-01,routing-metadata
+services,24241,Schlichtungsstelle für Arbeitsverhältnisse,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24241,2026-10-01,routing-metadata
+services,24243,Schlichtungsstelle für Klagen nach dem Gleichstellungsgesetz,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24243,2026-10-01,routing-metadata
+services,24245,Feuerwerk,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24245,2026-10-01,routing-metadata
+services,24246,"Schlichtungsstelle, Vermittleramt",s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24246,2026-10-01,routing-metadata
+services,24254,Schlichtungsstelle für Miet- und Pachtverhältnisse,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24254,2026-10-01,routing-metadata
+services,24967,Grundstückschätzung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24967,2026-10-01,routing-metadata
+services,24969,Gebäudeschaden,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24969,2026-10-01,routing-metadata
+services,24970,Grundbuchgeschäfte,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/24970,2026-10-01,routing-metadata
+services,26831,Kommunikations- und Glasfasernetz FTTH,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/26831,2026-10-01,routing-metadata
+services,26844,Fachstelle Integration St. Galler Rheintal,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/26844,2026-10-01,routing-metadata
+services,29364,Suisse ePolice - Bürgerschalter im Bereich Sicherheit,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/29364,2026-10-01,routing-metadata
+services,36046,Wespennest entfernen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/36046,2026-10-01,routing-metadata
+services,47146,Todesfall / Bestattungen,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/47146,2026-10-01,routing-metadata
+services,77569,Förderbeiträge familien- und schulergänzende Kinderbetreuung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/77569,2026-10-01,routing-metadata
+services,80900,Willkommensbroschüre - Informationen für Neuzuzüger,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/80900,2026-10-01,routing-metadata
+services,82487,Frühe Förderung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/82487,2026-10-01,routing-metadata
+services,82493,Ukraine-Krieg: Information und Unterstützung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/82493,2026-10-01,routing-metadata
+services,96286,Jugendjobbörse Oberes Rheintal,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/96286,2026-10-01,routing-metadata
+services,110992,Velobox Oberriet,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/110992,2026-10-01,routing-metadata
+services,111286,Dorf-Apps,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/111286,2026-10-01,routing-metadata
+services,113539,Liegenschaft Burg Reservation,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/113539,2026-10-01,routing-metadata
+services,122615,Deutschkursvergünstigung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/122615,2026-10-01,routing-metadata
+services,129544,Baumberatung,s-4ca51bf1799d,https://www.oberriet.ch/dienstleistungen/129544,2026-10-01,routing-metadata
+services,school,Kind zur Schule anmelden,s-f89d7f8337ec,https://www.orschulen.ch/primarschule-ekmo/e.html,2026-10-01,page
+services,lighting,Strassenbeleuchtung melden,s-5744626b1bf0,https://www.oberriet.ch/aemter/11024,2026-10-01,page
+services,rav,RAV Heerbrugg / Arbeit finden,s-a390219cb187,https://www.sg.ch/wirtschaft-arbeit/arbeitslos-arbeit-finden/rav.html,2026-10-01,page
+services,transport,Fahrplan Oberriet SG,s-3933445f0cd5,https://www.sbb.ch/de,2026-10-01,page
+services,bergli,Montlinger Bergli,s-ec2828f1b69c,https://www.oberriet.ch/natur/23738,2026-10-01,page
+services,school-oberriet,Primarschule Oberriet,s-0d0f5ecfa0be,https://www.orschulen.ch/kontakt-227.html,2026-10-01,page
+services,school-montlingen,Primarschule Montlingen,s-b2d08a028e1a,https://www.orschulen.ch/kontakt-492.html,2026-10-01,page
+services,school-kriessern,Primarschule Kriessern,s-e73e89e19c92,https://www.orschulen.ch/lageplan-443.html,2026-10-01,page
+services,school-eichenwies,Primarschule Eichenwies,s-ee2be2a96ce1,https://www.orschulen.ch/dazolino-fruehe-foerderung-in-sprache-und-spiel.html,2026-10-01,page
+services,school-kobelwald,Primarschule Kobelwald,s-0d0f5ecfa0be,https://www.orschulen.ch/kontakt-227.html,2026-10-01,page
+services,childcare,Tagesstrukturen EKMO,s-824a7763f1a7,https://www.orschulen.ch/tagesstrukturen-ekmo.html,2026-10-01,page
+services,school-holidays,Schulferien 2026: OZ / Montlingen,s-63fe42e03b1c,https://www.orschulen.ch/ferienplan.html,2026-10-01,page
+services,music-school,Musikschule Oberrheintal,s-3e9312ea216d,https://msor.ch/kontakt/,2026-10-01,page
+services,health-emergency,Medizinischer Notfall / Spital Grabs,s-65d8accb3c70,https://www.h-och.ch/notfall/,2026-10-01,page
+services,crystal-cave,Kristallhöhle Kobelwald,s-2c4b48c968ec,https://www.oberriet.ch/sehenswuerdigkeiten/7473,2026-10-01,page
+services,blatten,Burgruine Blatten,s-13a5fda10e18,https://www.oberriet.ch/sehenswuerdigkeiten/7474,2026-10-01,page
+services,museum,Museum Rothus,s-af377134e28e,https://www.oberriet.ch/sehenswuerdigkeiten/7482,2026-10-01,page
+services,sbb-daycard,SBB Spartageskarte,s-15513922949e,https://www.sbb.ch/de/angebote/spartageskarte,2026-10-01,page
+contacts,gemeinde,Gemeindeverwaltung Oberriet,s-d3c702c7857d,https://www.oberriet.ch/,2026-10-01,page
+contacts,contact-0,Abwasserentsorgung,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10683,2026-10-01,page
+contacts,contact-1,AHV-Zweigstelle,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10669,2026-10-01,page
+contacts,contact-2,Amtsnotariat Buchs,s-fe4b32cc3154,https://www.oberriet.ch/aemter/12205,2026-10-01,page
+contacts,contact-3,Arbeitsamt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10807,2026-10-01,page
+contacts,contact-4,Bauamt - Hochbau/Planverfahren,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10672,2026-10-01,page
+contacts,contact-5,Bauamt - Tiefbau,s-fe4b32cc3154,https://www.oberriet.ch/aemter/11010,2026-10-01,page
+contacts,contact-6,Bestattungsamt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10806,2026-10-01,page
+contacts,contact-7,Betreibungsamt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10673,2026-10-01,page
+contacts,contact-8,Einwohneramt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10674,2026-10-01,page
+contacts,contact-9,Elektrizitätsversorgung Oberriet,s-fe4b32cc3154,https://www.oberriet.ch/aemter/11024,2026-10-01,page
+contacts,contact-10,Feuerschutz,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10676,2026-10-01,page
+contacts,contact-11,Feuerwehr,s-fe4b32cc3154,https://www.oberriet.ch/aemter/19753,2026-10-01,page
+contacts,contact-12,Gemeindepräsidium,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10678,2026-10-01,page
+contacts,contact-13,Gemeinderatskanzlei,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10679,2026-10-01,page
+contacts,contact-14,Gemeinderatsweibel,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10680,2026-10-01,page
+contacts,contact-15,Grundbuchamt Oberriet-Rüthi,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10681,2026-10-01,page
+contacts,contact-16,Kassieramt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10682,2026-10-01,page
+contacts,contact-17,Kindes- und Erwachsenenschutzbehörde Rheintal (KESB),s-fe4b32cc3154,https://www.oberriet.ch/aemter/11748,2026-10-01,page
+contacts,contact-18,Landwirtschaftssekretariat,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10684,2026-10-01,page
+contacts,contact-19,Ortsquartiermeister,s-fe4b32cc3154,https://www.oberriet.ch/aemter/11011,2026-10-01,page
+contacts,contact-20,Regionaler Führungsstab Oberes Rheintal (RFS OR),s-fe4b32cc3154,https://www.oberriet.ch/aemter/22640,2026-10-01,page
+contacts,contact-21,Soziale Dienste,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10686,2026-10-01,page
+contacts,contact-22,Soziale Dienste Oberes Rheintal (Berufsbeistandschaft),s-fe4b32cc3154,https://www.oberriet.ch/aemter/14367,2026-10-01,page
+contacts,contact-23,Sportanlage Bildstöckli,s-fe4b32cc3154,https://www.oberriet.ch/aemter/12283,2026-10-01,page
+contacts,contact-24,Steueramt,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10687,2026-10-01,page
+contacts,contact-25,Wasserversorgung,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10688,2026-10-01,page
+contacts,contact-26,Werkhof,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10689,2026-10-01,page
+contacts,contact-27,Zivilschutzstelle (RZSO Rheintal),s-fe4b32cc3154,https://www.oberriet.ch/aemter/10690,2026-10-01,page
+contacts,contact-28,Zivilstandsamt Rheintal,s-fe4b32cc3154,https://www.oberriet.ch/aemter/10691,2026-10-01,page
+contacts,school-ekmo,Schulverwaltung Oberriet,s-0d0f5ecfa0be,https://www.orschulen.ch/kontakt-227.html,2026-10-01,page
+contacts,school-montlingen,Primarschule Montlingen,s-b2d08a028e1a,https://www.orschulen.ch/kontakt-492.html,2026-10-01,page
+contacts,school-kriessern,Primarschule Kriessern / Rheinau,s-e73e89e19c92,https://www.orschulen.ch/lageplan-443.html,2026-10-01,page
+contacts,music,Musikschule Oberrheintal,s-3e9312ea216d,https://msor.ch/kontakt/,2026-10-01,page
+contacts,hospital-grabs,HOCH Health Ostschweiz / Grabs,s-8b8a391a6081,https://www.h-och.ch/ueber-uns/standorte/grabs/,2026-10-01,page
+events,kilbi26,Kilbi Oberriet,s-ab19baf1d5fb,https://www.oberriet.ch/aktuellesinformationen/2996749,2026-10-01,page
+events,marvin26,Marvin Sgier LIVE / 60 Jahre Jungwacht,s-ab19baf1d5fb,https://www.oberriet.ch/aktuellesinformationen/2996749,2026-10-01,page
+events,autumn-montlingen,Herbstferien Primarschule Montlingen,s-d76c812d95f9,https://www.orschulen.ch/ferienplan-se-montlingen.html,2026-10-01,page
+events,christmas-montlingen,Weihnachtsferien Primarschule Montlingen,s-d76c812d95f9,https://www.orschulen.ch/ferienplan-se-montlingen.html,2026-10-01,page
+places,oberriet,Oberriet,s-e2f6348f836e,https://www.oberriet.ch/5doerfer1gemeinde,2026-10-01,page
+places,montlingen,Montlingen,s-e2f6348f836e,https://www.oberriet.ch/5doerfer1gemeinde,2026-10-01,page
+places,kriessern,Kriessern,s-e2f6348f836e,https://www.oberriet.ch/5doerfer1gemeinde,2026-10-01,page
+places,eichenwies,Eichenwies,s-e2f6348f836e,https://www.oberriet.ch/5doerfer1gemeinde,2026-10-01,page
+places,kobelwald,Kobelwald,s-e2f6348f836e,https://www.oberriet.ch/5doerfer1gemeinde,2026-10-01,page
+waste,kehricht,Kehricht,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,karton,Karton,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,papier,Altpapier,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,gruen,Grüngut,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,sperrgut,Sperrgut,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,glas,Glas,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,metall,Metall / Dosen,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,textilien,Textilien,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,sonder,Sonderabfall,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
+waste,elektro,Elektrogeräte,s-64f066c2b9ad,https://www.oberriet.ch/online-schalter/101755/download,2026-10-01,page
