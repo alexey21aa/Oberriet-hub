@@ -1,37 +1,35 @@
-# QA report · 2026-10-01
+# QA report · 2026-10-01 · 0.2.0
 
-**88 checks passed · 0 failed · 2 skipped.**
+**112 checks passed · 0 failed · 2 skipped** across the main unit and WordPress runtime suites. Full evidence: `tests/results/unit.json` and `qa.json`.
 
-Environment: WordPress 7.1.2, PHP 8.3 WASM, Playground SQLite integration, real Chromium 153 via Playwright 1.62.1. Production target: native PHP 8.3+ and MariaDB/MySQL on Swiss hosting. Machine-readable evidence is in `tests/results/qa.json`, `unit.json` and `accessibility.json`.
+Environment: WordPress 7.1.2, PHP 8.3 WASM, Playground SQLite integration, real Chromium 153 via Playwright 1.62.1. Production target is native PHP and MariaDB/MySQL on Swiss hosting; that environment has not been deployed.
 
-The nine mandatory search phrases all pass with the correct top intent: Wohnsitzbestätigung, wo anmelden, переезд, куда сообщить адрес, сміття Montlingen, garbage Kriessern, school registration, фонарь не работает, Steuererklärung. Unknown gibberish produces no fabricated answer. Date tests cover Swiss rollover, weekly routes, remaining paper dates, green-waste non-collection and refusal to reuse the 2026 plan in 2027. ICS has valid CRLF, UTF-8 folding and exclusive all-day end dates.
+The final corpus validates: 364 distinct records, 2548 source-backed navigation answers/paths, 5143 unique canonical intents (2595 single/curated +2548 explicit compound goals), 71344 aliases, 293 sources. All 5096 compound answer references resolve to the same service and verified source registry. The three 27,178,580-byte seed files match. This does not mean 5143 independently verified factual procedures. Many answers explicitly refer unknown personal conditions/fees/time limits to their original source.
 
-Runtime tests verify four languages, 23 core route types, 404, canonical/hreflang/sitemap presence, local JavaScript loading, single H1, concrete user journeys, German draft/copy-mailto behaviour, clearing and no resident names/addresses in HTTP traffic or browser storage. Monthly Montlingen calendar includes all four October refuse rounds, not just the next round.
+Separate passing suites: indexed retrieval/Unicode/typo/transposition and 2000 synthetic records with pagination; compound references/counts; 15 resumable-import and metadata regressions; complete PHP dataset validation; native local-AI adapter fallback/session-destruction tests using mocks. An actual generative browser model is unavailable here, so generation quality/hardware are untested.
 
-Responsive widths: 360×800, 390×844, 768×1024, 1366×768, 1920×1080. All pass the no-horizontal-overflow check. Desktop/mobile screenshots were visually inspected. Keyboard skip navigation passes. axe WCAG 2 A/AA, 2.1 A/AA and 2.2 AA tag scans on DE home, RU ask and EN residence detail report zero violations. This is an automated sample audit, not full WCAG certification.
+Runtime checks cover the full import and indexed PHP retrieval, four languages, route types and 404, sitemap/SEO, same-site POST search, local email draft and copy/mailto, clearing and no resident fields in network traffic or local/session storage. All nine mandatory search phrases pass. Waste/ICS checks cover date rollover, expiry after 2026, no unsupported collection dates, cardboard, UTF-8 folding and all-day end dates.
 
-Security tests verify source URL/SSRF restrictions, invalid import rejection, denial for editor role, XML-RPC method removal, output escaping, public AI POST denial, anonymous dashboard redirect, actual retention deletion, counter increments, administrator TOTP challenge and successful login, authenticated export/import, and nonce-free settings POST denied with 403. TOTP uses a disposable 160-bit lab key and an independently calculated HMAC token matched to the PHP lab clock; no lab enrollment or clock endpoint is in the production distribution. Password alone does not enter the admin.
+Responsive widths 360,390,768,1366,1920 pass horizontal-overflow checks. Desktop/mobile/admin screenshots are included. Keyboard skip navigation passes. axe WCAG 2/2.1/2.2 A/AA sample scans of DE home, RU ask and EN residence detail have zero violations. This is a sample automated audit, not independent WCAG certification.
 
-## Browser / server limits
+Security checks cover allowlisted HTTPS/SSRF rejection, import validation, duplicate IDs and impossible dates, nested CSV round trips, capability/nonce denial, XML-RPC removal, escaping, retention deletion and counters, admin TOTP challenge and actual successful login, authenticated export/import. Test TOTP uses a disposable laboratory key; the production package contains no enrollment, live credentials or lab clock endpoint.
 
-| Required environment | Actual status |
+## Limits requiring a deployed site
+
+| Environment/check | Status |
 |---|---|
-| Chrome desktop | Chromium 153 automated checks passed |
-| Chrome Android | Mobile viewport emulation passed; physical Android pending |
-| Samsung Internet | Physical browser not available; pending |
-| Safari iPhone / WebKit | WebKit engine unavailable, explicitly skipped |
-| Firefox | Engine unavailable, explicitly skipped |
-| Edge | Chromium compatibility exercised; actual Edge pending |
-| Five required viewports | Passed |
-| Real HTTPS / HTTP redirect | Config supplied; pending actual host |
-| No directory listing / exposed .git / config | Apache/Nginx config supplied; pending actual host |
-| Admin cache exclusion / native host cache | WordPress private admin functional; host rules pending |
-| MariaDB/MySQL | Production target; lab used SQLite compatibility adapter |
-| Backup restore | Instructions and script validated; actual host restore exercise pending |
+| Chromium desktop and five mobile/tablet/desktop viewports | Passed |
+| Firefox / WebKit | Engine unavailable; explicitly skipped |
+| Physical Android, Samsung Internet, iPhone Safari, Edge | Not exercised |
+| Native MariaDB/MySQL | Not exercised; lab used SQLite adapter |
+| Public HTTPS, redirect, cache, cron, server file protections | Config examples included; actual host pending |
+| Live backup restore | Script/instructions included; actual host restore pending |
+| Live Lighthouse/PageSpeed / WPVibe public URL | Unavailable because no registered site/public URL exists |
+| Large-corpus production PHP time/memory sizing | Must be measured; final index is one request |
 
-No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public URL and none exists. No public production deployment or payment was performed.
+GitHub identifies account alexey21aa, but the connector returns zero accessible repositories/installations and exposes no repository-creation operation. This does not establish whether inaccessible private repositories exist. WPVibe returns zero registered sites. No public deployment, paid hosting purchase or remote repository creation is claimed.
 
-## Detailed automated checks
+## Main check evidence
 
 | Check | Result |
 |---|---|
@@ -74,6 +72,8 @@ No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public U
 | PHP syntax Calendar.php | PASS |
 | PHP syntax ContentTypes.php | PASS |
 | PHP syntax Frontend.php | PASS |
+| PHP syntax ImportQueue.php | PASS |
+| PHP syntax Knowledge.php | PASS |
 | PHP syntax Search.php | PASS |
 | PHP syntax Security.php | PASS |
 | PHP syntax Sources.php | PASS |
@@ -81,6 +81,26 @@ No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public U
 | Aggregate 13-month purge | PASS |
 | Aggregate counter increments | PASS |
 | TOTP is required for QA administrator | PASS |
+| Organization/answer/FAQ/guide admin types registered | PASS |
+| Duplicate stable IDs rejected | PASS |
+| Impossible calendar date rejected | PASS |
+| Unknown provenance rejected | PASS |
+| Invalid localized field rejected | PASS |
+| Invalid collection shape rejected | PASS |
+| CSV keeps all nested translations and provenance | PASS |
+| CSV mismatched stable ID rejected | PASS |
+| CSV unsupported collection rejected | PASS |
+| CSV malformed JSON rejected | PASS |
+| Bulk review hooks registered | PASS |
+| Source explicit HTTPS policy rejects fragments-as-host | PASS |
+| Indexed PHP search Wohnsitzbestätigung | PASS |
+| Indexed PHP search переезл | PASS |
+| Indexed PHP search фонарь не работает | PASS |
+| Indexed PHP unknown query returns no invented cards | PASS |
+| Indexed PHP Unicode normalization | PASS |
+| Indexed PHP transposition | PASS |
+| Public REST indexed search | PASS |
+| Search rejects excessive query | PASS |
 | WordPress home 200 | PASS |
 | Home renders Hub | PASS |
 | Security headers | PASS |
@@ -91,8 +111,9 @@ No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public U
 | Language uk | PASS |
 | Unknown route 404 | PASS |
 | Anonymous AI write denied | PASS |
+| POST search returns residence service | PASS |
 | Sitemap all languages | PASS |
-| All 23 core route types render | PASS |
+| Core route types render | PASS |
 | Anonymous dashboard redirects to login | PASS |
 | JS loaded | PASS |
 | One H1 | PASS |
@@ -108,7 +129,7 @@ No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public U
 | Responsive 768 | PASS |
 | Responsive 1366 | PASS |
 | Responsive 1920 | PASS |
-| Monthly calendar includes all four October rounds | PASS |
+| Monthly calendar includes October waste and cardboard rounds | PASS |
 | Locality page | PASS |
 | Keyboard skip link | PASS |
 | Skip lands on main | PASS |
@@ -122,6 +143,7 @@ No fabricated Lighthouse/PageSpeed score is supplied: WPVibe requires a public U
 | Settings CSRF without nonce denied | PASS |
 | Authenticated JSON export | PASS |
 | Native admin JSON import without overwrite | PASS |
+| Partial admin import preserves expanded intents and aliases | PASS |
 | No resident text in log table | PASS |
 | Firefox smoke | SKIP |
 | WebKit smoke | SKIP |

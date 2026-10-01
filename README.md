@@ -39,3 +39,5 @@ Optional native browser AI is activated only by a visitor click where `LanguageM
 `npm ci`; `npm test`; `npm run test:search`; `npm run test:queue`; `npm run test:local-ai`. For WordPress QA, set `OBERHUB_RUNTIME` to this project's absolute directory and `OBERHUB_CHROMIUM_PATH` to a working browser binary, then `npm run test:wordpress`. Development dependencies do not belong in production.
 
 The package contains source, import data, provenance exports, restored Git history, installer ZIPs, QA results, previews, architecture, configuration/server examples and operating/backup instructions. Inspect `docs/QA_REPORT.md` and `docs/KNOWN_LIMITATIONS.md` for the exact verification scope.
+
+To repack from the included source, set `OBERHUB_WORDPRESS_CORE` to the included `wordpress/` directory (or an official core ZIP) and run `python3 scripts/build-release.py` in a Git checkout with final evidence committed. The archive contains the complete data used for installation; regeneration of source harvests requires fresh source verification.

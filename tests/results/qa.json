@@ -80,6 +80,16 @@
     "detail": ""
   },
   {
+    "name": "PHP syntax ImportQueue.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Knowledge.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "name": "PHP syntax Search.php",
     "passed": true,
     "detail": ""
@@ -115,6 +125,106 @@
     "detail": ""
   },
   {
+    "name": "Organization/answer/FAQ/guide admin types registered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Duplicate stable IDs rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Impossible calendar date rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Unknown provenance rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Invalid localized field rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Invalid collection shape rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV keeps all nested translations and provenance",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV mismatched stable ID rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV unsupported collection rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV malformed JSON rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Bulk review hooks registered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source explicit HTTPS policy rejects fragments-as-host",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search Wohnsitzbestätigung",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search переезл",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search фонарь не работает",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP unknown query returns no invented cards",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP Unicode normalization",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP transposition",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Public REST indexed search",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Search rejects excessive query",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "name": "WordPress home 200",
     "passed": true,
     "detail": "200"
@@ -132,7 +242,7 @@
   {
     "name": "Seed imported",
     "passed": true,
-    "detail": "{\"services\":94,\"contacts\":35}"
+    "detail": "{\"services\":364,\"contacts\":35}"
   },
   {
     "name": "Language de",
@@ -165,12 +275,17 @@
     "detail": "401"
   },
   {
+    "name": "POST search returns residence service",
+    "passed": true,
+    "detail": "{\"results\":[{\"record\":{\"id\":\"23627\",\"slug\":\"service-23627\",\"title\":{\"de\":\"Wohnsitzbestätigung\",\"en\":\"Residence certificate\",\"ru\":\"Справка о месте жительства\",\"uk\":\"Довідка про місце проживання\"},\"desc"
+  },
+  {
     "name": "Sitemap all languages",
     "passed": true,
     "detail": ""
   },
   {
-    "name": "All 23 core route types render",
+    "name": "Core route types render",
     "passed": true,
     "detail": ""
   },
@@ -250,7 +365,7 @@
     "detail": ""
   },
   {
-    "name": "Monthly calendar includes all four October rounds",
+    "name": "Monthly calendar includes October waste and cardboard rounds",
     "passed": true,
     "detail": ""
   },
@@ -297,7 +412,7 @@
   {
     "name": "TOTP login succeeds",
     "passed": true,
-    "detail": "Skip to main content\nSkip to toolbar\n\n\nDashboard\nHome\nUpdates\n\n\nPosts\nAll Posts\nAdd Post\nCategories\nTags\n\n\nMedia\nLibrary\nAdd Media File\n\n\nPages\nAll Pages\nAdd Page\n\n\nComments\n\n\nOberriet Hub\nServices\nPlaces\nEvents\nGuides\nContacts\nSources\n\n\nAppearance\nThemes\nEditor\nFonts\n\n\nPlugins\nInstalled Plugins\nAdd Plugin\n\n\nUsers\nAll Users\nAdd User\nProfile\n\n\nTools\nAvailable Tools\nImport\nExport\nSite Health\nExport Personal Data\nErase Personal Data\nTheme File Editor\nPlugin File Editor\n\n\nSettings\nGeneral\nConnectors\nWriting\nReading\nDiscussion\nMedia\nPermalinks\nPrivacy\nTwo-Factor\nCollapse Menu\nAbout WordPress\nOberriet Hub\nCtrl+K\nOpen command palette\n0\n0 Comments in moderation\nNew\nHowdy, admin\nOberriet Hub · Content health\n\nTwo-Factor: You are out of recovery codes and need to regenerate!\n\nIndependent civic navigation · DE editorial source · Europe/Zurich\n\nAdmin 2FA: configured\n\nServices\n\n94\n\nContacts\n\n35\n\nEven"
+    "detail": "Skip to main content\nSkip to toolbar\n\n\nDashboard\nHome\nUpdates\n\n\nPosts\nAll Posts\nAdd Post\nCategories\nTags\n\n\nMedia\nLibrary\nAdd Media File\n\n\nPages\nAll Pages\nAdd Page\n\n\nComments\n\n\nOberriet Hub\nServices\nPlaces\nEvents\nContacts\nSources\nOrganizations\nAnswers\nFAQ\nGuides\n\n\nAppearance\nThemes\nEditor\nFonts\n\n\nPlugins\nInstalled Plugins\nAdd Plugin\n\n\nUsers\nAll Users\nAdd User\nProfile\n\n\nTools\nAvailable Tools\nImport\nExport\nSite Health\nExport Personal Data\nErase Personal Data\nTheme File Editor\nPlugin File Editor\n\n\nSettings\nGeneral\nConnectors\nWriting\nReading\nDiscussion\nMedia\nPermalinks\nPrivacy\nTwo-Factor\nCollapse Menu\nAbout WordPress\nOberriet Hub\nCtrl+K\nOpen command palette\n0\n0 Comments in moderation\nNew\nHowdy, admin\nOberriet Hub · Content health\n\nTwo-Factor: You are out of recovery codes and need to regenerate!\n\nIndependent civic navigation · DE editorial source · Europe/Zurich\n\nAdmin 2FA: configured\n\nImport"
   },
   {
     "name": "Closed admin dashboard",
@@ -316,6 +431,11 @@
   },
   {
     "name": "Native admin JSON import without overwrite",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Partial admin import preserves expanded intents and aliases",
     "passed": true,
     "detail": ""
   },

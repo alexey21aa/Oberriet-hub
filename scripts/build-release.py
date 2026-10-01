@@ -5,7 +5,9 @@ R=Path(__file__).resolve().parents[1];out=R.parent/'deliverables';out.mkdir(exis
 if release.exists():shutil.rmtree(release)
 release.mkdir(parents=True,exist_ok=True)
 # Extract official WordPress core, then install our exact tested plugins/theme.
-core_input=Path(__import__('os').environ.get('OBERHUB_WORDPRESS_CORE',str(R.parent/'recovered/package/Oberriet_Hub_MVP/wordpress')))
+core_candidates=[R.parent/'wordpress',R.parent/'recovered/package/Oberriet_Hub_MVP/wordpress']
+core_default=next((p for p in core_candidates if p.is_dir()),core_candidates[0])
+core_input=Path(__import__('os').environ.get('OBERHUB_WORDPRESS_CORE',str(core_default)))
 if core_input.is_dir():shutil.copytree(core_input,release/'wordpress')
 else:
  with zipfile.ZipFile(core_input) as z:z.extractall(release)
