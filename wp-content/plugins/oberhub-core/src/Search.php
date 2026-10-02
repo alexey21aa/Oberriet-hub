@@ -31,6 +31,8 @@ final class Search {
         $bucket='oh_search_'.substr($identity,0,24).'_'.(int)floor(time()/60);$count=(int)get_transient($bucket);
         if($count>=90){return new \WP_Error('rate_limit','Please retry in one minute',['status'=>429]);}set_transient($bucket,$count+1,70);
         $result=Knowledge::search($query,$lang,(int)($req->get_param('page')??1),(int)($req->get_param('per_page')??10),sanitize_key($req->get_param('locality')??'all'),sanitize_key($req->get_param('type')??''));
+        $sensitive=(bool)$req->get_param('sensitive')||preg_match('/(?:notfall|emergency|warning|warnung|deadline|frist|fee|gebühr|сроч|экстр|термін|срок|оплат|штраф)/iu',$query);
+        $revalidated=[];foreach($result['results'] as &$hit){$id=(string)($hit['record']['source_id']??'');$allow=count($revalidated)<2&&!isset($revalidated[$id]);$hit['evidence']=Sources::evidence($hit['record'],(bool)$sensitive,$allow);if($allow)$revalidated[$id]=true;}unset($hit);
         $response=rest_ensure_response($result);$response->header('Cache-Control','no-store');return $response;
     }
     public static function answer($req) {
