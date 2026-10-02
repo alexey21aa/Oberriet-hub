@@ -1,229 +1,74 @@
 [
   {
-    "url": "https://www.dfae.admin.ch/de/formulare-rechtliche-grundlagen-und-merkblaetter",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
     "status": "robots-unavailable",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.estv.admin.ch/de/formulare-wegleitungen-direkte-bundessteuer",
-    "status": "robots-unavailable",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.estv.admin.ch/en/forms-to-declare-or-report",
+    "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
     "status": "error",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.gerichte-zh.ch/de/themen/arbeit/formulare",
-    "status": "robots-unavailable",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/themen/betreibung-und-konkurs/formulare-und-merkblaetter",
+    "url": "https://api3.geo.admin.ch/rest/services/ech/SearchServer",
     "status": "error",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare",
-    "resolved_url": "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare",
+    "url": "https://console.groq.com/docs/rate-limits",
+    "resolved_url": "https://console.groq.com/docs/rate-limits",
     "http_status": 200,
-    "fetched_at": "2026-10-02T21:07:50+00:00",
-    "sha256": "e3c659a609dbd643ccbf1a2f1cec6d0f14b9f4857160730245236b78baa543bd",
-    "etag": "\"1790945091\"",
-    "last_modified": "Fri, 02 Oct 2026 12:44:51 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/themen/erbschaft/formulare",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/themen/miete/formulare",
-    "resolved_url": "https://www.gerichte-zh.ch/de/themen/miete/formulare",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:08:01+00:00",
-    "sha256": "cb054ee3e604b28fa6f20f1f7ad2fa349671d4cdc9d37f3e6c60c4274c0ab560",
-    "etag": "\"1790946884\"",
-    "last_modified": "Fri, 02 Oct 2026 13:14:44 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/themen/zivilprozess/klageformulare",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.oberriet.ch/aktuellesinformationen/2996749",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html",
-    "resolved_url": "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:08:29+00:00",
-    "sha256": "f6eb5191c0ed8ae7acab997b6b3dc93ecf5f2935936d4dcb854ca5f73a59c413",
+    "fetched_at": "2026-10-02T21:48:46+00:00",
+    "sha256": "2d3b3ac6d3575fc9164e08289b5b23607304f4d73f14dcd7e3641660a64e59c9",
     "etag": null,
     "last_modified": null
   },
   {
-    "url": "https://www.sg.ch/recht/handelsregister-notariate/amtsnotariate/formulare-und-merkblaetter.html",
+    "url": "https://daten.sg.ch/",
     "status": "robots-unavailable",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.svasg.ch/online-schalter/formulare/aforms/sva-kontaktformular-allgemein.php",
+    "url": "https://daten.sg.ch/explore/dataset/stationsbasierte-shared-mobility-angebote-im-kanton-stgallen/api/",
     "status": "error",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
-    "resolved_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "url": "https://developers.cloudflare.com/workers-ai/",
+    "status": "robots-unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://docs.orama.com/docs/orama-js/search",
+    "status": "robots-unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://fedlex.data.admin.ch/home",
+    "status": "error",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://fedlex.data.admin.ch/sparqlendpoint",
+    "resolved_url": "https://fedlex.data.admin.ch/sparqlendpoint",
     "http_status": 200,
-    "fetched_at": "2026-10-02T21:08:52+00:00",
-    "sha256": "025eff495e0a02fcbf5327b40b6850b46487b85ff1cdcb0f5b2d27a3ae24b653",
+    "fetched_at": "2026-10-02T21:49:20+00:00",
+    "sha256": "eb71faee27efefe5327ab44e6296e197513687d9a65b0f606c804bc151ecd910",
     "etag": null,
     "last_modified": null
   },
   {
-    "url": "https://www.zas.admin.ch/de/pdf-formulare",
+    "url": "https://healthreg-public.admin.ch/medreg",
     "status": "robots-unavailable",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.sg.ch/steuern-finanzen/steuern/elektronische-steuererklaerung/etaxnp.html",
+    "url": "https://integrationrheintal.ch/",
     "status": "error",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html",
-    "resolved_url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:09:13+00:00",
-    "sha256": "892a044941f4462c47f5b115451d8829000870f53a1721175945a6cbc2e8cb60",
-    "etag": "\"5dc6cd689052dd1:0\"",
-    "last_modified": "Fri, 02 Oct 2026 17:06:47 GMT"
-  },
-  {
-    "url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/grundstueckgewinnsteuer.html",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/generalsekretariat",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/aufsichtskommission-ueber-rechtsanwaelte",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/aufsichtskommission-ueber-rechtsanwaelte",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:09:25+00:00",
-    "sha256": "ee34090847594b177a410ff1859670bb538a7aea5443330ea66bcbfaeb112279",
-    "etag": "\"1790945006\"",
-    "last_modified": "Fri, 02 Oct 2026 12:43:26 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/anwaltspruefungskommission",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/notariatspruefungskommission",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/kommissionen/fachkommission-fuer-psych-gutachten",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/kommissionen/fachkommission-fuer-psych-gutachten",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:09:39+00:00",
-    "sha256": "cc3be1171c2c8b81e4bbd21f7b7084f761c1415d2ba1a8bedddfb9b0f8518c9e",
-    "etag": "\"1790944944\"",
-    "last_modified": "Fri, 02 Oct 2026 12:42:24 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/sprachdienstleistungswesen/rechtliche-grundlagen",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/internationale-rechtshilfe",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/internationale-rechtshilfe",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:09:46+00:00",
-    "sha256": "6b16cd9fad7bc0394cdbdc5ea66192b7bf1f4ed79188527504964f73d9e8dff9",
-    "etag": "\"1790945349\"",
-    "last_modified": "Fri, 02 Oct 2026 12:49:09 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-affoltern/rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:09:57+00:00",
-    "sha256": "5d7d65fa85f1d56d04472bbcc9e164b334fdff0011fc2b97ca0c59fb5caab928",
-    "etag": "\"1790945319\"",
-    "last_modified": "Fri, 02 Oct 2026 12:48:39 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-dielsdorf/telefonische-rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-dietikon/rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-hinwil/rechtsauskunft",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-hinwil/rechtsauskunft",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:10:11+00:00",
-    "sha256": "02ebf82ecbbe19970402ea035090f897adb8eea9e78b258630dd6ae02e364757",
-    "etag": "\"1790945326\"",
-    "last_modified": "Fri, 02 Oct 2026 12:48:46 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-horgen/rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-meilen/rechtsauskunft",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-meilen/rechtsauskunft",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:10:21+00:00",
-    "sha256": "b0f8021da46d7dadc7ed6a19eed6d915ae06eafbdb59b230001e5a45ae579eab",
-    "etag": "\"1790945329\"",
-    "last_modified": "Fri, 02 Oct 2026 12:48:49 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-pfaeffikon/rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/rechtsauskunft",
-    "status": "error",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/service",
-    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/service",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T21:10:35+00:00",
-    "sha256": "5ebce4ad6159f8860a2681b91e15819f41f8ec6d6bedb6f1319577e97becb145",
-    "etag": "\"1790945333\"",
-    "last_modified": "Fri, 02 Oct 2026 12:48:53 GMT"
-  },
-  {
-    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-winterthur/service",
+    "url": "https://console.groq.com/docs/integrations",
     "status": "error",
     "error": "<urlopen error timed out>"
   }

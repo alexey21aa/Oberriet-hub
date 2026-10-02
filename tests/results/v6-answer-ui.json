@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Server answer visible at width 360",
+    "passed": true
+  },
+  {
+    "name": "Curated answer is not labelled generated 360",
+    "passed": true
+  },
+  {
+    "name": "Source link displayed 360",
+    "passed": true
+  },
+  {
+    "name": "Server answer visible at width 1920",
+    "passed": true
+  },
+  {
+    "name": "Curated answer is not labelled generated 1920",
+    "passed": true
+  },
+  {
+    "name": "Source link displayed 1920",
+    "passed": true
+  },
+  {
+    "name": "Device-independent request",
+    "passed": true
+  },
+  {
+    "name": "Answer markup remains literal",
+    "passed": true
+  },
+  {
+    "name": "Unsafe source URLs filtered",
+    "passed": true
+  },
+  {
+    "name": "Generative mode labelled honestly",
+    "passed": true
+  },
+  {
+    "name": "No false answer for evidence-pack",
+    "passed": true
+  },
+  {
+    "name": "No false answer for invented-mode",
+    "passed": true
+  },
+  {
+    "name": "No false answer for server-ai",
+    "passed": true
+  },
+  {
+    "name": "Failure preserves matching options",
+    "passed": true
+  },
+  {
+    "name": "Failure is accessible",
+    "passed": true
+  },
+  {
+    "name": "Outdated response discarded",
+    "passed": true
+  }
+]

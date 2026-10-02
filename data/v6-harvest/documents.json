@@ -6958,5 +6958,35 @@
     "parent_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft",
     "jurisdiction": "CH",
     "type": "guide-link"
+  },
+  {
+    "id": "doc-88f0d8204edcb1a86fe52e9f",
+    "source_id": "v6-seed-c03a6de01b2068bb",
+    "source_url": "https://console.groq.com/docs/integrations",
+    "official_url": "https://console.groq.com/docs/integrations",
+    "title": {
+      "de": "Integrations Catalog",
+      "en": "Integrations Catalog",
+      "ru": "Integrations Catalog",
+      "uk": "Integrations Catalog"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T21:48:46+00:00",
+    "parent_url": "https://console.groq.com/docs/rate-limits",
+    "jurisdiction": "CH",
+    "type": "guide-link"
   }
 ]

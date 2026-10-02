@@ -133,5 +133,23 @@
     "sha256": "5ebce4ad6159f8860a2681b91e15819f41f8ec6d6bedb6f1319577e97becb145",
     "etag": "\"1790945333\"",
     "last_modified": "Fri, 02 Oct 2026 12:48:53 GMT"
+  },
+  "https://console.groq.com/docs/rate-limits": {
+    "url": "https://console.groq.com/docs/rate-limits",
+    "resolved_url": "https://console.groq.com/docs/rate-limits",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:48:46+00:00",
+    "sha256": "2d3b3ac6d3575fc9164e08289b5b23607304f4d73f14dcd7e3641660a64e59c9",
+    "etag": null,
+    "last_modified": null
+  },
+  "https://fedlex.data.admin.ch/sparqlendpoint": {
+    "url": "https://fedlex.data.admin.ch/sparqlendpoint",
+    "resolved_url": "https://fedlex.data.admin.ch/sparqlendpoint",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:49:20+00:00",
+    "sha256": "eb71faee27efefe5327ab44e6296e197513687d9a65b0f606c804bc151ecd910",
+    "etag": null,
+    "last_modified": null
   }
 }
