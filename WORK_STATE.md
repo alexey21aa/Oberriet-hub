@@ -5,7 +5,7 @@ V6 attached by owner supersedes all earlier specs. Continue existing project.
 Production https://oberriethub.ch, WP 7.1.2, PHP 8.4.26, theme 0.2.0.
 IMPORTANT latest WPVibe read at resumed session: core **0.2.3**, while restored Git baseline is 0.2.1. Production changed during pause. Do not install this candidate over production until current 0.2.3 code is exported and reconciled.
 Latest live index: 4503 records, 5294 terms, indexed 2026-10-02T10:31:35Z.
-WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. No production code or data changed in this continuation.
+WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. No production code or data changed at this checkpoint. An additive oberhub-v6 extension is now prepared to preserve live core 0.2.3 while adding its own index and routes; it stays dormant until authenticated preparation completes.
 
 ## Completed
 - Imported complete native Git history through 37114bd with GitHub Actions run 37033235836 (success). Main import commit f8fb75015b2ddf70aa582e04b1b4fa16c9f8cd6f. Source ZIP verified byte-for-byte against bundle; archives and original GitHub history retained.
@@ -32,3 +32,6 @@ These are candidate tests, not live acceptance. No external provider inference t
 Run from repository root. Candidate activity generator: python3 scripts/expand-v6-activities.py.
 Harvester: python3 scripts/harvest-v6-documents.py --max-sources 12 --max-pages 24 --timeout 8.
 No secrets, hosting configuration, personal queries or live database exported into public GitHub.
+
+## Additive deployment alternative
+Install only wp-content/plugins/oberhub-v6. Keeps core 0.2.3 files and its existing index. Then POST /oberhub/v1/v6/prepare, call /v6/import-batch until complete, POST /v6/build-index, GET /v6/status and verify mandatory live queries. Deactivation immediately restores original core routes. No theme publish required.

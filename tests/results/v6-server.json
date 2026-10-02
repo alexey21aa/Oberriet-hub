@@ -210,5 +210,33 @@
   {
     "name": "PHP syntax 30",
     "passed": true
+  },
+  {
+    "name": "PHP syntax 31",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 32",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 33",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 34",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 35",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 36",
+    "passed": true
+  },
+  {
+    "name": "PHP syntax 37",
+    "passed": true
   }
 ]
