@@ -49,7 +49,7 @@ final class Frontend {
     public static function assets(): void {
         if (!self::is_hub()) { return; }
         remove_action('wp_head','print_emoji_detection_script',7);remove_action('wp_print_styles','print_emoji_styles');remove_action('wp_footer','wp_print_speculation_rules');
-        wp_enqueue_style('oberhub',OBERHUB_URL.'assets/app.css',[], '0.2.0');wp_enqueue_script('oberhub-app',OBERHUB_URL.'assets/app.js',[], '0.2.0',true);
+        wp_enqueue_style('oberhub',OBERHUB_URL.'assets/app.css',[], '0.2.1');wp_enqueue_script('oberhub-app',OBERHUB_URL.'assets/app.js',[], '0.2.1',true);
     }
     public static function seo(): void {
         if (!self::is_hub()) { return; }

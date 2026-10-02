@@ -2,7 +2,7 @@
 /**
  * Plugin Name: OberHub Core
  * Description: Independent multilingual civic navigation, curated sources and private administration.
- * Version: 0.2.0
+ * Version: 0.2.1
  * Requires at least: 6.9
  * Requires PHP: 8.2
  * License: GPL-2.0-or-later
