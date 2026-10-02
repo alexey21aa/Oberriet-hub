@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {documentModel,renderTrustedDocuments,evidenceTime,externalURL} from '../wp-content/plugins/oberhub-core/assets/evidence.mjs';
+const hit={type:'documents',record:{id:'doc-x',title:{de:'<script>malicious()</script>'},description_short:{de:'Original <img src=x onerror=malicious()> excerpt'},source_language:'de',source_url:'https://www.oberriet.ch/news/1',checked_at_utc:'2026-10-02T00:00:00Z'},evidence:{stale:true,confidence:'low',checked_at:'2026-10-02T00:00:00Z'}};
+const model=documentModel(hit,'ru');assert.equal(model.language,'DE');assert.equal(model.confidence,'low');assert.equal(model.title,hit.record.title.de);assert.ok(model.originalLabel.includes('оригинала'));assert.ok(model.checked.includes('2026'));assert.equal(evidenceTime('garbage'),null);
+for(const url of ['javascript:alert(1)','data:text/html,malicious','http://www.oberriet.ch/','https://user:pass@www.oberriet.ch/'])assert.equal(externalURL(url),null);
+assert.equal(documentModel({...hit,type:'services'}),null);assert.equal(documentModel({...hit,record:{...hit.record,source_url:'javascript:alert(1)'}}),null);
+// A DOM contract double rejects every HTML setter: the renderer must use only textContent.
+class Node{constructor(tag){this.tag=tag;this.children=[];this.attributes={};}set innerHTML(_){throw Error('Unsafe HTML rendering');}append(...nodes){this.children.push(...nodes);}setAttribute(k,v){this.attributes[k]=v;}}
+const doc={createElement:tag=>new Node(tag)};const section=renderTrustedDocuments([hit],'ru',doc);assert.equal(section.tag,'section');assert.ok(section.attributes['aria-label'].includes('источниках'));
+const flatten=node=>[node,...node.children.flatMap(flatten)];const nodes=flatten(section),anchors=nodes.filter(n=>n.tag==='a');assert.equal(anchors.length,2);assert.ok(anchors.every(a=>a.href===hit.record.source_url));assert.ok(!anchors.some(a=>a.href.includes('/services/')));assert.ok(nodes.some(n=>n.textContent===hit.record.description_short.de));assert.ok(nodes.some(n=>n.textContent===model.staleLabel));assert.equal(renderTrustedDocuments([], 'de',doc),null);
+const fresh=renderTrustedDocuments([{...hit,evidence:{...hit.evidence,stale:false,confidence:'medium'}}],'en',doc);assert.ok(!flatten(fresh).some(n=>n.textContent==='Current confirmation is missing'));
+console.log('PASS trusted document DOM: original language, confidence/time, safe text and external-only links');

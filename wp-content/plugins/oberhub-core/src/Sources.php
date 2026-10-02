@@ -5,6 +5,7 @@ final class Sources {
     public static function boot(): void {
         add_filter('cron_schedules',function($s){$s['oh_ten_minutes']=['interval'=>600,'display'=>'OberHub source refresh'];return $s;});
         add_action('init',function(){if(!wp_next_scheduled('oh_freshness'))wp_schedule_event(time()+120,'oh_ten_minutes','oh_freshness');});
+        add_action('admin_post_oh_ingestion',[self::class,'configure_ingestion']);add_action('admin_notices',[self::class,'ingestion_controls']);
         add_action('oh_freshness',fn()=>self::check_links(8,false));add_action('oh_daily',[self::class,'check']);
         add_action('oh_source_revalidate',function($id){$posts=get_posts(['post_type'=>'oh_source','post_status'=>'publish','meta_key'=>'_oh_id','meta_value'=>$id,'numberposts'=>1]);if($posts)self::refresh($posts[0]->ID,get_post_meta($posts[0]->ID,'_oh_record',true));},10,1);
     }
@@ -31,6 +32,20 @@ final class Sources {
     public static function approve_host(string $host):bool {
         $host=strtolower(trim($host));if(!current_user_can('manage_options')||!self::publicHost($host))return false;
         $approved=get_option('oh_approved_source_hosts',[]);$approved=is_array($approved)?$approved:[];$approved[]=$host;update_option('oh_approved_source_hosts',array_values(array_unique($approved)),false);return true;
+    }
+    public static function ingestion_controls():void {
+        if(!current_user_can('manage_options')||($_GET['page']??'')!=='oberhub')return;
+        echo '<div class="notice notice-info"><h2>Trusted document ingestion · explicit opt-in</h2><p>Select up to three editorially checked public sources. Metadata mode stores titles and links. Short excerpts need a documented permission/reuse basis. Robots, same-host paths and fetch limits still apply.</p><form method="post" action="'.esc_url(admin_url('admin-post.php')).'"><input type="hidden" name="action" value="oh_ingestion">';wp_nonce_field('oh_ingestion');
+        echo '<label>Verified source roots <select name="source_ids[]" multiple required size="4">';foreach(records('source') as $row){if(($row['review_status']??'')!=='checked'||!self::allowed($row['source_url']??''))continue;echo '<option value="'.esc_attr($row['source_id']).'">'.esc_html($row['source_url']).'</option>';}
+        echo '</select></label><p><label>Permission / reuse basis <input name="reuse_note" required maxlength="1000" style="width:65%" placeholder="Public titles, URLs and source dates only; no copied body text"></label></p><p><label><input type="checkbox" name="allow_excerpts" value="1"> Allow bounded excerpts on the stated permission basis</label></p><p><button class="button" name="enable" value="1">Enable selected roots</button> <button class="button" name="enable" value="0">Disable selected roots</button></p></form></div>';
+    }
+    public static function configure_ingestion():void {
+        if(!current_user_can('manage_options'))wp_die('Forbidden','',['response'=>403]);check_admin_referer('oh_ingestion');
+        $ids=array_values(array_unique(array_map('sanitize_key',(array)($_POST['source_ids']??[]))));$note=sanitize_text_field(wp_unslash($_POST['reuse_note']??''));if(!$ids||count($ids)>3||strlen($note)<10||strlen($note)>1000)wp_die('Choose 1–3 roots and supply the reuse basis.');
+        $policies=get_option('oh_ingestion_policies',[]);foreach($ids as $id){$posts=get_posts(['post_type'=>'oh_source','post_status'=>'publish','meta_key'=>'_oh_id','meta_value'=>$id,'numberposts'=>1]);if(!$posts)continue;$row=get_post_meta($posts[0]->ID,'_oh_record',true);if(((string)($_POST['enable']??'0')==='1'&&($row['review_status']??'')!=='checked')||!self::allowed($row['source_url']??''))continue;$path=wp_parse_url($row['source_url'],PHP_URL_PATH)?:'/';
+            $policies[$id]=['index_for_ai'=>(string)($_POST['enable']??'0')==='1','metadata_only'=>empty($_POST['allow_excerpts']),'license_or_reuse_note'=>$note,'contains_personal_data_risk'=>false,'allow_paths'=>[$path],'deny_paths'=>['/wp-admin','/wp-login','/login','/account'],'crawl_depth'=>1,'fetch_mode'=>$row['fetch_mode']??'html'];$row['ingested_at']=null;update_post_meta($posts[0]->ID,'_oh_record',$row);
+            if($policies[$id]['index_for_ai']&&!wp_next_scheduled('oh_source_revalidate',[$id]))wp_schedule_single_event(time()+10,'oh_source_revalidate',[$id]);
+        }update_option('oh_ingestion_policies',$policies,false);wp_safe_redirect(admin_url('admin.php?page=oberhub'));exit;
     }
     public static function validate_record($row,string $type): string {
         if (!is_array($row)) { return 'Record must be a JSON object.'; }
@@ -113,12 +128,13 @@ final class Sources {
     }
     private static function request(string $url,array $headers=[]){return wp_safe_remote_get($url,['timeout'=>6,'redirection'=>0,'limit_response_size'=>300001,'headers'=>$headers,'user-agent'=>'OberrietHub/0.2 (+public civic source freshness; no authentication)']);}
     public static function refresh(int $pid,array $source,bool $ingest=true):bool {
+        $policy=get_option('oh_ingestion_policies',[]);if(isset($policy[$source['source_id']??'']))$source=array_replace($source,$policy[$source['source_id']]);
         $url=$source['source_url']??'';if(!self::allowed($url)||(int)($source['retry_at']??0)>time())return false;
         $lock='oh_refresh_lock_'.substr(hash('sha256',$url),0,24);if(get_transient($lock)||!self::domainPermit($url,$source))return false;set_transient($lock,1,30);
-        try{$headers=[];if(!empty($source['etag']))$headers['If-None-Match']=$source['etag'];if(!empty($source['last_modified']))$headers['If-Modified-Since']=$source['last_modified'];
+        try{$headers=[];$firstIngest=$ingest&&!empty($source['index_for_ai'])&&empty($source['ingested_at']);if(!$firstIngest&&!empty($source['etag']))$headers['If-None-Match']=$source['etag'];if(!$firstIngest&&!empty($source['last_modified']))$headers['If-Modified-Since']=$source['last_modified'];
             $response=self::request($url,$headers);$result=self::apply_response($source,$response);update_post_meta($pid,'_oh_record',$result);
             if($ingest&&($result['http_status']??0)===200&&($result['fetch_status']??'')==='ok'&&SourceIngestion::permitted($result,$url)&&self::robots($url,$result)){
-                $mode=$result['fetch_mode']??'html';$body=wp_remote_retrieve_body($response);if($mode!=='sitemap')SourceIngestion::ingest($result,$url,$body,$mode);
+                $mode=$result['fetch_mode']??'html';$body=wp_remote_retrieve_body($response);if($mode!=='sitemap')SourceIngestion::ingest($result,$url,$body,$mode);$result['ingested_at']=gmdate('c');update_post_meta($pid,'_oh_record',$result);
                 $pending=SourceIngestion::discover($body,$mode,$url,$result,20);$old=get_option('oh_ingestion_queue',[]);foreach($pending as $child)$old[$child]=['source_id'=>$result['source_id'],'url'=>$child,'depth'=>1];update_option('oh_ingestion_queue',array_slice($old,0,300,true),false);
             }
         }finally{delete_transient($lock);}if($ingest)self::process_queue(1);return true;
@@ -137,7 +153,7 @@ final class Sources {
         return $cache['allowed']&&SourceIngestion::robotsAllowed($cache['body'],$url);
     }
     public static function process_queue(int $limit=2):int {
-        $queue=get_option('oh_ingestion_queue',[]);$n=0;foreach($queue as $url=>$item){if((int)($item['retry_at']??0)>time())continue;if($n>=max(1,min(5,$limit)))break;$posts=get_posts(['post_type'=>'oh_source','post_status'=>'publish','meta_key'=>'_oh_id','meta_value'=>$item['source_id'],'numberposts'=>1]);if(!$posts){unset($queue[$url]);continue;}$root=get_post_meta($posts[0]->ID,'_oh_record',true);
+        $queue=get_option('oh_ingestion_queue',[]);$n=0;foreach($queue as $url=>$item){if((int)($item['retry_at']??0)>time())continue;if($n>=max(1,min(5,$limit)))break;$posts=get_posts(['post_type'=>'oh_source','post_status'=>'publish','meta_key'=>'_oh_id','meta_value'=>$item['source_id'],'numberposts'=>1]);if(!$posts){unset($queue[$url]);continue;}$root=get_post_meta($posts[0]->ID,'_oh_record',true);$policies=get_option('oh_ingestion_policies',[]);if(isset($policies[$item['source_id']]))$root=array_replace($root,$policies[$item['source_id']]);
             if(!SourceIngestion::permitted($root,$url)||!self::robots($url,$root)){unset($queue[$url]);continue;}if(!self::domainPermit($url,$root))continue;$r=self::request($url);$n++;if(!is_wp_error($r)&&wp_remote_retrieve_response_code($r)===200&&strlen(wp_remote_retrieve_body($r))<=300000){$path=wp_parse_url($url,PHP_URL_PATH)??'';$mode=str_ends_with(strtolower($path),'.pdf')?'pdf':(str_ends_with(strtolower($path),'.xml')?'sitemap':'html');if($mode!=='sitemap')SourceIngestion::ingest($root,$url,wp_remote_retrieve_body($r),$mode);
                 if($mode==='sitemap'&&(int)$item['depth']<max(1,min(2,(int)($root['crawl_depth']??1))))foreach(SourceIngestion::discover(wp_remote_retrieve_body($r),$mode,$url,$root,20) as $child)$queue[$child]=['source_id'=>$item['source_id'],'url'=>$child,'depth'=>$item['depth']+1];unset($queue[$url]);
             }else{$item['attempts']=(int)($item['attempts']??0)+1;$item['retry_at']=time()+min(86400,300*2**min(8,$item['attempts']));if($item['attempts']>=5)unset($queue[$url]);else $queue[$url]=$item;}
