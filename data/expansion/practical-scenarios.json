@@ -1,14 +1,324 @@
 [
- {"id":"practical-job-loss","path":"arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html","topic":"work","title":{"de":"Arbeitsstelle verloren: RAV und Arbeitslosenkasse","en":"Lost your job: RAV and unemployment fund","uk":"Втрата роботи: RAV та каса безробіття","ru":"Потеря работы: RAV и касса безработицы"},"summary":{"de":"Melden Sie sich bereits während der Kündigungsfrist beim RAV und dokumentieren Sie Bewerbungen. Die gewählte Arbeitslosenkasse prüft den Leistungsanspruch.","en":"Register with RAV during your notice period and keep application records. Your chosen unemployment fund assesses entitlement to payments.","uk":"Зареєструйтеся в RAV ще протягом строку попередження та зберігайте докази заявок. Право на виплати перевіряє обрана каса безробіття.","ru":"Зарегистрируйтесь в RAV ещё в период предупреждения и сохраняйте доказательства заявок. Право на выплаты проверяет выбранная касса безработицы."},"synonyms":["меня уволили","потерял работу","я безработный","мене звільнили","втратив роботу","lost my job","made redundant","gekündigt worden","arbeitslos melden"]},
- {"id":"practical-kulturlegi","path":"arbeit-finanzen/leben-mit-wenig-geld.html","topic":"family","title":{"de":"KulturLegi beantragen","en":"Apply for KulturLegi discounts","uk":"Оформити знижки KulturLegi","ru":"Оформить скидки KulturLegi"},"summary":{"de":"Bei tiefem Einkommen bietet KulturLegi Vergünstigungen. Antrag online oder Beratung bei Sozialfachstellen; Bedingungen des Anbieters prüfen.","en":"KulturLegi offers discounts for people on low incomes. Apply online or ask a social advice service; check eligibility with the provider.","uk":"KulturLegi надає знижки людям із низьким доходом. Подайте заяву онлайн або зверніться до соціальної консультації; перевірте умови.","ru":"KulturLegi предоставляет скидки людям с низким доходом. Подайте заявление онлайн или обратитесь в социальную консультацию; проверьте условия."},"synonyms":["культурлеги","знижки малозабезпеченим","скидки малоимущим","Kultur Legi","discount card low income"]},
- {"id":"practical-secondhand","path":"arbeit-finanzen/leben-mit-wenig-geld.html","topic":"administration","title":{"de":"Günstige Möbel und Haushaltsartikel","en":"Affordable furniture and household items","uk":"Недорогі меблі та побутові речі","ru":"Недорогая мебель и бытовые вещи"},"summary":{"de":"Brockis verkaufen gebrauchte Möbel und Haushaltsartikel. Das kantonale Informationsportal verlinkt Verzeichnisse; Bestand und Preise direkt erfragen.","en":"Secondhand shops sell used furniture and household items. The cantonal portal links directories; ask each shop about stock and prices.","uk":"У крамницях уживаних речей продають меблі та побутові предмети. Кантональний портал містить каталоги; наявність і ціни уточніть у магазині.","ru":"В магазинах подержанных вещей продают мебель и бытовые предметы. Кантональный портал содержит каталоги; наличие и цены уточните в магазине."},"synonyms":["где взять мебель","дешёвая мебель","безкоштовні меблі","де купити меблі","secondhand furniture","cheap furniture","Brocki Möbel","Brockenhaus"]},
- {"id":"practical-repair","path":"arbeit-finanzen/leben-mit-wenig-geld.html","topic":"administration","title":{"de":"Repair-Café: Haushaltsgeräte reparieren","en":"Repair Café: repair household devices","uk":"Repair Café: ремонт побутових пристроїв","ru":"Repair Café: ремонт бытовых устройств"},"summary":{"de":"Repair-Cafés helfen bei defekten Alltagsgegenständen und Elektronik. Das kantonale Portal verlinkt die Suche; Öffnungstage und Reparierbarkeit vorab prüfen.","en":"Repair Cafés help with broken household objects and electronics. Use the directory linked by the cantonal portal; check dates and repair feasibility.","uk":"Repair Café допомагають ремонтувати побутові речі та електроніку. Скористайтеся каталогом кантонального порталу; перевірте дати та можливість ремонту.","ru":"Repair Café помогают ремонтировать бытовые вещи и электронику. Воспользуйтесь каталогом кантонального портала; проверьте даты и возможность ремонта."},"synonyms":["сломался чайник","ремонт электроники","ремонт техніки","repair broken electronics","kaputtes Gerät reparieren","ремонт бесплатно"]},
- {"id":"practical-rental-search","path":"zusammenleben/wohnen/wohnung-finden.html","topic":"administration","title":{"de":"Mietwohnung suchen","en":"Find a rental home","uk":"Знайти орендоване житло","ru":"Найти жильё в аренду"},"summary":{"de":"Suchen Sie über Wohnungsportale, Verwaltungen und Genossenschaften. Vereinbaren Sie Besichtigungen; bei Haustieren vor Vertragsabschluss die Zulassung klären.","en":"Search housing portals, property managers and cooperatives. Arrange viewings; confirm permission for pets before signing a rental agreement.","uk":"Шукайте через житлові портали, керуючі компанії та кооперативи. Домовляйтеся про огляд; дозвіл на тварин уточніть до підписання договору.","ru":"Ищите через жилищные порталы, управляющие компании и кооперативы. Договаривайтесь о просмотре; разрешение на животных уточните до подписания договора."},"synonyms":["нужна квартира","ищу квартиру","снять жильё","шукаю квартиру","потрібне житло","find apartment","Wohnung gesucht"]},
- {"id":"practical-rental-application","path":"zusammenleben/wohnen/wohnung-mieten.html","topic":"administration","title":{"de":"Unterlagen für die Wohnungsbewerbung","en":"Documents for a rental application","uk":"Документи для заявки на оренду","ru":"Документы для заявки на аренду"},"summary":{"de":"Vermieter verlangen meist Bewerbungsformular und Betreibungsregisterauszug. Angaben zu Einkommen, Arbeitgeber, Haushalt und Aufenthalt wahrheitsgetreu vorbereiten; konkrete Anforderungen erfragen.","en":"Landlords commonly request an application form and debt enforcement extract. Prepare accurate income, employer, household and residence details; ask for the exact requirements.","uk":"Орендодавці зазвичай просять анкету та витяг про стягнення боргів. Підготуйте правдиві дані про дохід, роботодавця, сім’ю та проживання; уточніть вимоги.","ru":"Арендодатели обычно просят анкету и выписку о взыскании долгов. Подготовьте правдивые данные о доходе, работодателе, семье и проживании; уточните требования."},"synonyms":["документы для квартиры","заявка на квартиру","документи для оренди","rental application documents","Wohnungsbewerbung Unterlagen"]},
- {"id":"practical-rental-dispute","path":"zusammenleben/wohnen/wohnung-mieten.html","topic":"administration","title":{"de":"Streit mit der Vermieterschaft","en":"Dispute with your landlord","uk":"Спір з орендодавцем","ru":"Спор с арендодателем"},"summary":{"de":"Für Mietstreitigkeiten ist die Schlichtungsstelle am Ort der Mietwohnung zuständig. Sammeln Sie Vertrag, Schreiben und Belege; aktuelle Einreichungsregeln dort prüfen.","en":"Rental disputes go to the conciliation authority where the home is located. Collect the contract, correspondence and evidence; check current filing instructions there.","uk":"Орендні спори розглядає примирювальна служба за місцем житла. Зберіть договір, листування й докази; перевірте порядок подання.","ru":"Арендные споры рассматривает примирительная служба по месту жилья. Соберите договор, переписку и доказательства; проверьте порядок подачи."},"synonyms":["арендодатель не ремонтирует","хозяин квартиры спор","орендодавець не ремонтує","landlord dispute","Mietstreit","Schlichtung Miete"]},
- {"id":"practical-german-courses","path":"deutsch-lernen/sprachkurse.html","topic":"education","title":{"de":"Deutschkurse und finanzielle Unterstützung","en":"German courses and financial support","uk":"Курси німецької та фінансова підтримка","ru":"Курсы немецкого и финансовая поддержка"},"summary":{"de":"Das kantonale Portal verlinkt die Deutschkurssuche. Erkundigen Sie sich beim Kursanbieter nach einkommensabhängigen Vergünstigungen; Personen mit Status S werden über das Sozialamt zugewiesen.","en":"The cantonal portal links a German course finder. Ask the provider about income-related subsidies; people with S status are assigned courses through their municipal social service.","uk":"Кантональний портал містить пошук курсів німецької. Запитайте організатора про підтримку залежно від доходу; людей зі статусом S направляє соціальна служба громади.","ru":"Кантональный портал содержит поиск курсов немецкого. Спросите организатора о поддержке в зависимости от дохода; людей со статусом S направляет социальная служба общины."},"synonyms":["где учить немецкий","бесплатные курсы немецкого","німецька безкоштовно","курси A1 A2","German course subsidy","Deutschkurs finanzieren"]},
- {"id":"practical-legal-advice","path":"beratung-kontakte/rechtsauskuenfte.html","topic":"administration","title":{"de":"Kostenlose Rechtsauskunft im Rheintal","en":"Free initial legal advice in the Rheintal","uk":"Безкоштовна первинна юридична консультація в Райнталі","ru":"Бесплатная первичная юридическая консультация в Райнтале"},"summary":{"de":"Der Kanton bietet kostenlose Rechtsauskunft unter anderem in Altstätten und Buchs. Prüfen Sie aktuelle Zeiten; laut Portal ohne Anmeldung, mögliche Wartezeiten einplanen.","en":"The canton offers free legal advice, including in Altstätten and Buchs. Check current sessions; the portal says no appointment is required and waiting times are possible.","uk":"Кантон пропонує безкоштовні юридичні консультації, зокрема в Altstätten і Buchs. Перевірте актуальні години; портал зазначає прийом без запису та можливе очікування.","ru":"Кантон предлагает бесплатные юридические консультации, в том числе в Altstätten и Buchs. Проверьте актуальные часы; портал указывает приём без записи и возможное ожидание."},"synonyms":["нужен юрист","бесплатный адвокат","скарга на громаду","жалоба на Gemeinde","потрібен адвокат","free lawyer advice","Rechtsauskunft kostenlos"]},
- {"id":"practical-dentist","path":"gesundheit/medizinische-hilfe.html","topic":"health","title":{"de":"Zahnarzt und Kostengutsprache","en":"Dentist and approval of treatment costs","uk":"Стоматолог та погодження оплати лікування","ru":"Стоматолог и согласование оплаты лечения"},"summary":{"de":"Zahnbehandlungen werden normalerweise selbst bezahlt. Geflüchtete sollen vor notwendiger Behandlung beim Sozialamt eine Kostengutsprache klären. Für dringende Beschwerden den zahnärztlichen Notfalldienst nutzen.","en":"Dental treatment is usually paid privately. Refugees should ask their social service about approval before necessary treatment. For urgent symptoms use the dental emergency service.","uk":"Стоматологію зазвичай оплачують самостійно. Біженцям слід погодити необхідне лікування із соціальною службою заздалегідь. При термінових симптомах зверніться до чергового стоматолога.","ru":"Стоматологию обычно оплачивают самостоятельно. Беженцам следует согласовать необходимое лечение с социальной службой заранее. При срочных симптомах обратитесь к дежурному стоматологу."},"synonyms":["болит зуб","зубной врач","стоматолог","зуб болить","toothache","need dentist","Zahnschmerzen"]},
- {"id":"practical-debt-advice","path":"arbeit-finanzen/schulden-budget.html","topic":"administration","title":{"de":"Rechnungen nicht zahlbar: Schuldenberatung","en":"Cannot pay bills: debt advice","uk":"Не можу оплатити рахунки: консультація щодо боргів","ru":"Не могу оплатить счета: консультация по долгам"},"summary":{"de":"Wenn Rechnungen nicht mehr bezahlt werden können, frühzeitig Beratung suchen. Caritas bietet im Kanton kostenlose Sozial- und Schuldenberatung; über das Portal einen Standort und Termin finden.","en":"Seek advice early if you cannot pay bills. Caritas provides free social and debt advice in the canton; use the portal to find a location and arrange an appointment.","uk":"Якщо не можете оплатити рахунки, зверніться по допомогу завчасно. Caritas надає безкоштовні соціальні й боргові консультації; через портал знайдіть відділення та домовтеся про прийом.","ru":"Если не можете оплатить счета, обратитесь за помощью заранее. Caritas предоставляет бесплатные социальные и долговые консультации; через портал найдите отделение и договоритесь о приёме."},"synonyms":["нет денег оплатить счёт","долги","не можу сплатити рахунок","борги","cannot pay bills","Schulden Hilfe"]},
- {"id":"practical-self-employment","path":"arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html","topic":"work","title":{"de":"Selbständigkeit: Anerkennung durch SVA","en":"Self-employment: assessment by SVA","uk":"Самозайнятість: визначення статусу SVA","ru":"Самозанятость: определение статуса SVA"},"summary":{"de":"Klären Sie die sozialversicherungsrechtliche Anerkennung Ihrer Selbständigkeit mit SVA St.Gallen. Aufenthaltsrechtliche Anforderungen und aktuelle Meldeverfahren zusätzlich bei der kantonalen Migrations- oder Arbeitsmarktbehörde prüfen.","en":"Ask SVA St.Gallen to assess self-employed status for social insurance. Separately check residence-related conditions and current notification procedures with the cantonal migration or labour authority.","uk":"Уточніть у SVA St.Gallen статус самозайнятого для соціального страхування. Окремо перевірте умови проживання й актуальну процедуру повідомлення в кантональній міграційній або трудовій службі.","ru":"Уточните в SVA St.Gallen статус самозанятого для социального страхования. Отдельно проверьте условия проживания и актуальную процедуру уведомления в кантональной миграционной или трудовой службе."},"synonyms":["хочу открыть фирму","фриланс","ФОП Швейцария","самозайнятість статус S","self employed status S","Selbständig machen"]}
+  {
+    "id": "practical-job-loss",
+    "path": "arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+    "topic": "work",
+    "title": {
+      "de": "Arbeitsstelle verloren: RAV und Arbeitslosenkasse",
+      "en": "Lost your job: RAV and unemployment fund",
+      "uk": "Втрата роботи: RAV та каса безробіття",
+      "ru": "Потеря работы: RAV и касса безработицы"
+    },
+    "summary": {
+      "de": "Melden Sie sich bereits während der Kündigungsfrist beim RAV und dokumentieren Sie Bewerbungen. Die gewählte Arbeitslosenkasse prüft den Leistungsanspruch.",
+      "en": "Register with RAV during your notice period and keep application records. Your chosen unemployment fund assesses entitlement to payments.",
+      "uk": "Зареєструйтеся в RAV ще протягом строку попередження та зберігайте докази заявок. Право на виплати перевіряє обрана каса безробіття.",
+      "ru": "Зарегистрируйтесь в RAV ещё в период предупреждения и сохраняйте доказательства заявок. Право на выплаты проверяет выбранная касса безработицы."
+    },
+    "synonyms": [
+      "меня уволили",
+      "потерял работу",
+      "я безработный",
+      "мене звільнили",
+      "втратив роботу",
+      "lost my job",
+      "made redundant",
+      "gekündigt worden",
+      "arbeitslos melden"
+    ]
+  },
+  {
+    "id": "practical-kulturlegi",
+    "path": "arbeit-finanzen/leben-mit-wenig-geld.html",
+    "topic": "family",
+    "title": {
+      "de": "KulturLegi beantragen",
+      "en": "Apply for KulturLegi discounts",
+      "uk": "Оформити знижки KulturLegi",
+      "ru": "Оформить скидки KulturLegi"
+    },
+    "summary": {
+      "de": "Bei tiefem Einkommen bietet KulturLegi Vergünstigungen. Antrag online oder Beratung bei Sozialfachstellen; Bedingungen des Anbieters prüfen.",
+      "en": "KulturLegi offers discounts for people on low incomes. Apply online or ask a social advice service; check eligibility with the provider.",
+      "uk": "KulturLegi надає знижки людям із низьким доходом. Подайте заяву онлайн або зверніться до соціальної консультації; перевірте умови.",
+      "ru": "KulturLegi предоставляет скидки людям с низким доходом. Подайте заявление онлайн или обратитесь в социальную консультацию; проверьте условия."
+    },
+    "synonyms": [
+      "культурлеги",
+      "знижки малозабезпеченим",
+      "скидки малоимущим",
+      "Kultur Legi",
+      "discount card low income"
+    ]
+  },
+  {
+    "id": "practical-secondhand",
+    "path": "arbeit-finanzen/leben-mit-wenig-geld.html",
+    "topic": "administration",
+    "title": {
+      "de": "Günstige Möbel und Haushaltsartikel",
+      "en": "Affordable furniture and household items",
+      "uk": "Недорогі меблі та побутові речі",
+      "ru": "Недорогая мебель и бытовые вещи"
+    },
+    "summary": {
+      "de": "Brockis verkaufen gebrauchte Möbel und Haushaltsartikel. Das kantonale Informationsportal verlinkt Verzeichnisse; Bestand und Preise direkt erfragen.",
+      "en": "Secondhand shops sell used furniture and household items. The cantonal portal links directories; ask each shop about stock and prices.",
+      "uk": "У крамницях уживаних речей продають меблі та побутові предмети. Кантональний портал містить каталоги; наявність і ціни уточніть у магазині.",
+      "ru": "В магазинах подержанных вещей продают мебель и бытовые предметы. Кантональный портал содержит каталоги; наличие и цены уточните в магазине."
+    },
+    "synonyms": [
+      "где взять мебель",
+      "дешёвая мебель",
+      "безкоштовні меблі",
+      "де купити меблі",
+      "secondhand furniture",
+      "cheap furniture",
+      "Brocki Möbel",
+      "Brockenhaus"
+    ]
+  },
+  {
+    "id": "practical-repair",
+    "path": "arbeit-finanzen/leben-mit-wenig-geld.html",
+    "topic": "administration",
+    "title": {
+      "de": "Repair-Café: Haushaltsgeräte reparieren",
+      "en": "Repair Café: repair household devices",
+      "uk": "Repair Café: ремонт побутових пристроїв",
+      "ru": "Repair Café: ремонт бытовых устройств"
+    },
+    "summary": {
+      "de": "Repair-Cafés helfen bei defekten Alltagsgegenständen und Elektronik. Das kantonale Portal verlinkt die Suche; Öffnungstage und Reparierbarkeit vorab prüfen.",
+      "en": "Repair Cafés help with broken household objects and electronics. Use the directory linked by the cantonal portal; check dates and repair feasibility.",
+      "uk": "Repair Café допомагають ремонтувати побутові речі та електроніку. Скористайтеся каталогом кантонального порталу; перевірте дати та можливість ремонту.",
+      "ru": "Repair Café помогают ремонтировать бытовые вещи и электронику. Воспользуйтесь каталогом кантонального портала; проверьте даты и возможность ремонта."
+    },
+    "synonyms": [
+      "сломался чайник",
+      "ремонт электроники",
+      "ремонт техніки",
+      "repair broken electronics",
+      "kaputtes Gerät reparieren",
+      "ремонт бесплатно"
+    ]
+  },
+  {
+    "id": "practical-rental-search",
+    "path": "zusammenleben/wohnen/wohnung-finden.html",
+    "topic": "administration",
+    "title": {
+      "de": "Mietwohnung suchen",
+      "en": "Find a rental home",
+      "uk": "Знайти орендоване житло",
+      "ru": "Найти жильё в аренду"
+    },
+    "summary": {
+      "de": "Suchen Sie über Wohnungsportale, Verwaltungen und Genossenschaften. Vereinbaren Sie Besichtigungen; bei Haustieren vor Vertragsabschluss die Zulassung klären.",
+      "en": "Search housing portals, property managers and cooperatives. Arrange viewings; confirm permission for pets before signing a rental agreement.",
+      "uk": "Шукайте через житлові портали, керуючі компанії та кооперативи. Домовляйтеся про огляд; дозвіл на тварин уточніть до підписання договору.",
+      "ru": "Ищите через жилищные порталы, управляющие компании и кооперативы. Договаривайтесь о просмотре; разрешение на животных уточните до подписания договора."
+    },
+    "synonyms": [
+      "нужна квартира",
+      "ищу квартиру",
+      "снять жильё",
+      "шукаю квартиру",
+      "потрібне житло",
+      "find apartment",
+      "Wohnung gesucht"
+    ]
+  },
+  {
+    "id": "practical-rental-application",
+    "path": "zusammenleben/wohnen/wohnung-mieten.html",
+    "topic": "administration",
+    "title": {
+      "de": "Unterlagen für die Wohnungsbewerbung",
+      "en": "Documents for a rental application",
+      "uk": "Документи для заявки на оренду",
+      "ru": "Документы для заявки на аренду"
+    },
+    "summary": {
+      "de": "Vermieter verlangen meist Bewerbungsformular und Betreibungsregisterauszug. Angaben zu Einkommen, Arbeitgeber, Haushalt und Aufenthalt wahrheitsgetreu vorbereiten; konkrete Anforderungen erfragen.",
+      "en": "Landlords commonly request an application form and debt enforcement extract. Prepare accurate income, employer, household and residence details; ask for the exact requirements.",
+      "uk": "Орендодавці зазвичай просять анкету та витяг про стягнення боргів. Підготуйте правдиві дані про дохід, роботодавця, сім’ю та проживання; уточніть вимоги.",
+      "ru": "Арендодатели обычно просят анкету и выписку о взыскании долгов. Подготовьте правдивые данные о доходе, работодателе, семье и проживании; уточните требования."
+    },
+    "synonyms": [
+      "документы для квартиры",
+      "заявка на квартиру",
+      "документи для оренди",
+      "rental application documents",
+      "Wohnungsbewerbung Unterlagen"
+    ]
+  },
+  {
+    "id": "practical-rental-dispute",
+    "path": "zusammenleben/wohnen/wohnung-mieten.html",
+    "topic": "administration",
+    "title": {
+      "de": "Streit mit der Vermieterschaft",
+      "en": "Dispute with your landlord",
+      "uk": "Спір з орендодавцем",
+      "ru": "Спор с арендодателем"
+    },
+    "summary": {
+      "de": "Für Mietstreitigkeiten ist die Schlichtungsstelle am Ort der Mietwohnung zuständig. Sammeln Sie Vertrag, Schreiben und Belege; aktuelle Einreichungsregeln dort prüfen.",
+      "en": "Rental disputes go to the conciliation authority where the home is located. Collect the contract, correspondence and evidence; check current filing instructions there.",
+      "uk": "Орендні спори розглядає примирювальна служба за місцем житла. Зберіть договір, листування й докази; перевірте порядок подання.",
+      "ru": "Арендные споры рассматривает примирительная служба по месту жилья. Соберите договор, переписку и доказательства; проверьте порядок подачи."
+    },
+    "synonyms": [
+      "арендодатель не ремонтирует",
+      "хозяин квартиры спор",
+      "орендодавець не ремонтує",
+      "landlord dispute",
+      "Mietstreit",
+      "Schlichtung Miete"
+    ]
+  },
+  {
+    "id": "practical-german-courses",
+    "path": "deutsch-lernen/sprachkurse.html",
+    "topic": "education",
+    "title": {
+      "de": "Deutschkurse und finanzielle Unterstützung",
+      "en": "German courses and financial support",
+      "uk": "Курси німецької та фінансова підтримка",
+      "ru": "Курсы немецкого и финансовая поддержка"
+    },
+    "summary": {
+      "de": "Das kantonale Portal verlinkt die Deutschkurssuche. Erkundigen Sie sich beim Kursanbieter nach einkommensabhängigen Vergünstigungen; Personen mit Status S werden über das Sozialamt zugewiesen.",
+      "en": "The cantonal portal links a German course finder. Ask the provider about income-related subsidies; people with S status are assigned courses through their municipal social service.",
+      "uk": "Кантональний портал містить пошук курсів німецької. Запитайте організатора про підтримку залежно від доходу; людей зі статусом S направляє соціальна служба громади.",
+      "ru": "Кантональный портал содержит поиск курсов немецкого. Спросите организатора о поддержке в зависимости от дохода; людей со статусом S направляет социальная служба общины."
+    },
+    "synonyms": [
+      "где учить немецкий",
+      "бесплатные курсы немецкого",
+      "німецька безкоштовно",
+      "курси A1 A2",
+      "German course subsidy",
+      "Deutschkurs finanzieren"
+    ]
+  },
+  {
+    "id": "practical-legal-advice",
+    "path": "beratung-kontakte/rechtsauskuenfte.html",
+    "topic": "administration",
+    "title": {
+      "de": "Kostenlose Rechtsauskunft im Rheintal",
+      "en": "Free initial legal advice in the Rheintal",
+      "uk": "Безкоштовна первинна юридична консультація в Райнталі",
+      "ru": "Бесплатная первичная юридическая консультация в Райнтале"
+    },
+    "summary": {
+      "de": "Der Kanton bietet kostenlose Rechtsauskunft unter anderem in Altstätten und Buchs. Prüfen Sie aktuelle Zeiten; laut Portal ohne Anmeldung, mögliche Wartezeiten einplanen.",
+      "en": "The canton offers free legal advice, including in Altstätten and Buchs. Check current sessions; the portal says no appointment is required and waiting times are possible.",
+      "uk": "Кантон пропонує безкоштовні юридичні консультації, зокрема в Altstätten і Buchs. Перевірте актуальні години; портал зазначає прийом без запису та можливе очікування.",
+      "ru": "Кантон предлагает бесплатные юридические консультации, в том числе в Altstätten и Buchs. Проверьте актуальные часы; портал указывает приём без записи и возможное ожидание."
+    },
+    "synonyms": [
+      "нужен юрист",
+      "бесплатный адвокат",
+      "скарга на громаду",
+      "жалоба на Gemeinde",
+      "потрібен адвокат",
+      "free lawyer advice",
+      "Rechtsauskunft kostenlos"
+    ],
+    "description_short": {
+      "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+      "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+      "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+    },
+    "description_full": {
+      "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+      "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+      "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+    },
+    "content_review_sources": [
+      "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html"
+    ],
+    "content_reviewed_at": "2026-10-02"
+  },
+  {
+    "id": "practical-dentist",
+    "path": "gesundheit/medizinische-hilfe.html",
+    "topic": "health",
+    "title": {
+      "de": "Zahnarzt und Kostengutsprache",
+      "en": "Dentist and approval of treatment costs",
+      "uk": "Стоматолог та погодження оплати лікування",
+      "ru": "Стоматолог и согласование оплаты лечения"
+    },
+    "summary": {
+      "de": "Zahnbehandlungen werden normalerweise selbst bezahlt. Geflüchtete sollen vor notwendiger Behandlung beim Sozialamt eine Kostengutsprache klären. Für dringende Beschwerden den zahnärztlichen Notfalldienst nutzen.",
+      "en": "Dental treatment is usually paid privately. Refugees should ask their social service about approval before necessary treatment. For urgent symptoms use the dental emergency service.",
+      "uk": "Стоматологію зазвичай оплачують самостійно. Біженцям слід погодити необхідне лікування із соціальною службою заздалегідь. При термінових симптомах зверніться до чергового стоматолога.",
+      "ru": "Стоматологию обычно оплачивают самостоятельно. Беженцам следует согласовать необходимое лечение с социальной службой заранее. При срочных симптомах обратитесь к дежурному стоматологу."
+    },
+    "synonyms": [
+      "болит зуб",
+      "зубной врач",
+      "стоматолог",
+      "зуб болить",
+      "toothache",
+      "need dentist",
+      "Zahnschmerzen"
+    ]
+  },
+  {
+    "id": "practical-debt-advice",
+    "path": "arbeit-finanzen/schulden-budget.html",
+    "topic": "administration",
+    "title": {
+      "de": "Rechnungen nicht zahlbar: Schuldenberatung",
+      "en": "Cannot pay bills: debt advice",
+      "uk": "Не можу оплатити рахунки: консультація щодо боргів",
+      "ru": "Не могу оплатить счета: консультация по долгам"
+    },
+    "summary": {
+      "de": "Wenn Rechnungen nicht mehr bezahlt werden können, frühzeitig Beratung suchen. Caritas bietet im Kanton kostenlose Sozial- und Schuldenberatung; über das Portal einen Standort und Termin finden.",
+      "en": "Seek advice early if you cannot pay bills. Caritas provides free social and debt advice in the canton; use the portal to find a location and arrange an appointment.",
+      "uk": "Якщо не можете оплатити рахунки, зверніться по допомогу завчасно. Caritas надає безкоштовні соціальні й боргові консультації; через портал знайдіть відділення та домовтеся про прийом.",
+      "ru": "Если не можете оплатить счета, обратитесь за помощью заранее. Caritas предоставляет бесплатные социальные и долговые консультации; через портал найдите отделение и договоритесь о приёме."
+    },
+    "synonyms": [
+      "нет денег оплатить счёт",
+      "долги",
+      "не можу сплатити рахунок",
+      "борги",
+      "cannot pay bills",
+      "Schulden Hilfe"
+    ]
+  },
+  {
+    "id": "practical-self-employment",
+    "path": "arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+    "topic": "work",
+    "title": {
+      "de": "Selbständigkeit: Anerkennung durch SVA",
+      "en": "Self-employment: assessment by SVA",
+      "uk": "Самозайнятість: визначення статусу SVA",
+      "ru": "Самозанятость: определение статуса SVA"
+    },
+    "summary": {
+      "de": "Klären Sie die sozialversicherungsrechtliche Anerkennung Ihrer Selbständigkeit mit SVA St.Gallen. Aufenthaltsrechtliche Anforderungen und aktuelle Meldeverfahren zusätzlich bei der kantonalen Migrations- oder Arbeitsmarktbehörde prüfen.",
+      "en": "Ask SVA St.Gallen to assess self-employed status for social insurance. Separately check residence-related conditions and current notification procedures with the cantonal migration or labour authority.",
+      "uk": "Уточніть у SVA St.Gallen статус самозайнятого для соціального страхування. Окремо перевірте умови проживання й актуальну процедуру повідомлення в кантональній міграційній або трудовій службі.",
+      "ru": "Уточните в SVA St.Gallen статус самозанятого для социального страхования. Отдельно проверьте условия проживания и актуальную процедуру уведомления в кантональной миграционной или трудовой службе."
+    },
+    "synonyms": [
+      "хочу открыть фирму",
+      "фриланс",
+      "ФОП Швейцария",
+      "самозайнятість статус S",
+      "self employed status S",
+      "Selbständig machen"
+    ]
+  }
 ]
