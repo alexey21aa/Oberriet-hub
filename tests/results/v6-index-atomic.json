@@ -1,0 +1,90 @@
+[
+  {
+    "name": "OberHub\\Knowledge preserves old index on begin",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on delete",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on record",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on terms",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on deletions",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on commit",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on empty",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on duplicate",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge preserves old index on engine",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge rejects engine before deletes",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\Knowledge publishes complete replacement",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on begin",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on delete",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on record",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on terms",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on deletions",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on commit",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on empty",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on duplicate",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge preserves old index on engine",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge rejects engine before deletes",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\Knowledge publishes complete replacement",
+    "passed": true
+  }
+]

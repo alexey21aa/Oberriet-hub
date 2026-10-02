@@ -10,7 +10,7 @@
     "test:search": "node tests/search-engine.mjs",
     "test:queue": "node tests/import-queue-unit.mjs",
     "test:local-ai": "node tests/local-ai.mjs",
-    "test:v6": "node tests/v6-search.mjs && node tests/v6-server.mjs && node tests/v6-answer-packs.mjs && node tests/v6-import-api.mjs && node tests/v6-life-search.mjs && node tests/v6-freshness.mjs && node tests/v6-community-search.mjs"
+    "test:v6": "node tests/v6-search.mjs && node tests/v6-server.mjs && node tests/v6-answer-packs.mjs && node tests/v6-import-api.mjs && node tests/v6-life-search.mjs && node tests/v6-freshness.mjs && node tests/v6-community-search.mjs && node tests/v6-index-atomic.mjs"
   },
   "devDependencies": {
     "@wp-playground/cli": "3.1.56",

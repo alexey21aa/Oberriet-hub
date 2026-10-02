@@ -12,9 +12,9 @@ final class Knowledge {
     }
     public static function install(): void {
         global $wpdb;require_once ABSPATH.'wp-admin/includes/upgrade.php';$charset=$wpdb->get_charset_collate();$prefix=$wpdb->prefix.'oh_';
-        dbDelta("CREATE TABLE {$prefix}knowledge (record_key varchar(190) NOT NULL, record_type varchar(24) NOT NULL, record_json longtext NOT NULL, phrases_json longtext NOT NULL, PRIMARY KEY (record_key)) $charset;");
-        dbDelta("CREATE TABLE {$prefix}terms (term varchar(120) NOT NULL, record_key varchar(190) NOT NULL, weight smallint NOT NULL, PRIMARY KEY (term,record_key), KEY record_key (record_key)) $charset;");
-        dbDelta("CREATE TABLE {$prefix}deletions (signature varchar(120) NOT NULL, term varchar(120) NOT NULL, PRIMARY KEY (signature,term)) $charset;");
+        dbDelta("CREATE TABLE {$prefix}knowledge (record_key varchar(190) NOT NULL, record_type varchar(24) NOT NULL, record_json longtext NOT NULL, phrases_json longtext NOT NULL, PRIMARY KEY (record_key)) ENGINE=InnoDB $charset;");
+        dbDelta("CREATE TABLE {$prefix}terms (term varchar(120) NOT NULL, record_key varchar(190) NOT NULL, weight smallint NOT NULL, PRIMARY KEY (term,record_key), KEY record_key (record_key)) ENGINE=InnoDB $charset;");
+        dbDelta("CREATE TABLE {$prefix}deletions (signature varchar(120) NOT NULL, term varchar(120) NOT NULL, PRIMARY KEY (signature,term)) ENGINE=InnoDB $charset;");
         update_option('oh_knowledge_version',self::VERSION,false);
     }
     public static function normalize(string $text): string {
@@ -38,17 +38,27 @@ final class Knowledge {
         global $wpdb;$data['documents']=get_option('oh_documents',[]);$p=$wpdb->prefix.'oh_';$intentMap=[];$terms=[];$count=0;$navigation=[];foreach($data['answers']??[] as $answer){if(!empty($answer['service_id'])&&!empty($answer['kind']))$navigation[$answer['service_id']][$answer['kind']]=$answer['answer'];}$pendingTerms=[];$pendingDeletes=[];
         foreach($data['intents']??[] as $intent){$id=(string)($intent['service_id']??$intent['target_id']??$intent['id']);$intentMap[$id]=array_merge($intentMap[$id]??[],self::values($intent['phrases']??$intent['aliases']??$intent['question']??[]));}
         foreach($data['aliases']??[] as $alias){$id=(string)($alias['service_id']??'');$intentMap[$id]=array_merge($intentMap[$id]??[],self::values($alias['phrase']??[]));}
-        $wpdb->query('START TRANSACTION');foreach(['knowledge','terms','deletions'] as $table){$wpdb->query("DELETE FROM {$p}{$table}");}
+        // Refuse nontransactional tables before touching the existing index.
+        foreach(['knowledge','terms','deletions'] as $table){
+            $engine=$wpdb->get_var($wpdb->prepare('SELECT ENGINE FROM information_schema.TABLES WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME=%s',$p.$table));
+            if(strcasecmp((string)$engine,'InnoDB')!==0)throw new \RuntimeException('Transactional index tables required');
+        }
+        self::queryOrThrow('START TRANSACTION');
+        try {
+        foreach(['knowledge','terms','deletions'] as $table){self::queryOrThrow("DELETE FROM {$p}{$table}");}
         foreach(['services','guides','faqs','answers','contacts','organizations','places','events','documents'] as $type){foreach($data[$type]??[] as $record){if(empty($record['id']))continue;if($type==='services'&&isset($navigation[$record['id']]))$record['_navigation_answers']=$navigation[$record['id']];$key=$type.':'.$record['id'];$fields=[[$record['title']??$record['name']??[],8],[$record['synonyms']??$record['aliases']??[],10],[$intentMap[(string)$record['id']]??[],12],[$record['question']??[],10],[$record['search_concepts']??[],12],[$record['keywords']??[],3],[$record['description_short']??[],2],[$record['answer']??[],2],[$record['description_full']??[],1]];$phrases=[];$weights=[];
             foreach($fields as [$value,$weight]){foreach(self::values($value) as $text){$phrase=self::normalize($text);if($weight>=8&&$phrase!=='')$phrases[]=['text'=>$phrase,'weight'=>$weight];foreach(self::tokens($text) as $term){if(self::length($term)>100)continue;$weights[$term]=max($weights[$term]??0,$weight);}}}
             $distinct=[];foreach($phrases as $phrase){if(!isset($distinct[$phrase['text']])||$distinct[$phrase['text']]['weight']<$phrase['weight'])$distinct[$phrase['text']]=$phrase;}$phrases=array_values($distinct);
-            $wpdb->insert($p.'knowledge',['record_key'=>$key,'record_type'=>$type,'record_json'=>wp_json_encode($record,JSON_UNESCAPED_UNICODE),'phrases_json'=>wp_json_encode($phrases,JSON_UNESCAPED_UNICODE)]);
+            if(false===$wpdb->insert($p.'knowledge',['record_key'=>$key,'record_type'=>$type,'record_json'=>wp_json_encode($record,JSON_UNESCAPED_UNICODE),'phrases_json'=>wp_json_encode($phrases,JSON_UNESCAPED_UNICODE)]))throw new \RuntimeException('Index record write failed');
             foreach($weights as $term=>$weight){$pendingTerms[]=[$term,$key,$weight];if(count($pendingTerms)>=400){self::insertBatch($p.'terms',['term','record_key','weight'],$pendingTerms);$pendingTerms=[];}$terms[$term]=true;}$count++;
         }}
         self::insertBatch($p.'terms',['term','record_key','weight'],$pendingTerms);
         foreach(array_keys($terms) as $term){foreach(self::signatures((string)$term) as $signature){$pendingDeletes[]=[$signature,$term];if(count($pendingDeletes)>=400){self::insertBatch($p.'deletions',['signature','term'],$pendingDeletes);$pendingDeletes=[];}}}
         self::insertBatch($p.'deletions',['signature','term'],$pendingDeletes);
-        $wpdb->query('COMMIT');$stats=['records'=>$count,'terms'=>count($terms),'indexed_at'=>gmdate('c')];update_option('oh_knowledge_stats',$stats,false);return $stats;
+        if(!$count)throw new \RuntimeException('Empty index');
+        self::queryOrThrow('COMMIT');
+        }catch(\Throwable $e){$wpdb->query('ROLLBACK');throw $e;}
+        $stats=['records'=>$count,'terms'=>count($terms),'indexed_at'=>gmdate('c')];update_option('oh_knowledge_stats',$stats,false);return $stats;
     }
     private static function localized($value,string $lang):string{return is_array($value)?(string)($value[$lang]??$value['de']??''):(is_string($value)?$value:'');}
     private static function quality(array $record,string $query,string $locality):float {
@@ -59,8 +69,9 @@ final class Knowledge {
         $place=self::normalize((string)($record['locality']??''));if($place!==''&&$place!=='all'&&($place===self::normalize($locality)||str_contains($query,$place)))$score+=25;
         return $score;
     }
+    private static function queryOrThrow(string $sql):void {global $wpdb;if(false===$wpdb->query($sql))throw new \RuntimeException('Index database operation failed');}
     private static function insertBatch(string $table,array $columns,array $rows):void {
-        if(!$rows)return;global $wpdb;$format='('.implode(',',array_fill(0,count($columns),'%s')).')';$sql='INSERT IGNORE INTO '.$table.' ('.implode(',',$columns).') VALUES '.implode(',',array_fill(0,count($rows),$format));$args=[];foreach($rows as $row){foreach($row as $v)$args[]=$v;}$wpdb->query($wpdb->prepare($sql,$args));
+        if(!$rows)return;global $wpdb;$format='('.implode(',',array_fill(0,count($columns),'%s')).')';$sql='INSERT IGNORE INTO '.$table.' ('.implode(',',$columns).') VALUES '.implode(',',array_fill(0,count($rows),$format));$args=[];foreach($rows as $row){foreach($row as $v)$args[]=$v;}self::queryOrThrow($wpdb->prepare($sql,$args));
     }
     public static function search(string $query,string $lang='de',int $page=1,int $perPage=10,string $locality='all',string $type=''):array {
         global $wpdb;$p=$wpdb->prefix.'oh_';$q=self::normalize($query);$words=array_slice(self::tokens($q),0,20);$intentWords=array_values(array_diff($words,['oberriet','montlingen','kriessern','eichenwies','kobelwald','altstatten','rheintal','heerbrugg','widnau','buchs','rebstein','marbach','ruthi','balgach','grabs','st','gallen','sankt','stgallen']));if($intentWords)$words=$intentWords;$page=max(1,min(1000,$page));$perPage=max(1,min(50,$perPage));$empty=['results'=>[],'total'=>0,'page'=>$page,'per_page'=>$perPage,'pages'=>0,'engine'=>'local-index'];if(self::length($q)<2||!$words)return $empty;$scores=[];$hits=[];
