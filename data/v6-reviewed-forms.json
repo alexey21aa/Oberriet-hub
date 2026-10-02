@@ -10,7 +10,15 @@
       "content_review_status": "checked",
       "direct_http_status": 200,
       "body_sha256": "db6f71d54c4630062ddc8257edfd6ce079ab4ccb1dbf3f37e91beaed6f4ff536",
-      "reviewed_fields": ["patient identity and contact", "contact person", "health insurer", "family doctor", "Spitex", "referral coordination", "referring person"],
+      "reviewed_fields": [
+        "patient identity and contact",
+        "contact person",
+        "health insurer",
+        "family doctor",
+        "Spitex",
+        "referral coordination",
+        "referring person"
+      ],
       "additional_requirement_source": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
       "additional_requirement": "Provider notice to medical professionals requires EPS test with referral documents.",
       "submission": "external-provider-only",
@@ -18,6 +26,75 @@
       "submitted_or_tested": false,
       "live_imported": false,
       "note": "Reviewed form existence and purpose only. No application submitted and no individual eligibility assessment."
+    },
+    {
+      "id": "v6-form-budget-templates",
+      "provider": "Dachverband Budgetberatung Schweiz",
+      "url": "https://budgetberatung.ch/budgetvorlagen",
+      "kind": "provider-template-directory",
+      "scope": "General household, apprentices and students; PDF/Excel template links",
+      "content_review_status": "checked",
+      "verification_level": "primary-directory-content-reviewed",
+      "direct_http_status": null,
+      "body_sha256": null,
+      "reviewed_fields": [],
+      "file_contents_reviewed": false,
+      "note": "Reviewed directory lists templates and income/expense tracking. Individual files not downloaded or validated.",
+      "submission": "external-provider-only",
+      "local_sensitive_data_collection": false,
+      "submitted_or_tested": false,
+      "live_imported": false,
+      "reviewed_at": "2026-10-02"
+    },
+    {
+      "id": "v6-form-budget-calculator",
+      "provider": "Dachverband Budgetberatung Schweiz",
+      "url": "https://budgetberatung.ch/budgetrechner",
+      "kind": "provider-online-budget-tool",
+      "scope": "Personal budgeting tool",
+      "content_review_status": "checked",
+      "verification_level": "primary-page-content-reviewed",
+      "direct_http_status": null,
+      "body_sha256": null,
+      "reviewed_fields": [
+        "income and expenses; yearly and monthly budgeting"
+      ],
+      "file_contents_reviewed": false,
+      "note": "Provider tool stores budgets retrievable by a code. Reviewed documentation only; no financial data entered.",
+      "submission": "external-provider-only",
+      "local_sensitive_data_collection": false,
+      "submitted_or_tested": false,
+      "live_imported": false,
+      "reviewed_at": "2026-10-02"
+    },
+    {
+      "id": "v6-form-ipv-selector",
+      "provider": "SVA St.Gallen",
+      "url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+      "kind": "official-form-selector",
+      "scope": "IPV application, supplement and application-year selection",
+      "content_review_status": "checked",
+      "verification_level": "primary-selector-content-reviewed",
+      "direct_http_status": null,
+      "body_sha256": null,
+      "reviewed_fields": [
+        "application or supplement",
+        "login letter yes/no",
+        "application year"
+      ],
+      "file_contents_reviewed": false,
+      "note": "Selector reviewed; selected eadminportal forms not opened or submitted. Direct receipt retry timed out.",
+      "submission": "external-provider-only",
+      "local_sensitive_data_collection": false,
+      "submitted_or_tested": false,
+      "live_imported": false,
+      "reviewed_at": "2026-10-02"
     }
-  ]
+  ],
+  "metrics": {
+    "reviewed_entries": 4,
+    "direct_hash_verified_pages": 1,
+    "reviewed_individual_download_files": 0,
+    "submitted_forms": 0
+  }
 }

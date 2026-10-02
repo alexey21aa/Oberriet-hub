@@ -369,13 +369,25 @@
       "candidate_id": "v6-support-victim-advice",
       "live_post_id": 3741,
       "canonical_id": "canton-service-5cad6a511a0055",
-      "action": "already enriched live; do not import duplicate"
+      "action": "enriched existing live offering; do not import duplicate"
     },
     {
       "candidate_id": "v6-support-legal-advice",
       "live_post_id": 661,
       "canonical_id": "practical-legal-advice",
-      "action": "booking corrected live; reconcile canonical offering before import"
+      "action": "enriched existing live offering; do not import duplicate"
+    },
+    {
+      "candidate_id": "v6-life-ipv-apply",
+      "live_post_id": 328,
+      "canonical_id": "24004",
+      "action": "enriched existing live offering; do not import duplicate"
+    },
+    {
+      "candidate_id": "v6-life-tax-extension",
+      "live_post_id": 316,
+      "canonical_id": "23986",
+      "action": "enriched existing live offering; do not import duplicate"
     }
   ],
   "limitations": [
