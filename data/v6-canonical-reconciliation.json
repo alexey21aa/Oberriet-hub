@@ -1,0 +1,11 @@
+{
+  "reviewed_at": "2026-10-02",
+  "scope": "Confirmed offering overlaps only. Never deduplicate by host or title alone.",
+  "mappings": [
+    {"candidate_id": "v6-support-victim-advice", "live_id": "canton-service-5cad6a511a0055", "live_post_id": 3741, "action": "enrich-existing", "proof": "tests/results/v6-live-provider-enrichment.json"},
+    {"candidate_id": "v6-support-legal-advice", "live_id": "practical-legal-advice", "live_post_id": 661, "action": "enrich-existing", "proof": "tests/results/v6-live-legal-correction.json"},
+    {"candidate_id": "v6-life-ipv-apply", "live_id": "24004", "live_post_id": 328, "action": "enrich-existing", "proof": "tests/results/v6-live-fiscal-enrichment.json"},
+    {"candidate_id": "v6-life-tax-extension", "live_id": "23986", "live_post_id": 316, "action": "enrich-existing", "proof": "tests/results/v6-live-fiscal-enrichment.json"}
+  ],
+  "pending": []
+}

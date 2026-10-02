@@ -1,0 +1,19 @@
+{
+  "version": "0.1.7",
+  "bytes": 30842,
+  "sha256": "dde442cdd39c5c58e08c454a27cdb3084841221e19b75eef4b9d8c1286255bd7",
+  "deployed": false,
+  "core_replacement": false,
+  "bundled_batches": [
+    "activities",
+    "life"
+  ],
+  "bundled_life_services": 11,
+  "bundled_life_sources": 9,
+  "excluded_known_live_offerings": [
+    "v6-life-ipv-apply",
+    "v6-life-tax-extension"
+  ],
+  "explicit_batch_required": true,
+  "external_health_batch": "data/v6-health-services-delta.json"
+}

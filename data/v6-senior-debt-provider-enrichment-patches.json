@@ -1,0 +1,88 @@
+[
+  {
+    "post_id": 3536,
+    "primary_url": "https://fzsg.ch/services/budget-und-schuldenberatung/",
+    "fields": {
+      "description_short": {
+        "de": "Budget- und Schuldenberatung für Frauen und Männer; Schuldenberatung kostenlos.",
+        "en": "Budget and debt advice for women and men; debt advice is free.",
+        "ru": "Консультации по бюджету и долгам для женщин и мужчин; помощь с долгами бесплатна.",
+        "uk": "Консультації щодо бюджету й боргів для жінок і чоловіків; допомога з боргами безкоштовна."
+      },
+      "description_full": {
+        "de": "Budgetberatung 80–100 CHF/Stunde, in finanziellen Notlagen kostenlos. Telefonische Anmeldung erforderlich; aktuelle Terminverfügbarkeit bestätigen.",
+        "en": "Budget advice costs CHF 80–100/hour, free in financial hardship. Telephone booking required; confirm current appointment availability.",
+        "ru": "Консультация по бюджету: 80–100 CHF/час, при финансовых трудностях бесплатно. Нужна телефонная запись; уточните доступность приёма.",
+        "uk": "Консультація щодо бюджету: 80–100 CHF/годину, за фінансових труднощів безкоштовно. Потрібен телефонний запис; уточніть доступність приймання."
+      },
+      "availability_notice": {
+        "de": "Am 02.10.2026: Aufnahmestopp; Termine wieder ab 05.10.2026 laut Anbieter.",
+        "en": "As of 2 October 2026: intake paused; provider announces appointments from 5 October.",
+        "ru": "На 02.10.2026: приём приостановлен; организатор сообщает о записи с 05.10.2026.",
+        "uk": "На 02.10.2026: приймання призупинено; організатор повідомляє про запис із 05.10.2026."
+      },
+      "availability_recheck_after": "2026-10-05",
+      "synonyms": [
+        "бесплатная помощь с долгами",
+        "помощь с семейным бюджетом",
+        "безкоштовна допомога з боргами",
+        "debt advice",
+        "Schuldenberatung"
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      },
+      "content_review_sources": [
+        "https://fzsg.ch/services/budget-und-schuldenberatung/"
+      ]
+    },
+    "canonical_id": "canton-service-e71b11b4fd78fe",
+    "reviewed_at": "2026-10-02"
+  },
+  {
+    "post_id": 3545,
+    "primary_url": "https://sg.prosenectute.ch/de/Rheintal-Werdenberg-Sarganserland/Beratung/Sozialberatung",
+    "fields": {
+      "description_short": {
+        "de": "Kostenlose vertrauliche Beratung für ältere Menschen, Angehörige und Fachstellen.",
+        "en": "Free confidential advice for older people, relatives and professional services.",
+        "ru": "Бесплатные конфиденциальные консультации для пожилых людей, близких и специалистов.",
+        "uk": "Безкоштовні конфіденційні консультації для літніх людей, близьких і фахівців."
+      },
+      "description_full": {
+        "de": "Beratung zu Finanzen, Gesundheit, Wohnen, Recht und Lebensgestaltung. Die zuständige Regionalstelle richtet sich nach Ihrem Wohnort; persönliche Beratung telefonisch vereinbaren.",
+        "en": "Advice about finances, health, housing, law and everyday life. The responsible regional office depends on your home address; arrange personal advice by phone.",
+        "ru": "Консультации о финансах, здоровье, жилье, праве и повседневной жизни. Ответственное отделение зависит от места жительства; личную консультацию согласуйте по телефону.",
+        "uk": "Консультації щодо фінансів, здоров’я, житла, права й повсякденного життя. Відповідальне відділення залежить від місця проживання; особисту консультацію узгодьте телефоном."
+      },
+      "synonyms": [
+        "помощь пожилым Altstätten",
+        "консультация пенсионерам",
+        "допомога літнім Altstätten",
+        "senior advice Altstätten",
+        "Altersberatung"
+      ],
+      "content_review_sources": [
+        "https://sg.prosenectute.ch/de/Rheintal-Werdenberg-Sarganserland/Beratung/Sozialberatung",
+        "https://sg.prosenectute.ch/de/Rheintal-Werdenberg-Sarganserland/Kontakt"
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "canonical_id": "canton-service-d87cc592ed21d7",
+    "reviewed_at": "2026-10-02"
+  }
+]

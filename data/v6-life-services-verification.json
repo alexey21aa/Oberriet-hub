@@ -91,10 +91,10 @@
   },
   {
     "record_id": "v6-life-tax-extension",
-    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
-    "retrieval_ref": "turn3search4",
+    "source_url": "https://www.oberriet.ch/dienstleistungen/23986",
+    "retrieval_ref": "turn26view2",
     "checked_at": "2026-10-02",
-    "verification": "primary-web-content",
+    "verification": "municipal-primary-web-content",
     "http_status": null,
     "sha256": null
   },

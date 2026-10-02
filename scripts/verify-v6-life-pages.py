@@ -4,12 +4,22 @@ import argparse,hashlib,json,time,urllib.request,urllib.error,urllib.parse,urlli
 from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('--batch',choices=['life','community','support','health'],default='life');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--batch',choices=['life','community','support','health'],default='life')
+parser.add_argument('--source-url',action='append',default=[],help='Revalidate only an exact registered URL; preserve other receipts.')
+args=parser.parse_args()
 PATH=ROOT/f'data/v6-{args.batch}-services-delta.json'
 data=json.loads(PATH.read_text());proof=[];robots={};last={};UA='OberrietHub/0.3 public-metadata (+https://oberriethub.ch)'
-for source in data['sources']:
+selected=[s for s in data['sources'] if not args.source_url or s['source_url'] in args.source_url]
+if set(args.source_url)-{s['source_url'] for s in selected}:parser.error('URL is not registered in this batch')
+receipt_path=ROOT/'data'/f'v6-{args.batch}-http-verification.json'
+if args.source_url and receipt_path.exists():
+ changed={s['source_id'] for s in selected}
+ proof=[p for p in json.loads(receipt_path.read_text()) if p['source_id'] not in changed]
+for source in selected:
  url=source['source_url'];host=urllib.parse.urlsplit(url).hostname
  receipt={'source_id':source['source_id'],'source_url':url,'checked_at':datetime.now(timezone.utc).isoformat(timespec='seconds')}
+ # A failed retry must not retain an old success/hash under a changed URL.
+ for key in ['http_status','sha256','fetched_at']:source.pop(key,None)
  try:
   if host not in robots:
    rp=urllib.robotparser.RobotFileParser('https://'+host+'/robots.txt')
@@ -37,4 +47,4 @@ for source in data['sources']:
  for name,value in [(f'v6-{args.batch}-services-delta',data),(f'v6-{args.batch}-http-verification',proof)]:
   target=ROOT/'data'/f'{name}.json';temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');temporary.replace(target)
  print(json.dumps(receipt),flush=True)
-print(json.dumps({'attempted':len(proof),'http_200':sum(p.get('http_status')==200 for p in proof)}),flush=True)
+print(json.dumps({'attempted':len(selected),'retained_receipts':len(proof),'http_200':sum(p.get('http_status')==200 for p in proof)}),flush=True)

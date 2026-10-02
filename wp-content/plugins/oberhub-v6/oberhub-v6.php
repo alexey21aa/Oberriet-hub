@@ -2,7 +2,7 @@
 /**
  * Plugin Name: OberHub V6 Search Extension
  * Description: Additive device-independent retrieval and AI gateway. Keeps existing core and data.
- * Version: 0.1.6
+ * Version: 0.1.7
  * Requires PHP: 8.2
  * License: GPL-2.0-or-later
  */
@@ -35,12 +35,12 @@ add_action('oh_v6_refresh_index',function(){
  }catch(\Throwable $e){update_option('oh_v6_index_error','Refresh failed; retry scheduled.',false);wp_schedule_single_event(time()+300,'oh_v6_refresh_index');}
 },10,0);
 add_action('wp_enqueue_scripts',function(){
- if(get_option('oh_v6_ready',false))wp_enqueue_script('oberhub-v6-server-answer',plugins_url('assets/server-answer.js',__FILE__),[],'0.1.6',true);
+ if(get_option('oh_v6_ready',false))wp_enqueue_script('oberhub-v6-server-answer',plugins_url('assets/server-answer.js',__FILE__),[],'0.1.7',true);
 });
 // Until explicitly prepared by an administrator, the live core routes remain untouched.
 add_action('rest_api_init',function(){
  if(!class_exists('OberHub\\Knowledge'))return;
- register_rest_route('oberhub/v1','/v6/status',['methods'=>'GET','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>fn()=>rest_ensure_response(['version'=>'0.1.6','ready'=>(bool)get_option('oh_v6_ready',false),'stats'=>get_option('oh_v6_knowledge_stats',[]),'index_dirty'=>(bool)get_option('oh_v6_index_dirty',false),'index_error'=>get_option('oh_v6_index_error',''),'import'=>\OberHub\ImportQueue::status()])]);
+ register_rest_route('oberhub/v1','/v6/status',['methods'=>'GET','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>fn()=>rest_ensure_response(['version'=>'0.1.7','ready'=>(bool)get_option('oh_v6_ready',false),'stats'=>get_option('oh_v6_knowledge_stats',[]),'index_dirty'=>(bool)get_option('oh_v6_index_dirty',false),'index_error'=>get_option('oh_v6_index_error',''),'import'=>\OberHub\ImportQueue::status()])]);
  register_rest_route('oberhub/v1','/v6/prepare',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>function($req){
   if(\OberHub\ImportQueue::active())return new \WP_Error('busy','Finish existing import first',['status'=>409]);
   $body=$req->get_json_params() ?: [];
@@ -54,7 +54,7 @@ add_action('rest_api_init',function(){
    $count=0;foreach($delta as $rows){if(!is_array($rows)||!array_is_list($rows))return new \WP_Error('dataset','Collections must be lists',['status'=>400]);$count+=count($rows);}
    if(!$count||$count>500)return new \WP_Error('dataset','Use batches of 1–500 records',['status'=>400]);
   }else{
-   $batch=$body['batch']??'activities';
+   $batch=$body['batch']??'';
    if(!in_array($batch,['activities','life'],true))return new \WP_Error('batch','Unknown bundled batch',['status'=>400]);
    $delta=json_decode(file_get_contents(__DIR__.'/'.($batch==='life'?'life-services.json':'activities.json')),true);
    foreach($delta['sources'] as $source)\OberHub\Sources::approve_host(wp_parse_url($source['source_url'],PHP_URL_HOST));

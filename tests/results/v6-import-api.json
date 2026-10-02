@@ -4,7 +4,7 @@
     "passed": true
   },
   {
-    "name": "Reject invalid dataset 1",
+    "name": "Explicit batch required; empty request cannot repeat activity import",
     "passed": true
   },
   {
@@ -29,6 +29,10 @@
   },
   {
     "name": "Reject invalid dataset 7",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 8",
     "passed": true
   },
   {

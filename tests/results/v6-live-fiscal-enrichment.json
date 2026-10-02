@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-02T23:14:59.457Z",
+  "deployed": {
+    "core": "0.2.3",
+    "addon": "0.1.0"
+  },
+  "stats": {
+    "records": 4523,
+    "terms": 5683,
+    "indexed_at": "2026-10-02T23:13:59+00:00"
+  },
+  "meta": [
+    {
+      "post_id": 316,
+      "canonical_id": "23986",
+      "edited_fields_match": true,
+      "other_fields_preserved": true
+    },
+    {
+      "post_id": 328,
+      "canonical_id": "24004",
+      "edited_fields_match": true,
+      "other_fields_preserved": true
+    }
+  ],
+  "checks": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "first_description": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "first_description": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "first_description": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "first_description": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "first_description": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "налоговые формы",
+      "total": 748,
+      "ids": [
+        "23986",
+        "23987",
+        "23988"
+      ],
+      "first_description": "Подайте налоговую декларацию на бумаге или электронно; используйте кантональные формы и инструкцию.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "субсидия на страховку",
+      "total": 32,
+      "ids": [
+        "24004",
+        "answer-24004-apply",
+        "answer-24004-cost"
+      ],
+      "first_description": "IPV может снизить взносы медицинской страховки при ограниченных финансовых средствах.",
+      "engine": "v6-server-index"
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Tax query has 748 results and IPV query 32; first canonical results correct, broad trailing precision not accepted.",
+    "Original source registry remains needs_review/routing-metadata; separate provider content review does not upgrade it.",
+    "Official form selectors and primary outbound routes reviewed; direct receipts not yet confirmed."
+  ]
+}

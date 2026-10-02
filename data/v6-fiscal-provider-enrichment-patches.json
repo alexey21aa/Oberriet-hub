@@ -1,0 +1,123 @@
+[
+  {
+    "post_id": 316,
+    "canonical_id": "23986",
+    "primary_url": "https://www.oberriet.ch/dienstleistungen/23986",
+    "fields": {
+      "description_short": {
+        "de": "Steuererklärung auf Papier oder elektronisch einreichen; kantonale Formulare und Wegleitung nutzen.",
+        "en": "Submit a paper or electronic tax return; use cantonal forms and guidance.",
+        "ru": "Подайте налоговую декларацию на бумаге или электронно; используйте кантональные формы и инструкцию.",
+        "uk": "Подайте податкову декларацію на папері або електронно; скористайтеся кантональними формами й інструкцією."
+      },
+      "description_full": {
+        "de": "Online-Fristverlängerung laut Oberriet nur ohne Steuerrückstände; Originalsteuererklärung mit eTax-Passwort bereithalten. Bei Fragen das Gemeindesteueramt kontaktieren.",
+        "en": "Oberriet permits online deadline extensions when there are no tax arrears; have the original return with its eTax password ready. Contact the municipal tax office for questions.",
+        "ru": "По информации Oberriet, онлайн-продление срока возможно без налоговой задолженности; нужен оригинал декларации с eTax-паролем. Вопросы уточните в муниципальной налоговой службе.",
+        "uk": "За інформацією Oberriet, онлайн-продовження строку можливе без податкової заборгованості; потрібен оригінал декларації з eTax-паролем. Запитання уточніть у муніципальній податковій службі."
+      },
+      "synonyms": [
+        "tax return",
+        "taxes",
+        "налоговая декларация",
+        "податкова декларація",
+        "налоговые формы",
+        "продление срока декларации",
+        "Steuerformulare",
+        "Fristverlängerung"
+      ],
+      "content_review_sources": [
+        "https://www.oberriet.ch/dienstleistungen/23986"
+      ],
+      "reviewed_form_routes": [
+        {
+          "kind": "guidance-directory",
+          "url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+          "verification": "primary-outbound-routing-only"
+        },
+        {
+          "kind": "deadline-extension-routing",
+          "url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung.html",
+          "verification": "primary-outbound-routing-only"
+        }
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "reviewed_at": "2026-10-02",
+    "preserved_fields": [
+      "id",
+      "title",
+      "source_id",
+      "source_url",
+      "official_url",
+      "contact",
+      "verification_scope"
+    ]
+  },
+  {
+    "post_id": 328,
+    "canonical_id": "24004",
+    "primary_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "fields": {
+      "description_short": {
+        "de": "IPV kann die Krankenkassenprämien bei bescheidenen wirtschaftlichen Verhältnissen reduzieren.",
+        "en": "IPV can reduce health insurance premiums for people with limited financial means.",
+        "ru": "IPV может снизить взносы медицинской страховки при ограниченных финансовых средствах.",
+        "uk": "IPV може зменшити внески медичного страхування за обмежених фінансових можливостей."
+      },
+      "description_full": {
+        "de": "SVA-Online-Anmeldung mit oder ohne Login-Brief; gewünschtes Antragsjahr auswählen. Für ganzjährigen Anspruch gilt laut SVA die Frist 31. März, bei verspäteter Anmeldung gegebenenfalls erst ab Anmeldemonat.",
+        "en": "Apply through SVA online, with or without a login letter; select the application year. SVA states 31 March for full-year entitlement; late applications may qualify only from the application month.",
+        "ru": "Подайте онлайн-заявление SVA с письмом для входа или без него; выберите год заявления. По SVA, срок для права за весь год — 31 марта; позднее заявление может дать право лишь с месяца подачи.",
+        "uk": "Подайте онлайн-заяву SVA з листом для входу або без нього; виберіть рік заяви. За SVA, строк для права за весь рік — 31 березня; пізня заява може дати право лише з місяця подання."
+      },
+      "synonyms": [
+        "IPV",
+        "Prämienverbilligung",
+        "premium reduction",
+        "субсидия на страховку",
+        "субсидия медицинская страховка",
+        "субсидія на страхування",
+        "онлайн заявление IPV"
+      ],
+      "content_review_sources": [
+        "https://www.oberriet.ch/dienstleistungen/24004",
+        "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php"
+      ],
+      "reviewed_form_routes": [
+        {
+          "kind": "official-form-selector",
+          "url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+          "verification": "primary-page-reviewed-no-direct-hash-yet"
+        }
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "reviewed_at": "2026-10-02",
+    "preserved_fields": [
+      "id",
+      "title",
+      "source_id",
+      "source_url",
+      "official_url",
+      "contact",
+      "verification_scope"
+    ]
+  }
+]

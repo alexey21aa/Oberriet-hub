@@ -48,18 +48,6 @@
     "bytes": 31040
   },
   {
-    "source_id": "v6-life-ipv-apply-source",
-    "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
-    "checked_at": "2026-10-02T21:21:52+00:00",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "source_id": "v6-life-tax-extension-source",
-    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
-    "checked_at": "2026-10-02T21:21:58+00:00",
-    "error": "<urlopen error timed out>"
-  },
-  {
     "source_id": "v6-life-tax-forms-source",
     "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
     "checked_at": "2026-10-02T21:22:04+00:00",
@@ -69,6 +57,18 @@
     "source_id": "v6-life-older-unemployed-source",
     "source_url": "https://www.svasg.ch/produkte/uel/",
     "checked_at": "2026-10-02T21:22:12+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-ipv-apply-source",
+    "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "checked_at": "2026-10-02T23:15:23+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-tax-extension-source",
+    "source_url": "https://www.oberriet.ch/dienstleistungen/23986",
+    "checked_at": "2026-10-02T23:15:29+00:00",
     "error": "<urlopen error timed out>"
   }
 ]

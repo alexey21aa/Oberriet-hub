@@ -454,17 +454,17 @@
         "uk": "Податкова декларація · продовження строку"
       },
       "description_short": {
-        "de": "Elektronisches Gesuch benötigt Register-Nr. und Geburtsdatum; Bewilligung nicht garantiert.",
-        "en": "Electronic request needs registration number and date of birth; approval is not guaranteed.",
-        "ru": "Электронный запрос требует регистрационный номер и дату рождения; одобрение не гарантировано.",
-        "uk": "Електронний запит потребує реєстраційний номер і дату народження; схвалення не гарантоване."
+        "de": "Online-Fristverlängerung laut Oberriet nur ohne Steuerrückstände; Originalsteuererklärung mit eTax-Passwort bereithalten. Bei Fragen das Gemeindesteueramt kontaktieren.",
+        "en": "Oberriet permits online deadline extensions when there are no tax arrears; have the original return with its eTax password ready. Contact the municipal tax office for questions.",
+        "ru": "По информации Oberriet, онлайн-продление срока возможно без налоговой задолженности; нужен оригинал декларации с eTax-паролем. Вопросы уточните в муниципальной налоговой службе.",
+        "uk": "За інформацією Oberriet, онлайн-продовження строку можливе без податкової заборгованості; потрібен оригінал декларації з eTax-паролем. Запитання уточніть у муніципальній податковій службі."
       },
       "topic": "tax-finance",
-      "locality": "st-gallen",
-      "authority": "Kantonales Steueramt St.Gallen",
+      "locality": "oberriet",
+      "authority": "Gemeindesteueramt Oberriet",
       "source_id": "v6-life-tax-extension-source",
-      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
-      "official_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+      "source_url": "https://www.oberriet.ch/dienstleistungen/23986",
+      "official_url": "https://www.oberriet.ch/dienstleistungen/23986",
       "source_checked_at": "2026-10-02",
       "source_trust_level": "A",
       "status": "checked",
@@ -722,8 +722,8 @@
     },
     {
       "source_id": "v6-life-tax-extension-source",
-      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
-      "authority": "Kantonales Steueramt St.Gallen",
+      "source_url": "https://www.oberriet.ch/dienstleistungen/23986",
+      "authority": "Gemeindesteueramt Oberriet",
       "review_status": "checked",
       "last_checked": "2026-10-02",
       "content_reviewed_at": "2026-10-02",

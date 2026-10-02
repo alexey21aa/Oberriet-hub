@@ -1,12 +1,12 @@
 {
-  "candidate_addon": "0.1.6",
-  "checked_at": "2026-10-02T23:02:51.471447+00:00",
-  "passed": 956,
+  "candidate_addon": "0.1.7",
+  "checked_at": "2026-10-02T23:20:58.769859+00:00",
+  "passed": 957,
   "failed": 0,
   "suites": {
     "v6-server": 93,
     "v6-answer-packs": 48,
-    "v6-import-api": 11,
+    "v6-import-api": 12,
     "v6-life-search": 31,
     "v6-freshness": 16,
     "v6-community-search": 29,
@@ -22,15 +22,23 @@
   "external_inference_tested": false,
   "deployed": false,
   "package": {
-    "version": "0.1.6",
-    "bytes": 31699,
-    "sha256": "830d1e7f075d2c63d2bbf6c9e3bcd0466c4d164bc891e5a8d1efcd7541d3d130",
+    "version": "0.1.7",
+    "bytes": 30842,
+    "sha256": "dde442cdd39c5c58e08c454a27cdb3084841221e19b75eef4b9d8c1286255bd7",
     "deployed": false,
     "core_replacement": false,
     "bundled_batches": [
       "activities",
       "life"
     ],
+    "bundled_life_services": 11,
+    "bundled_life_sources": 9,
+    "excluded_known_live_offerings": [
+      "v6-life-ipv-apply",
+      "v6-life-tax-extension"
+    ],
+    "explicit_batch_required": true,
     "external_health_batch": "data/v6-health-services-delta.json"
-  }
+  },
+  "bundled_overlap_assertions": 2
 }
