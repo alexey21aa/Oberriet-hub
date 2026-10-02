@@ -6,7 +6,8 @@ import {createSearchIndex} from '../wp-content/plugins/oberhub-core/assets/searc
 const baseline=JSON.parse(fs.readFileSync('data/seed.json'));
 const delta=JSON.parse(fs.readFileSync('data/v6-activities-delta.json'));
 const life=JSON.parse(fs.readFileSync('data/v6-life-services-delta.json'));
-const index=createSearchIndex({services:[...baseline.services,...delta.services,...life.services]});
+const health=JSON.parse(fs.readFileSync('data/v6-health-services-delta.json'));
+const index=createSearchIndex({services:[...baseline.services,...delta.services,...life.services,...health.services]});
 const fixture={records:[...index.records].map(([record_key,v])=>({record_key,record_type:v.type,record_json:JSON.stringify(v.record),phrases_json:JSON.stringify(index.phrases.get(record_key))})),terms:[...index.terms].flatMap(([term,postings])=>[...postings].map(([record_key,weight])=>({term,record_key,weight}))),deletions:[...index.deletions].map(([signature,terms])=>({signature,terms:[...terms]}))};
 const php=new PHP(await loadNodeRuntime('8.3',{emscriptenOptions:{processId:process.pid}}));
 php.writeFile('/fixture.json',JSON.stringify(fixture));
@@ -32,7 +33,7 @@ $wpdb=new FixtureDatabase();$checks=[];
 function check($label,$ok){global $checks;$checks[]=['name'=>$label,'passed'=>(bool)$ok];}
 $groups=['sport'=>['Спорт для детей','Спорт доя детей','спорт дітям','sports for kids','Kinder Sport','спорт детям','спотр для детей'], 'dance'=>['Танцы для женщин','танци доя женщин','Tanzen für Frauen','women dance classes','танці для жінок'],'indoor'=>['Развлекательные центры для детей','indoor Kinder','indoor entertainment children','розважальні центри для дітей']];
 foreach($groups as $concept=>$queries)foreach($queries as $q){$r=OberHub\\Knowledge::search($q,'ru',1,5);$ok=count($r['results'])>0;foreach($r['results'] as $hit)$ok=$ok&&in_array($concept,$hit['record']['search_concepts']??[],true);check('PHP server '.$q,$ok);}
-foreach([['женские встречи','v6-life-rheintal-women'],['налоговые формы','v6-life-tax-forms'],['помощь с формами Oberriet','v6-life-oberriet-help'],['курсы немецкого','v6-life-german-courses'],['KulturLegi application','v6-life-kulturlegi-apply'],['health insurance subsidy','v6-life-ipv-apply']] as [$q,$id]){$r=OberHub\\Knowledge::search($q,'ru',1,5);check('PHP life '.$q,in_array($id,array_column(array_column($r['results'],'record'),'id'),true));}
+foreach([['женские встречи','v6-life-rheintal-women'],['налоговые формы','v6-life-tax-forms'],['помощь с формами Oberriet','v6-life-oberriet-help'],['курсы немецкого','v6-life-german-courses'],['KulturLegi application','v6-life-kulturlegi-apply'],['health insurance subsidy','v6-life-ipv-apply'],['палиативная помощь','v6-health-palliative-home-care'],['паліативна допомога','v6-health-palliative-home-care'],['Palliativpflege','v6-health-palliative-home-care'],['stomaberatun','v6-health-stoma-advice'],['стомою','v6-health-stoma-advice'],['онкологічні консультації','v6-health-cancer-advice']] as [$q,$id]){$r=OberHub\\Knowledge::search($q,'ru',1,5);check('PHP life '.$q,in_array($id,array_column(array_column($r['results'],'record'),'id'),true));}
 $a=OberHub\\Knowledge::search('Спорт для детей','ru',1,5);check('Local Oberriet above Grabs',($a['results'][0]['record']['locality']??'')==='oberriet');
 $b=OberHub\\Knowledge::search('Спорт доя детей','ru',1,5);check('Typo preserves same server evidence',array_column(array_column($a['results'],'record'),'id')===array_column(array_column($b['results'],'record'),'id'));
 check('No invented unknown results',OberHub\\Knowledge::search('zyxqv987zzblorf')['total']===0);

@@ -31,6 +31,11 @@ final class Gateway {
             $source=$registry[$record['source_id']??'']??[];
             $e=Sources::evidence($record,false,false);$evidence[]=$e;
             if (($source['review_status']??'')!=='checked' || !in_array($record['source_trust_level']??'',['A','B'],true) || !empty($e['stale'])) continue;
+            // Routing/header metadata and unknown fetch state are never model facts.
+            if (!in_array($record['verification_scope']??'', ['page','page-subscenario','primary-provider-page','structured-fact'],true)) continue;
+            if (!in_array($source['verification_scope']??'', ['page','page-subscenario','primary-provider-page','structured-fact'],true)) continue;
+            if (!in_array($source['fetch_status']??'', ['ok','current'],true)) continue;
+            if (empty($record['source_url']) || ($source['source_url']??'')!==$record['source_url']) continue;
             // Only relevant, compact facts. No full corpus or personal staff contacts in a prompt.
             $context[]=array_intersect_key($record,array_flip(['id','title','description_short','next_action','source_url','source_checked_at','search_concepts']));
         }
@@ -38,7 +43,7 @@ final class Gateway {
         if (!$context) return $fallback;
         $pii=preg_match('/[\w.+-]+@[\w.-]+\.[a-z]{2,}|\+?\d[\d\s().-]{8,}\d|\b756[.\s-]?\d{4}/iu',$question);
         $personal=preg_match('/(?<![\p{L}\p{N}])(?:i|my|me|mine|ich|mir|mich|mein|meine|meiner|мне|меня|моя|мой|моего|я|моє|мій|мої|мене|мені)(?![\p{L}\p{N}])/iu',$question);
-        $sensitive=preg_match('/diagnos|symptom|medicin|medikament|hepat|cancer|болез|болит|диагноз|гепат|ліки|симптом|захвор|боль|debt|income|salary|steuer|schulden|einkommen|долг|доход|зарплат|борг|дохід|asylum|divorce|custody|arrest|scheidung|sorgerecht|развод|розлуч|опек|алименты|аліменти|убежищ|притул|abuse|violence|stalking|rape|gewalt|насил|угрож|погрож/iu',$question);
+        $sensitive=preg_match('/oncolog|onkolog|krebs|stoma|palliativ|nursing|pflege|онкол|паллиатив|паліатив|стом[а-яіїє]|diagnos|symptom|medicin|medikament|hepat|cancer|болез|болит|диагноз|гепат|ліки|симптом|захвор|боль|debt|income|salary|steuer|schulden|einkommen|долг|доход|зарплат|борг|дохід|asylum|divorce|custody|arrest|scheidung|sorgerecht|развод|розлуч|опек|алименты|аліменти|убежищ|притул|abuse|violence|stalking|rape|gewalt|насил|угрож|погрож/iu',$question);
         if($pii||($personal&&$sensitive))return array_merge($fallback,['privacy'=>'sensitive-question-not-sent']);
         // Cache only anonymous activity intents. Arbitrary legal/medical/person-specific text is never cached.
         $tokens=Knowledge::tokens($question);$safeTokens=['sport','dance','children','women','adults','indoor','centres','centers','центры','центри','центров'];

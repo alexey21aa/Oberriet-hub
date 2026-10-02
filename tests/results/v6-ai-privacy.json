@@ -1,5 +1,89 @@
 [
   {
+    "name": "OberHub\\AI\\Gateway rejected context routing-metadata",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context official-directory-contact-header-only",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context unknown-scope",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context unknown-fetch",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context error-fetch",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context unreviewed",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context stale",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context wrong-source-url",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context missing-source-url",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context untrusted",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context source-routing-only",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context source-header-only",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway rejected context source-scope-missing",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private I need stoma advice",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private my oncology appointment",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private ich brauche Palliativpflege",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private meine Stomaberatung",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private мне нужна паллиативная помощь",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private мой онкологический диагноз",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private мені потрібна паліативна допомога",
+    "passed": true
+  },
+  {
+    "name": "OberHub\\AI\\Gateway private my nursing needs",
+    "passed": true
+  },
+  {
     "name": "OberHub\\AI\\Gateway private I have cancer",
     "passed": true
   },
@@ -93,6 +177,90 @@
   },
   {
     "name": "OberHub\\AI\\Gateway public Spitex Pflege Oberriet",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context routing-metadata",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context official-directory-contact-header-only",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context unknown-scope",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context unknown-fetch",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context error-fetch",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context unreviewed",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context stale",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context wrong-source-url",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context missing-source-url",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context untrusted",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context source-routing-only",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context source-header-only",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway rejected context source-scope-missing",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private I need stoma advice",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private my oncology appointment",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private ich brauche Palliativpflege",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private meine Stomaberatung",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private мне нужна паллиативная помощь",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private мой онкологический диагноз",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private мені потрібна паліативна допомога",
+    "passed": true
+  },
+  {
+    "name": "OberHubV6\\AI\\Gateway private my nursing needs",
     "passed": true
   },
   {

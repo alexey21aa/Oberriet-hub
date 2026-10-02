@@ -1,0 +1,12 @@
+{
+  "version": "0.1.5",
+  "bytes": 31318,
+  "sha256": "4d755fffce88ea7249c37c413aa0263637803a42e0097a72dd91ca9b38a7572e",
+  "deployed": false,
+  "core_replacement": false,
+  "bundled_batches": [
+    "activities",
+    "life"
+  ],
+  "external_health_batch": "data/v6-health-services-delta.json"
+}
