@@ -1,6 +1,6 @@
 # Oberriet Hub · WordPress / Core 0.2.1
 
-Independent civic navigation for Oberriet, Montlingen, Kriessern, Eichenwies and Kobelwald. DE / EN / UK / RU. Updated 2026-10-01.
+Independent civic navigation for Oberriet, Montlingen, Kriessern, Eichenwies and Kobelwald. DE / EN / UK / RU. Updated 2026-10-02.
 
 The existing MVP is deployed at https://oberriethub.ch. WordPress 7.1.2 / PHP 8.4.26 run OberHub Theme 0.2.0, OberHub Core 0.2.1 and WPVibe 1.20.0. The baseline import completed 3,290 records and its search index; live REST search returned the residence-certificate service in DE, EN, RU and UK. The private GitHub repository alexey21aa/Oberriet-hub currently preserves the source ZIP and full Git bundle; importing the bundle as native commits is still pending. No payments were made.
 
@@ -10,13 +10,13 @@ WordPress 7.1.2, original block theme `oberhub-theme` 0.2.0, `oberhub-core` 0.2.
 
 | Corpus | Count | Meaning |
 |---|---:|---|
-| Distinct services and scenarios | 364 | 94 originals + 270 additional official navigation/practical records |
-| Service-task paths | 2,548 | Seven explicit navigation facets per service; not 2,548 separate municipal services |
-| Structured navigation answers | 2,548 | Four languages; unknown fees/documents/deadlines explicitly remain unknown |
-| Canonical intents | 5,143 | 2,595 single-task/curated intents + 2,548 explicitly typed compound navigation goals |
-| Query formulations | 71,344 | Paraphrases counted as aliases, not independent facts |
-| Source records | 293 | 258 newly checked official URLs with HTTP status/hashes |
-| Offices/institutions and contacts | 35 / 35 | Institution/office entities derived from existing verified contact records |
+| Distinct services and scenarios | 377 | 94 originals + 270 official navigation/practical records + 13 regional programmes and consultation locations |
+| Service-task paths | 2,561 | Baseline task facets plus 13 provider-backed regional answers; not 2,548 separate municipal services |
+| Structured navigation answers | 2,561 | Four languages; unknown fees/documents/deadlines explicitly remain unknown |
+| Canonical intents | 5,156 | 2,595 single-task/curated intents + 2,548 explicitly typed compound navigation goals |
+| Query formulations | 71,448 | Paraphrases counted as aliases, not independent facts |
+| Source records | 301 | 258 newly checked official URLs with HTTP status/hashes |
+| Offices/institutions and contacts | 43 / 48 | Institution/office entities derived from existing verified contact records |
 
 Each compound goal combines two meaningful tasks and references exactly two existing source-backed navigation answers. Compounds add no services or factual answers. All four numerical minimum targets are met.
 
@@ -47,4 +47,4 @@ To repack from the included source, set `OBERHUB_WORDPRESS_CORE` to the included
 
 Core 0.2.1 adds bounded official-source refresh, conditional fetches, per-host limits, robots/path rules and opt-in ingestion. Automatic fetch dates and editorial review dates are separate. The search UI shows service evidence and a separate original-language document section. Production enables metadata-only ingestion for the municipal `/aemter` and `/dienstleistungen` roots; the first two document records were verified through WPVibe.
 
-Operator identity is not configured, so the Hub remains excluded from search-engine indexing. Recovery codes still need the owner's private setup. Hosting control-panel backup and scheduled cron execution have not yet been verified. The expanded regional corpus is undergoing validation; local expansion metrics must not be reported as deployed counts until its import completes.
+Operator identity is not configured, so the Hub remains excluded from search-engine indexing. Recovery codes still need the owner's private setup. Hosting control-panel backup and scheduled cron execution have not yet been verified. The regional delta completed its live import and index: 377 services, 2,561 answers, 48 contacts, 43 organizations, 301 sources, 5,156 intents and 71,448 aliases were independently confirmed through WordPress data reads. MonsterInsights and Extendify were reversibly deactivated after their frontend errors were observed; no search or hosting payment was made.
