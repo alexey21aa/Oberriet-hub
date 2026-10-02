@@ -1,0 +1,775 @@
+{
+  "services": [
+    {
+      "id": "v6-life-rheintal-help",
+      "title": {
+        "de": "Offene Sprechstunde Rheintal",
+        "en": "Open advice sessions Rheintal",
+        "ru": "Помощь с формами и письмами Rheintal",
+        "uk": "Допомога з формами та листами Rheintal"
+      },
+      "description_short": {
+        "de": "Kostenlose mehrsprachige Alltagshilfe: Formulare, Dokumente, Briefe und Termine.",
+        "en": "Free multilingual help with forms, documents, letters and appointments.",
+        "ru": "Бесплатная многоязычная помощь с формами, документами, письмами и записью на приём.",
+        "uk": "Безкоштовна багатомовна допомога з формами, документами, листами та записом на прийом."
+      },
+      "topic": "health-social",
+      "locality": "rheintal",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-rheintal-help-source",
+      "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+      "official_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation",
+        "forms",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-oberriet-help",
+      "title": {
+        "de": "Offene Sprechstunde Oberriet · Gleis 1",
+        "en": "Oberriet advice · Gleis 1",
+        "ru": "Помощь в Oberriet · Gleis 1",
+        "uk": "Допомога в Oberriet · Gleis 1"
+      },
+      "description_short": {
+        "de": "Mittwoch 08–11 Uhr; Ukrainisch, Russisch, Deutsch.",
+        "en": "Wednesday 08–11; Ukrainian, Russian, German.",
+        "ru": "Среда 08–11; украинский, русский, немецкий.",
+        "uk": "Середа 08–11; українська, російська, німецька."
+      },
+      "topic": "health-social",
+      "locality": "oberriet",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-rheintal-help-source",
+      "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+      "official_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation",
+        "forms",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-rheintal-women",
+      "title": {
+        "de": "Frauentreffs Rheintal",
+        "en": "Women’s meetings Rheintal",
+        "ru": "Женские встречи Rheintal",
+        "uk": "Жіночі зустрічі Rheintal"
+      },
+      "description_short": {
+        "de": "Kostenlos, ohne Anmeldung. Austausch und gemeinsame Aktivitäten.",
+        "en": "Free, no registration. Conversation and shared activities.",
+        "ru": "Бесплатно, без регистрации. Общение и совместные занятия.",
+        "uk": "Безкоштовно, без реєстрації. Спілкування та спільні заняття."
+      },
+      "topic": "leisure",
+      "locality": "rheintal",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-rheintal-women-source",
+      "source_url": "https://integrationrheintal.ch/frauentreffs/",
+      "official_url": "https://integrationrheintal.ch/frauentreffs/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "women",
+        "adults",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-rheintal-men",
+      "title": {
+        "de": "Männertreff Rheintal",
+        "en": "Men’s meetings Rheintal",
+        "ru": "Мужские встречи Rheintal",
+        "uk": "Чоловічі зустрічі Rheintal"
+      },
+      "description_short": {
+        "de": "Kostenlos, ohne Anmeldung. Begegnung und gemeinsame Unternehmungen.",
+        "en": "Free, no registration. Meetings and shared outings.",
+        "ru": "Бесплатно, без регистрации. Встречи и совместный досуг.",
+        "uk": "Безкоштовно, без реєстрації. Зустрічі та спільне дозвілля."
+      },
+      "topic": "leisure",
+      "locality": "rheintal",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-rheintal-women-source",
+      "source_url": "https://integrationrheintal.ch/frauentreffs/",
+      "official_url": "https://integrationrheintal.ch/frauentreffs/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "adults",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-family-stories",
+      "title": {
+        "de": "Schenk mir eine Geschichte",
+        "en": "Family storytelling",
+        "ru": "Семейное чтение на родном языке",
+        "uk": "Сімейне читання рідною мовою"
+      },
+      "description_short": {
+        "de": "Eltern und Vorschulkinder: Geschichten und kreative Aktivitäten in der Erstsprache.",
+        "en": "Parents and preschool children: stories and creative activities in their first language.",
+        "ru": "Родители и дошкольники: истории и творческие занятия на родном языке.",
+        "uk": "Батьки й дошкільнята: історії та творчі заняття рідною мовою."
+      },
+      "topic": "education-family",
+      "locality": "rheintal",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-family-stories-source",
+      "source_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+      "official_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "education",
+        "language",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-german-courses",
+      "title": {
+        "de": "Deutschkurse suchen",
+        "en": "Find German courses",
+        "ru": "Поиск курсов немецкого",
+        "uk": "Пошук курсів німецької"
+      },
+      "description_short": {
+        "de": "Kantonale Kurssuche; finanzielle Unterstützung ist einkommensabhängig.",
+        "en": "Cantonal course search; financial support depends on income.",
+        "ru": "Кантональный поиск курсов; финансовая поддержка зависит от дохода.",
+        "uk": "Кантональний пошук курсів; фінансова підтримка залежить від доходу."
+      },
+      "topic": "education-family",
+      "locality": "rheintal",
+      "authority": "Fachstelle Integration Rheintal",
+      "source_id": "v6-life-german-courses-source",
+      "source_url": "https://integrationrheintal.ch/sprachkurse/",
+      "official_url": "https://integrationrheintal.ch/sprachkurse/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "language",
+        "education",
+        "integration"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-kulturlegi-card",
+      "title": {
+        "de": "KulturLegi · Freizeit günstiger",
+        "en": "KulturLegi · leisure discounts",
+        "ru": "KulturLegi · скидки на досуг",
+        "uk": "KulturLegi · знижки на дозвілля"
+      },
+      "description_short": {
+        "de": "Persönlicher kostenloser Ausweis; Ermässigungen für Kultur, Sport und Bildung.",
+        "en": "Free personal card; discounts on culture, sport and education.",
+        "ru": "Бесплатная именная карта: скидки на культуру, спорт и образование.",
+        "uk": "Безкоштовна іменна картка: знижки на культуру, спорт та освіту."
+      },
+      "topic": "leisure",
+      "locality": "st-gallen",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "source_id": "v6-life-kulturlegi-card-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/was-ist-die-kulturlegi/",
+      "official_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/was-ist-die-kulturlegi/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "discount",
+        "education"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-kulturlegi-eligibility",
+      "title": {
+        "de": "KulturLegi · Berechtigung prüfen",
+        "en": "KulturLegi · check eligibility",
+        "ru": "KulturLegi · проверить условия",
+        "uk": "KulturLegi · перевірити умови"
+      },
+      "description_short": {
+        "de": "Für Menschen mit kleinem Einkommen; Nachweise und Ausnahmen beim Anbieter prüfen.",
+        "en": "For people with low income; verify evidence requirements and exceptions with the provider.",
+        "ru": "Для людей с низким доходом; подтверждения и исключения проверяйте у организатора.",
+        "uk": "Для людей із низьким доходом; підтвердження та винятки перевіряйте в організатора."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "source_id": "v6-life-kulturlegi-eligibility-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wer-ist-berechtigt",
+      "official_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wer-ist-berechtigt",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "discount"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-kulturlegi-apply",
+      "title": {
+        "de": "KulturLegi · Antrag",
+        "en": "KulturLegi · application",
+        "ru": "KulturLegi · заявление",
+        "uk": "KulturLegi · заява"
+      },
+      "description_short": {
+        "de": "Online- oder Papierantrag mit Foto; finanzielle Nachweise nach Situation.",
+        "en": "Online or paper application with a photo; financial evidence depends on the situation.",
+        "ru": "Онлайн-заявление или бумажная форма с фото; финансовые подтверждения зависят от ситуации.",
+        "uk": "Онлайн-заява або паперова форма з фото; фінансові підтвердження залежать від ситуації."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "source_id": "v6-life-kulturlegi-apply-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+      "official_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "discount",
+        "forms"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-ipv-apply",
+      "title": {
+        "de": "Prämienverbilligung · Anmeldung",
+        "en": "Health premium subsidy · application",
+        "ru": "Субсидия медицинской страховки · заявление",
+        "uk": "Субсидія медичного страхування · заява"
+      },
+      "description_short": {
+        "de": "Online-Antrag auch ohne Einladung; Antragsjahr bewusst auswählen.",
+        "en": "Online application also without an invitation; select the application year carefully.",
+        "ru": "Онлайн-заявление доступно и без приглашения; внимательно выберите год заявления.",
+        "uk": "Онлайн-заява доступна й без запрошення; уважно виберіть рік заяви."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "authority": "SVA St.Gallen",
+      "source_id": "v6-life-ipv-apply-source",
+      "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+      "official_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "A",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "insurance",
+        "forms"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-tax-extension",
+      "title": {
+        "de": "Steuererklärung · Fristverlängerung",
+        "en": "Tax return · deadline extension",
+        "ru": "Налоговая декларация · продление срока",
+        "uk": "Податкова декларація · продовження строку"
+      },
+      "description_short": {
+        "de": "Elektronisches Gesuch benötigt Register-Nr. und Geburtsdatum; Bewilligung nicht garantiert.",
+        "en": "Electronic request needs registration number and date of birth; approval is not guaranteed.",
+        "ru": "Электронный запрос требует регистрационный номер и дату рождения; одобрение не гарантировано.",
+        "uk": "Електронний запит потребує реєстраційний номер і дату народження; схвалення не гарантоване."
+      },
+      "topic": "tax-finance",
+      "locality": "st-gallen",
+      "authority": "Kantonales Steueramt St.Gallen",
+      "source_id": "v6-life-tax-extension-source",
+      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+      "official_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "A",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "tax",
+        "forms"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-tax-forms",
+      "title": {
+        "de": "Steuerformulare Privatpersonen",
+        "en": "Individual tax forms",
+        "ru": "Налоговые формы для физических лиц",
+        "uk": "Податкові форми для фізичних осіб"
+      },
+      "description_short": {
+        "de": "Offizielle Formulare und Wegleitungen nach Steuerjahr.",
+        "en": "Official forms and guides by tax year.",
+        "ru": "Официальные формы и инструкции по налоговым годам.",
+        "uk": "Офіційні форми та інструкції за податковими роками."
+      },
+      "topic": "tax-finance",
+      "locality": "st-gallen",
+      "authority": "Kantonales Steueramt St.Gallen",
+      "source_id": "v6-life-tax-forms-source",
+      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+      "official_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "A",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "tax",
+        "forms"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-life-older-unemployed",
+      "title": {
+        "de": "Überbrückungsleistungen ältere Arbeitslose",
+        "en": "Bridge benefits for older unemployed people",
+        "ru": "Переходные выплаты пожилым безработным",
+        "uk": "Перехідні виплати літнім безробітним"
+      },
+      "description_short": {
+        "de": "Zuständige Produktseite der SVA; persönliche Voraussetzungen prüfen lassen.",
+        "en": "SVA product page; have personal eligibility checked.",
+        "ru": "Страница SVA по этой выплате; личные условия нужно проверить.",
+        "uk": "Сторінка SVA щодо цієї виплати; особисті умови потрібно перевірити."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "authority": "SVA St.Gallen",
+      "source_id": "v6-life-older-unemployed-source",
+      "source_url": "https://www.svasg.ch/produkte/uel/",
+      "official_url": "https://www.svasg.ch/produkte/uel/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "A",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "v6-life-rheintal-help-source",
+      "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+      "authority": "Fachstelle Integration Rheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-rheintal-women-source",
+      "source_url": "https://integrationrheintal.ch/frauentreffs/",
+      "authority": "Fachstelle Integration Rheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-family-stories-source",
+      "source_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+      "authority": "Fachstelle Integration Rheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-german-courses-source",
+      "source_url": "https://integrationrheintal.ch/sprachkurse/",
+      "authority": "Fachstelle Integration Rheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "cc6f6c5a82d13674edd8cf9de9f98ff76a903fac655d96d50216f4532d014c82",
+      "fetched_at": "2026-10-02T21:21:26+00:00"
+    },
+    {
+      "source_id": "v6-life-kulturlegi-card-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/was-ist-die-kulturlegi/",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-kulturlegi-eligibility-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wer-ist-berechtigt",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-kulturlegi-apply-source",
+      "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+      "authority": "KulturLegi St.Gallen-Appenzell",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "74a6e4844df37a1ac119a91eb47c227dfddd7059c8b9308fccd217937d515425",
+      "fetched_at": "2026-10-02T21:21:48+00:00"
+    },
+    {
+      "source_id": "v6-life-ipv-apply-source",
+      "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+      "authority": "SVA St.Gallen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "A",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-tax-extension-source",
+      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+      "authority": "Kantonales Steueramt St.Gallen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "A",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-tax-forms-source",
+      "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+      "authority": "Kantonales Steueramt St.Gallen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "A",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-life-older-unemployed-source",
+      "source_url": "https://www.svasg.ch/produkte/uel/",
+      "authority": "SVA St.Gallen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "A",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    }
+  ]
+}

@@ -6,37 +6,37 @@
     {
       "q": "Спорт для детей",
       "ids": [
-        "v6-kiri-oberriet",
         "v6-stvoe-jugi",
-        "v6-montlingen-athletics",
-        "v6-montlingen-boys-middle",
-        "v6-montlingen-boys-small"
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics"
       ]
     },
     {
       "q": "Спорт доя детей",
       "ids": [
-        "v6-kiri-oberriet",
         "v6-stvoe-jugi",
-        "v6-montlingen-athletics",
-        "v6-montlingen-boys-middle",
-        "v6-montlingen-boys-small"
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics"
       ]
     },
     {
       "q": "Танцы для женщин",
       "ids": [
+        "v6-msor-adult-dance",
         "v6-montlingen-damen",
-        "v6-montlingen-fitness",
-        "v6-msor-adult-dance"
+        "v6-montlingen-fitness"
       ]
     },
     {
       "q": "танци доя женщин",
       "ids": [
+        "v6-msor-adult-dance",
         "v6-montlingen-damen",
-        "v6-montlingen-fitness",
-        "v6-msor-adult-dance"
+        "v6-montlingen-fitness"
       ]
     },
     {

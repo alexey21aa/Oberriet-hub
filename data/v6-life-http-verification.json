@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "v6-life-rheintal-help-source",
+    "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+    "checked_at": "2026-10-02T21:21:04+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-rheintal-women-source",
+    "source_url": "https://integrationrheintal.ch/frauentreffs/",
+    "checked_at": "2026-10-02T21:21:10+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-family-stories-source",
+    "source_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+    "checked_at": "2026-10-02T21:21:16+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-german-courses-source",
+    "source_url": "https://integrationrheintal.ch/sprachkurse/",
+    "checked_at": "2026-10-02T21:21:26+00:00",
+    "http_status": 200,
+    "sha256": "cc6f6c5a82d13674edd8cf9de9f98ff76a903fac655d96d50216f4532d014c82",
+    "resolved_url": "https://integrationrheintal.ch/sprachkurse/",
+    "bytes": 165647
+  },
+  {
+    "source_id": "v6-life-kulturlegi-card-source",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/was-ist-die-kulturlegi/",
+    "checked_at": "2026-10-02T21:21:34+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-kulturlegi-eligibility-source",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wer-ist-berechtigt",
+    "checked_at": "2026-10-02T21:21:40+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-kulturlegi-apply-source",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+    "checked_at": "2026-10-02T21:21:48+00:00",
+    "http_status": 200,
+    "sha256": "74a6e4844df37a1ac119a91eb47c227dfddd7059c8b9308fccd217937d515425",
+    "resolved_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+    "bytes": 31040
+  },
+  {
+    "source_id": "v6-life-ipv-apply-source",
+    "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "checked_at": "2026-10-02T21:21:52+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-tax-extension-source",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+    "checked_at": "2026-10-02T21:21:58+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-tax-forms-source",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+    "checked_at": "2026-10-02T21:22:04+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-life-older-unemployed-source",
+    "source_url": "https://www.svasg.ch/produkte/uel/",
+    "checked_at": "2026-10-02T21:22:12+00:00",
+    "error": "<urlopen error timed out>"
+  }
+]

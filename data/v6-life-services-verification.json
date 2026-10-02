@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "v6-life-rheintal-help",
+    "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+    "retrieval_ref": "turn4view3",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-oberriet-help",
+    "source_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+    "retrieval_ref": "turn4view3",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-rheintal-women",
+    "source_url": "https://integrationrheintal.ch/frauentreffs/",
+    "retrieval_ref": "turn5view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-rheintal-men",
+    "source_url": "https://integrationrheintal.ch/frauentreffs/",
+    "retrieval_ref": "turn5view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-family-stories",
+    "source_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+    "retrieval_ref": "turn5view1",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-german-courses",
+    "source_url": "https://integrationrheintal.ch/sprachkurse/",
+    "retrieval_ref": "turn5view2",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-kulturlegi-card",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/was-ist-die-kulturlegi/",
+    "retrieval_ref": "turn4view4",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-kulturlegi-eligibility",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wer-ist-berechtigt",
+    "retrieval_ref": "turn5view3",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-kulturlegi-apply",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+    "retrieval_ref": "turn5view4",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-ipv-apply",
+    "source_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "retrieval_ref": "turn4view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-tax-extension",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/fristverlaengerung/privatpersonen.html",
+    "retrieval_ref": "turn3search4",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-tax-forms",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+    "retrieval_ref": "turn3search2",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-life-older-unemployed",
+    "source_url": "https://www.svasg.ch/produkte/uel/",
+    "retrieval_ref": "turn5view5",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  }
+]

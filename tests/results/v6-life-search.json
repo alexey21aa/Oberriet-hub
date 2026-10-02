@@ -1,0 +1,359 @@
+[
+  {
+    "q": "женские встречи",
+    "expected": "v6-life-rheintal-women",
+    "ids": [
+      "regional-social-meetups",
+      "v6-life-rheintal-women",
+      "v6-life-rheintal-men",
+      "nav-f7028aac785f",
+      "23620"
+    ],
+    "passed": true
+  },
+  {
+    "q": "women meetings",
+    "expected": "v6-life-rheintal-women",
+    "ids": [
+      "v6-life-rheintal-women",
+      "v6-montlingen-damen",
+      "v6-montlingen-fitness",
+      "v6-montlingen-frauen",
+      "regional-social-meetups"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Frauentreffs Rheintal",
+    "expected": "v6-life-rheintal-women",
+    "ids": [
+      "v6-life-rheintal-women",
+      "regional-social-meetups"
+    ],
+    "passed": true
+  },
+  {
+    "q": "жіночі зустрічі",
+    "expected": "v6-life-rheintal-women",
+    "ids": [
+      "regional-social-meetups",
+      "v6-life-rheintal-women",
+      "23620",
+      "23627",
+      "23895"
+    ],
+    "passed": true
+  },
+  {
+    "q": "мужские встречи",
+    "expected": "v6-life-rheintal-men",
+    "ids": [
+      "regional-social-meetups",
+      "v6-life-rheintal-men",
+      "v6-life-rheintal-women",
+      "regional-interpreting",
+      "regional-welcome-interview"
+    ],
+    "passed": true
+  },
+  {
+    "q": "men meetings",
+    "expected": "v6-life-rheintal-men",
+    "ids": [
+      "v6-life-rheintal-men",
+      "regional-social-meetups",
+      "v6-life-rheintal-women",
+      "nav-f7028aac785f"
+    ],
+    "passed": true
+  },
+  {
+    "q": "помощь с формами Oberriet",
+    "expected": "v6-life-oberriet-help",
+    "ids": [
+      "v6-life-oberriet-help",
+      "v6-life-rheintal-help",
+      "blatten",
+      "museum",
+      "school-oberriet"
+    ],
+    "passed": true
+  },
+  {
+    "q": "forms help Oberriet",
+    "expected": "v6-life-oberriet-help",
+    "ids": [
+      "v6-life-rheintal-help",
+      "blatten",
+      "museum",
+      "school-oberriet",
+      "v6-life-oberriet-help"
+    ],
+    "passed": true
+  },
+  {
+    "q": "допомога з формами Oberriet",
+    "expected": "v6-life-oberriet-help",
+    "ids": [
+      "blatten",
+      "museum",
+      "school-oberriet",
+      "v6-life-oberriet-help",
+      "regional-consultation-oberriet"
+    ],
+    "passed": true
+  },
+  {
+    "q": "семейное чтение",
+    "expected": "v6-life-family-stories",
+    "ids": [
+      "v6-life-family-stories",
+      "regional-family-literacy",
+      "24009",
+      "nav-2b48f9e546fd",
+      "nav-6e9e9104d59d"
+    ],
+    "passed": true
+  },
+  {
+    "q": "family storytelling",
+    "expected": "v6-life-family-stories",
+    "ids": [
+      "v6-life-family-stories",
+      "regional-family-literacy",
+      "regional-home-language-support",
+      "answer-23620-requirements",
+      "24009"
+    ],
+    "passed": true
+  },
+  {
+    "q": "сімейне читання",
+    "expected": "v6-life-family-stories",
+    "ids": [
+      "v6-life-family-stories",
+      "23620",
+      "23627",
+      "23895",
+      "23984"
+    ],
+    "passed": true
+  },
+  {
+    "q": "курсы немецкого",
+    "expected": "v6-life-german-courses",
+    "ids": [
+      "practical-german-courses",
+      "122615",
+      "regional-family-literacy",
+      "v6-life-family-stories",
+      "v6-life-german-courses"
+    ],
+    "passed": true
+  },
+  {
+    "q": "German courses",
+    "expected": "v6-life-german-courses",
+    "ids": [
+      "practical-german-courses",
+      "v6-life-german-courses",
+      "v6-creative-kids",
+      "v6-life-oberriet-help",
+      "v6-montlingen-damen"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Deutschkurse",
+    "expected": "v6-life-german-courses",
+    "ids": [
+      "practical-german-courses",
+      "regional-family-literacy",
+      "v6-life-family-stories",
+      "v6-life-german-courses",
+      "23620"
+    ],
+    "passed": true
+  },
+  {
+    "q": "курси німецької",
+    "expected": "v6-life-german-courses",
+    "ids": [
+      "practical-german-courses",
+      "regional-family-literacy",
+      "v6-life-family-stories",
+      "v6-life-german-courses",
+      "122615"
+    ],
+    "passed": true
+  },
+  {
+    "q": "KulturLegi заявление",
+    "expected": "v6-life-kulturlegi-apply",
+    "ids": [
+      "v6-life-kulturlegi-apply",
+      "practical-kulturlegi",
+      "sbb-daycard",
+      "v6-life-kulturlegi-card",
+      "v6-life-kulturlegi-eligibility"
+    ],
+    "passed": true
+  },
+  {
+    "q": "KulturLegi application",
+    "expected": "v6-life-kulturlegi-apply",
+    "ids": [
+      "v6-life-kulturlegi-apply",
+      "practical-kulturlegi",
+      "sbb-daycard",
+      "v6-life-kulturlegi-card",
+      "v6-life-kulturlegi-eligibility"
+    ],
+    "passed": true
+  },
+  {
+    "q": "KulturLegi заява",
+    "expected": "v6-life-kulturlegi-apply",
+    "ids": [
+      "v6-life-kulturlegi-apply",
+      "practical-kulturlegi",
+      "sbb-daycard",
+      "v6-life-kulturlegi-card",
+      "v6-life-kulturlegi-eligibility"
+    ],
+    "passed": true
+  },
+  {
+    "q": "субсидия медицинской страховки",
+    "expected": "v6-life-ipv-apply",
+    "ids": [
+      "v6-life-ipv-apply",
+      "24004"
+    ],
+    "passed": true
+  },
+  {
+    "q": "health insurance subsidy",
+    "expected": "v6-life-ipv-apply",
+    "ids": [
+      "v6-life-ipv-apply",
+      "nav-69dc32082063",
+      "answer-23620-requirements",
+      "24004",
+      "nav-266338c6e4bc"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Prämienverbilligung Anmeldung",
+    "expected": "v6-life-ipv-apply",
+    "ids": [
+      "v6-life-ipv-apply",
+      "23620",
+      "23627",
+      "23895",
+      "23984"
+    ],
+    "passed": true
+  },
+  {
+    "q": "субсидія медичного страхування",
+    "expected": "v6-life-ipv-apply",
+    "ids": [
+      "v6-life-ipv-apply",
+      "24004",
+      "nav-266338c6e4bc",
+      "nav-3caf865dc678",
+      "nav-8e4f96e27e96"
+    ],
+    "passed": true
+  },
+  {
+    "q": "налоговые формы",
+    "expected": "v6-life-tax-forms",
+    "ids": [
+      "v6-life-tax-forms",
+      "23895",
+      "v6-life-tax-extension",
+      "school-eichenwies",
+      "school-kobelwald"
+    ],
+    "passed": true
+  },
+  {
+    "q": "tax forms",
+    "expected": "v6-life-tax-forms",
+    "ids": [
+      "v6-life-tax-forms",
+      "v6-life-tax-extension",
+      "23895",
+      "v6-life-rheintal-help",
+      "school-eichenwies"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Steuerformulare",
+    "expected": "v6-life-tax-forms",
+    "ids": [
+      "v6-life-tax-forms"
+    ],
+    "passed": true
+  },
+  {
+    "q": "податкові форми",
+    "expected": "v6-life-tax-forms",
+    "ids": [
+      "v6-life-tax-forms",
+      "23895",
+      "v6-life-tax-extension",
+      "school-eichenwies",
+      "school-kobelwald"
+    ],
+    "passed": true
+  },
+  {
+    "q": "продление срока декларации",
+    "expected": "v6-life-tax-extension",
+    "ids": [
+      "v6-life-tax-extension",
+      "23986",
+      "nav-615062f29990"
+    ],
+    "passed": true
+  },
+  {
+    "q": "tax deadline extension",
+    "expected": "v6-life-tax-extension",
+    "ids": [
+      "v6-life-tax-extension",
+      "23895",
+      "school-eichenwies",
+      "school-kobelwald",
+      "school-kriessern"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Fristverlängerung Steuererklärung",
+    "expected": "v6-life-tax-extension",
+    "ids": [
+      "v6-life-tax-extension",
+      "23895",
+      "v6-life-tax-forms",
+      "23986",
+      "nav-615062f29990"
+    ],
+    "passed": true
+  },
+  {
+    "q": "продовження строку декларації",
+    "expected": "v6-life-tax-extension",
+    "ids": [
+      "v6-life-tax-extension",
+      "23986",
+      "nav-615062f29990"
+    ],
+    "passed": true
+  }
+]

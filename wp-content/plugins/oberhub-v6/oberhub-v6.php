@@ -2,7 +2,7 @@
 /**
  * Plugin Name: OberHub V6 Search Extension
  * Description: Additive device-independent retrieval and AI gateway. Keeps existing core and data.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Requires PHP: 8.2
  * License: GPL-2.0-or-later
  */
@@ -11,10 +11,30 @@ if(!defined('ABSPATH'))exit;
 require_once __DIR__.'/src/Knowledge.php';
 foreach(['AIProvider','NullProvider','OpenAICompatibleProvider','AnswerPacks','Gateway'] as $class)require_once __DIR__.'/src/AI/'.$class.'.php';
 function dataset():array{return \OberHub\dataset();}
+function mark_index_dirty($mid,$pid,$key):void {
+ if($key!=='_oh_record'||strpos((string)get_post_type($pid),'oh_')!==0||get_post_type($pid)==='oh_source')return;
+ update_option('oh_v6_index_dirty',microtime(true),false);
+ if(!wp_next_scheduled('oh_v6_refresh_index'))wp_schedule_single_event(time()+120,'oh_v6_refresh_index');
+}
+add_action('added_post_meta',__NAMESPACE__.'\\mark_index_dirty',10,3);
+add_action('updated_post_meta',__NAMESPACE__.'\\mark_index_dirty',10,3);
+add_action('before_delete_post',function($pid){mark_index_dirty(0,$pid,'_oh_record');},10,1);
+add_action('oh_v6_refresh_index',function(){
+ if(!class_exists('OberHub\\ImportQueue'))return;
+ $revision=get_option('oh_v6_index_dirty',false);if(!$revision)return;
+ if(\OberHub\ImportQueue::active()){wp_schedule_single_event(time()+120,'oh_v6_refresh_index');return;}
+ try {
+  Knowledge::install();$stats=Knowledge::rebuild(dataset());
+  if(empty($stats['records']))throw new \RuntimeException('Empty index');
+  if(get_option('oh_v6_index_dirty')===$revision)update_option('oh_v6_index_dirty',false,false);
+  else if(!wp_next_scheduled('oh_v6_refresh_index'))wp_schedule_single_event(time()+120,'oh_v6_refresh_index');
+  update_option('oh_v6_ready',true,false);update_option('oh_v6_index_error','',false);
+ }catch(\Throwable $e){update_option('oh_v6_index_error','Refresh failed; retry scheduled.',false);wp_schedule_single_event(time()+300,'oh_v6_refresh_index');}
+},10,0);
 // Until explicitly prepared by an administrator, the live core routes remain untouched.
 add_action('rest_api_init',function(){
  if(!class_exists('OberHub\\Knowledge'))return;
- register_rest_route('oberhub/v1','/v6/status',['methods'=>'GET','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>fn()=>rest_ensure_response(['version'=>'0.1.1','ready'=>(bool)get_option('oh_v6_ready',false),'stats'=>get_option('oh_v6_knowledge_stats',[]),'import'=>\OberHub\ImportQueue::status()])]);
+ register_rest_route('oberhub/v1','/v6/status',['methods'=>'GET','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>fn()=>rest_ensure_response(['version'=>'0.1.2','ready'=>(bool)get_option('oh_v6_ready',false),'stats'=>get_option('oh_v6_knowledge_stats',[]),'index_dirty'=>(bool)get_option('oh_v6_index_dirty',false),'index_error'=>get_option('oh_v6_index_error',''),'import'=>\OberHub\ImportQueue::status()])]);
  register_rest_route('oberhub/v1','/v6/prepare',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>function($req){
   if(\OberHub\ImportQueue::active())return new \WP_Error('busy','Finish existing import first',['status'=>409]);
   $body=$req->get_json_params() ?: [];
@@ -28,7 +48,9 @@ add_action('rest_api_init',function(){
    $count=0;foreach($delta as $rows){if(!is_array($rows)||!array_is_list($rows))return new \WP_Error('dataset','Collections must be lists',['status'=>400]);$count+=count($rows);}
    if(!$count||$count>500)return new \WP_Error('dataset','Use batches of 1–500 records',['status'=>400]);
   }else{
-   $delta=json_decode(file_get_contents(__DIR__.'/activities.json'),true);
+   $batch=$body['batch']??'activities';
+   if(!in_array($batch,['activities','life'],true))return new \WP_Error('batch','Unknown bundled batch',['status'=>400]);
+   $delta=json_decode(file_get_contents(__DIR__.'/'.($batch==='life'?'life-services.json':'activities.json')),true);
    foreach($delta['sources'] as $source)\OberHub\Sources::approve_host(wp_parse_url($source['source_url'],PHP_URL_HOST));
   }
   return rest_ensure_response(\OberHub\ImportQueue::enqueue($delta,false));
