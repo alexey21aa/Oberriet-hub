@@ -1,0 +1,1696 @@
+[
+  {
+    "url": "https://www.hallo.sg.ch/de/deutsch-lernen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/deutsch-lernen.html",
+    "status": 200,
+    "title": "Deutsch lernen",
+    "content_hash": "d9a7a4bbb1c7a997c49de7a2a8551d10afdb31cebd033d239fbdfcc5f32f44ce",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Learn German",
+      "uk": "Вивчення німецької мови",
+      "ru": "Изучение немецкого языка"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-d83bf9f11174",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/deutsch-lernen.html",
+      "uk": "https://www.hallo.sg.ch/uk/deutsch-lernen.html",
+      "en": "https://www.hallo.sg.ch/en/deutsch-lernen.html",
+      "ru": "https://www.hallo.sg.ch/ru/deutsch-lernen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/deutsch-lernen/dolmetscher-service.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/deutsch-lernen/dolmetscher-service.html",
+    "status": 200,
+    "title": "Dolmetscher-Service",
+    "content_hash": "1d0e2377011b1b645a2a7a80ad0a4eadb0125aff1396fc42bb1a7e38580bd1e8",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Interpreting service",
+      "uk": "Послуги перекладача",
+      "ru": "Услуги переводчика"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-fa4af2b3b259",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/deutsch-lernen/dolmetscher-service.html",
+      "uk": "https://www.hallo.sg.ch/uk/deutsch-lernen/dolmetscher-service.html",
+      "en": "https://www.hallo.sg.ch/en/deutsch-lernen/dolmetscher-service.html",
+      "ru": "https://www.hallo.sg.ch/ru/deutsch-lernen/dolmetscher-service.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle.html",
+    "status": 200,
+    "title": "Arbeitsstelle",
+    "content_hash": "5730c72dc72f1d27ced5517460a7b2363d284f2018800bda9d3b4195bca2ed08",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Job",
+      "uk": "Місце роботи",
+      "ru": "Место работы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-7aada5c3b1db",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen.html",
+    "status": 200,
+    "title": "Arbeit und Finanzen",
+    "content_hash": "18f4c2706896f3a31e658c68bb1d85f90ad783d525841683e9cba54e65c5bdfd",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Work and finances",
+      "uk": "Робота і фінанси",
+      "ru": "Работа и финансы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-3f9147d34698",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/deutsch-lernen/sprachkurse.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/deutsch-lernen/sprachkurse.html",
+    "status": 200,
+    "title": "Sprachkurse",
+    "content_hash": "82eedcd57d5b7078114eadd63306fecda67bf73af65618a1f2d07846f0112b68",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Language courses",
+      "uk": "Мовні курси",
+      "ru": "Языковые курсы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-2b33a17e99dd",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/deutsch-lernen/sprachkurse.html",
+      "uk": "https://www.hallo.sg.ch/uk/deutsch-lernen/sprachkurse.html",
+      "en": "https://www.hallo.sg.ch/en/deutsch-lernen/sprachkurse.html",
+      "ru": "https://www.hallo.sg.ch/ru/deutsch-lernen/sprachkurse.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/deutsch-lernen/angebote-begegnen-lernen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/deutsch-lernen/angebote-begegnen-lernen.html",
+    "status": 200,
+    "title": "Begegnen & Lernen",
+    "content_hash": "791e34c504dddfe281046f9cebee49e28cbe7b25ed92c5eea19ae8821362f4fb",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Meet & learn",
+      "uk": "Зустрічи та навчання",
+      "ru": "Мероприятия и обучение"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-db7d71af0214",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/deutsch-lernen/angebote-begegnen-lernen.html",
+      "uk": "https://www.hallo.sg.ch/uk/deutsch-lernen/angebote-begegnen-lernen.html",
+      "en": "https://www.hallo.sg.ch/en/deutsch-lernen/angebote-begegnen-lernen.html",
+      "ru": "https://www.hallo.sg.ch/ru/deutsch-lernen/angebote-begegnen-lernen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/ihr-start-in-st-gallen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/ihr-start-in-st-gallen.html",
+    "status": 200,
+    "title": "Ihr Start in St.Gallen",
+    "content_hash": "495fde72bfe11fc71f70d766d961983104689445527961724b46510791e4e220",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Your start in St.Gallen",
+      "uk": "Ваш старт у Санкт-Галлені",
+      "ru": "Ваш старт в Санкт-Галлене"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-20beedc9e816",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/ihr-start-in-st-gallen.html",
+      "uk": "https://www.hallo.sg.ch/uk/ihr-start-in-st-gallen.html",
+      "en": "https://www.hallo.sg.ch/en/ihr-start-in-st-gallen.html",
+      "ru": "https://www.hallo.sg.ch/ru/ihr-start-in-st-gallen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html",
+    "status": 200,
+    "title": "Arbeitsbewilligung",
+    "content_hash": "1fe6b177e605e2fdbcd479c6bd86d5cc0551af4f1283a620584cc60d61fcd9db",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Work permit",
+      "uk": "Дозвіл на роботу",
+      "ru": "Разрешение на работу"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-146b48fd3580",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/arbeitsbewilligung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html",
+    "status": 200,
+    "title": "Probleme bei der Arbeit",
+    "content_hash": "ede572c158700c3da110d76f202f5bf1d81a722fcc50871ac2c4fbd30005af83",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Problems at work",
+      "uk": "Проблеми на роботі",
+      "ru": "Проблемы на работе"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-c51f78c509a4",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/probleme-bei-der-arbeit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+    "status": 200,
+    "title": "Selbständigkeit",
+    "content_hash": "72b467b06af11d6d8e6de2ab59a932134b1950675883c8f8b8a5f378dcaf0e06",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Self-employment",
+      "uk": "Самостійна діяльність",
+      "ru": "Самозанятость"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-3b6e82e1b025",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/selbstaendigkeit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/ausbildung-diplome.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/ausbildung-diplome.html",
+    "status": 200,
+    "title": "Ausbildung & Diplome",
+    "content_hash": "7c9bf1fb65e97d86dbb8f5f3b5be832e4b96ca3f1c1b41730c5909a73b5b1023",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Education & diplomas",
+      "uk": "Освіта та дипломи",
+      "ru": "Образование и дипломы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-fb72195fa923",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/ausbildung-diplome.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/ausbildung-diplome.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/ausbildung-diplome.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/ausbildung-diplome.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitssuche.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitssuche.html",
+    "status": 200,
+    "title": "Arbeitssuche",
+    "content_hash": "7225ae9fb21f257d0932792c37bc018c705bf0da1638f38bb71e5c50ada1a04a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Job search",
+      "uk": "Пошук роботи",
+      "ru": "Поиск работы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-dc320d1b6049",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitssuche.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/arbeitssuche.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/arbeitssuche.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/arbeitssuche.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/pensionierung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/pensionierung.html",
+    "status": 200,
+    "title": "Pensionierung",
+    "content_hash": "6cac5242211e49b4eb924e729f766d8700c0a45d13631fbc1a55256942837533",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Retirement",
+      "uk": "Вихід на пенсію",
+      "ru": "Выход на пенсию"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-21f2cb89f9d2",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/pensionierung.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/pensionierung.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/pensionierung.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/pensionierung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+    "status": 200,
+    "title": "Arbeitslosigkeit",
+    "content_hash": "192ba3c4172bdadd7149f17d21b5c3332ae63ae76a858b21f778fcf5b69fd228",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Unemployment",
+      "uk": "Безробіття",
+      "ru": "Безработица"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-e942f10f91dd",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/arbeitslosigkeit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html",
+    "status": 200,
+    "title": "Lohn & Arbeitsvertrag",
+    "content_hash": "cda031e5953052835f65cd7271da7871a558b9f9cfe296c92ccd7a9e5e40978c",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Wage & employment contract",
+      "uk": "Зарплата та трудовий договір",
+      "ru": "Зарплата и трудовой договор"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-c81d153b26a1",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/arbeitsstelle/lohn-arbeitsvertrag.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/sozialversicherungen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/sozialversicherungen.html",
+    "status": 200,
+    "title": "Sozialversicherungen",
+    "content_hash": "1030e6d27a1c7d68bdad4cf930eefe72ce085e54aeedf8760b77abbb66985347",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Social security",
+      "uk": "Соціальне страхування",
+      "ru": "Социальное страхование"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-8a0df95b4f14",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/sozialversicherungen.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/sozialversicherungen.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/sozialversicherungen.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/sozialversicherungen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/konto-zahlungsverkehr.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/konto-zahlungsverkehr.html",
+    "status": 200,
+    "title": "Konto & Zahlungsverkehr",
+    "content_hash": "bbe169dad1d59ef0b5089460fef473babbb014481ce0b568637824e305599a9b",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Account & payments",
+      "uk": "Рахунки та платіжні операції",
+      "ru": "Счета и платежные операции"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-3815cb75a509",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/konto-zahlungsverkehr.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/konto-zahlungsverkehr.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/konto-zahlungsverkehr.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/konto-zahlungsverkehr.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung.html",
+    "status": 200,
+    "title": "Schule und Bildung",
+    "content_hash": "6026237c1727e00ad9eae3b130b756a38acab2e8ef8b7ed8ac91dcb7a288e303",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "School and education",
+      "uk": "Школа і освіта",
+      "ru": "Школа и образование"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-94daeebed7be",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung/bildungssystem.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung/bildungssystem.html",
+    "status": 200,
+    "title": "Bildungssystem",
+    "content_hash": "f6891811e0f12da25bba548360018e5691c428c14e00ea3b863fe23faf52c1a7",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Education system",
+      "uk": "Освітня система",
+      "ru": "Система образования"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-f5111d6c8e9f",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung/bildungssystem.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung/bildungssystem.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung/bildungssystem.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung/bildungssystem.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/schulden-budget.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/schulden-budget.html",
+    "status": 200,
+    "title": "Schulden und Budget",
+    "content_hash": "1130dcfa2c2db44469515090637c15c1be8a5c28dde71087404465b63ff47e2f",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Debt and budget",
+      "uk": "Борг і бюджет",
+      "ru": "Долги и бюджет"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-a32381688095",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/schulden-budget.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/schulden-budget.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/schulden-budget.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/schulden-budget.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/steuern.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/steuern.html",
+    "status": 200,
+    "title": "Steuern",
+    "content_hash": "12a3b58c0adfa1c951b1817bf44c421bcb7a3c278e22ce77ee026dc37125483f",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Taxes",
+      "uk": "Податки",
+      "ru": "Налоги"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-55f1246f41a3",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/steuern.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/steuern.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/steuern.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/steuern.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/arbeit-finanzen/leben-mit-wenig-geld.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/arbeit-finanzen/leben-mit-wenig-geld.html",
+    "status": 200,
+    "title": "Leben mit wenig Geld",
+    "content_hash": "64c7169e0501519d259647f2d6bea537cf065bb701023980ea5314991b134664",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Living with little money",
+      "uk": "Життя з невеликими грошима",
+      "ru": "Жизнь на небольшие деньги"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-135e6ac884a3",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/arbeit-finanzen/leben-mit-wenig-geld.html",
+      "uk": "https://www.hallo.sg.ch/uk/arbeit-finanzen/leben-mit-wenig-geld.html",
+      "en": "https://www.hallo.sg.ch/en/arbeit-finanzen/leben-mit-wenig-geld.html",
+      "ru": "https://www.hallo.sg.ch/ru/arbeit-finanzen/leben-mit-wenig-geld.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung/ergaenzende-angebote.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung/ergaenzende-angebote.html",
+    "status": 200,
+    "title": "Ergänzende Angebote",
+    "content_hash": "3c2dba76f3c91f3624f4b8d5bdcb8f0c7b5a1f24ea6b61e444d9abe70a6f2ac6",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Complementary offers",
+      "uk": "Додаткові пропозиції",
+      "ru": "Дополнительные предложения"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-e6dea564c810",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung/ergaenzende-angebote.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung/ergaenzende-angebote.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung/ergaenzende-angebote.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung/ergaenzende-angebote.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung/obligatorische-schule.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung/obligatorische-schule.html",
+    "status": 200,
+    "title": "Obligatorische Schule",
+    "content_hash": "598f5cd550961a9d145cd6f82d357962bd5aff7a3e875cf38569e265a9468b96",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Compulsory school",
+      "uk": "Обов'язкова школа",
+      "ru": "Обязательная школа"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-4c15df7d5436",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung/obligatorische-schule.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung/obligatorische-schule.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung/obligatorische-schule.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung/obligatorische-schule.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung/bildungswege.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung/bildungswege.html",
+    "status": 200,
+    "title": "Bildungswege",
+    "content_hash": "d2e0a39ed6fcf4d67ef1c3f4b20ad5c50d58d2174def8ee08c537227441804ed",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Educational pathways",
+      "uk": "Освітні можливості",
+      "ru": "Образовательные возможности"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-c1826a4cba59",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung/bildungswege.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung/bildungswege.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung/bildungswege.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung/bildungswege.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben.html",
+    "status": 200,
+    "title": "Zusammenleben",
+    "content_hash": "61cc8cdbc693728ab83972fe51aa9f9a9ea3dee5dbec91b1c4fe5ea33bc7bcc5",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Living together",
+      "uk": "Жити разом",
+      "ru": "Жить вместе"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-6126cbcaacc0",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen.html",
+    "status": 200,
+    "title": "Leben in St.Gallen",
+    "content_hash": "aa84c1068c52a4b1b94f7cc7aafc6b5fb6e6c5eee6f5da5573b03b3104320610",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Life in St.Gallen",
+      "uk": "Життя в Санкт-Галлені",
+      "ru": "Жизнь в Санкт-Галлене"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-920679155320",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html",
+    "status": 200,
+    "title": "Mitbestimmen & Einbürgerung",
+    "content_hash": "236f452597044f5b2442bd7c2b09dcc2dddc49d90da5bac070a2c5125fbee654",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Co-determination & naturalisation",
+      "uk": "Залучення та натуралізація",
+      "ru": "Участие в общественной жизни и натурализация"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-c460509f4ee0",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/mitbestimmen-einbuergerung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html",
+    "status": 200,
+    "title": "Integrationsvereinbarung",
+    "content_hash": "079ac6d4bfc4b950f9f9ed50f013cd0d9dc620f8aef51bc77b23c026c7151cf8",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Integration agreement",
+      "uk": "Інтеграційна угода",
+      "ru": "Интеграционное соглашение"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-56dd8b7edf8e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/integrationsvereinbarung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/schule-bildung/anerkennung-internationaler-abschluesse.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/schule-bildung/anerkennung-internationaler-abschluesse.html",
+    "status": 200,
+    "title": "Anerkennung internationaler Abschlüsse",
+    "content_hash": "d3a9b6a380befd2f6ede22969c598715072543f9742ce29cd6cd3f06ed701017",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Recognition of international degrees",
+      "uk": "Визнання іноземних документів про освіту",
+      "ru": "Признание иностранных документов об образовании"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-363926797b40",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/schule-bildung/anerkennung-internationaler-abschluesse.html",
+      "uk": "https://www.hallo.sg.ch/uk/schule-bildung/anerkennung-internationaler-abschluesse.html",
+      "en": "https://www.hallo.sg.ch/en/schule-bildung/anerkennung-internationaler-abschluesse.html",
+      "ru": "https://www.hallo.sg.ch/ru/schule-bildung/anerkennung-internationaler-abschluesse.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/alltags-regeln.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/alltags-regeln.html",
+    "status": 200,
+    "title": "Alltags-Regeln",
+    "content_hash": "1bc7d4cb2a6646dd7c5a68ff43ecedbf473bb622b94c77d837a7a1792938e208",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Rules for everyday life",
+      "uk": "Повсякденні правила",
+      "ru": "Повседневные правила"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-6c397721f3dd",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/alltags-regeln.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/alltags-regeln.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/alltags-regeln.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/alltags-regeln.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html",
+    "status": 200,
+    "title": "Aufenthaltsbewilligung",
+    "content_hash": "30c0aab40da6c11e29d17e459fa555d51a792e5fa8e084bbf086699286b8440b",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Residence permit",
+      "uk": "Дозвіл на проживання",
+      "ru": "Вид на жительство"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-e7d9c44bde86",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/aufenthaltsbewilligung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-mieten.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-mieten.html",
+    "status": 200,
+    "title": "Wohnung mieten",
+    "content_hash": "c5f956d411f9809134c4a8ec2d4c624a85ebcc5b950f63c665408ea46a71d653",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Rent a flat",
+      "uk": "Оренда квартири",
+      "ru": "Аренда квартиры"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-165be3e428cb",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-mieten.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/wohnung-mieten.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/wohnung-mieten.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/wohnung-mieten.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/politisches-system.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/politisches-system.html",
+    "status": 200,
+    "title": "Politisches System",
+    "content_hash": "fa9b3e9652f25806b24f79807b5e218be4587a286b494aecc93b6e78faa3d691",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Political system",
+      "uk": "Політична система",
+      "ru": "Политическая система"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-e44e8ddf5faf",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/politisches-system.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/politisches-system.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/politisches-system.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/politisches-system.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-finden.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-finden.html",
+    "status": 200,
+    "title": "Wohnung finden",
+    "content_hash": "d8d06cedc83d47f50a31f015ef99ee0e1c0c5e768839c80a9d9e421fc926351a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Find a flat",
+      "uk": "Пошук квартири",
+      "ru": "Поиск квартиры"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-f80be05fde71",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/wohnung-finden.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/wohnung-finden.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/wohnung-finden.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/wohnung-finden.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/tradition-kultur.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/tradition-kultur.html",
+    "status": 200,
+    "title": "Tradition & Kultur",
+    "content_hash": "16e47c19665823ae786eb9101190fb6bd6940cabd6bd567ae6439eabdea454aa",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Tradition & culture",
+      "uk": "Традиції та культура",
+      "ru": "Традиции и культура"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-05ca1579195e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/leben-in-st-gallen/tradition-kultur.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/leben-in-st-gallen/tradition-kultur.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/leben-in-st-gallen/tradition-kultur.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/leben-in-st-gallen/tradition-kultur.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen.html",
+    "status": 200,
+    "title": "Wohnen",
+    "content_hash": "a1c1f39259d8ff2b788ce706668181109dfd05b09630e417e8bb758e65eb6149",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Living",
+      "uk": "Житло",
+      "ru": "Жилье"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-c34357df90de",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/tv-internet-telefon-serafe.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/tv-internet-telefon-serafe.html",
+    "status": 200,
+    "title": "TV / Internet / Telefon / Serafe",
+    "content_hash": "a21dab28b53aa270db689ec4c044613571360c92cf91d9a09e59557b3c0b2ad1",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "TV / Internet / Telephone / Serafe",
+      "uk": "TV / Інтернет / Телефон / Serafe",
+      "ru": "TV / Интернет / Телефон / Serafe"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-8cf30bcedae5",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/tv-internet-telefon-serafe.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/tv-internet-telefon-serafe.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/tv-internet-telefon-serafe.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/tv-internet-telefon-serafe.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/abfallentsorgung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/abfallentsorgung.html",
+    "status": 200,
+    "title": "Abfallentsorgung",
+    "content_hash": "dbf3c9df9dfd3cbcf1b3839d4f44e26530b1d6c617be9019cd879f14be4b2b57",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Waste disposal",
+      "uk": "Утилізація відходів",
+      "ru": "Утилизация отходов"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-28d99b411c19",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/abfallentsorgung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/abfallentsorgung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/abfallentsorgung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/abfallentsorgung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/hausordnung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/hausordnung.html",
+    "status": 200,
+    "title": "Hausordnung",
+    "content_hash": "3d6bb5ea176d2bf4839780212bc1f198f0b576ba14d5257dd643a6393a595fe3",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "House rules",
+      "uk": "Правила будинку",
+      "ru": "Правила проживания"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-76ec90841cab",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/hausordnung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/hausordnung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/hausordnung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/hausordnung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/familiennachzug.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/familiennachzug.html",
+    "status": 200,
+    "title": "Familiennachzug",
+    "content_hash": "3c9d8db397270462a599858f815277c4ac725a654ead75056b5a1f284c82fc81",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Family reunion",
+      "uk": "Возз'єднання сім'ї",
+      "ru": "Воссоединение семьи"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-8392afb01c15",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/familiennachzug.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/familiennachzug.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/familiennachzug.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/familiennachzug.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/heirat-geburt-todesfall.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/heirat-geburt-todesfall.html",
+    "status": 200,
+    "title": "Heirat, Geburt, Todesfall",
+    "content_hash": "7a97caab6e6672623d43edd8b7ccfa57fa55e9cd94b1cbaf4eba7efbefb36dd0",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Marriage, birth, death",
+      "uk": "Шлюб, народження, смерть",
+      "ru": "Брак, рождение, смерть"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-f9b02de28518",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/heirat-geburt-todesfall.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/heirat-geburt-todesfall.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/heirat-geburt-todesfall.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/heirat-geburt-todesfall.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/haustiere.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/haustiere.html",
+    "status": 200,
+    "title": "Haustiere",
+    "content_hash": "f728a37321382d7f692df6da372c12b1c1e8433f67dc01da7090794386aecc49",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Pets",
+      "uk": "Домашні тварини",
+      "ru": "Домашние животные"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-6985c179fbdf",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/haustiere.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/haustiere.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/haustiere.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/haustiere.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien.html",
+    "status": 200,
+    "title": "Familien",
+    "content_hash": "6cc3c9c8c92767646d4442108d98115a37b171c562e607602d58753fa0ffaef2",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Families",
+      "uk": "Сім'ї",
+      "ru": "Семьи"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-b4b831fcfcc9",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/umzug.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/umzug.html",
+    "status": 200,
+    "title": "Umzug",
+    "content_hash": "ed6499369310aa1d0a85ec2da1db04d1660c42d29fdd9c2685a9654935244e30",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Move",
+      "uk": "Переселення",
+      "ru": "Переезд"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-255c0766ee41",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/wohnen/umzug.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/wohnen/umzug.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/wohnen/umzug.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/wohnen/umzug.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/jugendliche.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/jugendliche.html",
+    "status": 200,
+    "title": "Jugendliche",
+    "content_hash": "6cf7fd82d5e0ceeaf699db932b28b8224e1087beac0f3ab08c16c0559199d415",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Adolescents",
+      "uk": "Підлітки",
+      "ru": "Подростки"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-adf2802d1c0f",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/jugendliche.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/jugendliche.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/jugendliche.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/jugendliche.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/partnerschaft.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/partnerschaft.html",
+    "status": 200,
+    "title": "Partnerschaft",
+    "content_hash": "af6f77504a97fee1181dec901af1b1b77e13aeab56402a1e48efdd5e451e6370",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Partnership",
+      "uk": "Партнерство",
+      "ru": "Партнерство"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-5ebc72738f3c",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/partnerschaft.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/partnerschaft.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/partnerschaft.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/partnerschaft.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/kleinkinder.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/kleinkinder.html",
+    "status": 200,
+    "title": "Kleinkinder",
+    "content_hash": "00bfad2f10846f8de441e368ee2ee4c8df0c945b9a169e30f6c38bcdc1fe629d",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Infants",
+      "uk": "Малюки",
+      "ru": "Малыши"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-b9213b4737a2",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/kleinkinder.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/kleinkinder.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/kleinkinder.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/kleinkinder.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/kunst-und-kultur.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/kunst-und-kultur.html",
+    "status": 200,
+    "title": "Kunst und Kultur",
+    "content_hash": "68d3dbea3d59ceddb1b49ca4cf00136776c32a5039e10c29b50d94bbc7a29f58",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Art and culture",
+      "uk": "Мистецтво і культура",
+      "ru": "Искусство и культура"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-8d2e93eb12b2",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/kunst-und-kultur.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit/kunst-und-kultur.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit/kunst-und-kultur.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit/kunst-und-kultur.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/probleme-in-der-familie.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/probleme-in-der-familie.html",
+    "status": 200,
+    "title": "Probleme in der Familie",
+    "content_hash": "9857c1edbf47e112fc274a507c99986d29d00ce3d970c6b3949d9a04e31ae15a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Problems in the family",
+      "uk": "Проблеми в родині",
+      "ru": "Проблемы в семье"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-e5525d2d953e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/probleme-in-der-familie.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/probleme-in-der-familie.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/probleme-in-der-familie.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/probleme-in-der-familie.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/familien/kinderbetreuung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/familien/kinderbetreuung.html",
+    "status": 200,
+    "title": "Kinderbetreuung",
+    "content_hash": "a39ef2d944636d41f2609f9cc323eda7c943c9f17bf26982f730602c0c476665",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Childcare",
+      "uk": "Догляд за дітьми",
+      "ru": "Уход за детьми"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-7152cf9ce90a",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/familien/kinderbetreuung.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/familien/kinderbetreuung.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/familien/kinderbetreuung.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/familien/kinderbetreuung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/aktiv-sein.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/aktiv-sein.html",
+    "status": 200,
+    "title": "Aktiv sein",
+    "content_hash": "8c98870e9f4fa632897e85e04cec224e30df87e95dac538968eb7f37ce136296",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Being active",
+      "uk": "Бути активним",
+      "ru": "Быть активным"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-915211fc7554",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/aktiv-sein.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit/aktiv-sein.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit/aktiv-sein.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit/aktiv-sein.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit.html",
+    "status": 200,
+    "title": "Freizeit",
+    "content_hash": "a916428a042cc71b501a45ff750a95568e883914a3a621553ce7b711838818b1",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Leisure time",
+      "uk": "Вільний час",
+      "ru": "Свободное время"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-fc62f3cd55d0",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/offene-begegnungsangebote.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/offene-begegnungsangebote.html",
+    "status": 200,
+    "title": "Offene Begegnungsangebote",
+    "content_hash": "64f73e9fc6be2b2127f35f0bc13e17a4359a6a37d30fa09e327320b6be96c15a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Open meeting offers",
+      "uk": "Пропозиції відкритих зустрічей",
+      "ru": "Открытые встречи"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-f7028aac785f",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/offene-begegnungsangebote.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit/offene-begegnungsangebote.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit/offene-begegnungsangebote.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit/offene-begegnungsangebote.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/bibliotheken-ludotheken.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/bibliotheken-ludotheken.html",
+    "status": 200,
+    "title": "Bibliotheken & Ludotheken",
+    "content_hash": "887ad3b59ad4ddc246a2e71dace1bbcf0a3f4abae681d157c29a13f0e7cead6a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Libraries & game libraries",
+      "uk": "Бібліотеки та прокат іграшок",
+      "ru": "Библиотеки и прокат игрушек"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-59c1ec16b30e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/bibliotheken-ludotheken.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit/bibliotheken-ludotheken.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit/bibliotheken-ludotheken.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit/bibliotheken-ludotheken.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/vereine-und-clubs.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/vereine-und-clubs.html",
+    "status": 200,
+    "title": "Vereine und Clubs",
+    "content_hash": "393b311dd707f6f726f8e66f37c5f25d745bdd744dc43410428993457bf77891",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Associations and clubs",
+      "uk": "Асоціації і клуби",
+      "ru": "Ассоциации и клубы"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-3ff7c458d0d5",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/freizeit/vereine-und-clubs.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/freizeit/vereine-und-clubs.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/freizeit/vereine-und-clubs.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/freizeit/vereine-und-clubs.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/medizinische-hilfe.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/medizinische-hilfe.html",
+    "status": 200,
+    "title": "Medizinische Hilfe",
+    "content_hash": "dec083611fcc0c45de26a9e2ae524390e36d5eff67853bafb3b4cf7d1bf00861",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Medical support",
+      "uk": "Медична допомога",
+      "ru": "Медицинская помощь"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-af3f260a6b71",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/medizinische-hilfe.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/medizinische-hilfe.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/medizinische-hilfe.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/medizinische-hilfe.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/krankenversicherung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/krankenversicherung.html",
+    "status": 200,
+    "title": "Krankenversicherung",
+    "content_hash": "a80e32a0bb1794a594985911f9650e4f1511ec931cec4540eac3a74e83db8c61",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Health insurance",
+      "uk": "Медична страховка",
+      "ru": "Медицинская страховка"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-69dc32082063",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/krankenversicherung.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/krankenversicherung.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/krankenversicherung.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/krankenversicherung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/gesundheitssystem-in-der-schweiz.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/gesundheitssystem-in-der-schweiz.html",
+    "status": 200,
+    "title": "Gesundheitssystem in der Schweiz",
+    "content_hash": "e4d56bfc3c0fa03349eb19d0d2146d5795fb37f7e672dcf4836d36f4da27402a",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Health system in Switzerland",
+      "uk": "Системи охорони здоров'я в Швейцарії",
+      "ru": "Система здравоохранения в Швейцарии"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-789f0720d4ac",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/gesundheitssystem-in-der-schweiz.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/gesundheitssystem-in-der-schweiz.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/gesundheitssystem-in-der-schweiz.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/gesundheitssystem-in-der-schweiz.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/schwangerschaft-geburt.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/schwangerschaft-geburt.html",
+    "status": 200,
+    "title": "Schwangerschaft / Geburt",
+    "content_hash": "92cd39f01aba6e6ee0aa7e60359a92f3f755c5b7f8ddd4ceefde377b61b356dd",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Pregnancy / Birth",
+      "uk": "Вагітність / пологи",
+      "ru": "Беременность/роды"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-a38110583dd8",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/schwangerschaft-geburt.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/schwangerschaft-geburt.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/schwangerschaft-geburt.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/schwangerschaft-geburt.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit.html",
+    "status": 200,
+    "title": "Gesundheit",
+    "content_hash": "f6b0e5287db028792991f4eacb5098d7ef35fd016313a4cfa370a56e3e0bf95b",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Health",
+      "uk": "Здоров'я",
+      "ru": "Здоровье"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-3664e84df763",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/zusammenleben/religion.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/zusammenleben/religion.html",
+    "status": 200,
+    "title": "Religion",
+    "content_hash": "30357edf146cba990d08c303cdc8ad313db451996c0c599a86bade4d29758df9",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Religion",
+      "uk": "Релігія",
+      "ru": "Религия"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-060c6b72e650",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/zusammenleben/religion.html",
+      "uk": "https://www.hallo.sg.ch/uk/zusammenleben/religion.html",
+      "en": "https://www.hallo.sg.ch/en/zusammenleben/religion.html",
+      "ru": "https://www.hallo.sg.ch/ru/zusammenleben/religion.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/hilfe-im-alter.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/hilfe-im-alter.html",
+    "status": 200,
+    "title": "Hilfe im Alter",
+    "content_hash": "547721e3a0e2b4cc0f59fb90dd3f236671ba4d4942e5b84fc9df1a3a3621b1c7",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Help in old age",
+      "uk": "Допомога в старості",
+      "ru": "Помощь в старости"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-714c8b0feedb",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/hilfe-im-alter.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/hilfe-im-alter.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/hilfe-im-alter.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/hilfe-im-alter.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/psychische-gesundheit.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/psychische-gesundheit.html",
+    "status": 200,
+    "title": "Psychische Gesundheit",
+    "content_hash": "ba37df2eb00e9d3da04b2e4baf5321b7ff1bb44478f847a4a112ed048dbe8ae6",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Mental health",
+      "uk": "Психічне здоров'я",
+      "ru": "Психическое здоровье"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-545628fbd604",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/psychische-gesundheit.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/psychische-gesundheit.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/psychische-gesundheit.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/psychische-gesundheit.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/mobilitaet/fahrrad-zu-fuss.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/mobilitaet/fahrrad-zu-fuss.html",
+    "status": 200,
+    "title": "Velo / zu Fuss",
+    "content_hash": "471ef1413081e74b85171eb4a73628d0fa5e470da6f99c22fa8cc7ea29262b55",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Bicycle / Walking",
+      "uk": "Велосипед / пішки",
+      "ru": "Велосипед / пешком"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-895fbdaac303",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/mobilitaet/fahrrad-zu-fuss.html",
+      "uk": "https://www.hallo.sg.ch/uk/mobilitaet/fahrrad-zu-fuss.html",
+      "en": "https://www.hallo.sg.ch/en/mobilitaet/fahrrad-zu-fuss.html",
+      "ru": "https://www.hallo.sg.ch/ru/mobilitaet/fahrrad-zu-fuss.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte.html",
+    "status": 200,
+    "title": "Beratung und Kontakte",
+    "content_hash": "97382b69948983c00f20252ae9ee1e1d2bd6f38fee8db351f5129b9b139d60c7",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Advice and contacts",
+      "uk": "Консультації та контакти",
+      "ru": "Консультации и контакты"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-158927158722",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/offene-fragen-.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/offene-fragen-.html",
+    "status": 200,
+    "title": "Offene Fragen?",
+    "content_hash": "c68d25dc184ce86318acca7b74c33c22341776fd993d603439514770496c40cd",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Open questions?",
+      "uk": "Відкриті питання?",
+      "ru": "Открытые вопросы?"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-a1db26035582",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/offene-fragen-.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/offene-fragen-.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/offene-fragen-.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/offene-fragen-.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/gesundheit/verstaendigung.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/gesundheit/verstaendigung.html",
+    "status": 200,
+    "title": "Verständigung",
+    "content_hash": "be9e031b7ebd298f32300cf44ab332354bf0f7d544014b9d92e4be3b1746defb",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Understanding",
+      "uk": "Розуміння",
+      "ru": "Понимание"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-0602dbfee202",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/gesundheit/verstaendigung.html",
+      "uk": "https://www.hallo.sg.ch/uk/gesundheit/verstaendigung.html",
+      "en": "https://www.hallo.sg.ch/en/gesundheit/verstaendigung.html",
+      "ru": "https://www.hallo.sg.ch/ru/gesundheit/verstaendigung.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/mobilitaet.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/mobilitaet.html",
+    "status": 200,
+    "title": "Mobilität",
+    "content_hash": "427dadaa8529b1bee7efd2af08cf544140023bf03c8f1c0f014c276ebe62fb68",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Mobility",
+      "uk": "Мобільність",
+      "ru": "Мобильность"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-7fd31408b630",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/mobilitaet.html",
+      "uk": "https://www.hallo.sg.ch/uk/mobilitaet.html",
+      "en": "https://www.hallo.sg.ch/en/mobilitaet.html",
+      "ru": "https://www.hallo.sg.ch/ru/mobilitaet.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/mobilitaet/zug-und-bus.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/mobilitaet/zug-und-bus.html",
+    "status": 200,
+    "title": "Zug und Bus",
+    "content_hash": "1d95fb781de87091843b24809a6008b66437056fc20cf86d1056e48359a065b1",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Train and bus",
+      "uk": "Потяг і автобус",
+      "ru": "Поезд и автобус"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-86aa350df49e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/mobilitaet/zug-und-bus.html",
+      "uk": "https://www.hallo.sg.ch/uk/mobilitaet/zug-und-bus.html",
+      "en": "https://www.hallo.sg.ch/en/mobilitaet/zug-und-bus.html",
+      "ru": "https://www.hallo.sg.ch/ru/mobilitaet/zug-und-bus.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/mobilitaet/auto-motorrad.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/mobilitaet/auto-motorrad.html",
+    "status": 200,
+    "title": "Auto / Motorrad",
+    "content_hash": "835f01cf203262d2a95dd69794e568024892b366b1cd2a63f51ad8331232cd53",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Car / Motorcycle",
+      "uk": "Автомобіль / мотоцикл",
+      "ru": "Автомобиль/мотоцикл"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-87ede019ef83",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/mobilitaet/auto-motorrad.html",
+      "uk": "https://www.hallo.sg.ch/uk/mobilitaet/auto-motorrad.html",
+      "en": "https://www.hallo.sg.ch/en/mobilitaet/auto-motorrad.html",
+      "ru": "https://www.hallo.sg.ch/ru/mobilitaet/auto-motorrad.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/beratungsstellen.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/beratungsstellen.html",
+    "status": 200,
+    "title": "Beratungsstellen",
+    "content_hash": "226560512520548377323e3731865ce5b10681b764a19ce8b3a4b8843647547d",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Advice centres",
+      "uk": "Консультаційні центри",
+      "ru": "Консультационные центры"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-dffb004cd597",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/beratungsstellen.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/beratungsstellen.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/beratungsstellen.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/beratungsstellen.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "status": 200,
+    "title": "Rechtsauskünfte",
+    "content_hash": "68f2f2a57e2dae0fcd5c873cf25224c54c7ee88931f200463287e3fd2e6e6c66",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Legal information",
+      "uk": "Правова інформація",
+      "ru": "Консультация юриста"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-ccb59aca292e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/rechtsauskuenfte.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/rechtsauskuenfte.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/rechtsauskuenfte.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/fluechtlinge.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/fluechtlinge.html",
+    "status": 200,
+    "title": "Flüchtlinge",
+    "content_hash": "0da3028866c5974aec615ebc4f2d620ca8f3558846080ee6e67c7fd8d3dcffa5",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Refugees",
+      "uk": "Біженців",
+      "ru": "Беженцев"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-eded1ae27588",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/fluechtlinge.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/fluechtlinge.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/fluechtlinge.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/fluechtlinge.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/behoerden.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/behoerden.html",
+    "status": 200,
+    "title": "Behörden",
+    "content_hash": "7de95b43505986ad9ef24c31890318faf1b79b96ba7ded79e58a286ffaa0fa71",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Authorities",
+      "uk": "Органи влади",
+      "ru": "Органы власти"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-087f3170b5bc",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/behoerden.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/behoerden.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/behoerden.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/behoerden.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/notfaelle.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/notfaelle.html",
+    "status": 200,
+    "title": "Notfälle",
+    "content_hash": "049d271631ecc7fa881dd1721caed17aa50db6d66d1d31e6c5ea795f5d66d905",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Emergencies",
+      "uk": "Надзвичайні ситуації",
+      "ru": "Чрезвычайные ситуации"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-7940d215304b",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/notfaelle.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/notfaelle.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/notfaelle.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/notfaelle.html"
+    }
+  },
+  {
+    "url": "https://www.hallo.sg.ch/de/beratung-kontakte/kontakte.html",
+    "resolved_url": "https://www.hallo.sg.ch/de/beratung-kontakte/kontakte.html",
+    "status": 200,
+    "title": "Kontakte",
+    "content_hash": "0bd4fbc8260f8b4434dd254411c7e0263699d057034427e5cdaa5ef8fa2f06bd",
+    "checked_at": "2026-10-01",
+    "translation": {
+      "en": "Contacts",
+      "uk": "контакти",
+      "ru": "контакты"
+    },
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "topic": "integration",
+    "id": "nav-45f1fe1be66e",
+    "localized_source_urls": {
+      "de": "https://www.hallo.sg.ch/de/beratung-kontakte/kontakte.html",
+      "uk": "https://www.hallo.sg.ch/uk/beratung-kontakte/kontakte.html",
+      "en": "https://www.hallo.sg.ch/en/beratung-kontakte/kontakte.html",
+      "ru": "https://www.hallo.sg.ch/ru/beratung-kontakte/kontakte.html"
+    }
+  }
+]

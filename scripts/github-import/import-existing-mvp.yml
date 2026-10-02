@@ -1,0 +1,32 @@
+name: Import preserved Oberriet Hub history
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  import:
+    if: github.repository == 'alexey21aa/Oberriet-hub' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify and merge the existing bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          git bundle verify oberriet-hub.git.bundle
+          git fetch ./oberriet-hub.git.bundle refs/heads/main:refs/remotes/preserved/main
+          preserved=$(git rev-parse refs/remotes/preserved/main)
+          git config user.name 'Oberriet Hub import'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git merge --allow-unrelated-histories -X theirs refs/remotes/preserved/main -m 'Import preserved MVP source and complete Git history'
+          git merge-base --is-ancestor "$preserved" HEAD
+          test -f wp-content/plugins/oberhub-core/oberhub-core.php
+          test -f wp-content/themes/oberhub-theme/style.css
+          test -f data/seed.json
+          git push origin HEAD:main
+          echo "Imported existing history through $preserved" >> "$GITHUB_STEP_SUMMARY"

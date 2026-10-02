@@ -1,0 +1,17 @@
+{
+    "enqueue_validated": true,
+    "batch_limit": true,
+    "resumes_after_request": true,
+    "concurrent_enqueue_rejected": true,
+    "capability_required": true,
+    "complete_after_all_records": true,
+    "index_once_at_end": true,
+    "private_chunks_removed": true,
+    "repeat_without_overwrite_idempotent": true,
+    "partial_import_preserves_expanded_intents": true,
+    "partial_import_preserves_deduplicated_aliases": true,
+    "partial_import_preserves_existing_waste": true,
+    "explicit_overwrite_replaces_metadata": true,
+    "legacy_intent_ids_do_not_duplicate_curated_intents": true,
+    "lock_released": true
+}

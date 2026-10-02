@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/aforms/sva-kontaktformular-allgemein.php",
+    "title": "Direkt zur Kontaktseite"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/aforms/sva-kontaktformular-allgemein.php",
+    "title": "Kontakt"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/",
+    "title": "Alters- und Hinterlassenenversicherung (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/",
+    "title": "AHV-Beiträge"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/",
+    "title": "Beitragspflicht"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/beitraege_der_arbeitgeber.php",
+    "title": "Arbeitgebende"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/beitraege_der_nichterwerbstaetigen.php",
+    "title": "Nichterwerbstätige"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/beitraege_der_selbstaendigerwerbenden.php",
+    "title": "Selbständigerwerbende"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/beitraege_der_selbstzahlenden.php",
+    "title": "Arbeitnehmende mit Arbeitgeber/in im Ausland"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/internationale_bestimmungen.php",
+    "title": "Internationale Bestimmungen Beitragswesen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/individuelles_konto.php",
+    "title": "Individuelles Konto (IK)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsbeitraege/versicherungsausweis.php",
+    "title": "Versicherungsausweis"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/",
+    "title": "AHV-Leistungen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/altersrente.php",
+    "title": "Altersrente"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/altersrente13.php",
+    "title": "13. Altersrente"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/hinterlassenenrente.php",
+    "title": "Hinterlassenenrente"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/hilflosenentschaedigung_und_hilfsmittel.php",
+    "title": "Hilflosenentschädigung und Hilfsmittel"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/versicherungsleistungen/personen_mit_auslaendischen_versicherungszeiten.php",
+    "title": "Personen mit ausländischen Versicherungszeiten"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ahv/3-ebene/auszahlungstermine.php",
+    "title": "Auszahlungstermine"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/",
+    "title": "Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/berufliche_integration.php",
+    "title": "Berufliche Integration"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/frueherfassung.php",
+    "title": "Früherfassung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/fruehintervention.php",
+    "title": "Frühintervention"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/integrationsmassnahmen.php",
+    "title": "Integrationsmassnahmen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/berufsberatung.php",
+    "title": "Berufsberatung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/erstmalige-berufliche-ausbildung.php",
+    "title": "Erstmalige berufliche Ausbildung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/umschulung.php",
+    "title": "Umschulung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/arbeitsvermittlung.php",
+    "title": "Arbeitsvermittlung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/rework.php",
+    "title": "reWork St.Gallen / reWork-Profil"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/iv-leistungen.php",
+    "title": "IV-Leistungen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/iv-rente.php",
+    "title": "IV-Rente"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/kundendienst/versicherte/iv-rechnung/",
+    "title": "Portal für IV-Rechnungen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/hilflosenentschaedigung.php",
+    "title": "Hilflosenentschädigung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/assistenzbeitrag.php",
+    "title": "Assistenzbeitrag"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/hilfsmittel.php",
+    "title": "Hilfsmittel"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/iv/versicherungsleistungen/medizinische_massnahmen.php",
+    "title": "Medizinische Massnahmen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/iv-ausweis/",
+    "title": "IV-Ausweis"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/rad/",
+    "title": "Informationen für Ärztinnen / Ärzte"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/externe-gutachten/",
+    "title": "Externe medizinische Gutachter/Gutachterstellen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/iv-pro-medico/",
+    "title": "Informationsplattform iv-pro-medico"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/el/",
+    "title": "Ergänzungsleistungen (EL)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/el/jaehrliche_ergaenzungsleistungen/",
+    "title": "Jährliche Ergänzungsleistungen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/el/krankheitskosten/",
+    "title": "Krankheitskosten"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/fam/",
+    "title": "Familienzulagen (FamZ, FLG)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/fam/leistungen/1_familienzulagen_arbeitnehmende.php",
+    "title": "Erwerbstätige"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/fam/leistungen/3_familienzulagen_nichterwerbstaetige.php",
+    "title": "Nichterwerbstätige"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/fam/leistungen/4_familienzulagen_landwirtschaft.php",
+    "title": "Landwirtschaft"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/pf/",
+    "title": "Pflegefinanzierung (PF)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/eo/",
+    "title": "Erwerbsersatz / Entschädigungen"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/eo/erwerbsersatz.php",
+    "title": "Erwerbsersatz für Dienstleistende (EO)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/mse/",
+    "title": "Mutterschaftsentschädigung (MSE)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/vse/",
+    "title": "Entschädigung des andern Elternteils (EAE)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/bue/",
+    "title": "Betreuungsentschädigung (BUE)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/adope/",
+    "title": "Adoptionsentschädigung (AdopE)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/ipv/",
+    "title": "Prämienverbilligung (IPV)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/co2-rueckverteilung/",
+    "title": "CO₂-Rückverteilung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/ausweiskarte/",
+    "title": "Ausweiskarte für Reisende mit einer Behinderung"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/uel/",
+    "title": "Überbrückungsleistungen für ältere Arbeitslose (ÜL)"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/zusammenarbeit-mit-krankenversichern/",
+    "title": "Zusammenarbeit mit Krankenversicherern"
+  },
+  {
+    "url": "https://www.svasg.ch/produkte/weitere_dienstleistungen/rep/",
+    "title": "reWork Profil"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/",
+    "title": "Online-Services"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/ahv_versicherungsbeitraege.php",
+    "title": "AHV-Beiträge (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/ahv.php",
+    "title": "AHV-Leistungen (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/iv.php",
+    "title": "Berufliche Integration - Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/iv.php",
+    "title": "IV-Leistungen - Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/aforms/iv-ausweis.php",
+    "title": "IV-Ausweis bestellen"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/eo.php",
+    "title": "Erwerbsersatz (EO, BUE, MSE, EAE, AdopE)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/el.php",
+    "title": "Ergänzungsleistungen (EL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/fak.php",
+    "title": "Familienzulagen (FamZ)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "title": "Prämienverbilligung (IPV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/uel.php",
+    "title": "Überbrückungsleistungen für ältere Arbeitslose (ÜL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/ahv_versicherungsbeitraege.php",
+    "title": "AHV-Beiträge (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/ahv.php",
+    "title": "AHV-Leistungen (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/iv.php",
+    "title": "Berufliche Integration - Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/iv.php",
+    "title": "IV-Leistungen - Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/eo.php",
+    "title": "Erwerbsersatz (EO, BUE, MSE, EAE, AdopE)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/el.php",
+    "title": "Ergänzungsleistungen (EL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/fak.php",
+    "title": "Familienzulagen (FamZ)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/ipv.php",
+    "title": "Prämienverbilligung (IPV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/uel.php",
+    "title": "Überbrückungsleistungen für ältere Arbeitslose (ÜL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/merkblaetter/produkte/xbvg_uvg.php",
+    "title": "Andere Sozialversicherungen"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/allgemein/",
+    "title": "Allgemein"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/ahv-beitraege/",
+    "title": "AHV-Beiträge (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/ahv-leistungen/",
+    "title": "AHV-Leistungen (AHV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/famz/",
+    "title": "Familienzulagen (Famz)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/el/",
+    "title": "Ergänzungsleistungen (EL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/iv/",
+    "title": "Invalidenversicherung (IV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/erklaervideos/ipv/",
+    "title": "Prämienverbilligung (IPV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/kundendienst/",
+    "title": "Kundendienst"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/an.php",
+    "title": "Arbeitgebende/Arbeitnehmende (AG/AN)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/ne.php",
+    "title": "Nichterwerbstätige (NE)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/se.php",
+    "title": "Selbständigerwerbende (SE)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/rente.php",
+    "title": "Rentenschätzung"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/eo.php",
+    "title": "EO-Entschädigung"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/el21/",
+    "title": "Ergänzungsleistungen (EL)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/kz.php",
+    "title": "Familienzulagen (FamZ)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/mse.php",
+    "title": "Mutterschaftsentschädigung (MSE)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/berechnungstools/online-berechnungen/ipv.php",
+    "title": "Prämienverbilligung (IPV)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/eo.php",
+    "title": "Erwerbsersatz (EO)"
+  },
+  {
+    "url": "https://www.svasg.ch/online-schalter/formulare/produkte/iv.php",
+    "title": "Invalidenversicherung (IV)"
+  }
+]

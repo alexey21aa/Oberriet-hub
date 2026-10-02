@@ -1,0 +1,44 @@
+{
+  "fivevillages": [
+    "FÜNF DÖRFER. EIN WEGWEISER.",
+    "FIVE VILLAGES. ONE GUIDE.",
+    "ПЯТЬ СЁЛ. ОДИН НАВИГАТОР.",
+    "П’ЯТЬ СІЛ. ОДИН НАВІГАТОР."
+  ],
+  "language": [
+    "Sprache",
+    "Language",
+    "Язык",
+    "Мова"
+  ],
+  "trustlevels": [
+    "A: Behörden · B: öffentliche Einrichtungen · C: Organisationen · D: Community",
+    "A: government · B: public institutions · C: organisations · D: community",
+    "A: органы власти · B: публичные учреждения · C: организации · D: сообщество",
+    "A: органи влади · B: публічні установи · C: організації · D: спільнота"
+  ],
+  "police": [
+    "Polizei",
+    "Police",
+    "Полиция",
+    "Поліція"
+  ],
+  "fire": [
+    "Feuerwehr",
+    "Fire",
+    "Пожарная служба",
+    "Пожежна служба"
+  ],
+  "ambulance": [
+    "Sanität",
+    "Ambulance",
+    "Скорая помощь",
+    "Швидка допомога"
+  ],
+  "nextaction": [
+    "Nächster Schritt",
+    "Next step",
+    "Следующий шаг",
+    "Наступний крок"
+  ]
+}

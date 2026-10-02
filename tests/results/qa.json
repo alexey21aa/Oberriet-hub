@@ -1,0 +1,457 @@
+[
+  {
+    "name": "PHP seed schema validation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source SSRF rejection http://www.oberriet.ch/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source SSRF rejection https://127.0.0.1/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source SSRF rejection https://user:password@www.oberriet.ch/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source SSRF rejection https://www.oberriet.ch.evil.example/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source SSRF rejection https://www.oberriet.ch:8080/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Invalid import rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Editors cannot manage Hub data",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "XML-RPC methods disabled",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Output escaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Two Factor plugin loaded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax AdminDashboard.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Analytics.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Calendar.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax ContentTypes.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Frontend.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax ImportQueue.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Knowledge.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Search.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Security.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "PHP syntax Sources.php",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Technical/security/audit retention purge",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Aggregate 13-month purge",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Aggregate counter increments",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "TOTP is required for QA administrator",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Organization/answer/FAQ/guide admin types registered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Duplicate stable IDs rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Impossible calendar date rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Unknown provenance rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Invalid localized field rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Invalid collection shape rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV keeps all nested translations and provenance",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV mismatched stable ID rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV unsupported collection rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "CSV malformed JSON rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Bulk review hooks registered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Source explicit HTTPS policy rejects fragments-as-host",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search Wohnsitzbestätigung",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search переезл",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP search фонарь не работает",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP unknown query returns no invented cards",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP Unicode normalization",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Indexed PHP transposition",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Public REST indexed search",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Search rejects excessive query",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "WordPress home 200",
+    "passed": true,
+    "detail": "200"
+  },
+  {
+    "name": "Home renders Hub",
+    "passed": true,
+    "detail": "<!doctype html><html lang=\"de-CH\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n"
+  },
+  {
+    "name": "Security headers",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Seed imported",
+    "passed": true,
+    "detail": "{\"services\":364,\"contacts\":35}"
+  },
+  {
+    "name": "Language de",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Language en",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Language ru",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Language uk",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Unknown route 404",
+    "passed": true,
+    "detail": "404"
+  },
+  {
+    "name": "Anonymous AI write denied",
+    "passed": true,
+    "detail": "401"
+  },
+  {
+    "name": "POST search returns residence service",
+    "passed": true,
+    "detail": "{\"results\":[{\"record\":{\"id\":\"23627\",\"slug\":\"service-23627\",\"title\":{\"de\":\"Wohnsitzbestätigung\",\"en\":\"Residence certificate\",\"ru\":\"Справка о месте жительства\",\"uk\":\"Довідка про місце проживання\"},\"desc"
+  },
+  {
+    "name": "Sitemap all languages",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Core route types render",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Anonymous dashboard redirects to login",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "JS loaded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "One H1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Residence search",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "German email draft",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Mailto only",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "No resident fields in HTTP traffic",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "No resident storage",
+    "passed": true,
+    "detail": "{\"local\":0,\"session\":0}"
+  },
+  {
+    "name": "Clear draft",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Montlingen waste",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Responsive 360",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Responsive 390",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Responsive 768",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Responsive 1366",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Responsive 1920",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Monthly calendar includes October waste and cardboard rounds",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Locality page",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Keyboard skip link",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Skip lands on main",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Accessibility axe /de/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Accessibility axe /ru/ask/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Accessibility axe /en/services/23627/",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "No JavaScript errors",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Password alone requires TOTP",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "TOTP login succeeds",
+    "passed": true,
+    "detail": "Skip to main content\nSkip to toolbar\n\n\nDashboard\nHome\nUpdates\n\n\nPosts\nAll Posts\nAdd Post\nCategories\nTags\n\n\nMedia\nLibrary\nAdd Media File\n\n\nPages\nAll Pages\nAdd Page\n\n\nComments\n\n\nOberriet Hub\nServices\nPlaces\nEvents\nContacts\nSources\nOrganizations\nAnswers\nFAQ\nGuides\n\n\nAppearance\nThemes\nEditor\nFonts\n\n\nPlugins\nInstalled Plugins\nAdd Plugin\n\n\nUsers\nAll Users\nAdd User\nProfile\n\n\nTools\nAvailable Tools\nImport\nExport\nSite Health\nExport Personal Data\nErase Personal Data\nTheme File Editor\nPlugin File Editor\n\n\nSettings\nGeneral\nConnectors\nWriting\nReading\nDiscussion\nMedia\nPermalinks\nPrivacy\nTwo-Factor\nCollapse Menu\nAbout WordPress\nOberriet Hub\nCtrl+K\nOpen command palette\n0\n0 Comments in moderation\nNew\nHowdy, admin\nOberriet Hub · Content health\n\nTwo-Factor: You are out of recovery codes and need to regenerate!\n\nIndependent civic navigation · DE editorial source · Europe/Zurich\n\nAdmin 2FA: configured\n\nImport"
+  },
+  {
+    "name": "Closed admin dashboard",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Settings CSRF without nonce denied",
+    "passed": true,
+    "detail": "403"
+  },
+  {
+    "name": "Authenticated JSON export",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Native admin JSON import without overwrite",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Partial admin import preserves expanded intents and aliases",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "No resident text in log table",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "name": "Firefox smoke",
+    "passed": null,
+    "detail": "Engine unavailable: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/firefox-1538/firefox/firefox\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just "
+  },
+  {
+    "name": "WebKit smoke",
+    "passed": null,
+    "detail": "Engine unavailable: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/webkit-2336/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just install"
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "about": {
+    "de": [
+      "Oberriet Hub erleichtert den Zugang zu öffentlichen Informationen für Oberriet, Montlingen, Kriessern, Eichenwies und Kobelwald. Der Dienst ist unabhängig und trifft keine behördlichen Entscheidungen.",
+      "Die verlinkten Behörden bleiben für Auskünfte und Verfahren zuständig. Kurze Hinweise ersetzen weder die Originalquelle noch eine individuelle Fachberatung.",
+      "Der Suchassistent nutzt eine lokale, kuratierte Datenbasis. Generative Antworten sind optional und in dieser Version nur als Administrator-Vorschau verfügbar."
+    ],
+    "en": [
+      "Oberriet Hub helps residents of five villages find public information. It is independent and does not make administrative decisions.",
+      "The linked authorities remain responsible for information and procedures. Short summaries do not replace original sources or individual professional advice.",
+      "Search uses a local curated knowledge base. Generative answers are optional and available only as an administrator preview in this release."
+    ],
+    "ru": [
+      "Oberriet Hub помогает жителям пяти деревень найти публичную информацию. Проект независим и не принимает административных решений.",
+      "За сведения и процедуры отвечают указанные ведомства. Краткие пояснения не заменяют оригинальные источники и индивидуальную профессиональную консультацию.",
+      "Поиск работает с локальной проверяемой базой. Генеративные ответы необязательны и в этой версии доступны только для предварительной проверки администратором."
+    ],
+    "uk": [
+      "Oberriet Hub допомагає мешканцям п’яти сіл знайти публічну інформацію. Проєкт незалежний і не ухвалює адміністративних рішень.",
+      "За відомості й процедури відповідають зазначені органи. Стислі пояснення не замінюють оригінальні джерела та індивідуальну професійну консультацію.",
+      "Пошук працює з локальною базою, яку можна перевірити. Генеративні відповіді необов’язкові й у цій версії доступні лише для попередньої перевірки адміністратором."
+    ]
+  },
+  "privacy": {
+    "de": [
+      "Dieser unabhängige Dienst orientiert sich am Schweizer Datenschutzgesetz (DSG, SR 235.1). Die blosse Erreichbarkeit aus der EU begründet keine automatische Anwendbarkeit der DSGVO; zusätzliche Tätigkeiten können eine gesonderte Prüfung erfordern.",
+      "Es gibt keine Einwohnerkonten, Werbung, Analyse-Cookies oder gespeicherte Gesprächsverläufe. Suchtexte und E-Mail-Entwürfe werden im Browser verarbeitet und nicht an den Website-Server gesendet. Es wird kein Entwurf im Gerätespeicher abgelegt.",
+      "Für den technischen Betrieb werden IP-Adresse, Zeitpunkt, HTTP-Methode, bereinigter URL-Pfad, Status, User-Agent und Referrer-Domain bis zu 7 Tage protokolliert. Keine Anfrageinhalte, Passwörter, Cookies, Berechtigungsheader oder URL-Parameter werden in den eigenen Log aufgenommen. Sicherheitsereignisse bleiben 30 Tage, Administrator-Auditdaten 180 Tage erhalten.",
+      "Die Statistik zählt feste Dienst-IDs und allgemeine Navigationsereignisse, keine Rohfragen oder individuellen Nutzungsprofile. Aggregierte Zähler werden nach 13 Monaten gelöscht. Administrator-Anmeldungen verwenden notwendige WordPress-Cookies.",
+      "Beim Öffnen eines Behördenlinks oder des Mailprogramms gelten die Bedingungen des jeweiligen Anbieters. Die Nachricht wird erst durch Ihre Handlung im eigenen Mailprogramm gesendet.",
+      "Ein optionaler KI-Anbieter wird nur für Administrator-Vorschauen eingerichtet. Betreiber müssen Anbieter, Standort, Rechtsgrundlage und allfällige Auslandsbekanntgabe vor Aktivierung dokumentieren; Schlüssel bleiben auf dem Server.",
+      "Für Auskunft, Berichtigung oder Löschung wenden Sie sich an den unten genannten Verantwortlichen. Hosting-Logs und Backups müssen gesondert auf denselben Aufbewahrungsplan eingestellt werden. Der tatsächliche Hoster wird vor Veröffentlichung hier ergänzt."
+    ],
+    "en": [
+      "This independent service follows the Swiss Federal Act on Data Protection (FADP, SR 235.1). Accessibility from the EU alone does not automatically make GDPR applicable; additional activities may require review.",
+      "There are no resident accounts, advertisements, analytics cookies or saved conversations. Search text and email drafts are processed in your browser and are not submitted to the website server. Drafts are not saved on your device.",
+      "Technical operation logs IP address, timestamp, HTTP method, sanitised path, status, user agent and referrer domain for up to 7 days. Our logs exclude request contents, passwords, cookies, authorisation headers and URL parameters. Security events are retained for 30 days; administrator audit records for 180 days.",
+      "Statistics count fixed service IDs and general navigation events, not raw questions or individual profiles. Aggregate counts expire after 13 months. Administrator sign-in uses necessary WordPress cookies.",
+      "When you follow an official link or open an email app, that provider’s terms apply. A message is sent only when you send it yourself in your email app.",
+      "An optional AI provider can be configured for administrator previews only. Before enabling it the operator must document the provider, location, legal basis and any foreign disclosure. API keys stay server-side.",
+      "For access, correction or deletion requests, contact the controller identified below. Host logs and backups require separate matching retention settings. The actual host must be disclosed before publication."
+    ],
+    "ru": [
+      "Независимый сервис ориентируется на швейцарский закон о защите данных DSG, SR 235.1. Доступность из ЕС сама по себе не означает автоматическое применение GDPR; другие виды деятельности могут потребовать отдельной проверки.",
+      "Нет аккаунтов жителей, рекламы, аналитических cookies или сохранённой истории диалогов. Поисковые тексты и черновики писем обрабатываются в браузере и не передаются серверу сайта. Черновики не сохраняются на устройстве.",
+      "Для технической работы до 7 дней хранятся IP-адрес, время, HTTP-метод, очищенный путь, статус, сведения о браузере и домен источника перехода. Собственные журналы не содержат текст запросов, пароли, cookies, заголовки авторизации или параметры URL. События безопасности хранятся 30 дней, аудит администратора — 180 дней.",
+      "Статистика считает фиксированные идентификаторы услуг и навигационные события, без исходных вопросов и индивидуальных профилей. Агрегаты удаляются через 13 месяцев. Для входа администратора используются необходимые cookies WordPress.",
+      "После перехода на внешний сайт или открытия почтового клиента действуют условия соответствующего поставщика. Письмо отправляется только вашим действием в почтовом клиенте.",
+      "Необязательный поставщик ИИ доступен только для проверки администратором. До подключения оператор должен указать поставщика, местонахождение, правовое основание и возможную передачу за границу. Ключи остаются на сервере.",
+      "Для доступа, исправления или удаления данных обращайтесь к указанному ниже ответственному. Журналы хостинга и резервные копии требуют отдельной настройки сроков хранения. Фактический хостинг должен быть указан перед публикацией."
+    ],
+    "uk": [
+      "Незалежний сервіс орієнтується на швейцарський закон про захист даних DSG, SR 235.1. Доступність із ЄС сама по собі не означає автоматичне застосування GDPR; інші види діяльності можуть потребувати окремої перевірки.",
+      "Немає облікових записів мешканців, реклами, аналітичних cookies або збереженої історії діалогів. Пошукові тексти й чернетки листів обробляються у браузері та не передаються серверу сайту. Чернетки не зберігаються на пристрої.",
+      "Для технічної роботи до 7 днів зберігаються IP-адреса, час, HTTP-метод, очищений шлях, статус, відомості про браузер і домен джерела переходу. Власні журнали не містять текстів запитів, паролів, cookies, заголовків авторизації або параметрів URL. Події безпеки зберігаються 30 днів, аудит адміністратора — 180 днів.",
+      "Статистика рахує фіксовані ідентифікатори послуг і навігаційні події, без початкових запитань та індивідуальних профілів. Агрегати видаляються через 13 місяців. Для входу адміністратора використовуються необхідні cookies WordPress.",
+      "Після переходу на зовнішній сайт або відкриття поштового клієнта діють умови відповідного постачальника. Лист надсилається лише вашою дією у поштовому клієнті.",
+      "Необов’язковий постачальник ШІ доступний лише для перевірки адміністратором. До підключення оператор має зазначити постачальника, місцезнаходження, правову підставу й можливе передавання за кордон. Ключі залишаються на сервері.",
+      "Для доступу, виправлення або видалення даних звертайтеся до зазначеного нижче відповідального. Журнали хостингу й резервні копії потребують окремого налаштування строків зберігання. Фактичний хостинг має бути зазначений перед публікацією."
+    ]
+  },
+  "imprint": {
+    "de": [
+      "Oberriet Hub ist ein unabhängiges privates Informationsprojekt. Keine amtliche Website; keine Zugehörigkeit zur Gemeinde oder zum Kanton.",
+      "Verantwortlicher Betreiber, ladungsfähige Adresse und Kontakt werden in der privaten Administration gepflegt. Solange diese Angaben fehlen, bleibt die Website für Suchmaschinen auf noindex.",
+      "Externe Inhalte und Dienste liegen in der Verantwortung ihrer jeweiligen Herausgeber. Kein Gemeindewappen und keine amtlichen Hoheitszeichen werden verwendet."
+    ],
+    "en": [
+      "Oberriet Hub is an independent private information project. It is not an official website and is not affiliated with the municipality or canton.",
+      "The responsible operator, service address and contact are maintained in the private administration. The site stays noindex while these details are missing.",
+      "External content and services remain the responsibility of their publishers. Municipal coats of arms and official insignia are not used."
+    ],
+    "ru": [
+      "Oberriet Hub — независимый частный информационный проект. Это не официальный сайт; он не связан организационно с общиной или кантоном.",
+      "Ответственный оператор, адрес для связи и контакт задаются в закрытой админке. Пока этих сведений нет, сайт закрыт от индексации поисковыми системами.",
+      "За внешние материалы и услуги отвечают их издатели. Герб общины и официальные знаки не используются."
+    ],
+    "uk": [
+      "Oberriet Hub — незалежний приватний інформаційний проєкт. Це не офіційний сайт; він організаційно не пов’язаний із громадою або кантоном.",
+      "Відповідальний оператор, адреса для зв’язку та контакт задаються у закритій адмінці. Поки цих відомостей немає, сайт закритий від індексації пошуковими системами.",
+      "За зовнішні матеріали й послуги відповідають їхні видавці. Герб громади та офіційні знаки не використовуються."
+    ]
+  },
+  "accessibility": {
+    "de": [
+      "Ziel ist eine gut zugängliche Bedienung entsprechend WCAG 2.2 AA und den Schweizer eGovernment-Grundsätzen, ohne eine vollständige Zertifizierung zu behaupten.",
+      "Der Dienst nutzt Tastaturbedienung, sichtbaren Fokus, Sprunglink, beschriftete Felder, semantische Überschriften, hohe Kontraste und keine erforderlichen Animationen. Suchresultate werden angekündigt.",
+      "Externe Dokumente und Websites können eigene Zugänglichkeitsgrenzen haben. Rückmeldungen bitte an den im Impressum genannten Betreiber. Automatische Tests ersetzen keinen vollständigen manuellen Audit."
+    ],
+    "en": [
+      "The target is accessible operation aligned with WCAG 2.2 AA and Swiss eGovernment principles; this is not a claim of full certification.",
+      "The service provides keyboard operation, visible focus, a skip link, labelled fields, semantic headings, high contrast and no required animations. Search updates are announced.",
+      "External documents and websites may have their own accessibility limitations. Send feedback to the operator in the legal notice. Automated tests do not replace a full manual audit."
+    ],
+    "ru": [
+      "Цель — доступный интерфейс по принципам WCAG 2.2 AA и швейцарского электронного управления. Полная сертификация не заявляется.",
+      "Поддерживаются клавиатура, видимый фокус, переход к содержимому, подписи полей, смысловые заголовки и высокий контраст. Обязательной анимации нет; обновления поиска озвучиваются средствами доступности.",
+      "Внешние документы и сайты могут иметь собственные ограничения. Обратную связь направляйте оператору из выходных данных. Автоматические проверки не заменяют полный ручной аудит."
+    ],
+    "uk": [
+      "Мета — доступний інтерфейс за принципами WCAG 2.2 AA та швейцарського електронного врядування. Повна сертифікація не заявляється.",
+      "Підтримуються клавіатура, видимий фокус, перехід до вмісту, підписи полів, змістові заголовки й високий контраст. Обов’язкової анімації немає; оновлення пошуку оголошуються засобами доступності.",
+      "Зовнішні документи й сайти можуть мати власні обмеження. Відгуки надсилайте оператору з вихідних даних. Автоматичні перевірки не замінюють повний ручний аудит."
+    ]
+  },
+  "operator_missing": {
+    "de": "Vor öffentlicher Veröffentlichung: Betreiber, Anschrift, Kontakt und tatsächlichen Hoster ergänzen.",
+    "en": "Before public release: complete the operator, address, contact and actual hosting provider.",
+    "ru": "Перед публичным запуском: заполните оператора, адрес, контакт и фактического провайдера хостинга.",
+    "uk": "Перед публічним запуском: заповніть оператора, адресу, контакт і фактичного провайдера хостингу."
+  }
+}

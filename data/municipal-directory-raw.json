@@ -1,0 +1,777 @@
+[
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23529\">Gemeindesteuern</a>",
+    "dienstName-sort": "#363242323a4430324e503252324c44011301dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23620\">Anmeldung</a>",
+    "dienstName-sort": "#2a4442324030524436010d01dc0c"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23622\">Auskunft über Beistandschaft und Vorsorgeauftrag (früher: Handlungsfähigkeitszeugnis)</a>",
+    "dienstName-sort": "#2a524e3e5244345004522c324c042c323a4e502a44304e2e382a3450045244300454464c4e464c36322a5234504c2a36040992344c5238324c073604382a4430405244364e342a383a363e323a504e5c325236443a4e0994013c96253c9636961401dcb8dcb4dcaddc1f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23623\">Identitätskarte</a>",
+    "dienstName-sort": "#3a303244503a502a504e3e2a4c5032013e960b01dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23624\">Pass</a>",
+    "dienstName-sort": "#482a4e4e010801dc07"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10691\">Zivilstandsamt Rheintal</a>",
+    "zustaendigName-sort": "#5c3a543a404e502a44304e2a4250044c38323a44502a40011b01dcb8dc0b",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717577730\">+41 71 757 77 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211d2104212104191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23625\">Zivilstandsausweise</a>",
+    "dienstName-sort": "#5c3a543a404e502a44304e2a524e56323a4e32011701dc16"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23626\">Abmeldung</a>",
+    "dienstName-sort": "#2a2c42324030524436010d01dc0c"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23627\">Wohnsitzbestätigung</a>",
+    "dienstName-sort": "#564638444e3a505c2c324e502a503a365244360139960a01e017"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23628\">Ausländerbewilligungen</a>",
+    "dienstName-sort": "#2a524e402a4430324c2c32563a40403a3652443632440141961501dc1a"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23702\">Beglaubigung</a>",
+    "dienstName-sort": "#2c3236402a522c3a36524436011001dc0f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10673\">Betreibungsamt</a>",
+    "zustaendigName-sort": "#2c32504c323a2c5244364e2a4250011201dc11",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636491\">+41 71 763 64 91</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251501140114",
+    "dienstName": "<a href=\"/_rte/dienst/23707\">Betreibungsauskunft</a>",
+    "dienstName-sort": "#2c32504c323a2c5244364e2a524e3e52443450011701dc16"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10682\">Kassieramt</a>",
+    "zustaendigName-sort": "#3e2a4e4e3a324c2a4250010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636440\">+41 71 763 64 40</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b041b1301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23895\">Hundehaltung</a>",
+    "dienstName-sort": "#3852443032382a4050524436011001dc0f"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/23896\">Mofa E-Bike - Lösung</a>",
+    "dienstName-sort": "#4246342a0432050e2c3a3e3204050e0440464e5244360136960801dcc2dcc5dcc0dc0a"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23898\">Lohnausweisformular</a>",
+    "dienstName-sort": "#404638442a524e56323a4e34464c4252402a4c011701dc16"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23899\">Steuerfüsse Oberriet</a>",
+    "dienstName-sort": "#4e503252324c34524e4e3204462c324c4c3a3250013e961001dcbadc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23903\">Elternschaftsbeiträge</a>",
+    "dienstName-sort": "#324050324c444e2e382a34504e2c323a504c2a36320133960601dc19"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23980\">Lernfahrausweis</a>",
+    "dienstName-sort": "#40324c44342a384c2a524e56323a4e011301dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23984\">Adressänderung innerhalb der Gemeinde</a>",
+    "dienstName-sort": "#2a304c324e4e2a4430324c524436043a4444324c382a402c0430324c04363242323a443032013f962201dca9dc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23986\">Steuererklärung</a>",
+    "dienstName-sort": "#4e503252324c324c3e402a4c524436013b960801dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23987\">Steuerrechnung defintiv</a>",
+    "dienstName-sort": "#4e503252324c4c322e3844524436043032343a44503a54011b01dc1a"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23988\">Steuerrechnung provisorisch</a>",
+    "dienstName-sort": "#4e503252324c4c322e384452443604484c46543a4e464c3a4e2e38011f01dc1e"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/23989\">Wegzug Ausland / längerer Auslandaufenthalt</a>",
+    "dienstName-sort": "#5632365c5236042a524e402a4430040a9e04402a4436324c324c042a524e402a44302a5234324450382a40500133961c01e0c0dcb3dc14"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70950\">Kuratli Thomas</a>",
+    "zustaendigName-sort": "#3e524c2a50403a04503846422a4e011201dcbfdc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636449\">+41 71 763 64 49</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b041b2501140114",
+    "dienstName": "<a href=\"/_rte/dienst/23992\">Kilbi Oberriet</a>",
+    "dienstName-sort": "#3e3a402c3a04462c324c4c3a3250011201dcc1dc0b"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/23993\">Kilbi Montlingen</a>",
+    "dienstName-sort": "#3e3a402c3a0442464450403a44363244011401dcc1dc0d"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/23994\">Kilbi Kriessern</a>",
+    "dienstName-sort": "#3e3a402c3a043e4c3a324e4e324c44011301dcc1dc0c"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/23997\">AHV-Leistungen</a>",
+    "dienstName-sort": "#2a3854050e40323a4e505244363244011201dcdcdcc5dc0d"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/23998\">AHV-Beiträge / Beitragspflicht</a>",
+    "dienstName-sort": "#2a3854050e2c323a504c2a3632040a9e042c323a504c2a364e4834403a2e3850013c961801dcdcdcc5dcbbdc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/23999\">Überbrückungsleistungen für ältere Arbeitslose (ÜL)</a>",
+    "dienstName-sort": "#522c324c2c4c522e3e5244364e40323a4e5052443632440434524c042a4050324c32042a4c2c323a504e40464e320409925240099401459640963396439632960601dca0dcbadcc5dc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24000\">Invalidenversicherung (IV)</a>",
+    "dienstName-sort": "#3a44542a403a30324454324c4e3a2e38324c5244360409923a540994011e01dcb0dcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24001\">Erwerbsersatz (EO)</a>",
+    "dienstName-sort": "#324c56324c2c4e324c4e2a505c04099232460994011601dcb8dcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24004\">Individuelle Prämienverbilligung (IPV)</a>",
+    "dienstName-sort": "#3a44303a543a30523240403204484c2a423a324454324c2c3a40403a365244360409923a485409940136961a01dcbadcb1dcdcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24005\">Pflegefinanzierung (PF)</a>",
+    "dienstName-sort": "#483440323632343a442a445c3a324c52443604099248340994011b01dcb3dcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24006\">Ergänzungsleistungen (EL)</a>",
+    "dienstName-sort": "#324c362a445c5244364e40323a4e505244363244040992324009940142961901dcb0dcdc05"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": ""
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24008\">Mutterschaftsentschädigung (MSE)</a>",
+    "dienstName-sort": "#42525050324c4e2e382a34504e3244504e2e382a303a36524436040992424e3209940132961001dcaadcdcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24009\">Familienzulagen (FamZ)</a>",
+    "dienstName-sort": "#342a423a403a32445c52402a363244040992342a425c0994011a01dcb6dcc4dc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10673\">Betreibungsamt</a>",
+    "zustaendigName-sort": "#2c32504c323a2c5244364e2a4250011201dc11",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636491\">+41 71 763 64 91</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251501140114",
+    "dienstName": "<a href=\"/_rte/dienst/24014\">Betreibungsverfahren</a>",
+    "dienstName-sort": "#2c32504c323a2c5244364e54324c342a384c3244011801dc17"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24017\">Abstimmungen und Bürgerversammlungen, Unterlagen bestellen</a>",
+    "dienstName-sort": "#2a2c4e503a4242524436324404524430042c524c36324c54324c4e2a42424052443632440604524450324c402a363244042c324e503240403244013396250a01dcb6dcb1dc17"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24018\">Militär, Kreiskommando, Sektionschef</a>",
+    "dienstName-sort": "#423a403a502a4c06043e4c323a4e3e4642422a44304606044e323e503a46444e2e3832340140962201dcbddcb8dc0f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24057\">Asylwesen und Flüchtlinge</a>",
+    "dienstName-sort": "#2a4e5a4056324e324404524430043440522e3850403a4436320135960c01dcb9dc0f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24058\">Sozialhilfe</a>",
+    "dienstName-sort": "#4e465c3a2a40383a403432010f01dc0e"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24060\">Persönliche Hilfe</a>",
+    "dienstName-sort": "#48324c4e4644403a2e383204383a4034320141961001dcbadc08"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24061\">Pflegekinderwesen</a>",
+    "dienstName-sort": "#4834403236323e3a4430324c56324e3244011501dc14"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "zustaendigName-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24168\">Baubewilligungsverfahren</a>",
+    "dienstName-sort": "#2c2a522c32563a40403a365244364e54324c342a384c3244011c01dc1b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "zustaendigName-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24170\">Energieförderung</a>",
+    "dienstName-sort": "#3244324c363a3234464c30324c524436013d960b01dc14"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70925\">Buschor Urs</a>",
+    "zustaendigName-sort": "#2c524e2e38464c04524c4e010f01dcbfdc06",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636475\">+41 71 763 64 75</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24171\">Feuerschutz</a>",
+    "dienstName-sort": "#343252324c4e2e3852505c010f01dc0e"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70976\">Büchel Thomas</a>",
+    "zustaendigName-sort": "#2c522e38324004503846422a4e0144960f01dcbfdc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636393\">+41 71 763 63 93</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1904251901140114",
+    "dienstName": "<a href=\"/_rte/dienst/24172\">Werkleitungspläne</a>",
+    "dienstName-sort": "#56324c3e40323a505244364e48402a44320137960601e015"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "zustaendigName-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24173\">Zonenplan</a>",
+    "dienstName-sort": "#5c4644324448402a44010d01dc0c"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "zustaendigName-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24174\">Feuerungskontrolle</a>",
+    "dienstName-sort": "#343252324c5244364e3e4644504c46404032011601dc15"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10672\">Bauamt - Hochbau/Planverfahren</a>",
+    "zustaendigName-sort": "#2c2a522a425004050e0438462e382c2a520a9e48402a4454324c342a384c3244012201dcbedcbfdc10",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636470\">+41 71 763 64 70</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24176\">Abfallentsorgung</a>",
+    "dienstName-sort": "#2a2c342a40403244504e464c36524436011401dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70976\">Büchel Thomas</a>",
+    "zustaendigName-sort": "#2c522e38324004503846422a4e0144960f01dcbfdc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636393\">+41 71 763 63 93</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1904251901140114",
+    "dienstName": "<a href=\"/_rte/dienst/24179\">Feuerbrand</a>",
+    "dienstName-sort": "#343252324c2c4c2a4430010e01dc0d"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24191\">Gifte- Chemikaliengesetz</a>",
+    "dienstName-sort": "#363a345032050e042e3832423a3e2a403a324436324e32505c011c01dcc0dc14"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24199\">Lehrlingswesen / Berufsbildung</a>",
+    "dienstName-sort": "#4032384c403a44364e56324e3244040a9e042c324c52344e2c3a4030524436012201dcb6dc10"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/11024\">Elektrizitätsversorgung Oberriet</a>",
+    "zustaendigName-sort": "#3240323e504c3a5c3a502a504e54324c4e464c3652443604462c324c4c3a3250013b961901dcaedc0b",
+    "zustaendigTelefon": "Betriebsleitung: +41 71 763 75 40 / Technische Betriebe: +41 71 763 75 75 ",
+    "zustaendigTelefon-sort": "#2c32504c3a322c4e40323a505244360736040c7a1b1504211504211f1904211d041b13040a9e0450322e38443a4e2e3832042c32504c3a322c320736040c7a1b1504211504211f1904211d04211d040125250c01dca3dcbcdc1e",
+    "dienstName": "<a href=\"/_rte/dienst/24200\">Mieterwechsel</a>",
+    "dienstName-sort": "#423a3250324c56322e384e3240011101dc10"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24206\">Abstimmungen und Wahlen</a>",
+    "dienstName-sort": "#2a2c4e503a424252443632440452443004562a38403244011b01dcb6e009"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24208\">Broschüren und Verordnungen</a>",
+    "dienstName-sort": "#2c4c464e2e38524c3244045244300454324c464c30445244363244013f961801dcb7dc0f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24230\">Einbürgerungsverfahren</a>",
+    "dienstName-sort": "#323a442c524c36324c5244364e54324c342a384c32440141961501dc1a"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24232\">Strafregisterauszug</a>",
+    "dienstName-sort": "#4e504c2a344c32363a4e50324c2a524e5c5236011701dc16"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24233\">Hausverbot</a>",
+    "dienstName-sort": "#382a524e54324c2c4650010e01dc0d"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24236\">Patent für einen Anlass (Festwirtschaftspatent)</a>",
+    "dienstName-sort": "#482a503244500434524c04323a443244042a44402a4e4e04099234324e50563a4c504e2e382a34504e482a503244500994013d96250901dcb5dcbfdc19"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24237\">Gastwirtschaftspatent</a>",
+    "dienstName-sort": "#362a4e50563a4c504e2e382a34504e482a50324450011901dc18"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24238\">Rechtsberatung</a>",
+    "dienstName-sort": "#4c322e38504e2c324c2a50524436011201dc11"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24241\">Schlichtungsstelle für Arbeitsverhältnisse</a>",
+    "dienstName-sort": "#4e2e38403a2e38505244364e4e50324040320434524c042a4c2c323a504e54324c382a4050443a4e4e3201319638960b01dcafdc17"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24243\">Schlichtungsstelle für Klagen nach dem Gleichstellungsgesetz</a>",
+    "dienstName-sort": "#4e2e38403a2e38505244364e4e50324040320434524c043e402a36324404442a2e3804303242043640323a2e384e503240405244364e36324e32505c013196250a01dcafdcb7dc18"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24245\">Feuerwerk</a>",
+    "dienstName-sort": "#343252324c56324c3e010d01dc0c"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24246\">Schlichtungsstelle, Vermittleramt</a>",
+    "dienstName-sort": "#4e2e38403a2e38505244364e4e5032404032060454324c423a505040324c2a4250012501dcb3dc10"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/24254\">Schlichtungsstelle für Miet- und Pachtverhältnisse</a>",
+    "dienstName-sort": "#4e2e38403a2e38505244364e4e50324040320434524c04423a3250050e0452443004482a2e385054324c382a4050443a4e4e3201319630960b01dcafdcbddc15"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70925\">Buschor Urs</a>",
+    "zustaendigName-sort": "#2c524e2e38464c04524c4e010f01dcbfdc06",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636475\">+41 71 763 64 75</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/24312\">Beratungsstelle für Unfallverhütung</a>",
+    "dienstName-sort": "#2c324c2a505244364e4e50324040320434524c045244342a404054324c38525052443601349639960801dcb2dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10681\">Grundbuchamt Oberriet-Rüthi</a>",
+    "zustaendigName-sort": "#364c5244302c522e382a425004462c324c4c3a3250050e4c5250383a012e960701dcbadcbedc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636460\">+41 71 763 64 60</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b041f1301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24967\">Grundstückschätzung</a>",
+    "dienstName-sort": "#364c5244304e50522e3e4e2e382a505c524436013e9640960901dc18"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10681\">Grundbuchamt Oberriet-Rüthi</a>",
+    "zustaendigName-sort": "#364c5244302c522e382a425004462c324c4c3a3250050e4c5250383a012e960701dcbadcbedc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636460\">+41 71 763 64 60</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b041f1301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24969\">Gebäudeschaden</a>",
+    "dienstName-sort": "#36322c2a5230324e2e382a3032440142960e01dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10681\">Grundbuchamt Oberriet-Rüthi</a>",
+    "zustaendigName-sort": "#364c5244302c522e382a425004462c324c4c3a3250050e4c5250383a012e960701dcbadcbedc09",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636460\">+41 71 763 64 60</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b041f1301140114",
+    "dienstName": "<a href=\"/_rte/dienst/24970\">Grundbuchgeschäfte</a>",
+    "dienstName-sort": "#364c5244302c522e3836324e2e382a3450320137960701dc16"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/25769\">Pilzkontrolle und Pilzschutzzeiten</a>",
+    "dienstName-sort": "#483a405c3e4644504c464040320452443004483a405c4e2e3852505c5c323a50324401250501dcb5dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/11024\">Elektrizitätsversorgung Oberriet</a>",
+    "zustaendigName-sort": "#3240323e504c3a5c3a502a504e54324c4e464c3652443604462c324c4c3a3250013b961901dcaedc0b",
+    "zustaendigTelefon": "Betriebsleitung: +41 71 763 75 40 / Technische Betriebe: +41 71 763 75 75 ",
+    "zustaendigTelefon-sort": "#2c32504c3a322c4e40323a505244360736040c7a1b1504211504211f1904211d041b13040a9e0450322e38443a4e2e3832042c32504c3a322c320736040c7a1b1504211504211f1904211d04211d040125250c01dca3dcbcdc1e",
+    "dienstName": "<a href=\"/_rte/dienst/26831\">Kommunikations- und Glasfasernetz FTTH</a>",
+    "dienstName-sort": "#3e46424252443a3e2a503a46444e050e045244300436402a4e342a4e324c4432505c043450503801250901dcb3dcb9dcdcdcdc"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/26844\">Fachstelle Integration St. Galler Rheintal</a>",
+    "dienstName-sort": "#342a2e384e5032404032043a445032364c2a503a4644044e500804362a4040324c044c38323a44502a4001250d01dcbcdcbbdcc3dcc0dc0b"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/29364\">Suisse ePolice - Bürgerschalter im Bereich Sicherheit</a>",
+    "dienstName-sort": "#4e523a4e4e3204324846403a2e3204050e042c524c36324c4e2e382a4050324c043a42042c324c323a2e38044e3a2e38324c38323a50013396250501dcbfdcbedcb4dcbfdc0d"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/30768\">Energiespartipps </a>",
+    "dienstName-sort": "#3244324c363a324e482a4c503a48484e04011501dc14"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/30953\">Gesteigerter Gemeingebrauch</a>",
+    "dienstName-sort": "#36324e50323a36324c50324c04363242323a4436322c4c2a522e38011f01dcbadc11"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/34954\">Sportlerehrungen</a>",
+    "dienstName-sort": "#4e48464c5040324c32384c5244363244011401dc13"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/35039\">Dekorationsgesuch Fasnacht</a>",
+    "dienstName-sort": "#30323e464c2a503a46444e36324e522e3804342a4e442a2e3850011e01dcb5dc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/35732\">Verpflichtungserklärung</a>",
+    "dienstName-sort": "#54324c4834403a2e38505244364e324c3e402a4c5244360133960801dc1b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/19753\">Feuerwehr</a>",
+    "zustaendigName-sort": "#343252324c5632384c010d01dc0c",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636415\">+41 71 763 64 15</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04151d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/36046\">Wespennest entfernen</a>",
+    "dienstName-sort": "#56324e48324444324e500432445034324c443244011801e017"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10806\">Bestattungsamt</a>",
+    "zustaendigName-sort": "#2c324e502a50505244364e2a4250011201dc11",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/47146\">Todesfall / Bestattungen</a>",
+    "dienstName-sort": "#504630324e342a4040040a9e042c324e502a50505244363244011c01dcbbdc0f"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10687\">Steueramt </a>",
+    "zustaendigName-sort": "#4e503252324c2a425004010e01dc0d",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636430\">+41 71 763 64 30</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04191301140114",
+    "dienstName": "<a href=\"/_rte/dienst/47867\">Der Ablauf der Steuern kurz erklärt</a>",
+    "dienstName-sort": "#30324c042a2c402a52340430324c044e503252324c44043e524c5c04324c3e402a4c500125960601dcc3dcbcdc18"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/47950\">Vorsorgeauftrag</a>",
+    "dienstName-sort": "#54464c4e464c36322a5234504c2a36011301dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/67888\">Tombola- und Lottoveranstaltungen</a>",
+    "dienstName-sort": "#5046422c46402a050e0452443004404650504654324c2a444e502a40505244363244012501dcbadc17"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/72314\">Regionale Zivilschutzorganisation RZSO-Rheintal</a>",
+    "dienstName-sort": "#4c32363a46442a4032045c3a543a404e2e3852505c464c362a443a4e2a503a4644044c5c4e46050e4c38323a44502a4001251201dcbddcafdcdcdcdcc5dc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/76430\">Gleis 1</a>",
+    "dienstName-sort": "#3640323a4e0415010b01dc0a"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/76981\">Konstituierungsplan</a>",
+    "dienstName-sort": "#3e46444e503a50523a324c5244364e48402a44011701dc16"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/22640\">Regionaler Führungsstab Oberes Rheintal (RFS OR)</a>",
+    "zustaendigName-sort": "#4c32363a46442a40324c043452384c5244364e4e502a2c04462c324c324e044c38323a44502a400409924c344e04464c0994013996250601dcbcdcb9dcc0dcbddcdcdcc5dcdc05",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717677785\">+41 71 767 77 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f2104212104231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/77497\">Regionaler Führungsstab Oberes Rheintal - Notfall</a>",
+    "dienstName-sort": "#4c32363a46442a40324c043452384c5244364e4e502a2c04462c324c324e044c38323a44502a4004050e04444650342a4040013996250701dcbcdcb9dcc0dcbcdc0a"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/77569\">Förderbeiträge familien- und schulergänzende Kinderbetreuung</a>",
+    "dienstName-sort": "#34464c30324c2c323a504c2a363204342a423a403a3244050e04524430044e2e385240324c362a445c32443032043e3a4430324c2c32504c32525244360144963c962c961a01dc97dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/19753\">Feuerwehr</a>",
+    "zustaendigName-sort": "#343252324c5632384c010d01dc0c",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636415\">+41 71 763 64 15</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04151d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/78644\">Rheintalische Jugendfeuerwehr</a>",
+    "dienstName-sort": "#4c38323a44502a403a4e2e3832043c5236324430343252324c5632384c012101dcb9dc12"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10674\">Einwohneramt</a>",
+    "zustaendigName-sort": "#323a4456463844324c2a4250011001dc0f",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636490\">+41 71 763 64 90</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04251301140114",
+    "dienstName": "<a href=\"/_rte/dienst/80900\">Willkommensbroschüre - Informationen für Neuzuzüger</a>",
+    "dienstName-sort": "#563a40403e46424232444e2c4c464e2e38524c3204050e043a4434464c422a503a464432440434524c044432525c525c5236324c01349631963d960701e0afdcb4dc0e"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/81503\">Ladenöffnung / Sonntagsverkauf</a>",
+    "dienstName-sort": "#402a30324446343444524436040a9e044e464444502a364e54324c3e2a52340140961c01dcb7dc12"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/82487\">Frühe Förderung</a>",
+    "dienstName-sort": "#344c5238320434464c30324c52443601439641960b01dcc0dc0d"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10686\">Soziale Dienste</a>",
+    "zustaendigName-sort": "#4e465c3a2a403204303a32444e5032011301dcbfdc0a",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636480\">+41 71 763 64 80</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231301140114",
+    "dienstName": "<a href=\"/_rte/dienst/82493\">Ukraine-Krieg: Information und Unterstützung</a>",
+    "dienstName-sort": "#523e4c2a3a4432050e3e4c3a32360736043a4434464c422a503a46440452443004524450324c4e5052505c524436012540960901dcbfdcc0dcb7dc11"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10669\">AHV-Zweigstelle</a>",
+    "zustaendigName-sort": "#2a3854050e5c56323a364e5032404032011301dcdcdcc5dc0e",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636485\">+41 71 763 64 85</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04231d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/85049\">Vaterschaftsentschädigung (VSE)</a>",
+    "dienstName-sort": "#542a50324c4e2e382a34504e3244504e2e382a303a36524436040992544e3209940133961001dcabdcdcdc05"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/96286\">Jugendjobbörse Oberes Rheintal</a>",
+    "dienstName-sort": "#3c52363244303c462c2c464c4e3204462c324c324e044c38323a44502a40013b961701dcb7dcc0dc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/person/70925\">Buschor Urs</a>",
+    "zustaendigName-sort": "#2c524e2e38464c04524c4e010f01dcbfdc06",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636475\">+41 71 763 64 75</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04211d01140114",
+    "dienstName": "<a href=\"/_rte/dienst/110992\">Velobox Oberriet</a>",
+    "dienstName-sort": "#543240462c465804462c324c4c3a3250011401dcbfdc0b"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/111286\">Dorf-Apps</a>",
+    "dienstName-sort": "#30464c34050e2a48484e010d01dcc2dc07"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/113539\">Liegenschaft Burg Reservation</a>",
+    "dienstName-sort": "#403a323632444e2e382a3450042c524c36044c324e324c542a503a4644012101dcbadcc2dc0e"
+  },
+  {
+    "zustaendigName": "",
+    "zustaendigTelefon": "",
+    "dienstName": "<a href=\"/_rte/dienst/122615\">Deutschkursvergünstigung</a>",
+    "dienstName-sort": "#303252504e2e383e524c4e54324c3652444e503a365244360136960c01dc1c"
+  },
+  {
+    "zustaendigName": "<a href=\"/_rte/amt/10679\">Gemeinderatskanzlei</a>",
+    "zustaendigName-sort": "#363242323a4430324c2a504e3e2a445c40323a011701dc16",
+    "zustaendigTelefon": "<a class=\"icms-dt-telefon-output\" href=\"tel:+41717636420\">+41 71 763 64 20</a>",
+    "zustaendigTelefon-sort": "#0c7a1b1504211504211f19041f1b04171301140114",
+    "dienstName": "<a href=\"/_rte/dienst/129544\">Baumberatung</a>",
+    "dienstName-sort": "#2c2a52422c324c2a50524436011001dc0f"
+  }
+]

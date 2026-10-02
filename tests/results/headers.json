@@ -1,0 +1,14 @@
+{
+  "connection": "keep-alive",
+  "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'",
+  "content-type": "text/html; charset=UTF-8",
+  "date": "Thu, 01 Oct 2026 23:26:31 GMT",
+  "keep-alive": "timeout=5",
+  "link": "<http://127.0.0.1:9400/wp-json/>; rel=\"https://api.w.org/\"",
+  "permissions-policy": "camera=(), microphone=(), geolocation=()",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "SAMEORIGIN",
+  "x-powered-by": "PHP/8.3.33"
+}
