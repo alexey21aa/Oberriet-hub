@@ -1,0 +1,485 @@
+[
+  {
+    "source_id": "v6-seed-b88c4950bbf39196",
+    "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-10e39629c3d308d8",
+    "source_url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-62c80b2e35990926",
+    "source_url": "https://api3.geo.admin.ch/rest/services/ech/SearchServer",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-c03a6de01b2068bb",
+    "source_url": "https://console.groq.com/docs/rate-limits",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-33301a1cfe697ee7",
+    "source_url": "https://daten.sg.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-5fb92110b0ae5565",
+    "source_url": "https://developers.cloudflare.com/workers-ai/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-0be48c3457df796f",
+    "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-7acb4f9840034a6b",
+    "source_url": "https://docs.orama.com/docs/orama-js/search",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-53417f3b2a96dee2",
+    "source_url": "https://fedlex.data.admin.ch/home",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-63ec212333f320b6",
+    "source_url": "https://fedlex.data.admin.ch/sparqlendpoint",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-317d51a5d529c952",
+    "source_url": "https://healthreg-public.admin.ch/medreg",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-311dec630d9a9c6a",
+    "source_url": "https://integrationrheintal.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-019c4e212f02d7cc",
+    "source_url": "https://kalender.rheintal.com/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-76fbe324d496dd70",
+    "source_url": "https://openrouter.ai/collections/free-models",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-e71e7d7dfbb19e84",
+    "source_url": "https://openrouter.ai/pricing",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-2cc5179c4250f6af",
+    "source_url": "https://opentransportdata.swiss/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-c38686684ec057af",
+    "source_url": "https://orama.com/products/oramajs",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-00352da581c21557",
+    "source_url": "https://overpass.osm.ch/api/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-c8feb532f9c51488",
+    "source_url": "https://www.ahv-iv.ch/de/Formulare/Formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-f64956ee305d65f0",
+    "source_url": "https://www.ahv-iv.ch/de/Formulare/Formulare/Allgemeine-Verwaltungsformulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-0953bf26f326041a",
+    "source_url": "https://www.ahv-iv.ch/de/Formulare/Formulare/Internationales",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-52ab2433548d6901",
+    "source_url": "https://www.ahv-iv.ch/de/Formulare/Formulare/Leistungen-der-AHV",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-5a7283e6c22d1853",
+    "source_url": "https://www.ahv-iv.ch/de/Formulare/Formulare/Leistungen-der-IV",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-9ab6d0073ec11379",
+    "source_url": "https://www.bag.admin.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-8531a39b23a625de",
+    "source_url": "https://www.bag.admin.ch/de/medizinalberuferegister-medreg",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-980e173a6a1dd8d2",
+    "source_url": "https://www.bag.admin.ch/de/organspende-nach-dem-tod-halten-sie-ihren-willen-schriftlich-fest",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-d6516e492c90c78d",
+    "source_url": "https://www.bav.admin.ch/de/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-be4639b4ad4d6127",
+    "source_url": "https://www.bazl.admin.ch/de/formularsammlung",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-d6543200a99b91b9",
+    "source_url": "https://www.betreibungsschalter.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-6279b87ce4957396",
+    "source_url": "https://www.bj.admin.ch/de/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-20380eccd6dd2df0",
+    "source_url": "https://www.bj.admin.ch/de/formulare-fuer-parteieingaben",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-966491eda22113e9",
+    "source_url": "https://www.bsv.admin.ch/de/formulare-abrechnung",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-23de7a93b3158c73",
+    "source_url": "https://www.bsv.admin.ch/de/formulare-beitragsgesuch",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-8289ab79ab1d173f",
+    "source_url": "https://www.caritas.ch/de/kulturlegi/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-fedccb110363187d",
+    "source_url": "https://www.dfae.admin.ch/de/formulare-rechtliche-grundlagen-und-merkblaetter",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-7a59f741ae9c5390",
+    "source_url": "https://www.estv.admin.ch/de/formulare-wegleitungen-direkte-bundessteuer",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-60f43c4f41a30ce0",
+    "source_url": "https://www.estv.admin.ch/en/forms-to-declare-or-report",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-1ed064d3a84e3308",
+    "source_url": "https://www.fedlex.admin.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-fd84a10f713095e6",
+    "source_url": "https://www.fmh.ch/dienstleistungen/recht/patientenverfuegung.cfm",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-3e257585513ca05b",
+    "source_url": "https://www.gerichte-zh.ch/de/themen",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-5623e2f76c193285",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/arbeit/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-d38d4740b1755da4",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/betreibung-und-konkurs/formulare-und-merkblaetter",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-a41eb059cec92d49",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-fa3bb8ae1893fa51",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/erbschaft/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-258ca0d5cdabb620",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/miete/formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-3a835f7d4fb81736",
+    "source_url": "https://www.gerichte-zh.ch/de/themen/zivilprozess/klageformulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-496a15a3a1af0d84",
+    "source_url": "https://www.gesetzessammlung.sg.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-0a8e830d35338842",
+    "source_url": "https://www.kesb.sg.ch/merkblaetter-downloads/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-587fd36cd1f8770b",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/kulturlegi-beantragen/wie-komme-ich-zur-kulturlegi",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-e23a883dd4523716",
+    "source_url": "https://www.kulturlegi.ch/st-gallen-appenzell/ueber-uns/kulturlegi-stgallen-appenzell",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-d3c702c7857dafd2",
+    "source_url": "https://www.oberriet.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-debbadb75af84ccf",
+    "source_url": "https://www.patientenverfuegung-srk.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-36f30766533bbe44",
+    "source_url": "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-addbf9837b8ef6f9",
+    "source_url": "https://www.sg.ch/",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-4e26478102e21f8b",
+    "source_url": "https://www.sg.ch/gesundheit-soziales/soziales/sozialberatung.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-c637554ef20fe4f5",
+    "source_url": "https://www.sg.ch/gesundheit-soziales/soziales/sozialhilfe.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-889a3211e379ff09",
+    "source_url": "https://www.sg.ch/recht/handelsregister-notariate/amtsnotariate/beurkundungen/vorsorgeauftrag.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-5a8c93d3ae749c92",
+    "source_url": "https://www.sg.ch/recht/handelsregister-notariate/amtsnotariate/formulare-und-merkblaetter.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-6a7fb1e23bcf650f",
+    "source_url": "https://www.sg.ch/recht/opferhilfe.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-737c3732132ab43e",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/elektronische-steuererklaerung/etaxnp.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-86b46e61f6a1670c",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-931275fce9f718db",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-55f57f4e966a07f8",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/quellensteuern.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-1887a097e109d463",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/quellensteuern/Anmeldeformular.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-ca6db9c970d147a8",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-5b795225e1817caa",
+    "source_url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/grundstueckgewinnsteuer.html",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-fb63ca6a5d7f728f",
+    "source_url": "https://www.zas.admin.ch/de/pdf-formulare",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  },
+  {
+    "source_id": "v6-seed-f543d18876884702",
+    "source_url": "https://www.zivi.admin.ch/de/dokumente",
+    "review_status": "seed-unverified",
+    "discovery_basis": "User V6 source manifest; availability and content must be verified",
+    "metadata_only": true
+  }
+]

@@ -1,7 +1,8 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';
 import {PHP} from '@php-wasm/universal';import {loadNodeRuntime} from '@php-wasm/node';
 const php=new PHP(await loadNodeRuntime('8.3',{emscriptenOptions:{processId:process.pid}}));
-for(const name of ['Sources','SourceIngestion','Search','Knowledge'])php.writeFile('/'+name+'.php',fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/src/'+name+'.php',import.meta.url)));
+for(const name of ['Sources','SourceIngestion','Search','Knowledge','QueryUnderstanding'])php.writeFile('/'+name+'.php',fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/src/'+name+'.php',import.meta.url)));
+php.writeFile('/query-concepts.json',fs.readFileSync('wp-content/plugins/oberhub-core/query-concepts.json'));
 const result=await php.run({code:`<?php
 const DAY_IN_SECONDS=86400;
 function wp_parse_url($u,$component=-1){return parse_url($u,$component);}function is_wp_error($v){return $v instanceof Exception;}

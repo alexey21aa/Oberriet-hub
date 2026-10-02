@@ -1,6 +1,6 @@
 {
   "name": "oberriet-hub",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "WordPress civic navigation MVP",
@@ -9,7 +9,8 @@
     "test:wordpress": "node tests/run-wordpress.mjs",
     "test:search": "node tests/search-engine.mjs",
     "test:queue": "node tests/import-queue-unit.mjs",
-    "test:local-ai": "node tests/local-ai.mjs"
+    "test:local-ai": "node tests/local-ai.mjs",
+    "test:v6": "node tests/v6-search.mjs && node tests/v6-server.mjs"
   },
   "devDependencies": {
     "@wp-playground/cli": "3.1.56",

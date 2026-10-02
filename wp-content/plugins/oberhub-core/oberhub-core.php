@@ -2,7 +2,7 @@
 /**
  * Plugin Name: OberHub Core
  * Description: Independent multilingual civic navigation, curated sources and private administration.
- * Version: 0.2.1
+ * Version: 0.3.0
  * Requires at least: 6.9
  * Requires PHP: 8.2
  * License: GPL-2.0-or-later
@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) { exit; }
 define('OBERHUB_DIR', __DIR__);
 define('OBERHUB_URL', plugin_dir_url(__FILE__));
 foreach (['ContentTypes','Sources','Knowledge','ImportQueue','Search','Calendar','Analytics','Security','AdminDashboard','Frontend'] as $class) { require_once __DIR__.'/src/'.$class.'.php'; }
-foreach (['AIProvider','NullProvider','OpenAICompatibleProvider'] as $class) { require_once __DIR__.'/src/AI/'.$class.'.php'; }
+foreach (['AIProvider','NullProvider','OpenAICompatibleProvider','Gateway'] as $class) { require_once __DIR__.'/src/AI/'.$class.'.php'; }
 function seed(): array { static $data; if ($data === null) { $data=json_decode(file_get_contents(__DIR__.'/seed.json'),true) ?: []; } return $data; }
 function records(string $type): array {
     if (isset($GLOBALS['oberhub_record_cache'][$type])) { return $GLOBALS['oberhub_record_cache'][$type]; }
@@ -71,3 +71,10 @@ if (defined('WP_CLI') && WP_CLI) {
         \WP_CLI::success('Imported '.$result['imported'].' records.');
     });
 }
+
+add_action('rest_api_init',function(){
+    register_rest_route('oberhub/v1','/v6/activity-import',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>function(){
+        $delta=json_decode(file_get_contents(__DIR__.'/v6-activities.json'),true);
+        return rest_ensure_response(ImportQueue::enqueue($delta,false));
+    }]);
+});

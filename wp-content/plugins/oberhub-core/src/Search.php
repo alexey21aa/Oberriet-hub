@@ -18,8 +18,8 @@ final class Search {
                 return rest_ensure_response($data);
             }]);
             register_rest_route('oberhub/v1','/search',['methods'=>['GET','POST'],'permission_callback'=>'__return_true','callback'=>[self::class,'search']]);
-            // Optional generation is admin-only in this MVP. Public journeys remain free and deterministic.
-            register_rest_route('oberhub/v1','/answer',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>[self::class,'answer']]);
+            // Main synthesis uses server retrieval; client-selected context and device capabilities are ignored.
+            register_rest_route('oberhub/v1','/answer',['methods'=>'POST','permission_callback'=>'__return_true','callback'=>[self::class,'answer']]);
         });
     }
     public static function search($req) {
@@ -37,10 +37,11 @@ final class Search {
     }
     public static function answer($req) {
         $question=sanitize_textarea_field($req->get_param('question') ?? ''); if (strlen($question)>2000) { return new \WP_Error('length','Question too long',['status'=>400]); }
-        $ids=array_slice(array_map('sanitize_key',(array)$req->get_param('ids')),0,5);
-        $data=dataset();$sources=array_column($data['sources'],null,'source_id');
-        $context=array_values(array_filter($data['services'],fn($s)=>in_array($s['id'],$ids,true) && in_array($s['source_trust_level'] ?? '',['A','B'],true) && ($sources[$s['source_id']]['review_status'] ?? '')==='checked' && strtotime(($s['source_checked_at'] ?? '1970-01-01').' +'.($sources[$s['source_id']]['ttl_days'] ?? 30).' days')>=time()));
-        $provider=(defined('OBERHUB_AI_ENDPOINT') && defined('OBERHUB_AI_KEY') && defined('OBERHUB_AI_MODEL')) ? new AI\OpenAICompatibleProvider(OBERHUB_AI_ENDPOINT,OBERHUB_AI_KEY,OBERHUB_AI_MODEL) : new AI\NullProvider();
-        nocache_headers();return rest_ensure_response($provider->answer($question,$context));
+        $lang=sanitize_key($req->get_param('lang')??'de');
+        if(!in_array($lang,['de','en','ru','uk'],true))$lang='de';
+        if(strlen(trim($question))<2)return new \WP_Error('empty','Question required',['status'=>400]);
+        nocache_headers();$result=AI\Gateway::answer($question,$lang);
+        $response=rest_ensure_response($result);if($result['mode']==='rate-limited')$response->set_status(429);
+        return $response;
     }
 }

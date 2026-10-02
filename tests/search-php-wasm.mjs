@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 import {PHP} from '@php-wasm/universal';
 import {loadNodeRuntime} from '@php-wasm/node';
 const php=new PHP(await loadNodeRuntime('8.3',{emscriptenOptions:{processId:process.pid}}));
-const files=['Knowledge','Search'];
+const files=['QueryUnderstanding','Knowledge','Search'];
 for(const file of files)php.writeFile('/'+file+'.php',fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/src/'+file+'.php',import.meta.url)));
+php.writeFile('/query-concepts.json',fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/query-concepts.json',import.meta.url)));
 const result=await php.run({code:`<?php
 require '/Knowledge.php';require '/Search.php';
 $k='\\OberHub\\Knowledge';$out=[];

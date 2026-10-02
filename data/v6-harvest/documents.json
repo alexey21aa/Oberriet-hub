@@ -1,0 +1,32 @@
+[
+  {
+    "id": "doc-ad06d555b066f33bd5e34edc",
+    "source_id": "s-8f091555baa8",
+    "source_url": "https://www.ch.ch/de/rechtliches/",
+    "official_url": "https://www.ch.ch/de/rechtliches/",
+    "title": {
+      "de": "Rechtliches",
+      "en": "Rechtliches",
+      "ru": "Rechtliches",
+      "uk": "Rechtliches"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T16:34:27+00:00",
+    "parent_url": "https://www.ch.ch/de/rechtliches/",
+    "jurisdiction": "CH",
+    "type": "guide-link"
+  }
+]

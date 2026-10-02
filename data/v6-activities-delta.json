@@ -1,0 +1,1231 @@
+{
+  "services": [
+    {
+      "id": "v6-montlingen-kitu",
+      "title": {
+        "de": "TSV Montlingen · KiTu",
+        "en": "TSV Montlingen · KiTu",
+        "ru": "TSV Montlingen · KiTu",
+        "uk": "TSV Montlingen · KiTu"
+      },
+      "description_short": {
+        "de": "Bewegung und Spiele für Kindergartenkinder in der Bergliturnhalle.",
+        "en": "Movement and games for kindergarten children at Bergliturnhalle.",
+        "ru": "Подвижные игры и гимнастика для детей детсадовского возраста в Bergliturnhalle.",
+        "uk": "Рухливі ігри та гімнастика для дітей дитсадкового віку в Bergliturnhalle."
+      },
+      "description_full": {
+        "de": "Bewegung und Spiele für Kindergartenkinder in der Bergliturnhalle.",
+        "en": "Movement and games for kindergarten children at Bergliturnhalle.",
+        "ru": "Подвижные игры и гимнастика для детей детсадовского возраста в Bergliturnhalle.",
+        "uk": "Рухливі ігри та гімнастика для дітей дитсадкового віку в Bergliturnhalle."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-muki",
+      "title": {
+        "de": "TSV Montlingen · MuKi",
+        "en": "TSV Montlingen · MuKi",
+        "ru": "TSV Montlingen · MuKi",
+        "uk": "TSV Montlingen · MuKi"
+      },
+      "description_short": {
+        "de": "Eltern-Kind-Turnen ab drei Jahren in der Berglihalle.",
+        "en": "Parent and child gymnastics from age three at Berglihalle.",
+        "ru": "Гимнастика вместе с родителем для детей от трёх лет в Berglihalle.",
+        "uk": "Гімнастика з батьками для дітей від трьох років у Berglihalle."
+      },
+      "description_full": {
+        "de": "Eltern-Kind-Turnen ab drei Jahren in der Berglihalle.",
+        "en": "Parent and child gymnastics from age three at Berglihalle.",
+        "ru": "Гимнастика вместе с родителем для детей от трёх лет в Berglihalle.",
+        "uk": "Гімнастика з батьками для дітей від трьох років у Berglihalle."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-girls-small",
+      "title": {
+        "de": "TSV Montlingen · Kleine Mädchen",
+        "en": "TSV Montlingen · Kleine Mädchen",
+        "ru": "TSV Montlingen · Kleine Mädchen",
+        "uk": "TSV Montlingen · Kleine Mädchen"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Kleine Mädchen. Schulstufe: 1–3.",
+        "en": "Youth gymnastics: Kleine Mädchen. School level: 1–3.",
+        "ru": "Детская гимнастика: Kleine Mädchen. Школьная ступень: 1–3.",
+        "uk": "Дитяча гімнастика: Kleine Mädchen. Шкільний ступінь: 1–3."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Kleine Mädchen. Schulstufe: 1–3.",
+        "en": "Youth gymnastics: Kleine Mädchen. School level: 1–3.",
+        "ru": "Детская гимнастика: Kleine Mädchen. Школьная ступень: 1–3.",
+        "uk": "Дитяча гімнастика: Kleine Mädchen. Шкільний ступінь: 1–3."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-girls-middle",
+      "title": {
+        "de": "TSV Montlingen · Mittlere Mädchen",
+        "en": "TSV Montlingen · Mittlere Mädchen",
+        "ru": "TSV Montlingen · Mittlere Mädchen",
+        "uk": "TSV Montlingen · Mittlere Mädchen"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Mittlere Mädchen. Schulstufe: 4–6.",
+        "en": "Youth gymnastics: Mittlere Mädchen. School level: 4–6.",
+        "ru": "Детская гимнастика: Mittlere Mädchen. Школьная ступень: 4–6.",
+        "uk": "Дитяча гімнастика: Mittlere Mädchen. Шкільний ступінь: 4–6."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Mittlere Mädchen. Schulstufe: 4–6.",
+        "en": "Youth gymnastics: Mittlere Mädchen. School level: 4–6.",
+        "ru": "Детская гимнастика: Mittlere Mädchen. Школьная ступень: 4–6.",
+        "uk": "Дитяча гімнастика: Mittlere Mädchen. Шкільний ступінь: 4–6."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-girls-youth",
+      "title": {
+        "de": "TSV Montlingen · Grosse Mädchen",
+        "en": "TSV Montlingen · Grosse Mädchen",
+        "ru": "TSV Montlingen · Grosse Mädchen",
+        "uk": "TSV Montlingen · Grosse Mädchen"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Grosse Mädchen. Schulstufe: Oberstufe.",
+        "en": "Youth gymnastics: Grosse Mädchen. School level: Oberstufe.",
+        "ru": "Детская гимнастика: Grosse Mädchen. Школьная ступень: Oberstufe.",
+        "uk": "Дитяча гімнастика: Grosse Mädchen. Шкільний ступінь: Oberstufe."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Grosse Mädchen. Schulstufe: Oberstufe.",
+        "en": "Youth gymnastics: Grosse Mädchen. School level: Oberstufe.",
+        "ru": "Детская гимнастика: Grosse Mädchen. Школьная ступень: Oberstufe.",
+        "uk": "Дитяча гімнастика: Grosse Mädchen. Шкільний ступінь: Oberstufe."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-boys-small",
+      "title": {
+        "de": "TSV Montlingen · Kleine Knaben",
+        "en": "TSV Montlingen · Kleine Knaben",
+        "ru": "TSV Montlingen · Kleine Knaben",
+        "uk": "TSV Montlingen · Kleine Knaben"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Kleine Knaben. Schulstufe: 1–3.",
+        "en": "Youth gymnastics: Kleine Knaben. School level: 1–3.",
+        "ru": "Детская гимнастика: Kleine Knaben. Школьная ступень: 1–3.",
+        "uk": "Дитяча гімнастика: Kleine Knaben. Шкільний ступінь: 1–3."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Kleine Knaben. Schulstufe: 1–3.",
+        "en": "Youth gymnastics: Kleine Knaben. School level: 1–3.",
+        "ru": "Детская гимнастика: Kleine Knaben. Школьная ступень: 1–3.",
+        "uk": "Дитяча гімнастика: Kleine Knaben. Шкільний ступінь: 1–3."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-boys-middle",
+      "title": {
+        "de": "TSV Montlingen · Mittlere Knaben",
+        "en": "TSV Montlingen · Mittlere Knaben",
+        "ru": "TSV Montlingen · Mittlere Knaben",
+        "uk": "TSV Montlingen · Mittlere Knaben"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Mittlere Knaben. Schulstufe: 4–6.",
+        "en": "Youth gymnastics: Mittlere Knaben. School level: 4–6.",
+        "ru": "Детская гимнастика: Mittlere Knaben. Школьная ступень: 4–6.",
+        "uk": "Дитяча гімнастика: Mittlere Knaben. Шкільний ступінь: 4–6."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Mittlere Knaben. Schulstufe: 4–6.",
+        "en": "Youth gymnastics: Mittlere Knaben. School level: 4–6.",
+        "ru": "Детская гимнастика: Mittlere Knaben. Школьная ступень: 4–6.",
+        "uk": "Дитяча гімнастика: Mittlere Knaben. Шкільний ступінь: 4–6."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-boys-youth",
+      "title": {
+        "de": "TSV Montlingen · Grosse Knaben",
+        "en": "TSV Montlingen · Grosse Knaben",
+        "ru": "TSV Montlingen · Grosse Knaben",
+        "uk": "TSV Montlingen · Grosse Knaben"
+      },
+      "description_short": {
+        "de": "Jugendturnen: Grosse Knaben. Schulstufe: Oberstufe.",
+        "en": "Youth gymnastics: Grosse Knaben. School level: Oberstufe.",
+        "ru": "Детская гимнастика: Grosse Knaben. Школьная ступень: Oberstufe.",
+        "uk": "Дитяча гімнастика: Grosse Knaben. Шкільний ступінь: Oberstufe."
+      },
+      "description_full": {
+        "de": "Jugendturnen: Grosse Knaben. Schulstufe: Oberstufe.",
+        "en": "Youth gymnastics: Grosse Knaben. School level: Oberstufe.",
+        "ru": "Детская гимнастика: Grosse Knaben. Школьная ступень: Oberstufe.",
+        "uk": "Дитяча гімнастика: Grosse Knaben. Шкільний ступінь: Oberstufe."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-athletics",
+      "title": {
+        "de": "TSV Montlingen · Leichtathletik",
+        "en": "TSV Montlingen · Leichtathletik",
+        "ru": "TSV Montlingen · Leichtathletik",
+        "uk": "TSV Montlingen · Leichtathletik"
+      },
+      "description_short": {
+        "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+        "en": "Additional athletics training for children interested in sport.",
+        "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+        "uk": "Додаткові заняття легкою атлетикою для дітей."
+      },
+      "description_full": {
+        "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+        "en": "Additional athletics training for children interested in sport.",
+        "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+        "uk": "Додаткові заняття легкою атлетикою для дітей."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-la",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/LA",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-damen",
+      "title": {
+        "de": "TSV Montlingen · Damenriege",
+        "en": "TSV Montlingen · Damenriege",
+        "ru": "TSV Montlingen · Damenriege",
+        "uk": "TSV Montlingen · Damenriege"
+      },
+      "description_short": {
+        "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+        "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+        "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+        "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+      },
+      "description_full": {
+        "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+        "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+        "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+        "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-damen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "dance",
+        "women",
+        "adults"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-fitness",
+      "title": {
+        "de": "TSV Montlingen · Fitnessriege",
+        "en": "TSV Montlingen · Fitnessriege",
+        "ru": "TSV Montlingen · Fitnessriege",
+        "uk": "TSV Montlingen · Fitnessriege"
+      },
+      "description_short": {
+        "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+        "en": "Women’s fitness with group fitness and performance dance.",
+        "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+        "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+      },
+      "description_full": {
+        "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+        "en": "Women’s fitness with group fitness and performance dance.",
+        "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+        "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-fitness",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "dance",
+        "women",
+        "adults"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-montlingen-frauen",
+      "title": {
+        "de": "TSV Montlingen · Frauenriege",
+        "en": "TSV Montlingen · Frauenriege",
+        "ru": "TSV Montlingen · Frauenriege",
+        "uk": "TSV Montlingen · Frauenriege"
+      },
+      "description_short": {
+        "de": "Fitness, Koordination und gemeinsame Aktivitäten für Frauen.",
+        "en": "Fitness, coordination and social activities for women.",
+        "ru": "Фитнес, координация и совместный досуг для женщин.",
+        "uk": "Фітнес, координація та спільне дозвілля для жінок."
+      },
+      "description_full": {
+        "de": "Fitness, Koordination und gemeinsame Aktivitäten für Frauen.",
+        "en": "Fitness, coordination and social activities for women.",
+        "ru": "Фитнес, координация и совместный досуг для женщин.",
+        "uk": "Фітнес, координація та спільне дозвілля для жінок."
+      },
+      "topic": "leisure",
+      "locality": "montlingen",
+      "authority": "TSV Montlingen",
+      "source_id": "v6-tsv-frauen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/Frauenriege",
+      "official_url": "https://www.tsvmontlingen.ch/riegen/Frauenriege",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "women",
+        "adults"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-kiri-oberriet",
+      "title": {
+        "de": "KiRi · Oberriet",
+        "en": "KiRi · Oberriet",
+        "ru": "KiRi · Oberriet",
+        "uk": "KiRi · Oberriet"
+      },
+      "description_short": {
+        "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+        "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+        "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+        "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+      },
+      "description_full": {
+        "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+        "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+        "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+        "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+      },
+      "topic": "leisure",
+      "locality": "oberriet",
+      "authority": "Ringerclub Oberriet-Grabs",
+      "source_id": "v6-rcog-kiri",
+      "source_url": "https://www.rcog.ch/kinderringen",
+      "official_url": "https://www.rcog.ch/kinderringen",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-kiri-grabs",
+      "title": {
+        "de": "KiRi · Grabs",
+        "en": "KiRi · Grabs",
+        "ru": "KiRi · Grabs",
+        "uk": "KiRi · Grabs"
+      },
+      "description_short": {
+        "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+        "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+        "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+        "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+      },
+      "description_full": {
+        "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+        "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+        "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+        "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+      },
+      "topic": "leisure",
+      "locality": "grabs",
+      "authority": "Ringerclub Oberriet-Grabs",
+      "source_id": "v6-rcog-kiri",
+      "source_url": "https://www.rcog.ch/kinderringen",
+      "official_url": "https://www.rcog.ch/kinderringen",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-stvoe-jugi",
+      "title": {
+        "de": "STV Oberriet-Eichenwies · Jugi",
+        "en": "STV Oberriet-Eichenwies · Jugi",
+        "ru": "STV Oberriet-Eichenwies · Jugi",
+        "uk": "STV Oberriet-Eichenwies · Jugi"
+      },
+      "description_short": {
+        "de": "Jugendturnen im örtlichen Turnverein.",
+        "en": "Youth gymnastics at the local gymnastics club.",
+        "ru": "Детская гимнастика в местном спортивном клубе.",
+        "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+      },
+      "description_full": {
+        "de": "Jugendturnen im örtlichen Turnverein.",
+        "en": "Youth gymnastics at the local gymnastics club.",
+        "ru": "Детская гимнастика в местном спортивном клубе.",
+        "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+      },
+      "topic": "leisure",
+      "locality": "oberriet",
+      "authority": "STV Oberriet-Eichenwies",
+      "source_id": "v6-stvoe-jugi",
+      "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+      "official_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-msor-adult-dance",
+      "title": {
+        "de": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+        "en": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+        "ru": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+        "uk": "Musikschule Oberrheintal · Tanzen für Erwachsene"
+      },
+      "description_short": {
+        "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+        "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+        "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+        "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+      },
+      "description_full": {
+        "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+        "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+        "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+        "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+      },
+      "topic": "leisure",
+      "locality": "altstatten",
+      "authority": "Musikschule Oberrheintal",
+      "source_id": "v6-msor-dance",
+      "source_url": "https://msor.ch/tanzen/",
+      "official_url": "https://msor.ch/tanzen/",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "dance",
+        "adults"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-msor-child-dance",
+      "title": {
+        "de": "Musikschule Oberrheintal · Kindertanz",
+        "en": "Musikschule Oberrheintal · Kindertanz",
+        "ru": "Musikschule Oberrheintal · Kindertanz",
+        "uk": "Musikschule Oberrheintal · Kindertanz"
+      },
+      "description_short": {
+        "de": "Ballett und zeitgenössischer Tanz für Kinder und Jugendliche.",
+        "en": "Ballet and contemporary dance for children and young people.",
+        "ru": "Балет и современный танец для детей и подростков.",
+        "uk": "Балет і сучасний танець для дітей і підлітків."
+      },
+      "description_full": {
+        "de": "Ballett und zeitgenössischer Tanz für Kinder und Jugendliche.",
+        "en": "Ballet and contemporary dance for children and young people.",
+        "ru": "Балет и современный танец для детей и подростков.",
+        "uk": "Балет і сучасний танець для дітей і підлітків."
+      },
+      "topic": "leisure",
+      "locality": "altstatten",
+      "authority": "Musikschule Oberrheintal",
+      "source_id": "v6-msor-dance",
+      "source_url": "https://msor.ch/tanzen/",
+      "official_url": "https://msor.ch/tanzen/",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "dance",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-tanoshii",
+      "title": {
+        "de": "Tanoshii Funpark",
+        "en": "Tanoshii Funpark",
+        "ru": "Tanoshii Funpark",
+        "uk": "Tanoshii Funpark"
+      },
+      "description_short": {
+        "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+        "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+        "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+        "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+      },
+      "description_full": {
+        "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+        "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+        "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+        "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+      },
+      "topic": "leisure",
+      "locality": "altstatten",
+      "authority": "Tanoshii Funpark",
+      "source_id": "v6-tanoshii",
+      "source_url": "https://www.tanoshii.ch/de/",
+      "official_url": "https://www.tanoshii.ch/de/",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "indoor",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-plusport-kids",
+      "title": {
+        "de": "PluSport Rheintal · Kinderturnen",
+        "en": "PluSport Rheintal · Kinderturnen",
+        "ru": "PluSport Rheintal · Kinderturnen",
+        "uk": "PluSport Rheintal · Kinderturnen"
+      },
+      "description_short": {
+        "de": "Inklusives Kinderturnen; Eignung und Unterstützung beim Anbieter abklären.",
+        "en": "Inclusive children’s gymnastics; confirm suitability and support with the provider.",
+        "ru": "Инклюзивная детская гимнастика; подходящую группу и поддержку уточните у организатора.",
+        "uk": "Інклюзивна дитяча гімнастика; відповідну групу й підтримку уточніть в організатора."
+      },
+      "description_full": {
+        "de": "Inklusives Kinderturnen; Eignung und Unterstützung beim Anbieter abklären.",
+        "en": "Inclusive children’s gymnastics; confirm suitability and support with the provider.",
+        "ru": "Инклюзивная детская гимнастика; подходящую группу и поддержку уточните у организатора.",
+        "uk": "Інклюзивна дитяча гімнастика; відповідну групу й підтримку уточніть в організатора."
+      },
+      "topic": "leisure",
+      "locality": "rheintal",
+      "authority": "PluSport Rheintal",
+      "source_id": "v6-plusport",
+      "source_url": "https://www.plusport-rheintal.ch/turnen",
+      "official_url": "https://www.plusport-rheintal.ch/turnen",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "sport",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-creative-kids",
+      "title": {
+        "de": "Creative Movements · Tanzkurse",
+        "en": "Creative Movements · Tanzkurse",
+        "ru": "Creative Movements · Tanzkurse",
+        "uk": "Creative Movements · Tanzkurse"
+      },
+      "description_short": {
+        "de": "Tanzkurse für Kinder und Jugendliche im Rheintal.",
+        "en": "Dance courses for children and young people in Rheintal.",
+        "ru": "Танцевальные курсы для детей и подростков в Rheintal.",
+        "uk": "Танцювальні курси для дітей і підлітків у Rheintal."
+      },
+      "description_full": {
+        "de": "Tanzkurse für Kinder und Jugendliche im Rheintal.",
+        "en": "Dance courses for children and young people in Rheintal.",
+        "ru": "Танцевальные курсы для детей и подростков в Rheintal.",
+        "uk": "Танцювальні курси для дітей і підлітків у Rheintal."
+      },
+      "topic": "leisure",
+      "locality": "rheintal",
+      "authority": "Creative Movements",
+      "source_id": "v6-creative-movements",
+      "source_url": "https://www.creativemovements.ch/kurse",
+      "official_url": "https://www.creativemovements.ch/kurse",
+      "source_checked_at": "2026-10-02",
+      "status": "checked",
+      "source_trust_level": "B",
+      "verification_scope": "page",
+      "search_concepts": [
+        "dance",
+        "children"
+      ],
+      "age_note": null,
+      "fees": null,
+      "schedule": null,
+      "next_action": {
+        "de": "Aktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+        "en": "Check current times and participation with the provider.",
+        "ru": "Уточните актуальное расписание и участие у организатора.",
+        "uk": "Уточніть актуальний розклад та участь в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "http_status": 200,
+      "sha256": "f05bf0b13b811e3eb9525605a26573a4ae5e5c12b62a18daa3649d8bcdf7e104",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tsv-montlingen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/jugi",
+      "authority": "TSV Montlingen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "2b1681eb0e4150e99b90065336416d8fe466c557515f4fe3f86fff40367e48c8",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tsv-la",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+      "authority": "TSV Montlingen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "4ae66a42a2001ba427d1b2ad4fb1654950857aa6a2ec2d94644cd3a13291a97e",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tsv-damen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+      "authority": "TSV Montlingen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "d987e9689d969492a12df0119989f14ef7869874b8b63f7c362d4a4e0ea3be80",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tsv-fitness",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+      "authority": "TSV Montlingen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "7116c3eedf097c5ee0d1df7ded6b0f2f9070a7227da85ea98044a2ba951744e1",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tsv-frauen",
+      "source_url": "https://www.tsvmontlingen.ch/riegen/Frauenriege",
+      "authority": "TSV Montlingen",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "e75faad5a87bd9028c833a1c96cb8a63e03068f993d2dd85aece24bee5d61b09",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-rcog-kiri",
+      "source_url": "https://www.rcog.ch/kinderringen",
+      "authority": "Ringerclub Oberriet-Grabs",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "3a37c2cbb7a11ad9ee453224a067895695dd492993f801eff6b252022a178e72",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-stvoe-jugi",
+      "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+      "authority": "STV Oberriet-Eichenwies",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "54a3fbd9c32375e823868bf53938cb2242393fb90bf68f3abcda86fad146832f",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-msor-dance",
+      "source_url": "https://msor.ch/tanzen/",
+      "authority": "Musikschule Oberrheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "033dbe31c57ea7cd5917d27c9fdacc3fb83859caa68fc52cc59a759e2f0e3969",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-tanoshii",
+      "source_url": "https://www.tanoshii.ch/de/",
+      "authority": "Tanoshii Funpark",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "2c50c4afdb20354ab3df27c421099a6db7a5c8169c2013fbe375ad5666daa575",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-plusport",
+      "source_url": "https://www.plusport-rheintal.ch/turnen",
+      "authority": "PluSport Rheintal",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    },
+    {
+      "http_status": 200,
+      "sha256": "efad9fbf9a2afb3e6c9ac5c6c84401ef7b7bb1b9638091399787ecef736f067a",
+      "fetched_at": "2026-10-02",
+      "metadata_only": true,
+      "source_id": "v6-creative-movements",
+      "source_url": "https://www.creativemovements.ch/kurse",
+      "authority": "Creative Movements",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "reuse_note": "Original short factual summaries and links; no full provider text copied.",
+      "evidence_method": "Primary-provider content checked; direct HTTP 200 and SHA256 stored on 2026-10-02."
+    }
+  ]
+}

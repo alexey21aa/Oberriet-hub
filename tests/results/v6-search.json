@@ -1,0 +1,50 @@
+{
+  "cases": 531,
+  "passed": 531,
+  "failed": 0,
+  "mandatory": [
+    {
+      "q": "Спорт для детей",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small"
+      ]
+    },
+    {
+      "q": "Спорт доя детей",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small"
+      ]
+    },
+    {
+      "q": "Танцы для женщин",
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ]
+    },
+    {
+      "q": "танци доя женщин",
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ]
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "ids": [
+        "v6-tanoshii"
+      ]
+    }
+  ],
+  "failures": []
+}

@@ -21,7 +21,7 @@ final class Sources {
     public static function allowed(string $url): bool {
         $p=wp_parse_url($url); if (!$p || ($p['scheme'] ?? '')!=='https' || isset($p['user']) || isset($p['pass']) || (isset($p['port']) && (int)$p['port']!==443)) { return false; }
         $host=strtolower($p['host'] ?? '');
-        $allow=['www.oberriet.ch','oberriet.ch','www.sg.ch','sg.ch','www.hallo.sg.ch','hallo.sg.ch','daten.sg.ch','www.sbb.ch','www.orschulen.ch','orschulen.ch','www.edoeb.admin.ch','www.fedlex.admin.ch','www.ige.ch','www.gesetzessammlung.sg.ch','schalter-e.sg.ch','www.eumzug.swiss','www.h-och.ch','h-och.ch','msor.ch','www.msor.ch','www.ch.ch','ch.ch','www.svasg.ch','svasg.ch','integrationrheintal.ch','www.integrationrheintal.ch'];
+        $allow=['www.tsvmontlingen.ch','www.rcog.ch','www.stvoe.ch','www.tanoshii.ch','www.plusport-rheintal.ch','www.creativemovements.ch','www.oberriet.ch','oberriet.ch','www.sg.ch','sg.ch','www.hallo.sg.ch','hallo.sg.ch','daten.sg.ch','www.sbb.ch','www.orschulen.ch','orschulen.ch','www.edoeb.admin.ch','www.fedlex.admin.ch','www.ige.ch','www.gesetzessammlung.sg.ch','schalter-e.sg.ch','www.eumzug.swiss','www.h-och.ch','h-och.ch','msor.ch','www.msor.ch','www.ch.ch','ch.ch','www.svasg.ch','svasg.ch','integrationrheintal.ch','www.integrationrheintal.ch'];
         $extra=get_option('oh_approved_source_hosts',[]);if(is_array($extra))foreach($extra as $approved){if(is_string($approved)&&self::publicHost($approved))$allow[]=strtolower($approved);}
         return self::publicHost($host)&&in_array($host,$allow,true);
     }

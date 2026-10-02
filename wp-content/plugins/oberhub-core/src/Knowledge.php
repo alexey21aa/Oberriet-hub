@@ -1,8 +1,9 @@
 <?php
 namespace OberHub;
 /** Indexed, locally hosted civic knowledge. The index contains no visitor questions. */
+require_once __DIR__.'/QueryUnderstanding.php';
 final class Knowledge {
-    const VERSION='1';
+    const VERSION='2';
     public static function boot(): void {
         add_action('init',function(){if(class_exists(ImportQueue::class)&&ImportQueue::active())return; if(get_option('oh_knowledge_version')!==self::VERSION){ self::install(); self::rebuild(dataset()); } },30);
         add_action('updated_post_meta',function($mid,$pid,$key){ if($key==='_oh_record'&&get_post_type($pid)!=='oh_source'){update_option('oh_knowledge_dirty',1,false);} },10,3);
@@ -20,11 +21,11 @@ final class Knowledge {
         $text=strtr($text,['Ä'=>'a','Ö'=>'o','Ü'=>'u','ä'=>'a','ö'=>'o','ü'=>'u','ß'=>'ss','Ё'=>'е','ё'=>'е','Ґ'=>'г','ґ'=>'г']);
         if(function_exists('mb_strtolower')){$text=mb_strtolower($text,'UTF-8');}else{$text=strtolower(strtr($text,array_combine(preg_split('//u','АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯІЇЄ',-1,PREG_SPLIT_NO_EMPTY),preg_split('//u','абвгдежзийклмнопрстуфхцчшщъыьэюяіїє',-1,PREG_SPLIT_NO_EMPTY))));}
         if(class_exists('Normalizer')){$text=\Normalizer::normalize($text,\Normalizer::FORM_KD);}
-        $text=preg_replace('/\p{M}/u','',$text);$text=preg_replace('/[^\p{L}\p{N}\s]/u',' ',$text);return trim(preg_replace('/\s+/u',' ',$text));
+        $text=preg_replace('/\p{M}/u','',$text);$text=preg_replace('/[^\p{L}\p{N}\s]/u',' ',$text);$text=preg_replace('/(?<![\p{L}\p{N}])доя(?![\p{L}\p{N}])/u','для',$text);return trim(preg_replace('/\s+/u',' ',$text));
     }
     public static function tokens(string $text): array {
         $stop=explode(' ','the a an of to in and for is i my do how where can me der die das und ein eine im in am mit von zu ich mein meine wo wie ist was на в и у а по за для з та що як де не мне мой моя це');
-        return array_values(array_unique(array_filter(explode(' ',self::normalize($text)),fn($w)=>self::length($w)>1&&!in_array($w,$stop,true))));
+        return array_values(array_unique(array_map([QueryUnderstanding::class,'concept'],array_filter(explode(' ',self::normalize($text)),fn($w)=>self::length($w)>1&&!in_array($w,$stop,true)))));
     }
     private static function length(string $v):int{return count(preg_split('//u',$v,-1,PREG_SPLIT_NO_EMPTY));}
     private static function values($v):array {if(is_array($v)){$out=[];foreach($v as $item){$out=array_merge($out,self::values($item));}return $out;}return is_string($v)?[$v]:[];}
@@ -38,7 +39,7 @@ final class Knowledge {
         foreach($data['intents']??[] as $intent){$id=(string)($intent['service_id']??$intent['target_id']??$intent['id']);$intentMap[$id]=array_merge($intentMap[$id]??[],self::values($intent['phrases']??$intent['aliases']??$intent['question']??[]));}
         foreach($data['aliases']??[] as $alias){$id=(string)($alias['service_id']??'');$intentMap[$id]=array_merge($intentMap[$id]??[],self::values($alias['phrase']??[]));}
         $wpdb->query('START TRANSACTION');foreach(['knowledge','terms','deletions'] as $table){$wpdb->query("DELETE FROM {$p}{$table}");}
-        foreach(['services','guides','faqs','answers','contacts','organizations','places','events','documents'] as $type){foreach($data[$type]??[] as $record){if(empty($record['id']))continue;if($type==='services'&&isset($navigation[$record['id']]))$record['_navigation_answers']=$navigation[$record['id']];$key=$type.':'.$record['id'];$fields=[[$record['title']??$record['name']??[],8],[$record['synonyms']??$record['aliases']??[],10],[$intentMap[(string)$record['id']]??[],12],[$record['question']??[],10],[$record['keywords']??[],3],[$record['description_short']??[],2],[$record['answer']??[],2],[$record['description_full']??[],1]];$phrases=[];$weights=[];
+        foreach(['services','guides','faqs','answers','contacts','organizations','places','events','documents'] as $type){foreach($data[$type]??[] as $record){if(empty($record['id']))continue;if($type==='services'&&isset($navigation[$record['id']]))$record['_navigation_answers']=$navigation[$record['id']];$key=$type.':'.$record['id'];$fields=[[$record['title']??$record['name']??[],8],[$record['synonyms']??$record['aliases']??[],10],[$intentMap[(string)$record['id']]??[],12],[$record['question']??[],10],[$record['search_concepts']??[],12],[$record['keywords']??[],3],[$record['description_short']??[],2],[$record['answer']??[],2],[$record['description_full']??[],1]];$phrases=[];$weights=[];
             foreach($fields as [$value,$weight]){foreach(self::values($value) as $text){$phrase=self::normalize($text);if($weight>=8&&$phrase!=='')$phrases[]=['text'=>$phrase,'weight'=>$weight];foreach(self::tokens($text) as $term){if(self::length($term)>100)continue;$weights[$term]=max($weights[$term]??0,$weight);}}}
             $distinct=[];foreach($phrases as $phrase){if(!isset($distinct[$phrase['text']])||$distinct[$phrase['text']]['weight']<$phrase['weight'])$distinct[$phrase['text']]=$phrase;}$phrases=array_values($distinct);
             $wpdb->insert($p.'knowledge',['record_key'=>$key,'record_type'=>$type,'record_json'=>wp_json_encode($record,JSON_UNESCAPED_UNICODE),'phrases_json'=>wp_json_encode($phrases,JSON_UNESCAPED_UNICODE)]);
@@ -51,7 +52,7 @@ final class Knowledge {
     }
     private static function localized($value,string $lang):string{return is_array($value)?(string)($value[$lang]??$value['de']??''):(is_string($value)?$value:'');}
     private static function quality(array $record,string $query,string $locality):float {
-        $score=0.0;if(str_starts_with($record['source_url']??'','https://www.oberriet.ch/'))$score+=20;if(in_array($record['verification_scope']??'',['page','page-subscenario'],true))$score+=5;if(($record['status']??'')==='checked')$score+=.5;
+        $nearby=['oberriet'=>10,'montlingen'=>9,'kriessern'=>9,'eichenwies'=>9,'kobelwald'=>9,'altstatten'=>6,'rheintal'=>3,'grabs'=>1];$score=QueryUnderstanding::needsActivity(self::tokens($query))?($nearby[$record['locality']??'']??0):0.0;if(str_starts_with($record['source_url']??'','https://www.oberriet.ch/'))$score+=20;if(in_array($record['verification_scope']??'',['page','page-subscenario'],true))$score+=5;if(($record['status']??'')==='checked')$score+=.5;
         if(in_array($record['source_trust_level']??'', ['A','B'],true))$score+=.5;
         if(($record['verification_scope']??'')==='routing-metadata')$score-=.2;
         $checked=strtotime((string)($record['source_checked_at']??''));if($checked!==false&&$checked>=time()-90*DAY_IN_SECONDS)$score+=.3;
@@ -69,7 +70,7 @@ final class Knowledge {
             $best=[];foreach($rows as $row){$key=$row['record_key'];$best[$key]=max($best[$key]??0,(int)$row['weight']*($candidates[$row['term']]??.7));}foreach($best as $key=>$score){$scores[$key]=($scores[$key]??0)+$score;$hits[$key]=($hits[$key]??0)+1;}
         }
         if(!$scores)return $empty;$slots=implode(',',array_fill(0,count($scores),'%s'));$rows=$wpdb->get_results($wpdb->prepare("SELECT * FROM {$p}knowledge WHERE record_key IN ($slots)",array_keys($scores)),ARRAY_A);$results=[];
-        foreach($rows as $row){$key=$row['record_key'];if($type!==''&&$row['record_type']!==$type)continue;$record=json_decode($row['record_json'],true);$coverage=$hits[$key]/count($words);if($coverage<.5)continue;$score=$scores[$key]*$coverage;$phraseBonus=0;foreach(json_decode($row['phrases_json'],true)??[] as $phrase){if($phrase['text']===$q)$phraseBonus=max($phraseBonus,100+$phrase['weight']);elseif(self::length($phrase['text'])>=4&&str_contains($q,$phrase['text']))$phraseBonus=max($phraseBonus,30+$phrase['weight']);}$score+=$phraseBonus;if(self::normalize(self::localized($record['title']??$record['name']??'', $lang))===$q)$score+=15;$score+=self::quality($record,$q,$locality);$results[]=['record'=>$record,'type'=>$row['record_type'],'score'=>round($score,2)];}
+        foreach($rows as $row){$key=$row['record_key'];if($type!==''&&$row['record_type']!==$type)continue;$record=json_decode($row['record_json'],true);if(!QueryUnderstanding::relevant($record,$words))continue;$coverage=$hits[$key]/count($words);if($coverage<.5)continue;$score=$scores[$key]*$coverage;$phraseBonus=0;foreach(json_decode($row['phrases_json'],true)??[] as $phrase){if($phrase['text']===$q)$phraseBonus=max($phraseBonus,100+$phrase['weight']);elseif(self::length($phrase['text'])>=4&&str_contains($q,$phrase['text']))$phraseBonus=max($phraseBonus,30+$phrase['weight']);}$score+=$phraseBonus;if(self::normalize(self::localized($record['title']??$record['name']??'', $lang))===$q)$score+=15;$score+=self::quality($record,$q,$locality);$results[]=['record'=>$record,'type'=>$row['record_type'],'score'=>round($score,2)];}
         usort($results,fn($a,$b)=>($b['score']<=>$a['score'])?:strcmp((string)$a['record']['id'],(string)$b['record']['id']));$total=count($results);return ['results'=>array_slice($results,($page-1)*$perPage,$perPage),'total'=>$total,'page'=>$page,'per_page'=>$perPage,'pages'=>(int)ceil($total/$perPage),'engine'=>'local-index'];
     }
 }
