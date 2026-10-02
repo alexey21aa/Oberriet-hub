@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Admin permission required",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 1",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 2",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 3",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 4",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 5",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 6",
+    "passed": true
+  },
+  {
+    "name": "Reject invalid dataset 7",
+    "passed": true
+  },
+  {
+    "name": "Uses add-only core queue",
+    "passed": true
+  },
+  {
+    "name": "Does not approve external hosts",
+    "passed": true
+  },
+  {
+    "name": "Existing import is preserved",
+    "passed": true
+  }
+]

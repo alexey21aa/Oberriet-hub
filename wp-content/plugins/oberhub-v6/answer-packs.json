@@ -1,0 +1,720 @@
+{
+  "children|sport": {
+    "de": {
+      "id": "v6-children-sport-de",
+      "generated_at": "2026-10-02",
+      "answer": "Verifizierte Angebote in Oberriet und im Rheintal:\n\nKiRi · Oberriet: Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Jugendturnen im örtlichen Turnverein.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nAktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "facts": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": {
+            "de": "KiRi · Oberriet",
+            "en": "KiRi · Oberriet",
+            "ru": "KiRi · Oberriet",
+            "uk": "KiRi · Oberriet"
+          },
+          "description_short": {
+            "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+            "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+            "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+            "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+          },
+          "source_url": "https://www.rcog.ch/kinderringen",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": {
+            "de": "STV Oberriet-Eichenwies · Jugi",
+            "en": "STV Oberriet-Eichenwies · Jugi",
+            "ru": "STV Oberriet-Eichenwies · Jugi",
+            "uk": "STV Oberriet-Eichenwies · Jugi"
+          },
+          "description_short": {
+            "de": "Jugendturnen im örtlichen Turnverein.",
+            "en": "Youth gymnastics at the local gymnastics club.",
+            "ru": "Детская гимнастика в местном спортивном клубе.",
+            "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+          },
+          "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": {
+            "de": "TSV Montlingen · Leichtathletik",
+            "en": "TSV Montlingen · Leichtathletik",
+            "ru": "TSV Montlingen · Leichtathletik",
+            "uk": "TSV Montlingen · Leichtathletik"
+          },
+          "description_short": {
+            "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+            "en": "Additional athletics training for children interested in sport.",
+            "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+            "uk": "Додаткові заняття легкою атлетикою для дітей."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    },
+    "en": {
+      "id": "v6-children-sport-en",
+      "generated_at": "2026-10-02",
+      "answer": "Verified options in Oberriet and the Rheintal:\n\nKiRi · Oberriet: Wrestling for girls and boys from kindergarten age; no training during school holidays.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Youth gymnastics at the local gymnastics club.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Additional athletics training for children interested in sport.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nCheck current times and participation with the provider.",
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "facts": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": {
+            "de": "KiRi · Oberriet",
+            "en": "KiRi · Oberriet",
+            "ru": "KiRi · Oberriet",
+            "uk": "KiRi · Oberriet"
+          },
+          "description_short": {
+            "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+            "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+            "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+            "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+          },
+          "source_url": "https://www.rcog.ch/kinderringen",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": {
+            "de": "STV Oberriet-Eichenwies · Jugi",
+            "en": "STV Oberriet-Eichenwies · Jugi",
+            "ru": "STV Oberriet-Eichenwies · Jugi",
+            "uk": "STV Oberriet-Eichenwies · Jugi"
+          },
+          "description_short": {
+            "de": "Jugendturnen im örtlichen Turnverein.",
+            "en": "Youth gymnastics at the local gymnastics club.",
+            "ru": "Детская гимнастика в местном спортивном клубе.",
+            "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+          },
+          "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": {
+            "de": "TSV Montlingen · Leichtathletik",
+            "en": "TSV Montlingen · Leichtathletik",
+            "ru": "TSV Montlingen · Leichtathletik",
+            "uk": "TSV Montlingen · Leichtathletik"
+          },
+          "description_short": {
+            "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+            "en": "Additional athletics training for children interested in sport.",
+            "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+            "uk": "Додаткові заняття легкою атлетикою для дітей."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "id": "v6-children-sport-ru",
+      "generated_at": "2026-10-02",
+      "answer": "Проверенные варианты в Oberriet и Rheintal:\n\nKiRi · Oberriet: Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Детская гимнастика в местном спортивном клубе.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Дополнительные занятия лёгкой атлетикой для детей.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nУточните актуальное расписание и участие у организатора.",
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "facts": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": {
+            "de": "KiRi · Oberriet",
+            "en": "KiRi · Oberriet",
+            "ru": "KiRi · Oberriet",
+            "uk": "KiRi · Oberriet"
+          },
+          "description_short": {
+            "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+            "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+            "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+            "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+          },
+          "source_url": "https://www.rcog.ch/kinderringen",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": {
+            "de": "STV Oberriet-Eichenwies · Jugi",
+            "en": "STV Oberriet-Eichenwies · Jugi",
+            "ru": "STV Oberriet-Eichenwies · Jugi",
+            "uk": "STV Oberriet-Eichenwies · Jugi"
+          },
+          "description_short": {
+            "de": "Jugendturnen im örtlichen Turnverein.",
+            "en": "Youth gymnastics at the local gymnastics club.",
+            "ru": "Детская гимнастика в местном спортивном клубе.",
+            "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+          },
+          "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": {
+            "de": "TSV Montlingen · Leichtathletik",
+            "en": "TSV Montlingen · Leichtathletik",
+            "ru": "TSV Montlingen · Leichtathletik",
+            "uk": "TSV Montlingen · Leichtathletik"
+          },
+          "description_short": {
+            "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+            "en": "Additional athletics training for children interested in sport.",
+            "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+            "uk": "Додаткові заняття легкою атлетикою для дітей."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    },
+    "uk": {
+      "id": "v6-children-sport-uk",
+      "generated_at": "2026-10-02",
+      "answer": "Перевірені варіанти в Oberriet і Rheintal:\n\nKiRi · Oberriet: Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Дитяча гімнастика в місцевому спортивному клубі.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Додаткові заняття легкою атлетикою для дітей.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nУточніть актуальний розклад та участь в організатора.",
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "facts": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": {
+            "de": "KiRi · Oberriet",
+            "en": "KiRi · Oberriet",
+            "ru": "KiRi · Oberriet",
+            "uk": "KiRi · Oberriet"
+          },
+          "description_short": {
+            "de": "Kinderringen für Mädchen und Jungen ab dem Kindergartenalter. Kein Training während Schulferien.",
+            "en": "Wrestling for girls and boys from kindergarten age; no training during school holidays.",
+            "ru": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+            "uk": "Дитяча боротьба для хлопчиків і дівчат із дитсадкового віку. На шкільних канікулах тренувань немає."
+          },
+          "source_url": "https://www.rcog.ch/kinderringen",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": {
+            "de": "STV Oberriet-Eichenwies · Jugi",
+            "en": "STV Oberriet-Eichenwies · Jugi",
+            "ru": "STV Oberriet-Eichenwies · Jugi",
+            "uk": "STV Oberriet-Eichenwies · Jugi"
+          },
+          "description_short": {
+            "de": "Jugendturnen im örtlichen Turnverein.",
+            "en": "Youth gymnastics at the local gymnastics club.",
+            "ru": "Детская гимнастика в местном спортивном клубе.",
+            "uk": "Дитяча гімнастика в місцевому спортивному клубі."
+          },
+          "source_url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": {
+            "de": "TSV Montlingen · Leichtathletik",
+            "en": "TSV Montlingen · Leichtathletik",
+            "ru": "TSV Montlingen · Leichtathletik",
+            "uk": "TSV Montlingen · Leichtathletik"
+          },
+          "description_short": {
+            "de": "Zusätzliches Leichtathletiktraining für sportbegeisterte Kinder.",
+            "en": "Additional athletics training for children interested in sport.",
+            "ru": "Дополнительные занятия лёгкой атлетикой для детей.",
+            "uk": "Додаткові заняття легкою атлетикою для дітей."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "search_concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    }
+  },
+  "dance|women": {
+    "de": {
+      "id": "v6-dance-women-de",
+      "generated_at": "2026-10-02",
+      "answer": "Verifizierte Angebote in Oberriet und im Rheintal:\n\nTSV Montlingen · Damenriege: Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.\nhttps://www.tsvmontlingen.ch/riegen/damenriege\n\nTSV Montlingen · Fitnessriege: Frauenfitness mit Groupfitness und Unterhaltungstanz.\nhttps://www.tsvmontlingen.ch/riegen/Fitnessriege\n\nMusikschule Oberrheintal · Tanzen für Erwachsene: Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.\nhttps://msor.ch/tanzen/\n\nAktuelle Zeiten, Plätze und Kosten direkt beim Anbieter prüfen. Erwachsenentanz ist nicht als reines Frauenangebot bestätigt.",
+      "sources": [
+        "https://www.tsvmontlingen.ch/riegen/damenriege",
+        "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+        "https://msor.ch/tanzen/"
+      ],
+      "facts": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": {
+            "de": "TSV Montlingen · Damenriege",
+            "en": "TSV Montlingen · Damenriege",
+            "ru": "TSV Montlingen · Damenriege",
+            "uk": "TSV Montlingen · Damenriege"
+          },
+          "description_short": {
+            "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+            "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+            "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+            "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": {
+            "de": "TSV Montlingen · Fitnessriege",
+            "en": "TSV Montlingen · Fitnessriege",
+            "ru": "TSV Montlingen · Fitnessriege",
+            "uk": "TSV Montlingen · Fitnessriege"
+          },
+          "description_short": {
+            "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+            "en": "Women’s fitness with group fitness and performance dance.",
+            "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+            "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": {
+            "de": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "en": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "ru": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "uk": "Musikschule Oberrheintal · Tanzen für Erwachsene"
+          },
+          "description_short": {
+            "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+            "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+            "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+            "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+          },
+          "source_url": "https://msor.ch/tanzen/",
+          "search_concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    },
+    "en": {
+      "id": "v6-dance-women-en",
+      "generated_at": "2026-10-02",
+      "answer": "Verified options in Oberriet and the Rheintal:\n\nTSV Montlingen · Damenriege: Women’s group combining dance, athletics and fitness; not a dedicated dance course.\nhttps://www.tsvmontlingen.ch/riegen/damenriege\n\nTSV Montlingen · Fitnessriege: Women’s fitness with group fitness and performance dance.\nhttps://www.tsvmontlingen.ch/riegen/Fitnessriege\n\nMusikschule Oberrheintal · Tanzen für Erwachsene: Adult dance, solo or with a partner; women-only restriction is not confirmed.\nhttps://msor.ch/tanzen/\n\nConfirm current times, availability and fees with the provider. Adult dance is not confirmed as women-only.",
+      "sources": [
+        "https://www.tsvmontlingen.ch/riegen/damenriege",
+        "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+        "https://msor.ch/tanzen/"
+      ],
+      "facts": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": {
+            "de": "TSV Montlingen · Damenriege",
+            "en": "TSV Montlingen · Damenriege",
+            "ru": "TSV Montlingen · Damenriege",
+            "uk": "TSV Montlingen · Damenriege"
+          },
+          "description_short": {
+            "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+            "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+            "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+            "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": {
+            "de": "TSV Montlingen · Fitnessriege",
+            "en": "TSV Montlingen · Fitnessriege",
+            "ru": "TSV Montlingen · Fitnessriege",
+            "uk": "TSV Montlingen · Fitnessriege"
+          },
+          "description_short": {
+            "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+            "en": "Women’s fitness with group fitness and performance dance.",
+            "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+            "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": {
+            "de": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "en": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "ru": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "uk": "Musikschule Oberrheintal · Tanzen für Erwachsene"
+          },
+          "description_short": {
+            "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+            "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+            "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+            "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+          },
+          "source_url": "https://msor.ch/tanzen/",
+          "search_concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "id": "v6-dance-women-ru",
+      "generated_at": "2026-10-02",
+      "answer": "Проверенные варианты в Oberriet и Rheintal:\n\nTSV Montlingen · Damenriege: Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.\nhttps://www.tsvmontlingen.ch/riegen/damenriege\n\nTSV Montlingen · Fitnessriege: Женский фитнес с групповыми тренировками и танцевальными выступлениями.\nhttps://www.tsvmontlingen.ch/riegen/Fitnessriege\n\nMusikschule Oberrheintal · Tanzen für Erwachsene: Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.\nhttps://msor.ch/tanzen/\n\nУточните расписание, наличие мест и стоимость у организатора. Танцы для взрослых не подтверждены как занятия только для женщин.",
+      "sources": [
+        "https://www.tsvmontlingen.ch/riegen/damenriege",
+        "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+        "https://msor.ch/tanzen/"
+      ],
+      "facts": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": {
+            "de": "TSV Montlingen · Damenriege",
+            "en": "TSV Montlingen · Damenriege",
+            "ru": "TSV Montlingen · Damenriege",
+            "uk": "TSV Montlingen · Damenriege"
+          },
+          "description_short": {
+            "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+            "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+            "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+            "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": {
+            "de": "TSV Montlingen · Fitnessriege",
+            "en": "TSV Montlingen · Fitnessriege",
+            "ru": "TSV Montlingen · Fitnessriege",
+            "uk": "TSV Montlingen · Fitnessriege"
+          },
+          "description_short": {
+            "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+            "en": "Women’s fitness with group fitness and performance dance.",
+            "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+            "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": {
+            "de": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "en": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "ru": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "uk": "Musikschule Oberrheintal · Tanzen für Erwachsene"
+          },
+          "description_short": {
+            "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+            "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+            "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+            "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+          },
+          "source_url": "https://msor.ch/tanzen/",
+          "search_concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    },
+    "uk": {
+      "id": "v6-dance-women-uk",
+      "generated_at": "2026-10-02",
+      "answer": "Перевірені варіанти в Oberriet і Rheintal:\n\nTSV Montlingen · Damenriege: Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс.\nhttps://www.tsvmontlingen.ch/riegen/damenriege\n\nTSV Montlingen · Fitnessriege: Жіночий фітнес із груповими тренуваннями й танцювальними виступами.\nhttps://www.tsvmontlingen.ch/riegen/Fitnessriege\n\nMusikschule Oberrheintal · Tanzen für Erwachsene: Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене.\nhttps://msor.ch/tanzen/\n\nУточніть розклад, наявність місць і вартість в організатора. Танці для дорослих не підтверджені як заняття лише для жінок.",
+      "sources": [
+        "https://www.tsvmontlingen.ch/riegen/damenriege",
+        "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+        "https://msor.ch/tanzen/"
+      ],
+      "facts": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": {
+            "de": "TSV Montlingen · Damenriege",
+            "en": "TSV Montlingen · Damenriege",
+            "ru": "TSV Montlingen · Damenriege",
+            "uk": "TSV Montlingen · Damenriege"
+          },
+          "description_short": {
+            "de": "Frauenriege mit Tanz, Leichtathletik und Fitness. Kein reiner Tanzkurs.",
+            "en": "Women’s group combining dance, athletics and fitness; not a dedicated dance course.",
+            "ru": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+            "uk": "Жіноча група: танці, легка атлетика та фітнес. Це змішані заняття, а не окремий танцювальний курс."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": {
+            "de": "TSV Montlingen · Fitnessriege",
+            "en": "TSV Montlingen · Fitnessriege",
+            "ru": "TSV Montlingen · Fitnessriege",
+            "uk": "TSV Montlingen · Fitnessriege"
+          },
+          "description_short": {
+            "de": "Frauenfitness mit Groupfitness und Unterhaltungstanz.",
+            "en": "Women’s fitness with group fitness and performance dance.",
+            "ru": "Женский фитнес с групповыми тренировками и танцевальными выступлениями.",
+            "uk": "Жіночий фітнес із груповими тренуваннями й танцювальними виступами."
+          },
+          "source_url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "search_concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": {
+            "de": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "en": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "ru": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+            "uk": "Musikschule Oberrheintal · Tanzen für Erwachsene"
+          },
+          "description_short": {
+            "de": "Tanzangebot für Erwachsene, solo oder als Paar. Nicht als ausschliesslich für Frauen bestätigt.",
+            "en": "Adult dance, solo or with a partner; women-only restriction is not confirmed.",
+            "ru": "Танцы для взрослых соло или в паре. Ограничение «только для женщин» не подтверждено.",
+            "uk": "Танці для дорослих соло або в парі. Обмеження «лише для жінок» не підтверджене."
+          },
+          "source_url": "https://msor.ch/tanzen/",
+          "search_concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    }
+  },
+  "children|indoor": {
+    "de": {
+      "id": "v6-children-indoor-de",
+      "generated_at": "2026-10-02",
+      "answer": "Verifizierte Angebote in Oberriet und im Rheintal:\n\nTanoshii Funpark: Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.\nhttps://www.tanoshii.ch/de/\n\nAktuelle Zeiten und Teilnahme direkt beim Anbieter prüfen.",
+      "sources": [
+        "https://www.tanoshii.ch/de/"
+      ],
+      "facts": [
+        {
+          "id": "v6-tanoshii",
+          "title": {
+            "de": "Tanoshii Funpark",
+            "en": "Tanoshii Funpark",
+            "ru": "Tanoshii Funpark",
+            "uk": "Tanoshii Funpark"
+          },
+          "description_short": {
+            "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+            "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+            "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+            "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+          },
+          "source_url": "https://www.tanoshii.ch/de/",
+          "search_concepts": [
+            "indoor",
+            "children"
+          ]
+        }
+      ]
+    },
+    "en": {
+      "id": "v6-children-indoor-en",
+      "generated_at": "2026-10-02",
+      "answer": "Verified options in Oberriet and the Rheintal:\n\nTanoshii Funpark: Indoor trampolines and ninja course from age six in Altstätten.\nhttps://www.tanoshii.ch/de/\n\nCheck current times and participation with the provider.",
+      "sources": [
+        "https://www.tanoshii.ch/de/"
+      ],
+      "facts": [
+        {
+          "id": "v6-tanoshii",
+          "title": {
+            "de": "Tanoshii Funpark",
+            "en": "Tanoshii Funpark",
+            "ru": "Tanoshii Funpark",
+            "uk": "Tanoshii Funpark"
+          },
+          "description_short": {
+            "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+            "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+            "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+            "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+          },
+          "source_url": "https://www.tanoshii.ch/de/",
+          "search_concepts": [
+            "indoor",
+            "children"
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "id": "v6-children-indoor-ru",
+      "generated_at": "2026-10-02",
+      "answer": "Проверенные варианты в Oberriet и Rheintal:\n\nTanoshii Funpark: Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.\nhttps://www.tanoshii.ch/de/\n\nУточните актуальное расписание и участие у организатора.",
+      "sources": [
+        "https://www.tanoshii.ch/de/"
+      ],
+      "facts": [
+        {
+          "id": "v6-tanoshii",
+          "title": {
+            "de": "Tanoshii Funpark",
+            "en": "Tanoshii Funpark",
+            "ru": "Tanoshii Funpark",
+            "uk": "Tanoshii Funpark"
+          },
+          "description_short": {
+            "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+            "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+            "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+            "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+          },
+          "source_url": "https://www.tanoshii.ch/de/",
+          "search_concepts": [
+            "indoor",
+            "children"
+          ]
+        }
+      ]
+    },
+    "uk": {
+      "id": "v6-children-indoor-uk",
+      "generated_at": "2026-10-02",
+      "answer": "Перевірені варіанти в Oberriet і Rheintal:\n\nTanoshii Funpark: Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років.\nhttps://www.tanoshii.ch/de/\n\nУточніть актуальний розклад та участь в організатора.",
+      "sources": [
+        "https://www.tanoshii.ch/de/"
+      ],
+      "facts": [
+        {
+          "id": "v6-tanoshii",
+          "title": {
+            "de": "Tanoshii Funpark",
+            "en": "Tanoshii Funpark",
+            "ru": "Tanoshii Funpark",
+            "uk": "Tanoshii Funpark"
+          },
+          "description_short": {
+            "de": "Indoor-Trampoline und Ninja-Parcours ab sechs Jahren in Altstätten.",
+            "en": "Indoor trampolines and ninja course from age six in Altstätten.",
+            "ru": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+            "uk": "Критий батутний парк і ніндзя-смуга в Altstätten для дітей від шести років."
+          },
+          "source_url": "https://www.tanoshii.ch/de/",
+          "search_concepts": [
+            "indoor",
+            "children"
+          ]
+        }
+      ]
+    }
+  }
+}

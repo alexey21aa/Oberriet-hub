@@ -25,5 +25,113 @@
     "sha256": "d21334475213490872c7e11d513f649b908b703de18ca22600aae68d6d52f6b2",
     "etag": null,
     "last_modified": null
+  },
+  "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare": {
+    "url": "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare",
+    "resolved_url": "https://www.gerichte-zh.ch/de/themen/ehe-und-familie/formulare",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:07:50+00:00",
+    "sha256": "e3c659a609dbd643ccbf1a2f1cec6d0f14b9f4857160730245236b78baa543bd",
+    "etag": "\"1790945091\"",
+    "last_modified": "Fri, 02 Oct 2026 12:44:51 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/themen/miete/formulare": {
+    "url": "https://www.gerichte-zh.ch/de/themen/miete/formulare",
+    "resolved_url": "https://www.gerichte-zh.ch/de/themen/miete/formulare",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:08:01+00:00",
+    "sha256": "cb054ee3e604b28fa6f20f1f7ad2fa349671d4cdc9d37f3e6c60c4274c0ab560",
+    "etag": "\"1790946884\"",
+    "last_modified": "Fri, 02 Oct 2026 13:14:44 GMT"
+  },
+  "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html": {
+    "url": "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html",
+    "resolved_url": "https://www.sem.admin.ch/sem/de/home/publiservice/service/formulare.html",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:08:29+00:00",
+    "sha256": "f6eb5191c0ed8ae7acab997b6b3dc93ecf5f2935936d4dcb854ca5f73a59c413",
+    "etag": null,
+    "last_modified": null
+  },
+  "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php": {
+    "url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "resolved_url": "https://www.svasg.ch/online-schalter/formulare/web/ak-ipv-anmeldung.php",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:08:52+00:00",
+    "sha256": "025eff495e0a02fcbf5327b40b6850b46487b85ff1cdcb0f5b2d27a3ae24b653",
+    "etag": null,
+    "last_modified": null
+  },
+  "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html": {
+    "url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html",
+    "resolved_url": "https://www.sg.ch/steuern-finanzen/steuern/steuerarten/erbschafts-schenkungssteuer.html",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:09:13+00:00",
+    "sha256": "892a044941f4462c47f5b115451d8829000870f53a1721175945a6cbc2e8cb60",
+    "etag": "\"5dc6cd689052dd1:0\"",
+    "last_modified": "Fri, 02 Oct 2026 17:06:47 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/aufsichtskommission-ueber-rechtsanwaelte": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/aufsichtskommission-ueber-rechtsanwaelte",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/weitere-kommissionen/aufsichtskommission-ueber-rechtsanwaelte",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:09:25+00:00",
+    "sha256": "ee34090847594b177a410ff1859670bb538a7aea5443330ea66bcbfaeb112279",
+    "etag": "\"1790945006\"",
+    "last_modified": "Fri, 02 Oct 2026 12:43:26 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/obergericht/kommissionen/fachkommission-fuer-psych-gutachten": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/kommissionen/fachkommission-fuer-psych-gutachten",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/kommissionen/fachkommission-fuer-psych-gutachten",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:09:39+00:00",
+    "sha256": "cc3be1171c2c8b81e4bbd21f7b7084f761c1415d2ba1a8bedddfb9b0f8518c9e",
+    "etag": "\"1790944944\"",
+    "last_modified": "Fri, 02 Oct 2026 12:42:24 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/obergericht/internationale-rechtshilfe": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/obergericht/internationale-rechtshilfe",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/obergericht/internationale-rechtshilfe",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:09:46+00:00",
+    "sha256": "6b16cd9fad7bc0394cdbdc5ea66192b7bf1f4ed79188527504964f73d9e8dff9",
+    "etag": "\"1790945349\"",
+    "last_modified": "Fri, 02 Oct 2026 12:49:09 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-buelach/rechtsauskunft",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:09:57+00:00",
+    "sha256": "5d7d65fa85f1d56d04472bbcc9e164b334fdff0011fc2b97ca0c59fb5caab928",
+    "etag": "\"1790945319\"",
+    "last_modified": "Fri, 02 Oct 2026 12:48:39 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-hinwil/rechtsauskunft": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-hinwil/rechtsauskunft",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-hinwil/rechtsauskunft",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:10:11+00:00",
+    "sha256": "02ebf82ecbbe19970402ea035090f897adb8eea9e78b258630dd6ae02e364757",
+    "etag": "\"1790945326\"",
+    "last_modified": "Fri, 02 Oct 2026 12:48:46 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-meilen/rechtsauskunft": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-meilen/rechtsauskunft",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-meilen/rechtsauskunft",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:10:21+00:00",
+    "sha256": "b0f8021da46d7dadc7ed6a19eed6d915ae06eafbdb59b230001e5a45ae579eab",
+    "etag": "\"1790945329\"",
+    "last_modified": "Fri, 02 Oct 2026 12:48:49 GMT"
+  },
+  "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/service": {
+    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/service",
+    "resolved_url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-uster/service",
+    "http_status": 200,
+    "fetched_at": "2026-10-02T21:10:35+00:00",
+    "sha256": "5ebce4ad6159f8860a2681b91e15819f41f8ec6d6bedb6f1319577e97becb145",
+    "etag": "\"1790945333\"",
+    "last_modified": "Fri, 02 Oct 2026 12:48:53 GMT"
   }
 }

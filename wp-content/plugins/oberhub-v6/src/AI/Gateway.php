@@ -40,6 +40,8 @@ final class Gateway {
         $personal=preg_match('/\b(?:my|mine|ich|mein|meine|мне|меня|моя|мой|моє|мене|мені)\b/iu',$question);
         $health=preg_match('/diagnos|symptom|medicin|medikament|hepat|cancer|болез|болит|диагноз|гепат|ліки|симптом|захвор|боль/iu',$question);
         if($pii||($personal&&$health))return array_merge($fallback,['privacy'=>'sensitive-question-not-sent']);
+        $pack=AnswerPacks::select($question,$lang,$context);
+        if ($pack && self::valid($pack,$context)) return array_merge($pack,['records'=>$records,'evidence'=>$evidence]);
         // Cache only anonymous activity intents. Arbitrary legal/medical/person-specific text is never cached.
         $tokens=Knowledge::tokens($question);$safeTokens=['sport','dance','children','women','adults','indoor','centres','centers','центры','центри','центров'];
         $cacheable=$tokens && !array_diff($tokens,$safeTokens);

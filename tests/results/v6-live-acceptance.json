@@ -1,0 +1,257 @@
+{
+  "checked_at": "2026-10-02T21:06:37Z",
+  "status": "pass",
+  "engine": "v6-server-index",
+  "index": {
+    "records": 4523,
+    "terms": 5442
+  },
+  "import": {
+    "processed": 31,
+    "imported": 31,
+    "skipped": 0
+  },
+  "mandatory": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "engine": "v6-server-index",
+      "results": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": "KiRi · Oberriet",
+          "url": "https://www.rcog.ch/kinderringen",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": "STV Oberriet-Eichenwies · Jugi",
+          "url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": "TSV Montlingen · Leichtathletik",
+          "url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-boys-middle",
+          "title": "TSV Montlingen · Mittlere Knaben",
+          "url": "https://www.tsvmontlingen.ch/riegen/jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-boys-small",
+          "title": "TSV Montlingen · Kleine Knaben",
+          "url": "https://www.tsvmontlingen.ch/riegen/jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "engine": "v6-server-index",
+      "results": [
+        {
+          "id": "v6-kiri-oberriet",
+          "title": "KiRi · Oberriet",
+          "url": "https://www.rcog.ch/kinderringen",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-stvoe-jugi",
+          "title": "STV Oberriet-Eichenwies · Jugi",
+          "url": "https://www.stvoe.ch/Riegenueberblick/Jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-athletics",
+          "title": "TSV Montlingen · Leichtathletik",
+          "url": "https://www.tsvmontlingen.ch/riegen/LA",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-boys-middle",
+          "title": "TSV Montlingen · Mittlere Knaben",
+          "url": "https://www.tsvmontlingen.ch/riegen/jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        },
+        {
+          "id": "v6-montlingen-boys-small",
+          "title": "TSV Montlingen · Kleine Knaben",
+          "url": "https://www.tsvmontlingen.ch/riegen/jugi",
+          "concepts": [
+            "sport",
+            "children"
+          ]
+        }
+      ]
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "engine": "v6-server-index",
+      "results": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": "TSV Montlingen · Damenriege",
+          "url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": "TSV Montlingen · Fitnessriege",
+          "url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+          "url": "https://msor.ch/tanzen/",
+          "concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "engine": "v6-server-index",
+      "results": [
+        {
+          "id": "v6-montlingen-damen",
+          "title": "TSV Montlingen · Damenriege",
+          "url": "https://www.tsvmontlingen.ch/riegen/damenriege",
+          "concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-montlingen-fitness",
+          "title": "TSV Montlingen · Fitnessriege",
+          "url": "https://www.tsvmontlingen.ch/riegen/Fitnessriege",
+          "concepts": [
+            "sport",
+            "dance",
+            "women",
+            "adults"
+          ]
+        },
+        {
+          "id": "v6-msor-adult-dance",
+          "title": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+          "url": "https://msor.ch/tanzen/",
+          "concepts": [
+            "dance",
+            "adults"
+          ]
+        }
+      ]
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "engine": "v6-server-index",
+      "results": [
+        {
+          "id": "v6-tanoshii",
+          "title": "Tanoshii Funpark",
+          "url": "https://www.tanoshii.ch/de/",
+          "concepts": [
+            "indoor",
+            "children"
+          ]
+        }
+      ]
+    }
+  ],
+  "device_parity": [
+    {
+      "device": "low",
+      "mode": "evidence-pack",
+      "generative_available": false,
+      "retrieval": "server",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle"
+      ],
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA",
+        "https://www.tsvmontlingen.ch/riegen/jugi"
+      ]
+    },
+    {
+      "device": "high",
+      "mode": "evidence-pack",
+      "generative_available": false,
+      "retrieval": "server",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle"
+      ],
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA",
+        "https://www.tsvmontlingen.ch/riegen/jugi"
+      ]
+    }
+  ],
+  "generative_provider_configured": false
+}

@@ -4,8 +4,8 @@
 V6 attached by owner supersedes all earlier specs. Continue existing project.
 Production https://oberriethub.ch, WP 7.1.2, PHP 8.4.26, theme 0.2.0.
 IMPORTANT latest WPVibe read at resumed session: core **0.2.3**, while restored Git baseline is 0.2.1. Production changed during pause. Do not install this candidate over production until current 0.2.3 code is exported and reconciled.
-Latest live index: 4503 records, 5294 terms, indexed 2026-10-02T10:31:35Z.
-WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. No production code or data changed at this checkpoint. An additive oberhub-v6 extension is now prepared to preserve live core 0.2.3 while adding its own index and routes; it stays dormant until authenticated preparation completes.
+Latest live V6 index: 4523 records, 5442 terms, indexed 2026-10-02T21:06:37Z. Active core 0.2.3 + addon 0.1.0.
+WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. Owner installed and activated isolated addon 0.1.0. WPVibe import completed 31/31 rows (20 services, 11 sources), zero skips. Its separate V6 index is ready and live routes now use v6-server-index. Existing core 0.2.3 preserved.
 
 ## Completed
 - Imported complete native Git history through 37114bd with GitHub Actions run 37033235836 (success). Main import commit f8fb75015b2ddf70aa582e04b1b4fa16c9f8cd6f. Source ZIP verified byte-for-byte against bundle; archives and original GitHub history retained.
@@ -21,12 +21,11 @@ WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MO
 These are candidate tests, not live acceptance. No external provider inference tested and no API credentials configured. Filters currently depend on activity tags; broader ontology tagging is next.
 
 ## Exact next work
-1. Install the prepared isolated addon through wp-admin ZIP upload. User explicitly authorized browser fallback and installation. Preserve live core 0.2.3. Browser credentials and second factor were accepted, dashboard verified, but the browser runtime then blocked file selection with native credential protection. ZIP upload did not complete. Do not bypass that protection or repeat connector authorization.
-2. After addon activation, use WPVibe POST /oberhub/v1/v6/prepare, then /v6/import-batch until complete, then /v6/build-index. Verify /v6/status and all five live queries. Current baseline failures recorded in tests/results/v6-live-baseline.json.
-3. Export/reconcile current core 0.2.3 only when a supported channel allows it; candidate core files are not the live production version. Integrate frontend server answer UI without replacing newer live code blindly.
-4. Configure available free AI provider credentials server-side; verify true inference and failover. Until then evidence-pack fallback is explicit, not claimed generative.
-5. Expand corpus through scripts/harvest-v6-documents.py and 69 manifest seeds; review discovered links before ingestion. Do not count discovered links as verified forms.
-6. Add semantic retrieval/reranker, wider ontology, geo distances/expansion, massive forms/tax/medical coverage and pre-generated synthesis packs. None of these larger targets is claimed complete.
+1. All five mandatory live queries now PASS. Preserve active core 0.2.3 and addon 0.1.0. Do not repeat bundled import. Evidence: tests/results/v6-live-acceptance.json.
+2. Candidate addon 0.1.1 adds 12 prebuilt multilingual answer packs and authenticated add-only dataset batches via POST /v6/prepare {dataset: ...}; validate first, then import batches, then explicit /v6/build-index. No raw SQL, overwrite, or external automatic host approval. Not deployed yet. Package release/oberhub-v6-0.1.1.zip; source and package saved in GitHub.
+3. Review and verify content of 232 discovered document links. Convert relevant official forms/primary providers to multilingual factual records with evidence. Discovery metadata is NOT verified content and has NOT been imported live. Next harvester source offset 36. Current batch offset18: 36 attempted pages, 12 HTTP200, 208 discoveries.
+4. Configure free server AI credentials through supported secure operator channel. Live answer is evidence-pack, not generative. Test inference/failover and surface server answer in current frontend after recovering newer core assets safely.
+5. Add index change tracking/rebuild scheduling, semantic reranker, wider ontology, geo distances, massive medicine/tax/forms coverage. These remain pending.
 
 ## Workspace
 Run from repository root. Candidate activity generator: python3 scripts/expand-v6-activities.py.
@@ -51,3 +50,8 @@ Install only wp-content/plugins/oberhub-v6. Keeps core 0.2.3 files and its exist
 - Harvester now saves atomic per-page progress and supports --source-offset for additional source batches; broadened discovery to social, education, sport, children and integration pages. Discoveries remain unreviewed and never count as verified forms.
 - Runtime login protection is a deployment blocker, not an approval refusal or a WordPress permission failure. Production data remains unchanged.
 - Completed next harvest batch: source offset 12, 7 attempted pages, 1 HTTP 200 page, 25 discovered links before removing two self-navigation links; total stored unique discoveries 24, verified forms 0. Curated activity delta remains 20 services / 11 verified source pages; live index remains 4503 records. Next harvest source offset 18.
+
+## Live acceptance — 2026-10-02 21:06 UTC
+Owner installed addon; authenticated status initially ready=false. Fixed initialization through WPVibe: prepare, four import-batch calls, build-index. Imported 31/31 without overwrite. Search results: sport children and typo 13 each; dance women and typo 3 each; indoor entertainment children 1 (Tanoshii). No administrative services in returned activity results. Device low/high and injected client context produce identical seven server-selected records and sources; no provider inference configured. Core 0.2.3 untouched.
+Candidate 0.1.1: 12 packs (3 canonical intents ×4 languages), safe aliases include all five queries. Runtime rejects changed/missing facts and extra age/place/fee constraints. 48 pack checks and 11 import boundary checks pass; 531 search checks and 61 PHP checks pass. No automatic claim of generative output; packs mode curated-answer-pack. Candidate changes not live yet.
+Historical deployment blockers and failures below earlier checkpoints were resolved by owner's addon installation; retain as history, not current state.

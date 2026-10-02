@@ -238,5 +238,9 @@
   {
     "name": "PHP syntax 37",
     "passed": true
+  },
+  {
+    "name": "PHP syntax 38",
+    "passed": true
   }
 ]
