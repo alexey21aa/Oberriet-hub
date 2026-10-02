@@ -1,0 +1,62 @@
+[
+  {
+    "record_id": "v6-health-cancer-advice",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+    "retrieval_ref": "turn17view3",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  },
+  {
+    "record_id": "v6-health-cancer-social-insurance",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+    "retrieval_ref": "turn17view3",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  },
+  {
+    "record_id": "v6-health-cancer-financial-support",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+    "retrieval_ref": "turn17view3",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  },
+  {
+    "record_id": "v6-health-stoma-advice",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/stomaberatung/unser-angebot",
+    "retrieval_ref": "turn17view4",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  },
+  {
+    "record_id": "v6-health-palliative-home-care",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
+    "retrieval_ref": "turn17view1",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  },
+  {
+    "record_id": "v6-health-palliative-registration",
+    "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/anmeldeformular-palliativer-brueckendienst-patienten-zu-hause",
+    "retrieval_ref": "turn17view2",
+    "content_reviewed_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null,
+    "live_imported": false
+  }
+]

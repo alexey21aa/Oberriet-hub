@@ -1,0 +1,388 @@
+{
+  "checked_at": "2026-10-02T22:35:35.528Z",
+  "live_service_posts": 788,
+  "unique_live_titles": 775,
+  "restored_seed_services": 377,
+  "live_source_entries": 312,
+  "source_review_status": {
+    "needs_review": 7,
+    "checked": 305
+  },
+  "source_fetch_status": {
+    "ok": 16,
+    "unknown": 286,
+    "blocked": 1,
+    "error": 1,
+    "current": 8
+  },
+  "source_verification_scope": {
+    "public-page/search-verification": 9,
+    "page": 37,
+    "routing-metadata": 258,
+    "primary-provider-page": 8
+  },
+  "candidate_services_including_already_live_activities": 50,
+  "candidate_overlap_hints": [
+    {
+      "id": "v6-montlingen-kitu",
+      "title": "TSV Montlingen · KiTu",
+      "exact_live_title_post_ids": [
+        4828
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-muki",
+      "title": "TSV Montlingen · MuKi",
+      "exact_live_title_post_ids": [
+        4829
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-girls-small",
+      "title": "TSV Montlingen · Kleine Mädchen",
+      "exact_live_title_post_ids": [
+        4830
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-girls-middle",
+      "title": "TSV Montlingen · Mittlere Mädchen",
+      "exact_live_title_post_ids": [
+        4831
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-girls-youth",
+      "title": "TSV Montlingen · Grosse Mädchen",
+      "exact_live_title_post_ids": [
+        4832
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-boys-small",
+      "title": "TSV Montlingen · Kleine Knaben",
+      "exact_live_title_post_ids": [
+        4833
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-boys-middle",
+      "title": "TSV Montlingen · Mittlere Knaben",
+      "exact_live_title_post_ids": [
+        4834
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-boys-youth",
+      "title": "TSV Montlingen · Grosse Knaben",
+      "exact_live_title_post_ids": [
+        4835
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-athletics",
+      "title": "TSV Montlingen · Leichtathletik",
+      "exact_live_title_post_ids": [
+        4836
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-damen",
+      "title": "TSV Montlingen · Damenriege",
+      "exact_live_title_post_ids": [
+        4837
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-fitness",
+      "title": "TSV Montlingen · Fitnessriege",
+      "exact_live_title_post_ids": [
+        4838
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-montlingen-frauen",
+      "title": "TSV Montlingen · Frauenriege",
+      "exact_live_title_post_ids": [
+        4839
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-kiri-oberriet",
+      "title": "KiRi · Oberriet",
+      "exact_live_title_post_ids": [
+        4840
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-kiri-grabs",
+      "title": "KiRi · Grabs",
+      "exact_live_title_post_ids": [
+        4841
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-stvoe-jugi",
+      "title": "STV Oberriet-Eichenwies · Jugi",
+      "exact_live_title_post_ids": [
+        4842
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-msor-adult-dance",
+      "title": "Musikschule Oberrheintal · Tanzen für Erwachsene",
+      "exact_live_title_post_ids": [
+        4843
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-msor-child-dance",
+      "title": "Musikschule Oberrheintal · Kindertanz",
+      "exact_live_title_post_ids": [
+        4844
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-tanoshii",
+      "title": "Tanoshii Funpark",
+      "exact_live_title_post_ids": [
+        4845
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-plusport-kids",
+      "title": "PluSport Rheintal · Kinderturnen",
+      "exact_live_title_post_ids": [
+        4846
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-creative-kids",
+      "title": "Creative Movements · Tanzkurse",
+      "exact_live_title_post_ids": [
+        4847
+      ],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-rheintal-help",
+      "title": "Offene Sprechstunde Rheintal",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-oberriet-help",
+      "title": "Offene Sprechstunde Oberriet · Gleis 1",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-rheintal-women",
+      "title": "Frauentreffs Rheintal",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-rheintal-men",
+      "title": "Männertreff Rheintal",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-family-stories",
+      "title": "Schenk mir eine Geschichte",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-german-courses",
+      "title": "Deutschkurse suchen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-kulturlegi-card",
+      "title": "KulturLegi · Freizeit günstiger",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-kulturlegi-eligibility",
+      "title": "KulturLegi · Berechtigung prüfen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-kulturlegi-apply",
+      "title": "KulturLegi · Antrag",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-ipv-apply",
+      "title": "Prämienverbilligung · Anmeldung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-tax-extension",
+      "title": "Steuererklärung · Fristverlängerung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-tax-forms",
+      "title": "Steuerformulare Privatpersonen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-life-older-unemployed",
+      "title": "Überbrückungsleistungen ältere Arbeitslose",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-community-ludo-borrow",
+      "title": "Ludothek Altstätten · Spiele ausleihen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-community-ludo-boxes",
+      "title": "Spielkisten für Geburtstage und Feste",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-community-ludo-play",
+      "title": "Spielen und Geburtstag in der Ludothek",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-community-juniorband",
+      "title": "Juniorband Montlingen-Eichenwies",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-community-jungmusik",
+      "title": "Jungmusik Montlingen-Eichenwies",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-spitex-assessment",
+      "title": "Spitex Oberriet · Abklärung und Beratung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-spitex-care",
+      "title": "Spitex Oberriet · Pflege zu Hause",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-legal-advice",
+      "title": "Kostenlose Rechtsauskunft Rheintal",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-victim-advice",
+      "title": "Opferhilfe · vertrauliche Beratung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-bus-maps",
+      "title": "RTB · Busnetz und Tarifzonen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-support-bus-oberdorf",
+      "title": "Oberriet Oberdorf · Busabfahrten",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-cancer-advice",
+      "title": "Krebsliga Ostschweiz · kostenlose Beratung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-cancer-social-insurance",
+      "title": "Krebs · Sozialversicherungsberatung",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-cancer-financial-support",
+      "title": "Krebs · finanzielle Unterstützung prüfen",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-stoma-advice",
+      "title": "Stomaberatung Ostschweiz",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-palliative-home-care",
+      "title": "Palliativer Brückendienst · zu Hause",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    },
+    {
+      "id": "v6-health-palliative-registration",
+      "title": "Palliativer Brückendienst · Online-Anmeldeformular",
+      "exact_live_title_post_ids": [],
+      "decision": "review-canonical-identity-before-import"
+    }
+  ],
+  "confirmed_enrichment_targets": [
+    {
+      "candidate_id": "v6-support-victim-advice",
+      "live_post_id": 3741,
+      "canonical_id": "canton-service-5cad6a511a0055",
+      "action": "already enriched live; do not import duplicate"
+    },
+    {
+      "candidate_id": "v6-support-legal-advice",
+      "live_post_id": 661,
+      "canonical_id": "practical-legal-advice",
+      "action": "booking corrected live; reconcile canonical offering before import"
+    }
+  ],
+  "limitations": [
+    "Post counts are not verified factual coverage counts.",
+    "Different cohorts on one URL remain distinct.",
+    "Title equality is only a review hint.",
+    "Most source entries are routing metadata, not reviewed full provider content.",
+    "No new candidates claimed imported."
+  ]
+}

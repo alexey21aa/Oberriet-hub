@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-02T22:35:35.528Z",
+  "head": "5d1e709f0f2f8bfc01285cf51ba91bed493dc59b",
+  "deployed": {
+    "core": "0.2.3",
+    "addon": "0.1.0"
+  },
+  "status": {
+    "version": "0.1.0",
+    "ready": true,
+    "stats": {
+      "records": 4523,
+      "terms": 5444,
+      "indexed_at": "2026-10-02T22:15:33+00:00"
+    },
+    "import": {
+      "stage": "complete",
+      "total": 31,
+      "processed": 31,
+      "imported": 31,
+      "skipped": 0,
+      "started_at": "2026-10-02T21:05:33+00:00",
+      "error": "",
+      "completed_at": "2026-10-02T21:06:10+00:00"
+    }
+  },
+  "queries": [
+    {
+      "query": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "query": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "query": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "query": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "query": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "engine": "v6-server-index"
+    }
+  ],
+  "canonical_typo_same": true
+}
+

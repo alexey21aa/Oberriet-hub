@@ -1,0 +1,51 @@
+[
+  {
+    "post_id": 3741,
+    "canonical_id": "canton-service-5cad6a511a0055",
+    "reviewed_at": "2026-10-02",
+    "primary_url": "https://ohsg.ch/beratung/",
+    "fields": {
+      "description_short": {
+        "de": "Kostenlose vertrauliche Beratung nach Gewalt; Unterstützung bei Schutz und rechtlichen Fragen.",
+        "en": "Free confidential advice after violence; support with protection and legal questions.",
+        "ru": "Бесплатная конфиденциальная помощь после насилия: защита, безопасность и правовые вопросы.",
+        "uk": "Безкоштовна конфіденційна допомога після насильства: захист, безпека та правові питання."
+      },
+      "description_full": {
+        "de": "Opferhilfe SG–AR–AI berät Betroffene und nahestehende Personen telefonisch und persönlich. Sie informiert über Opferrechte und unterstützt bei der Suche nach juristischer, therapeutischer und medizinischer Hilfe. Beratung ist kostenlos und vertraulich.",
+        "en": "Opferhilfe SG–AR–AI advises affected people and those close to them by telephone and in person. It explains victim rights and helps find legal, therapeutic and medical support. Advice is free and confidential.",
+        "ru": "Opferhilfe SG–AR–AI консультирует пострадавших и близких по телефону и лично. Объясняет права пострадавших и помогает найти юридическую, психологическую и медицинскую помощь. Консультации бесплатны и конфиденциальны.",
+        "uk": "Opferhilfe SG–AR–AI консультує постраждалих і близьких телефоном та особисто. Пояснює права постраждалих і допомагає знайти юридичну, психологічну та медичну допомогу. Консультації безкоштовні й конфіденційні."
+      },
+      "synonyms": [
+        "Opferhilfe",
+        "помощь пострадавшим от насилия",
+        "домашнее насилие",
+        "допомога постраждалим від насильства",
+        "victim support",
+        "häusliche Gewalt"
+      ],
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      },
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "content_reviewed_at": "2026-10-02",
+      "content_review_sources": [
+        "https://ohsg.ch/beratung/"
+      ]
+    },
+    "preserved_fields": [
+      "id",
+      "source_id",
+      "source_url",
+      "official_url",
+      "organization_id",
+      "contact",
+      "address"
+    ]
+  }
+]

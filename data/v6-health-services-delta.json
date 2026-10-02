@@ -1,0 +1,303 @@
+{
+  "services": [
+    {
+      "id": "v6-health-cancer-advice",
+      "title": {
+        "de": "Krebsliga Ostschweiz · kostenlose Beratung",
+        "en": "Krebsliga Ostschweiz · free cancer support",
+        "ru": "Бесплатная помощь при онкологических заболеваниях",
+        "uk": "Безкоштовна допомога при онкологічних захворюваннях"
+      },
+      "description_short": {
+        "de": "Kostenlose Beratung für Betroffene und Angehörige in St.Gallen und Buchs; Termin vereinbaren.",
+        "en": "Free advice for affected people and relatives in St.Gallen and Buchs; arrange an appointment.",
+        "ru": "Бесплатные консультации для людей с онкологическим заболеванием и близких в St.Gallen и Buchs; нужна запись.",
+        "uk": "Безкоштовні консультації для людей з онкологічним захворюванням і близьких у St.Gallen та Buchs; потрібен запис."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [
+        "st-gallen",
+        "buchs"
+      ],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-cancer-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-health-cancer-social-insurance",
+      "title": {
+        "de": "Krebs · Sozialversicherungsberatung",
+        "en": "Cancer · social insurance advice",
+        "ru": "Онкология · помощь с социальным страхованием",
+        "uk": "Онкологія · допомога із соціальним страхуванням"
+      },
+      "description_short": {
+        "de": "Unterstützung beim Klären von Sozialversicherungsleistungen und beim Kontakt zu Behörden und Arbeitgebern.",
+        "en": "Help clarifying social insurance benefits and contacting authorities and employers.",
+        "ru": "Помощь с выяснением социальных страховых выплат и общением с ведомствами и работодателем.",
+        "uk": "Допомога зі з’ясуванням соціальних страхових виплат і спілкуванням з відомствами та роботодавцем."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [
+        "st-gallen",
+        "buchs"
+      ],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-cancer-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-health-cancer-financial-support",
+      "title": {
+        "de": "Krebs · finanzielle Unterstützung prüfen",
+        "en": "Cancer · check financial support",
+        "ru": "Онкология · проверка финансовой помощи",
+        "uk": "Онкологія · перевірка фінансової допомоги"
+      },
+      "description_short": {
+        "de": "Budgetberatung und mögliche Hilfe für krankheitsbedingte Mehrkosten nach eigenen Richtlinien; keine garantierte Auszahlung.",
+        "en": "Budget advice and possible help with illness-related extra costs under provider rules; no guaranteed payment.",
+        "ru": "Помощь с бюджетом и возможная поддержка дополнительных расходов из-за болезни по правилам службы; выплата не гарантирована.",
+        "uk": "Допомога з бюджетом і можлива підтримка додаткових витрат через хворобу за правилами служби; виплату не гарантовано."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [
+        "st-gallen",
+        "buchs"
+      ],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-cancer-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-health-stoma-advice",
+      "title": {
+        "de": "Stomaberatung Ostschweiz",
+        "en": "Stoma care advice Ostschweiz",
+        "ru": "Консультации по уходу за стомой",
+        "uk": "Консультації з догляду за стомою"
+      },
+      "description_short": {
+        "de": "Spezialisierte Pflegefachpersonen begleiten vor und nach Stomaanlage und beim Erlernen selbstständiger Pflege.",
+        "en": "Specialist nurses support people before and after stoma surgery and learning independent care.",
+        "ru": "Специализированные медсёстры помогают до и после установки стомы и при освоении самостоятельного ухода.",
+        "uk": "Спеціалізовані медсестри допомагають до та після встановлення стоми й під час освоєння самостійного догляду."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-stoma-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/stomaberatung/unser-angebot",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/stomaberatung/unser-angebot",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-health-palliative-home-care",
+      "title": {
+        "de": "Palliativer Brückendienst · zu Hause",
+        "en": "Palliative bridge service · home support",
+        "ru": "Паллиативная помощь на дому",
+        "uk": "Паліативна допомога вдома"
+      },
+      "description_short": {
+        "de": "Mobiler spezialisierter Beratungsdienst ergänzt Spitex und Hausarzt bei palliativer Betreuung zu Hause.",
+        "en": "A mobile specialist advisory service complements Spitex and family doctors for palliative home care.",
+        "ru": "Мобильная специализированная консультационная служба дополняет Spitex и семейного врача при паллиативной помощи дома.",
+        "uk": "Мобільна спеціалізована консультаційна служба доповнює Spitex і сімейного лікаря при паліативній допомозі вдома."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-palliative-home-care-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-health-palliative-registration",
+      "title": {
+        "de": "Palliativer Brückendienst · Online-Anmeldeformular",
+        "en": "Palliative bridge service · online referral form",
+        "ru": "Форма обращения за паллиативной помощью дома",
+        "uk": "Форма звернення по паліативну допомогу вдома"
+      },
+      "description_short": {
+        "de": "Onlineformular für Patienten zu Hause; Angaben zu Hausarzt, Spitex und Bezugsperson nötig. Medizinische Fachpersonen beachten zusätzlich den EPS-Test.",
+        "en": "Online form for patients at home; family doctor, Spitex and contact person details required. Medical professionals must also check the EPS test requirement.",
+        "ru": "Онлайн-форма для пациентов дома: нужны сведения о семейном враче, Spitex и контактном лице. Медицинским специалистам также нужно проверить требование EPS-теста.",
+        "uk": "Онлайн-форма для пацієнтів удома: потрібні відомості про сімейного лікаря, Spitex і контактну особу. Медичним фахівцям також потрібно перевірити вимогу EPS-тесту."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "coverage_localities": [],
+      "authority": "Krebsliga Ostschweiz",
+      "source_id": "v6-health-palliative-registration-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/anmeldeformular-palliativer-brueckendienst-patienten-zu-hause",
+      "official_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/anmeldeformular-palliativer-brueckendienst-patienten-zu-hause",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "forms"
+      ],
+      "fee": null,
+      "eligibility": null,
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "v6-health-cancer-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/beratung-unterstuetzung/wir-sind-fuer-sie-da",
+      "authority": "Krebsliga Ostschweiz",
+      "review_status": "checked",
+      "content_reviewed_at": "2026-10-02",
+      "last_checked": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "verification_scope": "page",
+      "fetch_status": "error",
+      "metadata_only": true,
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-health-stoma-advice-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/stomaberatung/unser-angebot",
+      "authority": "Krebsliga Ostschweiz",
+      "review_status": "checked",
+      "content_reviewed_at": "2026-10-02",
+      "last_checked": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "verification_scope": "page",
+      "fetch_status": "error",
+      "metadata_only": true,
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-health-palliative-home-care-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
+      "authority": "Krebsliga Ostschweiz",
+      "review_status": "checked",
+      "content_reviewed_at": "2026-10-02",
+      "last_checked": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "verification_scope": "page",
+      "fetch_status": "ok",
+      "metadata_only": true,
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "93bb2d99eadb906a58951d58418d171a90895f3d8b719bec1a573101ae9a3000",
+      "fetched_at": "2026-10-02T22:39:47+00:00"
+    },
+    {
+      "source_id": "v6-health-palliative-registration-source",
+      "source_url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/anmeldeformular-palliativer-brueckendienst-patienten-zu-hause",
+      "authority": "Krebsliga Ostschweiz",
+      "review_status": "checked",
+      "content_reviewed_at": "2026-10-02",
+      "last_checked": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "verification_scope": "page",
+      "fetch_status": "ok",
+      "metadata_only": true,
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "db6f71d54c4630062ddc8257edfd6ce079ab4ccb1dbf3f37e91beaed6f4ff536",
+      "fetched_at": "2026-10-02T22:39:50+00:00"
+    }
+  ]
+}

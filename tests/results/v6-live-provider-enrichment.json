@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-10-02T22:40:42.677Z",
+  "post_id": 3741,
+  "meta_roundtrip_matches": true,
+  "search": {
+    "query": "помощь пострадавшим от насилия",
+    "total": 7,
+    "results": [
+      {
+        "id": "canton-service-5cad6a511a0055",
+        "description": "Бесплатная конфиденциальная помощь после насилия: защита, безопасность и правовые вопросы."
+      },
+      {
+        "id": "23620",
+        "description": "Зарегистрируйте переезд в Einwohneramt в течение 14 дней: лично или через eUmzug. Документы зависят от вашей ситуации."
+      },
+      {
+        "id": "practical-german-courses",
+        "description": "Кантональный портал содержит поиск курсов немецкого. Спросите организатора о поддержке в зависимости от дохода; людей со статусом S направляет социальная служба общины."
+      }
+    ],
+    "engine": "v6-server-index"
+  },
+  "mandatory": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "engine": "v6-server-index"
+    }
+  ],
+  "stats": {
+    "records": 4523,
+    "terms": 5489,
+    "indexed_at": "2026-10-02T22:38:12+00:00"
+  },
+  "external_ai_tested": false
+}

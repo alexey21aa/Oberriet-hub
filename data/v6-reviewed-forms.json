@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-10-02",
+  "forms": [
+    {
+      "id": "v6-health-palliative-registration",
+      "provider": "Krebsliga Ostschweiz",
+      "url": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/anmeldeformular-palliativer-brueckendienst-patienten-zu-hause",
+      "kind": "provider-online-referral",
+      "scope": "patients-at-home",
+      "content_review_status": "checked",
+      "direct_http_status": 200,
+      "body_sha256": "db6f71d54c4630062ddc8257edfd6ce079ab4ccb1dbf3f37e91beaed6f4ff536",
+      "reviewed_fields": ["patient identity and contact", "contact person", "health insurer", "family doctor", "Spitex", "referral coordination", "referring person"],
+      "additional_requirement_source": "https://ostschweiz.krebsliga.ch/dienstleistungen/palliativer-brueckendienst/unser-angebot",
+      "additional_requirement": "Provider notice to medical professionals requires EPS test with referral documents.",
+      "submission": "external-provider-only",
+      "local_sensitive_data_collection": false,
+      "submitted_or_tested": false,
+      "live_imported": false,
+      "note": "Reviewed form existence and purpose only. No application submitted and no individual eligibility assessment."
+    }
+  ]
+}
