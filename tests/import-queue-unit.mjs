@@ -2,7 +2,7 @@ import {PHP} from '@php-wasm/universal';
 import {loadNodeRuntime} from '@php-wasm/node';
 import fs from 'node:fs';
 const php = new PHP(await loadNodeRuntime('8.3', {emscriptenOptions:{processId:1010}}));
-for (const name of ['Sources','ImportQueue']) php.writeFile('/'+name+'.php', fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/src/'+name+'.php',import.meta.url)));
+for (const name of ['SourceIngestion','Sources','ImportQueue']) php.writeFile('/'+name+'.php', fs.readFileSync(new URL('../wp-content/plugins/oberhub-core/src/'+name+'.php',import.meta.url)));
 php.writeFile('/base.json',fs.readFileSync(new URL('../data/base-seed.json',import.meta.url)));
 php.writeFile('/seed.json', fs.readFileSync(new URL('../data/seed.json',import.meta.url)));
 const result = await php.run({code:`<?php
