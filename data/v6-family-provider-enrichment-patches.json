@@ -1,0 +1,146 @@
+[
+  {
+    "post_id": 3490,
+    "canonical_id": "canton-service-2b1f65d4d04c6f",
+    "reviewed_at": "2026-10-02",
+    "primary_url": "https://www.frauenhaus-stgallen.ch/",
+    "fields": {
+      "description_short": {
+        "de": "Schutz und vorübergehende Unterkunft für gewaltbetroffene Frauen mit oder ohne Kinder.",
+        "en": "Protection and temporary shelter for women affected by violence, with or without children.",
+        "ru": "Защита и временное убежище для женщин, пострадавших от насилия, с детьми или без.",
+        "uk": "Захист і тимчасовий притулок для жінок, постраждалих від насильства, з дітьми чи без."
+      },
+      "description_full": {
+        "de": "Telefonische Hilfe ist rund um die Uhr erreichbar. Aufnahme und Treffpunkt telefonisch vereinbaren; die Unterkunftsadresse ist geheim.",
+        "en": "Telephone support is available around the clock. Arrange admission and a meeting point by phone; the shelter address is confidential.",
+        "ru": "Телефонная помощь доступна круглосуточно. Приём и место встречи согласуйте по телефону; адрес убежища не публикуется.",
+        "uk": "Телефонна допомога доступна цілодобово. Приймання й місце зустрічі узгодьте телефоном; адресу притулку не публікують."
+      },
+      "synonyms": [
+        "убежище для женщин",
+        "притулок для жінок",
+        "women shelter",
+        "Frauenhaus",
+        "защита от домашнего насилия"
+      ],
+      "content_review_sources": [
+        "https://www.frauenhaus-stgallen.ch/"
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "preserved_fields": [
+      "id",
+      "source_id",
+      "source_url",
+      "official_url",
+      "organization_id",
+      "contact",
+      "address"
+    ]
+  },
+  {
+    "post_id": 3543,
+    "canonical_id": "canton-service-ea73e28e579824",
+    "reviewed_at": "2026-10-02",
+    "primary_url": "https://www.proinfirmis.ch/angebot/st-gallen/sozialberatung-finanzielle-direkthilfe.html",
+    "fields": {
+      "description_short": {
+        "de": "Kostenlose Sozialberatung für Menschen mit Behinderung und Angehörige.",
+        "en": "Free social advice for people with disabilities and relatives.",
+        "ru": "Бесплатная социальная консультация для людей с инвалидностью и близких.",
+        "uk": "Безкоштовна соціальна консультація для людей з інвалідністю та близьких."
+      },
+      "description_full": {
+        "de": "Unterstützung bei Sozialversicherungen, Wohnen, Arbeit und Formularen. Mögliche finanzielle Hilfe wird individuell geprüft; keine garantierte Auszahlung.",
+        "en": "Support with social insurance, housing, work and forms. Possible financial help is assessed individually; payment is not guaranteed.",
+        "ru": "Помощь с социальным страхованием, жильём, работой и формами. Возможную финансовую поддержку проверяют индивидуально; выплата не гарантирована.",
+        "uk": "Допомога із соціальним страхуванням, житлом, роботою та формами. Можливу фінансову підтримку перевіряють індивідуально; виплату не гарантовано."
+      },
+      "synonyms": [
+        "помощь людям с инвалидностью",
+        "допомога людям з інвалідністю",
+        "disability social advice",
+        "Behindertenberatung",
+        "Pro Infirmis"
+      ],
+      "content_review_sources": [
+        "https://www.proinfirmis.ch/angebot/st-gallen/sozialberatung-finanzielle-direkthilfe.html"
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "preserved_fields": [
+      "id",
+      "source_id",
+      "source_url",
+      "official_url",
+      "organization_id",
+      "contact",
+      "address"
+    ]
+  },
+  {
+    "post_id": 3409,
+    "canonical_id": "canton-service-a53b806670a55b",
+    "reviewed_at": "2026-10-02",
+    "primary_url": "https://s-d-m.ch/muetter-und-vaeterberatung/",
+    "fields": {
+      "description_short": {
+        "de": "Kostenlose freiwillige Elternberatung für Kinder bis fünf Jahre.",
+        "en": "Free voluntary advice for parents of children up to five years.",
+        "ru": "Бесплатные добровольные консультации родителям детей до пяти лет.",
+        "uk": "Безкоштовні добровільні консультації батькам дітей до п’яти років."
+      },
+      "description_full": {
+        "de": "Beratung zu Ernährung, Entwicklung und Schlaf. Termine online buchen; Beratung ohne Termin nur in Widnau.",
+        "en": "Advice about feeding, development and sleep. Book appointments online; walk-in advice is offered only in Widnau.",
+        "ru": "Консультации о питании, развитии и сне. Запись онлайн; приём без записи только в Widnau.",
+        "uk": "Консультації щодо харчування, розвитку та сну. Запис онлайн; приймання без запису лише у Widnau."
+      },
+      "synonyms": [
+        "консультация родителям Oberriet",
+        "консультація батькам Oberriet",
+        "Mütterberatung Oberriet",
+        "parent advice Oberriet",
+        "питание и сон ребёнка"
+      ],
+      "content_review_sources": [
+        "https://s-d-m.ch/muetter-und-vaeterberatung/"
+      ],
+      "content_reviewed_at": "2026-10-02",
+      "provider_primary_verified": true,
+      "provider_verification_scope": "reviewed-service-description",
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    "preserved_fields": [
+      "id",
+      "source_id",
+      "source_url",
+      "official_url",
+      "organization_id",
+      "contact",
+      "address"
+    ]
+  }
+]

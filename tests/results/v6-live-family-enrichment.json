@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-10-02T22:55:29.568Z",
+  "deployed": {
+    "core": "0.2.3",
+    "addon": "0.1.0"
+  },
+  "stats": {
+    "records": 4523,
+    "terms": 5568,
+    "indexed_at": "2026-10-02T22:54:18+00:00"
+  },
+  "meta": [
+    {
+      "post_id": 3490,
+      "canonical_id": "canton-service-2b1f65d4d04c6f",
+      "edited_fields_match": true,
+      "other_fields_preserved": true,
+      "primary_url": "https://www.frauenhaus-stgallen.ch/"
+    },
+    {
+      "post_id": 3543,
+      "canonical_id": "canton-service-ea73e28e579824",
+      "edited_fields_match": true,
+      "other_fields_preserved": true,
+      "primary_url": "https://www.proinfirmis.ch/angebot/st-gallen/sozialberatung-finanzielle-direkthilfe.html"
+    },
+    {
+      "post_id": 3409,
+      "canonical_id": "canton-service-a53b806670a55b",
+      "edited_fields_match": true,
+      "other_fields_preserved": true,
+      "primary_url": "https://s-d-m.ch/muetter-und-vaeterberatung/"
+    }
+  ],
+  "checks": [
+    {
+      "q": "убежище для женщин",
+      "total": 790,
+      "ids": [
+        "canton-service-2b1f65d4d04c6f",
+        "24057",
+        "23620"
+      ],
+      "first_description": "Защита и временное убежище для женщин, пострадавших от насилия, с детьми или без.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "помощь людям с инвалидностью",
+      "total": 2,
+      "ids": [
+        "canton-service-ea73e28e579824",
+        "practical-kulturlegi"
+      ],
+      "first_description": "Бесплатная социальная консультация для людей с инвалидностью и близких.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "консультация родителям Oberriet",
+      "total": 21,
+      "ids": [
+        "canton-service-a53b806670a55b",
+        "answer-129544-apply",
+        "answer-129544-cost"
+      ],
+      "first_description": "Бесплатные добровольные консультации родителям детей до пяти лет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "first_description": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "first_description": "Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "first_description": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "first_description": "Женская группа: танцы, лёгкая атлетика и фитнес. Это смешанные занятия, а не отдельная танцевальная школа.",
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "first_description": "Крытый батутный парк и ниндзя-полоса в Altstätten для детей от шести лет.",
+      "engine": "v6-server-index"
+    }
+  ],
+  "passed": true
+}
