@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Bounded primary-page receipts; no copied page bodies stored in the public repo."""
-import hashlib,json,time,urllib.request,urllib.error,urllib.parse,urllib.robotparser
+import argparse,hashlib,json,time,urllib.request,urllib.error,urllib.parse,urllib.robotparser
 from pathlib import Path
 from datetime import datetime,timezone
-ROOT=Path(__file__).resolve().parents[1];PATH=ROOT/'data/v6-life-services-delta.json'
+ROOT=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser();parser.add_argument('--batch',choices=['life','community'],default='life');args=parser.parse_args()
+PATH=ROOT/f'data/v6-{args.batch}-services-delta.json'
 data=json.loads(PATH.read_text());proof=[];robots={};last={};UA='OberrietHub/0.3 public-metadata (+https://oberriethub.ch)'
 for source in data['sources']:
  url=source['source_url'];host=urllib.parse.urlsplit(url).hostname
@@ -32,7 +34,7 @@ for source in data['sources']:
   source['evidence_method']='Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context.'
  proof.append(receipt)
  # Persist successful progress even if a later page stalls or this turn interrupts.
- for name,value in [('v6-life-services-delta',data),('v6-life-http-verification',proof)]:
+ for name,value in [(f'v6-{args.batch}-services-delta',data),(f'v6-{args.batch}-http-verification',proof)]:
   target=ROOT/'data'/f'{name}.json';temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');temporary.replace(target)
  print(json.dumps(receipt),flush=True)
 print(json.dumps({'attempted':len(proof),'http_200':sum(p.get('http_status')==200 for p in proof)}),flush=True)

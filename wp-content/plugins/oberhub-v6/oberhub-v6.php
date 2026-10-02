@@ -19,6 +19,11 @@ function mark_index_dirty($mid,$pid,$key):void {
 add_action('added_post_meta',__NAMESPACE__.'\\mark_index_dirty',10,3);
 add_action('updated_post_meta',__NAMESPACE__.'\\mark_index_dirty',10,3);
 add_action('before_delete_post',function($pid){mark_index_dirty(0,$pid,'_oh_record');},10,1);
+function finish_index_refresh($revision):void {
+ if(get_option('oh_v6_index_dirty',false)===$revision)update_option('oh_v6_index_dirty',false,false);
+ else if(!wp_next_scheduled('oh_v6_refresh_index'))wp_schedule_single_event(time()+120,'oh_v6_refresh_index');
+ update_option('oh_v6_ready',true,false);update_option('oh_v6_index_error','',false);
+}
 add_action('oh_v6_refresh_index',function(){
  if(!class_exists('OberHub\\ImportQueue'))return;
  $revision=get_option('oh_v6_index_dirty',false);if(!$revision)return;
@@ -26,9 +31,7 @@ add_action('oh_v6_refresh_index',function(){
  try {
   Knowledge::install();$stats=Knowledge::rebuild(dataset());
   if(empty($stats['records']))throw new \RuntimeException('Empty index');
-  if(get_option('oh_v6_index_dirty')===$revision)update_option('oh_v6_index_dirty',false,false);
-  else if(!wp_next_scheduled('oh_v6_refresh_index'))wp_schedule_single_event(time()+120,'oh_v6_refresh_index');
-  update_option('oh_v6_ready',true,false);update_option('oh_v6_index_error','',false);
+  finish_index_refresh($revision);
  }catch(\Throwable $e){update_option('oh_v6_index_error','Refresh failed; retry scheduled.',false);wp_schedule_single_event(time()+300,'oh_v6_refresh_index');}
 },10,0);
 // Until explicitly prepared by an administrator, the live core routes remain untouched.
@@ -58,9 +61,10 @@ add_action('rest_api_init',function(){
  register_rest_route('oberhub/v1','/v6/import-batch',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>fn()=>rest_ensure_response(\OberHub\ImportQueue::process(25))]);
  register_rest_route('oberhub/v1','/v6/build-index',['methods'=>'POST','permission_callback'=>fn()=>current_user_can('manage_options'),'callback'=>function(){
   if(\OberHub\ImportQueue::active())return new \WP_Error('busy','Finish import first',['status'=>409]);
+  $revision=get_option('oh_v6_index_dirty',false);
   Knowledge::install();$stats=Knowledge::rebuild(dataset());
   if(empty($stats['records']))return new \WP_Error('empty','No index built',['status'=>500]);
-  update_option('oh_v6_ready',true,false);return rest_ensure_response($stats);
+  finish_index_refresh($revision);return rest_ensure_response($stats);
  }]);
  if(!get_option('oh_v6_ready',false))return;
  register_rest_route('oberhub/v1','/search',['methods'=>['GET','POST'],'permission_callback'=>'__return_true','callback'=>function($req){

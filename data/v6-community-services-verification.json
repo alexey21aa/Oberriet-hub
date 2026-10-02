@@ -1,0 +1,47 @@
+[
+  {
+    "record_id": "v6-community-ludo-borrow",
+    "source_url": "https://www.ludothek-altstaetten.ch/",
+    "retrieval_ref": "turn7view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-community-ludo-boxes",
+    "source_url": "https://www.ludothek-altstaetten.ch/spielkisten/",
+    "retrieval_ref": "turn8view1",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-community-ludo-play",
+    "source_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+    "retrieval_ref": "turn8view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-community-juniorband",
+    "source_url": "https://mgme.ch/nachwuchs",
+    "retrieval_ref": "turn8search2",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-community-jungmusik",
+    "source_url": "https://mgme.ch/nachwuchs",
+    "retrieval_ref": "turn8search2",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  }
+]

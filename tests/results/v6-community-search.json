@@ -1,0 +1,271 @@
+[
+  {
+    "lang": "de",
+    "q": "Ludothek Altstätten · Spiele ausleihen",
+    "expected": "v6-community-ludo-borrow",
+    "ids": [
+      "v6-community-ludo-borrow",
+      "v6-community-ludo-play"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Ludothek Altstätten · borrow games",
+    "expected": "v6-community-ludo-borrow",
+    "ids": [
+      "v6-community-ludo-borrow",
+      "v6-community-ludo-play"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Ludothek Altstätten · прокат игр",
+    "expected": "v6-community-ludo-borrow",
+    "ids": [
+      "v6-community-ludo-borrow"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Ludothek Altstätten · прокат ігор",
+    "expected": "v6-community-ludo-borrow",
+    "ids": [
+      "v6-community-ludo-borrow"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Spielkisten für Geburtstage und Feste",
+    "expected": "v6-community-ludo-boxes",
+    "ids": [
+      "v6-community-ludo-boxes"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Game boxes for birthdays and celebrations",
+    "expected": "v6-community-ludo-boxes",
+    "ids": [
+      "v6-community-ludo-boxes",
+      "v6-community-ludo-play"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Игровые наборы для детского праздника",
+    "expected": "v6-community-ludo-boxes",
+    "ids": [
+      "v6-community-ludo-boxes"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Ігрові набори для дитячого свята",
+    "expected": "v6-community-ludo-boxes",
+    "ids": [
+      "v6-community-ludo-boxes"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Spielen und Geburtstag in der Ludothek",
+    "expected": "v6-community-ludo-play",
+    "ids": [
+      "v6-community-ludo-play",
+      "v6-community-ludo-borrow"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Games and birthdays at the toy library",
+    "expected": "v6-community-ludo-play",
+    "ids": [
+      "v6-community-ludo-play"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Игры и день рождения в Ludothek",
+    "expected": "v6-community-ludo-play",
+    "ids": [
+      "v6-community-ludo-play",
+      "v6-community-ludo-borrow"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Ігри та день народження в Ludothek",
+    "expected": "v6-community-ludo-play",
+    "ids": [
+      "v6-community-ludo-play",
+      "v6-community-ludo-borrow"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Juniorband Montlingen-Eichenwies",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Junior band Montlingen-Eichenwies",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband",
+      "24970",
+      "nav-6e73292234bc"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Детский музыкальный ансамбль Montlingen-Eichenwies",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband",
+      "music-school",
+      "v6-community-jungmusik"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Дитячий музичний ансамбль Montlingen-Eichenwies",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband",
+      "v6-community-jungmusik",
+      "music-school"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Jungmusik Montlingen-Eichenwies",
+    "expected": "v6-community-jungmusik",
+    "ids": [
+      "v6-community-jungmusik"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Youth music Montlingen-Eichenwies",
+    "expected": "v6-community-jungmusik",
+    "ids": [
+      "v6-community-jungmusik",
+      "v6-community-juniorband",
+      "v6-montlingen-boys-middle",
+      "v6-montlingen-boys-small",
+      "v6-montlingen-boys-youth"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Молодёжный оркестр Montlingen-Eichenwies",
+    "expected": "v6-community-jungmusik",
+    "ids": [
+      "v6-community-jungmusik"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Молодіжний оркестр Montlingen-Eichenwies",
+    "expected": "v6-community-jungmusik",
+    "ids": [
+      "v6-community-jungmusik"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "прокат игр Altstätten",
+    "expected": "v6-community-ludo-borrow",
+    "ids": [
+      "v6-community-ludo-borrow",
+      "nav-59c1ec16b30e"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "детский музыкальный ансамбль",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband",
+      "music-school",
+      "v6-community-jungmusik"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "игровые наборы для праздника",
+    "expected": "v6-community-ludo-boxes",
+    "ids": [
+      "v6-community-ludo-boxes"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Juniorband Montlingen",
+    "expected": "v6-community-juniorband",
+    "ids": [
+      "v6-community-juniorband"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Youth music Montlingen",
+    "expected": "v6-community-jungmusik",
+    "ids": [
+      "v6-community-jungmusik",
+      "v6-community-juniorband",
+      "v6-montlingen-boys-middle",
+      "v6-montlingen-boys-small",
+      "v6-montlingen-boys-youth"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "день рождения Ludothek",
+    "expected": "v6-community-ludo-play",
+    "ids": [
+      "v6-community-ludo-play"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Развлекательные центры для детей",
+    "passed": true
+  },
+  {
+    "q": "Спорт доя детей",
+    "passed": true
+  },
+  {
+    "q": "танци доя женщин",
+    "passed": true
+  }
+]

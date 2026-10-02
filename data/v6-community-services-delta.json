@@ -1,0 +1,301 @@
+{
+  "services": [
+    {
+      "id": "v6-community-ludo-borrow",
+      "title": {
+        "de": "Ludothek Altstätten · Spiele ausleihen",
+        "en": "Ludothek Altstätten · borrow games",
+        "ru": "Ludothek Altstätten · прокат игр",
+        "uk": "Ludothek Altstätten · прокат ігор"
+      },
+      "description_short": {
+        "de": "Spiele und Spielsachen für Kinder und Erwachsene; Ausleihgebühr beim Anbieter prüfen.",
+        "en": "Games and toys for children and adults; check borrowing fees with the provider.",
+        "ru": "Игры и игрушки для детей и взрослых; уточните стоимость проката.",
+        "uk": "Ігри та іграшки для дітей і дорослих; уточніть вартість прокату."
+      },
+      "topic": "education-family",
+      "locality": "altstaetten",
+      "authority": "Ludothek Altstätten",
+      "source_id": "v6-community-ludo-borrow-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/",
+      "official_url": "https://www.ludothek-altstaetten.ch/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "adults",
+        "education"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-community-ludo-boxes",
+      "title": {
+        "de": "Spielkisten für Geburtstage und Feste",
+        "en": "Game boxes for birthdays and celebrations",
+        "ru": "Игровые наборы для детского праздника",
+        "uk": "Ігрові набори для дитячого свята"
+      },
+      "description_short": {
+        "de": "Spielkisten individuell zusammenstellen und reservieren; Ausleihe für Feste und Anlässe.",
+        "en": "Assemble and reserve game boxes for parties and events.",
+        "ru": "Можно подобрать и забронировать игровые наборы для праздников и мероприятий.",
+        "uk": "Можна підібрати та забронювати ігрові набори для свят і заходів."
+      },
+      "topic": "education-family",
+      "locality": "altstaetten",
+      "authority": "Ludothek Altstätten",
+      "source_id": "v6-community-ludo-boxes-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/spielkisten/",
+      "official_url": "https://www.ludothek-altstaetten.ch/spielkisten/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "adults"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-community-ludo-play",
+      "title": {
+        "de": "Spielen und Geburtstag in der Ludothek",
+        "en": "Games and birthdays at the toy library",
+        "ru": "Игры и день рождения в Ludothek",
+        "uk": "Ігри та день народження в Ludothek"
+      },
+      "description_short": {
+        "de": "Spiele aus dem Sortiment vor Ort ausprobieren; Veranstaltung über Kontaktformular anfragen.",
+        "en": "Try games from the collection on site; ask about an event through the contact form.",
+        "ru": "Игры из коллекции можно попробовать на месте; организацию мероприятия уточняйте через контактную форму.",
+        "uk": "Ігри з колекції можна спробувати на місці; організацію заходу уточнюйте через контактну форму."
+      },
+      "topic": "education-family",
+      "locality": "altstaetten",
+      "authority": "Ludothek Altstätten",
+      "source_id": "v6-community-ludo-play-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+      "official_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "adults"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-community-juniorband",
+      "title": {
+        "de": "Juniorband Montlingen-Eichenwies",
+        "en": "Junior band Montlingen-Eichenwies",
+        "ru": "Детский музыкальный ансамбль Montlingen-Eichenwies",
+        "uk": "Дитячий музичний ансамбль Montlingen-Eichenwies"
+      },
+      "description_short": {
+        "de": "Für Kinder von 9 bis 12 Jahren nach einem Jahr Instrumental-Einzelunterricht; gemeinsam musizieren.",
+        "en": "For children aged 9–12 after one year of individual instrument lessons; play music together.",
+        "ru": "Для детей 9–12 лет после года индивидуальных занятий на инструменте; совместное музицирование.",
+        "uk": "Для дітей 9–12 років після року індивідуальних занять на інструменті; спільне музикування."
+      },
+      "topic": "education-family",
+      "locality": "montlingen",
+      "authority": "Musikgesellschaft Montlingen-Eichenwies",
+      "source_id": "v6-community-juniorband-source",
+      "source_url": "https://mgme.ch/nachwuchs",
+      "official_url": "https://mgme.ch/nachwuchs",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "education"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-community-jungmusik",
+      "title": {
+        "de": "Jungmusik Montlingen-Eichenwies",
+        "en": "Youth music Montlingen-Eichenwies",
+        "ru": "Молодёжный оркестр Montlingen-Eichenwies",
+        "uk": "Молодіжний оркестр Montlingen-Eichenwies"
+      },
+      "description_short": {
+        "de": "Gemeinsame Proben und Jahresprogramm mit Musiklager, Ausflug und Auftritten; Eintritt beim Verein klären.",
+        "en": "Group rehearsals and an annual programme with music camp, outings and performances; check entry with the club.",
+        "ru": "Совместные репетиции, музыкальный лагерь, поездки и выступления; условия вступления уточняйте в клубе.",
+        "uk": "Спільні репетиції, музичний табір, поїздки та виступи; умови вступу уточнюйте в клубі."
+      },
+      "topic": "education-family",
+      "locality": "montlingen",
+      "authority": "Musikgesellschaft Montlingen-Eichenwies",
+      "source_id": "v6-community-juniorband-source",
+      "source_url": "https://mgme.ch/nachwuchs",
+      "official_url": "https://mgme.ch/nachwuchs",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "children",
+        "education"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "v6-community-ludo-borrow-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/",
+      "authority": "Ludothek Altstätten",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-community-ludo-boxes-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/spielkisten/",
+      "authority": "Ludothek Altstätten",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-community-ludo-play-source",
+      "source_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+      "authority": "Ludothek Altstätten",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "012c9633f5fdaf8594ebaae3cf6490f8d083a048362f6b5582339b7025d7bd84",
+      "fetched_at": "2026-10-02T21:42:56+00:00"
+    },
+    {
+      "source_id": "v6-community-juniorband-source",
+      "source_url": "https://mgme.ch/nachwuchs",
+      "authority": "Musikgesellschaft Montlingen-Eichenwies",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "1590c0a2da6b768e41e3fe011fc004c6635f8153a7ef8cbdbf2ad89ec304a346",
+      "fetched_at": "2026-10-02T21:42:57+00:00"
+    }
+  ]
+}

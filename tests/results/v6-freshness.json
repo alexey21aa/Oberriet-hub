@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Ignore non-record and source changes",
+    "passed": true
+  },
+  {
+    "name": "Record edits mark dirty and schedule",
+    "passed": true
+  },
+  {
+    "name": "Debounce repeated edits",
+    "passed": true
+  },
+  {
+    "name": "Successful refresh clears dirty and sets ready",
+    "passed": true
+  },
+  {
+    "name": "Clean index avoids rebuild",
+    "passed": true
+  },
+  {
+    "name": "Deletion marks dirty",
+    "passed": true
+  },
+  {
+    "name": "Active import defers refresh",
+    "passed": true
+  },
+  {
+    "name": "Concurrent edit remains dirty and schedules follow-up",
+    "passed": true
+  },
+  {
+    "name": "Follow-up clears latest revision",
+    "passed": true
+  },
+  {
+    "name": "Failure preserves ready and dirty",
+    "passed": true
+  },
+  {
+    "name": "Failure schedules retry without private error",
+    "passed": true
+  },
+  {
+    "name": "Empty refresh preserves dirty and retries",
+    "passed": true
+  },
+  {
+    "name": "Manual rebuild clears dirty and error",
+    "passed": true
+  },
+  {
+    "name": "Pending cron does not duplicate manual rebuild",
+    "passed": true
+  },
+  {
+    "name": "Manual rebuild preserves concurrent changes",
+    "passed": true
+  },
+  {
+    "name": "Manual rebuild refuses active import",
+    "passed": true
+  }
+]

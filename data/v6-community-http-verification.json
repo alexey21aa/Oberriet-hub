@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "v6-community-ludo-borrow-source",
+    "source_url": "https://www.ludothek-altstaetten.ch/",
+    "checked_at": "2026-10-02T21:42:43+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-community-ludo-boxes-source",
+    "source_url": "https://www.ludothek-altstaetten.ch/spielkisten/",
+    "checked_at": "2026-10-02T21:42:49+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-community-ludo-play-source",
+    "source_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+    "checked_at": "2026-10-02T21:42:56+00:00",
+    "http_status": 200,
+    "sha256": "012c9633f5fdaf8594ebaae3cf6490f8d083a048362f6b5582339b7025d7bd84",
+    "resolved_url": "https://www.ludothek-altstaetten.ch/spielen-und-geburtstag-in-der-ludo/",
+    "bytes": 21456
+  },
+  {
+    "source_id": "v6-community-juniorband-source",
+    "source_url": "https://mgme.ch/nachwuchs",
+    "checked_at": "2026-10-02T21:42:57+00:00",
+    "http_status": 200,
+    "sha256": "1590c0a2da6b768e41e3fe011fc004c6635f8153a7ef8cbdbf2ad89ec304a346",
+    "resolved_url": "https://mgme.ch/nachwuchs",
+    "bytes": 51603
+  }
+]
