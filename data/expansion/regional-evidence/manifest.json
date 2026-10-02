@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://integrationrheintal.ch/offene-sprechstunde/",
+    "resolved_url": "https://integrationrheintal.ch/offene-sprechstunde/",
+    "status": 200,
+    "sha256": "56c28be6592c591c7daa79c422b1410209cb4467e7b93b1cab8d61c059665762",
+    "last_checked": "2026-10-02T09:05:58Z",
+    "path": "offene-sprechstunde"
+  },
+  {
+    "url": "https://integrationrheintal.ch/kontakt/",
+    "resolved_url": "https://integrationrheintal.ch/kontakt/",
+    "status": 200,
+    "sha256": "105632e68b458d25ff5e2dac1a544d98741d48f8e294aaabd3c5a273e4c8ccef",
+    "last_checked": "2026-10-02T09:06:21Z",
+    "path": "kontakt"
+  },
+  {
+    "url": "https://integrationrheintal.ch/schluesselpersonen/",
+    "resolved_url": "https://integrationrheintal.ch/schluesselpersonen/",
+    "status": 200,
+    "sha256": "7e049e7f283dc4ec0646001fb61ad21e28fee078bf053b0de8dc5a952913ab59",
+    "last_checked": "2026-10-02T09:06:39Z",
+    "path": "schluesselpersonen"
+  },
+  {
+    "url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+    "resolved_url": "https://integrationrheintal.ch/schenk-mir-eine-geschichte/",
+    "status": 200,
+    "sha256": "b15d924db9f3440f1274880ee1790ea0f33df0d4444634f98eef7e2fc3c91d5b",
+    "last_checked": "2026-10-02T09:07:00Z",
+    "path": "schenk-mir-eine-geschichte"
+  },
+  {
+    "url": "https://integrationrheintal.ch/wie-mir-der-schnabel-waechst/",
+    "resolved_url": "https://integrationrheintal.ch/wie-mir-der-schnabel-waechst/",
+    "status": 200,
+    "sha256": "5740545e109841356f4a0486aff270ce62f020484d36f37d1d1acd9bcb1b16a4",
+    "last_checked": "2026-10-02T09:07:21Z",
+    "path": "wie-mir-der-schnabel-waechst"
+  },
+  {
+    "url": "https://integrationrheintal.ch/frauentreffs/",
+    "resolved_url": "https://integrationrheintal.ch/frauentreffs/",
+    "status": 200,
+    "sha256": "2b37808a0dec59a4d36db9bd7ab6030dfffbefd3d43653fe018ecfbc3b58e331",
+    "last_checked": "2026-10-02T09:07:40Z",
+    "path": "frauentreffs"
+  },
+  {
+    "url": "https://integrationrheintal.ch/rassismus-und-diskriminierung/",
+    "resolved_url": "https://integrationrheintal.ch/rassismus-und-diskriminierung/",
+    "status": 200,
+    "sha256": "e627d3d7ac75e6e4303d5ea84d6a87f5a49ac3afc236c75c24c9a3a8912746c8",
+    "last_checked": "2026-10-02T09:08:00Z",
+    "path": "rassismus-und-diskriminierung"
+  },
+  {
+    "url": "https://integrationrheintal.ch/begrussungsgesprache/",
+    "resolved_url": "https://integrationrheintal.ch/begrussungsgesprache/",
+    "status": 200,
+    "sha256": "dfe53ed6b8e3143f78c7482448d45fbf8e1afb83f01a1ef8586dddc8c5a5de46",
+    "last_checked": "2026-10-02T09:08:20Z",
+    "path": "begrussungsgesprache"
+  }
+]

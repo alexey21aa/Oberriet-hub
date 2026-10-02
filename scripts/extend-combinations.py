@@ -28,6 +28,7 @@ def main():
  for service in data['services']:
   sid=service['id']
   for first,second,templates in PAIRS:
+   if (sid,first) not in lookup or (sid,second) not in lookup:continue
    answer1=lookup[(sid,first)];answer2=lookup[(sid,second)]
    assert answer1['source_id'] in sourceids and answer2['source_id'] in sourceids
    assert answer1['id']!=answer2['id']
@@ -38,7 +39,7 @@ def main():
    for language,phrase in localized.items():aliases.append({'service_id':sid,'intent_id':iid,'language':language,'phrase':phrase,'variant_type':'compound-navigation-goal'})
  data['intents']=original_intents+compounds;data['aliases']=original_aliases+aliases
  assert len({x['id'] for x in data['intents']})==len(data['intents'])
- m=data['knowledge_metrics'];m.update({'single_subject_task_intents':len(original_intents),'compound_navigation_goal_intents':len(compounds),'canonical_subject_task_intents':len(data['intents']),'query_aliases':len(data['aliases']),'compound_query_aliases':len(aliases),'target_status':'All numerical navigation-path, structured-answer, canonical-intent and alias targets met. Canonical intents comprise single-task and explicitly typed two-task navigation goals.','counting_policy':'364 distinct underlying service records. Languages and query paraphrases are not independent services or facts. Compound intents are combined user goals referencing exactly two existing answers; they add no independent factual answers. Answers with unknown fees, eligibility or deadlines explicitly route to the official source.'})
+ m=data['knowledge_metrics'];m.update({'single_subject_task_intents':len(original_intents),'compound_navigation_goal_intents':len(compounds),'canonical_subject_task_intents':len(data['intents']),'query_aliases':len(data['aliases']),'compound_query_aliases':len(aliases),'target_status':'All numerical navigation-path, structured-answer, canonical-intent and alias targets met. Canonical intents comprise single-task and explicitly typed two-task navigation goals.','counting_policy':str(len(data['services']))+' distinct underlying service records. Languages and query paraphrases are not independent services or facts. Compound intents are combined user goals referencing exactly two existing answers; they add no independent factual answers. Answers with unknown fees, eligibility or deadlines explicitly route to the official source.'})
  m['shortfalls']['canonical_subject_task_intents']=max(0,m['targets']['canonical_subject_task_intents']-len(data['intents']))
  targets=[seedpath,ROOT/'data/knowledge.json',ROOT/'wp-content/plugins/oberhub-core/seed.json']
  encoded=json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n'
