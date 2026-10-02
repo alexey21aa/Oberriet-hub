@@ -72,7 +72,7 @@ def main():
     parser=Links();parser.feed(body.decode('utf8','replace'))
     for href,title in parser.links:
      target=canonical(urllib.parse.urljoin(resolved,href))
-     if not target or urllib.parse.urlsplit(target).hostname!=host or not title or len(title)>250:continue
+     if not target or target==resolved or urllib.parse.urlsplit(target).hostname!=host or not title or len(title)>250:continue
      interesting=bool(re.search(r'\.pdf(?:\?|$)|\.docx?(?:\?|$)|\.xlsx?(?:\?|$)|formular|formulare|formulaires|muster|vorlage|steuer|tax|recht|gesundheit|kulturlegi|beratung|sozial|familie|kinder|sport|tanzen|bildung|sprache|integration',target+' '+title,re.I))
      if not interesting:continue
      id='doc-'+hashlib.sha256(target.encode()).hexdigest()[:24]
