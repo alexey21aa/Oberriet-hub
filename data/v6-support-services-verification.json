@@ -1,0 +1,56 @@
+[
+  {
+    "record_id": "v6-support-spitex-assessment",
+    "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+    "retrieval_ref": "turn10view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-support-spitex-care",
+    "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+    "retrieval_ref": "turn10view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-support-legal-advice",
+    "source_url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+    "retrieval_ref": "turn10view1",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-support-victim-advice",
+    "source_url": "https://ohsg.ch/beratung/",
+    "retrieval_ref": "turn10view2",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-support-bus-maps",
+    "source_url": "https://www.rtb.ch/reisen/liniennetzplaene",
+    "retrieval_ref": "turn10view3",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  },
+  {
+    "record_id": "v6-support-bus-oberdorf",
+    "source_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+    "retrieval_ref": "turn11view0",
+    "checked_at": "2026-10-02",
+    "verification": "primary-web-content",
+    "http_status": null,
+    "sha256": null
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "lang": "de",
+    "q": "Spitex Oberriet · Abklärung und Beratung",
+    "expected": "v6-support-spitex-assessment",
+    "ids": [
+      "v6-support-spitex-assessment"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Spitex Oberriet · care assessment",
+    "expected": "v6-support-spitex-assessment",
+    "ids": [
+      "v6-support-spitex-assessment",
+      "practical-self-employment",
+      "nav-e3f3f84392d7"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Spitex Oberriet · оценка помощи на дому",
+    "expected": "v6-support-spitex-assessment",
+    "ids": [
+      "v6-support-spitex-assessment",
+      "v6-support-spitex-care",
+      "24967",
+      "nav-56205e01664e"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Spitex Oberriet · оцінка допомоги вдома",
+    "expected": "v6-support-spitex-assessment",
+    "ids": [
+      "v6-support-spitex-assessment",
+      "v6-support-spitex-care",
+      "24967",
+      "nav-56205e01664e"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Spitex Oberriet · Pflege zu Hause",
+    "expected": "v6-support-spitex-care",
+    "ids": [
+      "v6-support-spitex-care",
+      "v6-support-spitex-assessment"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Spitex Oberriet · nursing at home",
+    "expected": "v6-support-spitex-care",
+    "ids": [
+      "v6-support-spitex-care",
+      "v6-support-spitex-assessment",
+      "regional-home-language-support"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Spitex Oberriet · уход на дому",
+    "expected": "v6-support-spitex-care",
+    "ids": [
+      "v6-support-spitex-care",
+      "v6-support-spitex-assessment"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Spitex Oberriet · догляд вдома",
+    "expected": "v6-support-spitex-care",
+    "ids": [
+      "v6-support-spitex-care",
+      "v6-support-spitex-assessment"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Kostenlose Rechtsauskunft Rheintal",
+    "expected": "v6-support-legal-advice",
+    "ids": [
+      "v6-support-legal-advice",
+      "practical-legal-advice",
+      "v6-life-rheintal-help",
+      "v6-life-rheintal-men",
+      "v6-life-rheintal-women"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Free legal advice Rheintal",
+    "expected": "v6-support-legal-advice",
+    "ids": [
+      "v6-support-legal-advice",
+      "practical-legal-advice",
+      "24238",
+      "v6-support-victim-advice",
+      "v6-life-rheintal-help"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Бесплатная юридическая консультация Rheintal",
+    "expected": "v6-support-legal-advice",
+    "ids": [
+      "v6-support-legal-advice",
+      "practical-legal-advice",
+      "regional-consultation-altstaetten",
+      "regional-consultation-diepoldsau",
+      "regional-consultation-heerbrugg"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Безкоштовна юридична консультація Rheintal",
+    "expected": "v6-support-legal-advice",
+    "ids": [
+      "v6-support-legal-advice",
+      "practical-legal-advice",
+      "24238",
+      "regional-consultation-altstaetten",
+      "regional-consultation-diepoldsau"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Opferhilfe · vertrauliche Beratung",
+    "expected": "v6-support-victim-advice",
+    "ids": [
+      "v6-support-victim-advice"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Victim support · confidential advice",
+    "expected": "v6-support-victim-advice",
+    "ids": [
+      "v6-support-victim-advice",
+      "regional-racism-support"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Помощь пострадавшим от насилия",
+    "expected": "v6-support-victim-advice",
+    "ids": [
+      "v6-support-victim-advice",
+      "23620",
+      "practical-german-courses",
+      "transport",
+      "nav-3a85e03fe69b"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Допомога постраждалим від насильства",
+    "expected": "v6-support-victim-advice",
+    "ids": [
+      "v6-support-victim-advice",
+      "23620",
+      "practical-german-courses",
+      "transport",
+      "nav-3a85e03fe69b"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "RTB · Busnetz und Tarifzonen",
+    "expected": "v6-support-bus-maps",
+    "ids": [
+      "v6-support-bus-maps"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "RTB · bus network and fare zones",
+    "expected": "v6-support-bus-maps",
+    "ids": [
+      "v6-support-bus-maps"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "RTB · схема автобусов Rheintal",
+    "expected": "v6-support-bus-maps",
+    "ids": [
+      "v6-support-bus-maps"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "RTB · схема автобусів Rheintal",
+    "expected": "v6-support-bus-maps",
+    "ids": [
+      "v6-support-bus-maps"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "de",
+    "q": "Oberriet Oberdorf · Busabfahrten",
+    "expected": "v6-support-bus-oberdorf",
+    "ids": [
+      "v6-support-bus-oberdorf"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "q": "Oberriet Oberdorf · bus departures",
+    "expected": "v6-support-bus-oberdorf",
+    "ids": [
+      "v6-support-bus-oberdorf",
+      "transport"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "Oberriet Oberdorf · отправления автобусов",
+    "expected": "v6-support-bus-oberdorf",
+    "ids": [
+      "v6-support-bus-oberdorf"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "uk",
+    "q": "Oberriet Oberdorf · відправлення автобусів",
+    "expected": "v6-support-bus-oberdorf",
+    "ids": [
+      "v6-support-bus-oberdorf"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "уход на дому Oberriet",
+    "expected": "v6-support-spitex-care",
+    "ids": [
+      "v6-support-spitex-care",
+      "v6-support-spitex-assessment",
+      "childcare",
+      "regional-home-language-support",
+      "nav-5d047ce1cf3b"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "юридическая консультация Rheintal",
+    "expected": "v6-support-legal-advice",
+    "ids": [
+      "practical-legal-advice",
+      "v6-support-legal-advice",
+      "24238",
+      "v6-life-rheintal-help",
+      "practical-debt-advice"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "помощь пострадавшим от насилия",
+    "expected": "v6-support-victim-advice",
+    "ids": [
+      "v6-support-victim-advice",
+      "23620",
+      "practical-german-courses",
+      "transport",
+      "nav-3a85e03fe69b"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "автобусы Oberdorf",
+    "expected": "v6-support-bus-oberdorf",
+    "ids": [
+      "v6-support-bus-oberdorf",
+      "nav-86aa350df49e"
+    ],
+    "passed": true
+  },
+  {
+    "lang": "ru",
+    "q": "схема автобусов Rheintal",
+    "expected": "v6-support-bus-maps",
+    "ids": [
+      "v6-support-bus-maps",
+      "v6-support-bus-oberdorf"
+    ],
+    "passed": true
+  },
+  {
+    "q": "Развлекательные центры для детей",
+    "passed": true
+  },
+  {
+    "q": "Спорт доя детей",
+    "passed": true
+  },
+  {
+    "q": "танци доя женщин",
+    "passed": true
+  }
+]

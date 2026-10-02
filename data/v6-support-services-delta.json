@@ -1,0 +1,346 @@
+{
+  "services": [
+    {
+      "id": "v6-support-spitex-assessment",
+      "title": {
+        "de": "Spitex Oberriet · Abklärung und Beratung",
+        "en": "Spitex Oberriet · care assessment",
+        "ru": "Spitex Oberriet · оценка помощи на дому",
+        "uk": "Spitex Oberriet · оцінка допомоги вдома"
+      },
+      "description_short": {
+        "de": "Pflegebedarf zu Hause abklären; Beratung für Betroffene und Angehörige.",
+        "en": "Assess home care needs; advice for clients and relatives.",
+        "ru": "Оценка потребности в уходе дома; консультация для человека и близких.",
+        "uk": "Оцінка потреби в догляді вдома; консультація для людини та близьких."
+      },
+      "topic": "health-social",
+      "locality": "oberriet",
+      "authority": "Spitex Verein Oberriet",
+      "source_id": "v6-support-spitex-assessment-source",
+      "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+      "official_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-support-spitex-care",
+      "title": {
+        "de": "Spitex Oberriet · Pflege zu Hause",
+        "en": "Spitex Oberriet · nursing at home",
+        "ru": "Spitex Oberriet · уход на дому",
+        "uk": "Spitex Oberriet · догляд вдома"
+      },
+      "description_short": {
+        "de": "Behandlungs- und Grundpflege; Bedarf, Verordnung und Kosten mit Anbieter klären.",
+        "en": "Treatment and basic nursing; clarify needs, referrals and costs with the provider.",
+        "ru": "Лечебный и базовый уход; потребность, назначения и стоимость уточняйте у службы.",
+        "uk": "Лікувальний і базовий догляд; потребу, призначення та вартість уточнюйте у служби."
+      },
+      "topic": "health-social",
+      "locality": "oberriet",
+      "authority": "Spitex Verein Oberriet",
+      "source_id": "v6-support-spitex-assessment-source",
+      "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+      "official_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-support-legal-advice",
+      "title": {
+        "de": "Kostenlose Rechtsauskunft Rheintal",
+        "en": "Free legal advice Rheintal",
+        "ru": "Бесплатная юридическая консультация Rheintal",
+        "uk": "Безкоштовна юридична консультація Rheintal"
+      },
+      "description_short": {
+        "de": "Kurze persönliche Rechtsauskunft in Altstätten; Online-Anmeldung nötig. Keine telefonische Beratung.",
+        "en": "Brief in-person legal advice in Altstätten; online booking required. No telephone advice.",
+        "ru": "Краткая личная консультация в Altstätten; нужна онлайн-запись. По телефону не консультируют.",
+        "uk": "Коротка особиста консультація в Altstätten; потрібен онлайн-запис. Телефоном не консультують."
+      },
+      "topic": "health-social",
+      "locality": "altstaetten",
+      "authority": "St.Galler Anwaltsverband",
+      "source_id": "v6-support-legal-advice-source",
+      "source_url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+      "official_url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-support-victim-advice",
+      "title": {
+        "de": "Opferhilfe · vertrauliche Beratung",
+        "en": "Victim support · confidential advice",
+        "ru": "Помощь пострадавшим от насилия",
+        "uk": "Допомога постраждалим від насильства"
+      },
+      "description_short": {
+        "de": "Kostenlose vertrauliche Beratung zu Gewalt, Schutz und rechtlichen Möglichkeiten.",
+        "en": "Free confidential advice about violence, protection and legal options.",
+        "ru": "Бесплатная конфиденциальная консультация о насилии, защите и правовых возможностях.",
+        "uk": "Безкоштовна конфіденційна консультація щодо насильства, захисту та правових можливостей."
+      },
+      "topic": "health-social",
+      "locality": "st-gallen",
+      "authority": "Opferhilfe SG-AR-AI",
+      "source_id": "v6-support-victim-advice-source",
+      "source_url": "https://ohsg.ch/beratung/",
+      "official_url": "https://ohsg.ch/beratung/",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [
+        "consultation"
+      ],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-support-bus-maps",
+      "title": {
+        "de": "RTB · Busnetz und Tarifzonen",
+        "en": "RTB · bus network and fare zones",
+        "ru": "RTB · схема автобусов Rheintal",
+        "uk": "RTB · схема автобусів Rheintal"
+      },
+      "description_short": {
+        "de": "Offizielle Liniennetzpläne für Rheintal und Region Altstätten; OSTWIND-Zonen beachten.",
+        "en": "Official network maps for Rheintal and Altstätten; check OSTWIND fare zones.",
+        "ru": "Официальные схемы маршрутов Rheintal и Altstätten; учитывайте тарифные зоны OSTWIND.",
+        "uk": "Офіційні схеми маршрутів Rheintal та Altstätten; враховуйте тарифні зони OSTWIND."
+      },
+      "topic": "transport",
+      "locality": "rheintal",
+      "authority": "RTB Rheintal Bus",
+      "source_id": "v6-support-bus-maps-source",
+      "source_url": "https://www.rtb.ch/reisen/liniennetzplaene",
+      "official_url": "https://www.rtb.ch/reisen/liniennetzplaene",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    },
+    {
+      "id": "v6-support-bus-oberdorf",
+      "title": {
+        "de": "Oberriet Oberdorf · Busabfahrten",
+        "en": "Oberriet Oberdorf · bus departures",
+        "ru": "Oberriet Oberdorf · отправления автобусов",
+        "uk": "Oberriet Oberdorf · відправлення автобусів"
+      },
+      "description_short": {
+        "de": "Haltestellenseite mit Echtzeitanzeige des Betreibers. Aktuelle Abfahrten dort prüfen.",
+        "en": "Stop page with the operator’s real-time display. Check current departures there.",
+        "ru": "Страница остановки с табло реального времени перевозчика. Проверяйте отправления там.",
+        "uk": "Сторінка зупинки з табло реального часу перевізника. Перевіряйте відправлення там."
+      },
+      "topic": "transport",
+      "locality": "oberriet",
+      "authority": "RTB Rheintal Bus",
+      "source_id": "v6-support-bus-oberdorf-source",
+      "source_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+      "official_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+      "source_checked_at": "2026-10-02",
+      "source_trust_level": "B",
+      "status": "checked",
+      "verification_scope": "page",
+      "search_concepts": [],
+      "fee": null,
+      "requirements": null,
+      "eligibility": null,
+      "next_action": {
+        "de": "Aktuelle Details beim Anbieter prüfen.",
+        "en": "Check current details with the provider.",
+        "ru": "Уточните актуальные детали у организатора.",
+        "uk": "Уточніть актуальні деталі в організатора."
+      },
+      "translation_status": {
+        "de": "editorial-draft",
+        "en": "editorial-draft",
+        "ru": "editorial-draft",
+        "uk": "editorial-draft"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "v6-support-spitex-assessment-source",
+      "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+      "authority": "Spitex Verein Oberriet",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-support-legal-advice-source",
+      "source_url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+      "authority": "St.Galler Anwaltsverband",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-support-victim-advice-source",
+      "source_url": "https://ohsg.ch/beratung/",
+      "authority": "Opferhilfe SG-AR-AI",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-support-bus-maps-source",
+      "source_url": "https://www.rtb.ch/reisen/liniennetzplaene",
+      "authority": "RTB Rheintal Bus",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "error",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web snapshot reviewed; direct fetch failed. Revalidation required before external AI context."
+    },
+    {
+      "source_id": "v6-support-bus-oberdorf-source",
+      "source_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+      "authority": "RTB Rheintal Bus",
+      "review_status": "checked",
+      "last_checked": "2026-10-02",
+      "content_reviewed_at": "2026-10-02",
+      "trust": "B",
+      "ttl_days": 7,
+      "freshness_class": "F3",
+      "fetch_mode": "html",
+      "fetch_status": "ok",
+      "verification_scope": "page",
+      "metadata_only": true,
+      "reuse_note": "Original concise summaries and links; no full page text or staff contacts.",
+      "evidence_method": "Primary web content reviewed and direct HTTP/hash receipt recorded.",
+      "http_status": 200,
+      "sha256": "4bf6346e464bbcfeb2ae860b77bb212792c5d42ba0b0bc0d6702a5720a2a6fa3",
+      "fetched_at": "2026-10-02T22:05:05+00:00"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import argparse,hashlib,json,time,urllib.request,urllib.error,urllib.parse,urlli
 from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('--batch',choices=['life','community'],default='life');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--batch',choices=['life','community','support'],default='life');args=parser.parse_args()
 PATH=ROOT/f'data/v6-{args.batch}-services-delta.json'
 data=json.loads(PATH.read_text());proof=[];robots={};last={};UA='OberrietHub/0.3 public-metadata (+https://oberriethub.ch)'
 for source in data['sources']:

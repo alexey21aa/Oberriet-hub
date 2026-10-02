@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-10-02T22:17:49.983Z",
+  "index": {
+    "records": 4523,
+    "terms": 5444,
+    "indexed_at": "2026-10-02T22:15:33Z"
+  },
+  "changed_post_ids": [
+    661,
+    3255,
+    3257
+  ],
+  "primary_source": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+  "checks": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "engine": "v6-server-index",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics"
+      ],
+      "passed": true
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "engine": "v6-server-index",
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics"
+      ],
+      "passed": true
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "engine": "v6-server-index",
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "passed": true
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "engine": "v6-server-index",
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "passed": true
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "engine": "v6-server-index",
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "passed": true
+    },
+    {
+      "q": "юридическая консультация Rheintal",
+      "total": 31,
+      "engine": "v6-server-index",
+      "ids": [
+        "24238",
+        "practical-legal-advice",
+        "answer-practical-legal-advice-apply"
+      ],
+      "legal_description": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "navigation": {
+        "overview": {
+          "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+          "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+          "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+          "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+        },
+        "route": {
+          "de": "Offizielle Seite öffnen; dort das Verfahren und die zuständige Stelle prüfen. https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "en": "Open the official page to check the procedure and the responsible office. https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "uk": "Відкрийте офіційну сторінку, щоб перевірити процедуру та відповідальну службу. https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "ru": "Откройте официальную страницу, чтобы проверить процедуру и ответственную службу. https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html"
+        },
+        "apply": {
+          "de": "Für die Rechtsauskunft in Altstätten beim St.Galler Anwaltsverband online einen Termin buchen. Aktuelle Termine und Bedingungen für andere Orte separat prüfen.",
+          "en": "Book an online appointment with the St.Gallen Bar Association for legal advice in Altstätten. Check current sessions and conditions for other locations separately.",
+          "ru": "Для юридической консультации в Altstätten запишитесь онлайн через ассоциацию адвокатов St.Gallen. Актуальные даты и условия для других мест проверяйте отдельно.",
+          "uk": "Для юридичної консультації в Altstätten запишіться онлайн через асоціацію адвокатів St.Gallen. Актуальні дати й умови для інших місць перевіряйте окремо."
+        },
+        "requirements": {
+          "de": "Keine vollständig überprüfte Liste persönlicher Voraussetzungen und Unterlagen hinterlegt. Fragen Sie bei Kanton St.Gallen / Fachstelle Integration nach und prüfen Sie das Original: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "en": "A complete verified list of personal eligibility rules and documents is not available here. Ask Kanton St.Gallen / Fachstelle Integration and check the original: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "uk": "Повного перевіреного переліку особистих умов і документів тут немає. Уточніть у Kanton St.Gallen / Fachstelle Integration та перевірте джерело: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "ru": "Полного проверенного перечня личных условий и документов здесь нет. Уточните у Kanton St.Gallen / Fachstelle Integration и проверьте источник: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html"
+        },
+        "cost": {
+          "de": "Keine verifizierte Gebühr für Ihre Situation hinterlegt. Das bedeutet nicht, dass der Vorgang kostenlos ist. Tarif bei Kanton St.Gallen / Fachstelle Integration prüfen: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "en": "No verified fee for your situation is recorded here. This does not mean the process is free. Check the tariff with Kanton St.Gallen / Fachstelle Integration: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "uk": "Перевірена оплата саме для вашої ситуації тут не вказана. Це не означає безкоштовність. Перевірте тариф у Kanton St.Gallen / Fachstelle Integration: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "ru": "Проверенная оплата именно для вашей ситуации здесь не указана. Это не означает бесплатность. Проверьте тариф у Kanton St.Gallen / Fachstelle Integration: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html"
+        },
+        "deadline": {
+          "de": "Keine verifizierte Frist oder Bearbeitungsdauer für diesen Fall hinterlegt. Gesetzliche Fristen nicht aus einer allgemeinen Antwort ableiten; Original und zuständige Stelle prüfen: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "en": "No verified deadline or processing duration is recorded for this case. Do not infer legal time limits from a general answer; check the source and responsible office: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "uk": "Перевіреного строку подання або розгляду для цього випадку тут немає. Не виводьте законні строки із загальної відповіді; перевірте джерело й відповідальну службу: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+          "ru": "Проверенного срока подачи или рассмотрения для этого случая здесь нет. Не выводите законные сроки из общего ответа; проверьте источник и ответственную службу: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html"
+        },
+        "online": {
+          "de": "Offizielle Informationsseite: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html. Ein Link bestätigt noch keine vollständig digitale Antragstellung; Formular und Zugangsvoraussetzungen dort prüfen.",
+          "en": "Official information page: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html. A link alone does not confirm a fully digital application process; check forms and access requirements there.",
+          "uk": "Офіційна інформаційна сторінка: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html. Наявність посилання не підтверджує повністю електронне подання; перевірте форми та умови доступу.",
+          "ru": "Официальная информационная страница: https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html. Наличие ссылки не подтверждает полностью электронную подачу; проверьте формы и условия доступа."
+        }
+      },
+      "passed": true
+    }
+  ]
+}

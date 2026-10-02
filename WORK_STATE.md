@@ -4,7 +4,7 @@
 V6 attached by owner supersedes all earlier specs. Continue existing project.
 Production https://oberriethub.ch, WP 7.1.2, PHP 8.4.26, theme 0.2.0.
 IMPORTANT latest WPVibe read at resumed session: core **0.2.3**, while restored Git baseline is 0.2.1. Production changed during pause. Do not install this candidate over production until current 0.2.3 code is exported and reconciled.
-Latest live V6 index: 4523 records, 5442 terms, indexed 2026-10-02T21:06:37Z. Active core 0.2.3 + addon 0.1.0.
+Latest live V6 index: 4523 records, 5444 terms, indexed 2026-10-02T22:15:33Z. Active core 0.2.3 + addon 0.1.0.
 WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. Owner installed and activated isolated addon 0.1.0. WPVibe import completed 31/31 rows (20 services, 11 sources), zero skips. Its separate V6 index is ready and live routes now use v6-server-index. Existing core 0.2.3 preserved.
 
 ## Completed
@@ -22,7 +22,7 @@ These are candidate tests, not live acceptance. No external provider inference t
 
 ## Exact next work
 1. All five mandatory live queries now PASS. Preserve active core 0.2.3 and addon 0.1.0. Do not repeat bundled import. Evidence: tests/results/v6-live-acceptance.json.
-2. Latest candidate addon 0.1.3 adds 12 prebuilt multilingual answer packs and authenticated add-only dataset batches via POST /v6/prepare {dataset: ...}; validate first, then import batches, then explicit /v6/build-index. No raw SQL, overwrite, or external automatic host approval. Not deployed yet. Package release/oberhub-v6-0.1.3.zip; source and package saved in GitHub.
+2. Latest candidate addon 0.1.4 adds 12 prebuilt multilingual answer packs and authenticated add-only dataset batches via POST /v6/prepare {dataset: ...}; validate first, then import batches, then explicit /v6/build-index. No raw SQL, overwrite, or external automatic host approval. Not deployed yet. Package release/oberhub-v6-0.1.4.zip; source and package saved in GitHub.
 3. Review and verify content of 232 discovered document links. Convert relevant official forms/primary providers to multilingual factual records with evidence. Discovery metadata is NOT verified content and has NOT been imported live. Next harvester source offset 36. Current batch offset18: 36 attempted pages, 12 HTTP200, 208 discoveries.
 4. Configure free server AI credentials through supported secure operator channel. Live answer is evidence-pack, not generative. Test inference/failover and surface server answer in current frontend after recovering newer core assets safely.
 5. Add index change tracking/rebuild scheduling, semantic reranker, wider ontology, geo distances, massive medicine/tax/forms coverage. These remain pending.
@@ -94,3 +94,21 @@ Owner explicitly requests continuous progress; no additional routine permission 
 - Next concrete actions: deploy only0.1.3 via supported authenticated upload; prepare batch life, finish queue and build isolated index; verify five mandatory and31 life queries, UI answer mode and cron freshness; then reviewed community import. Continue breadth, direct source revalidation and server semantic reranking. Secure free-provider configuration/inference acceptance remains pending, not solved by curated packs.
 
 Latest package SHA256: 76a0ba515b553f29e281df1c4d667ce4ccd5c599a70fc30878abb23b9a65a628
+
+## Latest checkpoint — 2026-10-02 22:10 UTC
+- Latest candidate **addon0.1.4**, release/oberhub-v6-0.1.4.zip. Prior0.1.2/0.1.3 remain historical packages. Live still core0.2.3 + addon0.1.0 with4523 records/5442terms. Five mandatory live tests PASS13/13/3/3/1; sport UI browser confirmed. No candidate rollout claimed.
+- Added external support batch:6 services/5 source pages (Spitex assessment and home care; SGAV free Altstätten legal advice; Opferhilfe confidential support; RTB network maps and Oberdorf departures page). Original four-language concise routing summaries, no diagnoses/eligibility decisions or frozen departure times. data/v6-support-services-delta.json. Reviewed primary web content; direct receipts1HTTP200/hash and4timeouts, failed fetches marked error for AI freshness gating. Not imported live.
+- Candidate aggregate44 services (20activities+13life+5community+6support),31 source-page entries. Already-live20 activities remain part of this total; do not add all44 to live4523. Research233 unique unreviewed link discoveries,0 verified forms.
+- Fixed personal-question detection for English I/me, German mir/mich and additional RU/UK forms. Extended sensitive context to financial/legal/violence questions.48 checks pass for both candidate gateways with a provider spy: personal sensitive questions never reach provider, anonymous/general questions remain supported. No external inference or credentials used by these tests. This is conservative pattern detection, not a complete PII classifier.
+- New support search32 cases PASS across four languages, natural Russian queries and mandatory activity non-contamination. Full V6 suite PASS after adding these scripts; UI16 tests PASS and frontend code unchanged.
+- Deploy single latest0.1.4 addon, keep core0.2.3. Import life via bundled batch; community/support via external validated dataset after supported host approvals. Generic external dataset route deliberately does not approve arbitrary domains or overwrite. Current WPVibe custom ZIP install remains unavailable and browser signed-in session expired. Do not repeatedly probe failing paths, weaken security or claim background deployment.
+- Next independent work: reviewed provider breadth, direct-receipt retries, semantic server reranking, typed ontology and approved-source import operations. Free-provider operator config/real generative inference acceptance pending; primary current live mode evidence-pack, candidate known-intent mode curated-answer-pack.
+
+Latest package SHA256: ab49be1515ef8680ac4f9cd5a35a72357b54ac61114a422058f5642a33c99fa1
+
+## Live factual correction — 2026-10-02 22:16 UTC
+- Found stale baseline claim that Altstätten legal advice needs no appointment. Current primary SGAV page explicitly requires online registration. Corrected live service practical-legal-advice post661 and its overview/apply answers posts3255/3257, all4 languages. Original IDs, other fields, source IDs and existing source URLs preserved; content_review_sources records specific SGAV evidence URL and reviewed date. No arbitrary host approval or SQL.
+- WPVibe content/edit refused the array/object metadata. Used its documented typed post-meta update fallback with --format=json and explicit protected-key override as connected administrator. Read full structures first and preserved unrelated fields. Core/plugin files not modified.
+- Rebuilt isolated live V6 index after corrections:4523 records /5444 terms,22:15:33UTC. Live legal query now includes correct online-booking description; all five mandatory queries still PASS13/13/3/3/1. Evidence tests/results/v6-live-legal-correction.json.
+- Corrected13 matching source records locally across5 preserved datasets/generator input. scripts/apply-reviewed-corrections.py is bounded to these three reviewed IDs and validates4-language text before writing. GitHub Action applies same correction to the large native datasets, commits without touching archives/history/production. Verify Action completion before treating large datasets in GitHub as updated.
+- Local candidate tests PASS:531 query regressions,67 PHP/server/syntax,48 packs,11 import boundaries,31 life,16 freshness,29 community,22 real transaction rollback,32 support,48 privacy; UI16 checks passed separately. Full generative inference still unconfigured.

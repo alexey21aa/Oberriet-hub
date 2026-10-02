@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "v6-support-spitex-assessment-source",
+    "source_url": "https://www.spitex-oberriet.ch/Dienstleistungen/PGUAb/",
+    "checked_at": "2026-10-02T22:04:34+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-support-legal-advice-source",
+    "source_url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html",
+    "checked_at": "2026-10-02T22:04:40+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-support-victim-advice-source",
+    "source_url": "https://ohsg.ch/beratung/",
+    "checked_at": "2026-10-02T22:04:46+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-support-bus-maps-source",
+    "source_url": "https://www.rtb.ch/reisen/liniennetzplaene",
+    "checked_at": "2026-10-02T22:04:52+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "source_id": "v6-support-bus-oberdorf-source",
+    "source_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+    "checked_at": "2026-10-02T22:05:05+00:00",
+    "http_status": 200,
+    "sha256": "4bf6346e464bbcfeb2ae860b77bb212792c5d42ba0b0bc0d6702a5720a2a6fa3",
+    "resolved_url": "https://www.rtb.ch/reisen/info-haltestelle/detail-haltestelle/87489-oberriet-sg-oberdorf",
+    "bytes": 40672
+  }
+]

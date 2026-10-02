@@ -1,0 +1,35 @@
+name: Apply reviewed source corrections
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/v6-legal-booking-correction.json
+      - scripts/apply-reviewed-corrections.py
+      - .github/workflows/apply-reviewed-corrections.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: oberriet-reviewed-corrections
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.repository == 'alexey21aa/Oberriet-hub' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Apply verified booking facts
+        run: python3 scripts/apply-reviewed-corrections.py
+      - name: Preserve corrected source datasets
+        shell: bash
+        run: |
+          git add data/seed.json data/knowledge.json data/knowledge-expansion.json data/expansion/practical-scenarios.json wp-content/plugins/oberhub-core/seed.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Correct Altstätten legal advice booking in preserved datasets'
+          git pull --rebase origin main
+          git push origin HEAD:main

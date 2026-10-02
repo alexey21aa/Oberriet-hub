@@ -37,9 +37,9 @@ final class Gateway {
         $fallback=['mode'=>'evidence-pack','answer'=>null,'records'=>$records,'sources'=>array_values(array_unique(array_column($records,'source_url'))),'evidence'=>$evidence,'generative_available'=>false,'retrieval'=>'server','language'=>$lang];
         if (!$context) return $fallback;
         $pii=preg_match('/[\w.+-]+@[\w.-]+\.[a-z]{2,}|\+?\d[\d\s().-]{8,}\d|\b756[.\s-]?\d{4}/iu',$question);
-        $personal=preg_match('/\b(?:my|mine|ich|mein|meine|мне|меня|моя|мой|моє|мене|мені)\b/iu',$question);
-        $health=preg_match('/diagnos|symptom|medicin|medikament|hepat|cancer|болез|болит|диагноз|гепат|ліки|симптом|захвор|боль/iu',$question);
-        if($pii||($personal&&$health))return array_merge($fallback,['privacy'=>'sensitive-question-not-sent']);
+        $personal=preg_match('/(?<![\p{L}\p{N}])(?:i|my|me|mine|ich|mir|mich|mein|meine|meiner|мне|меня|моя|мой|моего|я|моє|мій|мої|мене|мені)(?![\p{L}\p{N}])/iu',$question);
+        $sensitive=preg_match('/diagnos|symptom|medicin|medikament|hepat|cancer|болез|болит|диагноз|гепат|ліки|симптом|захвор|боль|debt|income|salary|steuer|schulden|einkommen|долг|доход|зарплат|борг|дохід|asylum|divorce|custody|arrest|scheidung|sorgerecht|развод|розлуч|опек|алименты|аліменти|убежищ|притул|abuse|violence|stalking|rape|gewalt|насил|угрож|погрож/iu',$question);
+        if($pii||($personal&&$sensitive))return array_merge($fallback,['privacy'=>'sensitive-question-not-sent']);
         // Cache only anonymous activity intents. Arbitrary legal/medical/person-specific text is never cached.
         $tokens=Knowledge::tokens($question);$safeTokens=['sport','dance','children','women','adults','indoor','centres','centers','центры','центри','центров'];
         $cacheable=$tokens && !array_diff($tokens,$safeTokens);

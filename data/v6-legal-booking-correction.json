@@ -1,0 +1,129 @@
+{
+  "service": {
+    "id": "practical-legal-advice",
+    "slug": "practical-legal-advice",
+    "title": {
+      "de": "Kostenlose Rechtsauskunft im Rheintal",
+      "en": "Free initial legal advice in the Rheintal",
+      "uk": "Безкоштовна первинна юридична консультація в Райнталі",
+      "ru": "Бесплатная первичная юридическая консультация в Райнтале"
+    },
+    "description_short": {
+      "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+      "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+      "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+    },
+    "description_full": {
+      "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+      "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+      "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+    },
+    "topic": "administration",
+    "subtopic": "integration",
+    "locality": "all",
+    "authority": "Kanton St.Gallen / Fachstelle Integration",
+    "eligibility": null,
+    "requirements": null,
+    "documents": null,
+    "fee": null,
+    "processing_time": null,
+    "online_available": null,
+    "official_url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "contact": null,
+    "source_id": "s-ccb59aca292e",
+    "source_url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "source_authority": "Kanton St.Gallen / Fachstelle Integration",
+    "source_checked_at": "2026-10-01",
+    "source_updated_at": null,
+    "source_trust_level": "A",
+    "status": "checked",
+    "translation_status": {
+      "en": "draft",
+      "uk": "draft",
+      "ru": "draft"
+    },
+    "keywords": "Kostenlose Rechtsauskunft im Rheintal Free initial legal advice in the Rheintal Безкоштовна первинна юридична консультація в Райнталі Бесплатная первичная юридическая консультация в Райнтале нужен юрист бесплатный адвокат скарга на громаду жалоба на Gemeinde потрібен адвокат free lawyer advice Rechtsauskunft kostenlos",
+    "synonyms": [
+      "нужен юрист",
+      "бесплатный адвокат",
+      "скарга на громаду",
+      "жалоба на Gemeinde",
+      "потрібен адвокат",
+      "free lawyer advice",
+      "Rechtsauskunft kostenlos"
+    ],
+    "verification_scope": "page-subscenario",
+    "next_action": {
+      "de": "Offizielle Seite öffnen; dort das Verfahren und die zuständige Stelle prüfen.",
+      "en": "Open the official page to check the procedure and the responsible office.",
+      "uk": "Відкрийте офіційну сторінку, щоб перевірити процедуру та відповідальну службу.",
+      "ru": "Откройте официальную страницу, чтобы проверить процедуру и ответственную службу."
+    },
+    "content_review_sources": [
+      "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html"
+    ],
+    "content_reviewed_at": "2026-10-02"
+  },
+  "overview": {
+    "id": "answer-practical-legal-advice-overview",
+    "service_id": "practical-legal-advice",
+    "kind": "overview",
+    "title": {
+      "de": "Wo finde ich offizielle Informationen zu Kostenlose Rechtsauskunft im Rheintal?",
+      "en": "Where can I find official information about Free initial legal advice in the Rheintal?",
+      "uk": "Де знайти офіційну інформацію: Безкоштовна первинна юридична консультація в Райнталі?",
+      "ru": "Где найти официальную информацию: Бесплатная первичная юридическая консультация в Райнтале?"
+    },
+    "question": {
+      "de": "Wo finde ich offizielle Informationen zu Kostenlose Rechtsauskunft im Rheintal?",
+      "en": "Where can I find official information about Free initial legal advice in the Rheintal?",
+      "uk": "Де знайти офіційну інформацію: Безкоштовна первинна юридична консультація в Райнталі?",
+      "ru": "Где найти официальную информацию: Бесплатная первичная юридическая консультация в Райнтале?"
+    },
+    "answer": {
+      "de": "Der St.Galler Anwaltsverband bietet kostenlose erste Rechtsauskunft im Rheintal. In Altstätten ist eine Online-Anmeldung nötig. Aktuelle Termine und Bedingungen für andere Orte beim Anbieter prüfen.",
+      "en": "The St.Gallen Bar Association offers free initial legal advice in the Rheintal. Online booking is required in Altstätten. Check current sessions and conditions for other locations with the provider.",
+      "ru": "Ассоциация адвокатов St.Gallen предлагает бесплатную первичную юридическую консультацию в Rheintal. В Altstätten нужна онлайн-запись. Актуальные даты и условия для других мест уточняйте у организатора.",
+      "uk": "Асоціація адвокатів St.Gallen пропонує безкоштовну первинну юридичну консультацію в Rheintal. В Altstätten потрібен онлайн-запис. Актуальні дати й умови для інших місць уточнюйте в організатора."
+    },
+    "source_id": "s-ccb59aca292e",
+    "source_url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "verification_scope": "page-subscenario",
+    "content_review_sources": [
+      "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html"
+    ],
+    "content_reviewed_at": "2026-10-02"
+  },
+  "apply": {
+    "id": "answer-practical-legal-advice-apply",
+    "service_id": "practical-legal-advice",
+    "kind": "apply",
+    "title": {
+      "de": "Wie gehe ich bei Kostenlose Rechtsauskunft im Rheintal vor?",
+      "en": "What are the next steps for Free initial legal advice in the Rheintal?",
+      "uk": "Які наступні кроки: Безкоштовна первинна юридична консультація в Райнталі?",
+      "ru": "Какие дальнейшие действия: Бесплатная первичная юридическая консультация в Райнтале?"
+    },
+    "question": {
+      "de": "Wie gehe ich bei Kostenlose Rechtsauskunft im Rheintal vor?",
+      "en": "What are the next steps for Free initial legal advice in the Rheintal?",
+      "uk": "Які наступні кроки: Безкоштовна первинна юридична консультація в Райнталі?",
+      "ru": "Какие дальнейшие действия: Бесплатная первичная юридическая консультация в Райнтале?"
+    },
+    "answer": {
+      "de": "Für die Rechtsauskunft in Altstätten beim St.Galler Anwaltsverband online einen Termin buchen. Aktuelle Termine und Bedingungen für andere Orte separat prüfen.",
+      "en": "Book an online appointment with the St.Gallen Bar Association for legal advice in Altstätten. Check current sessions and conditions for other locations separately.",
+      "ru": "Для юридической консультации в Altstätten запишитесь онлайн через ассоциацию адвокатов St.Gallen. Актуальные даты и условия для других мест проверяйте отдельно.",
+      "uk": "Для юридичної консультації в Altstätten запишіться онлайн через асоціацію адвокатів St.Gallen. Актуальні дати й умови для інших місць перевіряйте окремо."
+    },
+    "source_id": "s-ccb59aca292e",
+    "source_url": "https://www.hallo.sg.ch/de/beratung-kontakte/rechtsauskuenfte.html",
+    "verification_scope": "page-subscenario",
+    "content_review_sources": [
+      "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft/region-rheintal-4.html"
+    ],
+    "content_reviewed_at": "2026-10-02"
+  }
+}
