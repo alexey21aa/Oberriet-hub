@@ -1,12 +1,12 @@
-# Oberriet Hub · WordPress 0.2.0
+# Oberriet Hub · WordPress / Core 0.2.1
 
 Independent civic navigation for Oberriet, Montlingen, Kriessern, Eichenwies and Kobelwald. DE / EN / UK / RU. Updated 2026-10-01.
 
-This is a deployable, tested application package. It is not a public live deployment: WPVibe has no registered WordPress site, and the authenticated GitHub account exposes no installation/repository or repository-creation operation. No payments were made. Existing source and Git history were recovered before changes.
+The existing MVP is deployed at https://oberriethub.ch. WordPress 7.1.2 / PHP 8.4.26 run OberHub Theme 0.2.0, OberHub Core 0.2.1 and WPVibe 1.20.0. The baseline import completed 3,290 records and its search index; live REST search returned the residence-certificate service in DE, EN, RU and UK. The private GitHub repository alexey21aa/Oberriet-hub currently preserves the source ZIP and full Git bundle; importing the bundle as native commits is still pending. No payments were made.
 
 ## Included
 
-WordPress 7.1.2, original block theme `oberhub-theme` 0.2.0, `oberhub-core` 0.2.0 and Two Factor 0.17.0. No paid plugin, query API, advertising tracker or external font is required.
+WordPress 7.1.2, original block theme `oberhub-theme` 0.2.0, `oberhub-core` 0.2.1 and Two Factor 0.17.0. No paid plugin, query API, advertising tracker or external font is required.
 
 | Corpus | Count | Meaning |
 |---|---:|---|
@@ -41,3 +41,10 @@ Optional native browser AI is activated only by a visitor click where `LanguageM
 The package contains source, import data, provenance exports, restored Git history, installer ZIPs, QA results, previews, architecture, configuration/server examples and operating/backup instructions. Inspect `docs/QA_REPORT.md` and `docs/KNOWN_LIMITATIONS.md` for the exact verification scope.
 
 To repack from the included source, set `OBERHUB_WORDPRESS_CORE` to the included `wordpress/` directory (or an official core ZIP) and run `python3 scripts/build-release.py` in a Git checkout with final evidence committed. The archive contains the complete data used for installation; regeneration of source harvests requires fresh source verification.
+
+
+## Source freshness update · 2026-10-02
+
+Core 0.2.1 adds bounded official-source refresh, conditional fetches, per-host limits, robots/path rules and opt-in ingestion. Automatic fetch dates and editorial review dates are separate. The search UI shows service evidence and a separate original-language document section. Production enables metadata-only ingestion for the municipal `/aemter` and `/dienstleistungen` roots; the first two document records were verified through WPVibe.
+
+Operator identity is not configured, so the Hub remains excluded from search-engine indexing. Recovery codes still need the owner's private setup. Hosting control-panel backup and scheduled cron execution have not yet been verified. The expanded regional corpus is undergoing validation; local expansion metrics must not be reported as deployed counts until its import completes.
