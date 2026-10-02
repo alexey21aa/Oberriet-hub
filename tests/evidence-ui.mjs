@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {documentModel,renderTrustedDocuments,evidenceTime,externalURL} from '../wp-content/plugins/oberhub-core/assets/evidence.mjs';
 const hit={type:'documents',record:{id:'doc-x',title:{de:'<script>malicious()</script>'},description_short:{de:'Original <img src=x onerror=malicious()> excerpt'},source_language:'de',source_url:'https://www.oberriet.ch/news/1',checked_at_utc:'2026-10-02T00:00:00Z'},evidence:{stale:true,confidence:'low',checked_at:'2026-10-02T00:00:00Z'}};
-const model=documentModel(hit,'ru');assert.equal(model.language,'DE');assert.equal(model.confidence,'low');assert.equal(model.title,hit.record.title.de);assert.ok(model.originalLabel.includes('оригинала'));assert.ok(model.checked.includes('2026'));assert.equal(evidenceTime('garbage'),null);
+const model=documentModel(hit,'ru');assert.equal(model.language,'DE');assert.equal(model.confidence,'low');assert.equal(model.title,hit.record.title.de);assert.ok(model.originalLabel.includes('оригинала'));assert.ok(model.checked.includes('2026'));assert.equal(evidenceTime('garbage'),null);assert.ok(!evidenceTime('2026-10-02','en').includes(':'));
 for(const url of ['javascript:alert(1)','data:text/html,malicious','http://www.oberriet.ch/','https://user:pass@www.oberriet.ch/'])assert.equal(externalURL(url),null);
 assert.equal(documentModel({...hit,type:'services'}),null);assert.equal(documentModel({...hit,record:{...hit.record,source_url:'javascript:alert(1)'}}),null);
 // A DOM contract double rejects every HTML setter: the renderer must use only textContent.

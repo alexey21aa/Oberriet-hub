@@ -7,7 +7,7 @@ export const evidenceLabels={
 };
 export function externalURL(value){try{const u=new URL(String(value));return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;}catch{return null;}}
 function localized(value,lang){return typeof value==='string'?value:(value?.[lang]||value?.de||'');}
-export function evidenceTime(value,lang='de'){if(!value)return null;const d=new Date(value);if(!Number.isFinite(d.getTime()))return null;return new Intl.DateTimeFormat({de:'de-CH',en:'en-GB',ru:'ru-RU',uk:'uk-UA'}[lang]||'de-CH',{dateStyle:'medium',timeStyle:'short',timeZone:'Europe/Zurich'}).format(d);}
+export function evidenceTime(value,lang='de'){if(!value)return null;const d=new Date(value);if(!Number.isFinite(d.getTime()))return null;return new Intl.DateTimeFormat({de:'de-CH',en:'en-GB',ru:'ru-RU',uk:'uk-UA'}[lang]||'de-CH',{dateStyle:'medium',...(/^\d{4}-\d{2}-\d{2}$/.test(String(value))?{}:{timeStyle:'short'}),timeZone:'Europe/Zurich'}).format(d);}
 export function documentModel(hit,lang='de'){
  const record=hit?.record||{},evidence=hit?.evidence||record._evidence||{};
  const href=externalURL(record.source_url||record.official_url);if(!href||hit?.type!=='documents')return null;
