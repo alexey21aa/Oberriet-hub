@@ -35,3 +35,12 @@ No secrets, hosting configuration, personal queries or live database exported in
 
 ## Additive deployment alternative
 Install only wp-content/plugins/oberhub-v6. Keeps core 0.2.3 files and its existing index. Then POST /oberhub/v1/v6/prepare, call /v6/import-batch until complete, POST /v6/build-index, GET /v6/status and verify mandatory live queries. Deactivation immediately restores original core routes. No theme publish required.
+
+## Deployment tool result on final resumed attempt
+- Candidate V6 saved in main commit 558b9c56ff7e820d687f728494cb8775657229ee.
+- Isolated addon and ZIP saved in main commit 417fcc185866e52955e5ef0fd4fd5b84745d9c7f.
+- 531 query regressions, 60 PHP checks (including addon syntax), 26 source checks passed.
+- WPVibe plugin install of pinned raw GitHub ZIP returned `Plugin not found` (emulator treats URL as WordPress.org slug). No plugin was installed/activated. Core 0.2.3 remains live.
+- Available tools cannot read/write core plugin files or upload custom plugin ZIP. Theme editing blocked by DISALLOW_FILE_EDIT; do not weaken it. Next deployment path is standard wp-admin plugin ZIP upload, using browser only after approval for connector fallback, or owner's upload.
+- Package: releases/oberhub-v6-0.1.0.zip. 17221 bytes; blob a4c1380433f417efbcefacf23b2ddc5c01f957f6. Installing addon alone does not override live routes until /v6/build-index completes.
+- No external generative inference configured or claimed. New data still candidate only.
