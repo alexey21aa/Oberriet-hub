@@ -1,0 +1,47 @@
+[
+  {
+    "query": "Спорт для детей",
+    "accepted": false,
+    "engine": "local-index",
+    "total": null,
+    "first_title": "Поддержка развития детей",
+    "reason": "Administrative results for activity intent",
+    "checked_at": "2026-10-02"
+  },
+  {
+    "query": "Спорт доя детей",
+    "accepted": false,
+    "engine": "local-index",
+    "total": 0,
+    "first_title": null,
+    "reason": "No results",
+    "checked_at": "2026-10-02"
+  },
+  {
+    "query": "Танцы для женщин",
+    "accepted": false,
+    "engine": "local-index",
+    "total": 0,
+    "first_title": null,
+    "reason": "No results",
+    "checked_at": "2026-10-02"
+  },
+  {
+    "query": "танци доя женщин",
+    "accepted": false,
+    "engine": "local-index",
+    "total": 0,
+    "first_title": null,
+    "reason": "No results",
+    "checked_at": "2026-10-02"
+  },
+  {
+    "query": "Развлекательные центры для детей",
+    "accepted": false,
+    "engine": "local-index",
+    "total": 0,
+    "first_title": null,
+    "reason": "No results",
+    "checked_at": "2026-10-02"
+  }
+]

@@ -27,7 +27,7 @@ def canonical(url):
  return urllib.parse.urlunsplit(('https',p.netloc.lower(),p.path or '/',p.query,''))
 
 def main():
- a=argparse.ArgumentParser();a.add_argument('--max-sources',type=int,default=8);a.add_argument('--max-pages',type=int,default=16);a.add_argument('--timeout',type=int,default=10);args=a.parse_args()
+ a=argparse.ArgumentParser();a.add_argument('--max-sources',type=int,default=8);a.add_argument('--max-pages',type=int,default=16);a.add_argument('--timeout',type=int,default=10);a.add_argument('--source-offset',type=int,default=0);args=a.parse_args()
  out=ROOT/'data/v6-harvest';out.mkdir(exist_ok=True)
  sources=json.loads((ROOT/'data/sources.json').read_text());sources=sources.get('sources',[]) if isinstance(sources,dict) else sources
  seeds=json.loads((ROOT/'data/v6-source-manifest.json').read_text());sources=seeds+sources
@@ -36,8 +36,13 @@ def main():
  sources=list({s['source_url']:s for s in sources}.values())
  sources.sort(key=lambda s:(not 'form' in s['source_url'].lower(),not 'ahv-iv' in s['source_url'],not 'sg.ch/steuern' in s['source_url'],s['source_url']))
  state_path=out/'state.json';state=json.loads(state_path.read_text()) if state_path.exists() else {}
- manifest=[];documents={};robots={};last={};queue=[(s['source_url'],s) for s in sources[:max(1,min(args.max_sources,100))]];seen=set()
+ manifest=[];documents={d['id']:d for d in json.loads((out/'documents.json').read_text())} if (out/'documents.json').exists() else {};robots={};last={};offset=max(0,args.source_offset);queue=[(s['source_url'],s) for s in sources[offset:offset+max(1,min(args.max_sources,100))]];seen=set();discovered=set()
+ def checkpoint():
+  # Atomic per-page receipts survive interruption and retain earlier discoveries.
+  for name,value in [('state',state),('documents',list(documents.values())),('manifest',manifest)]:
+   temporary=out/(name+'.json.tmp');temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');temporary.replace(out/(name+'.json'))
  while queue and len(manifest)<max(1,min(args.max_pages,500)):
+  checkpoint()
   url,source=queue.pop(0);url=canonical(url)
   if not url or url in seen:continue
   seen.add(url);host=urllib.parse.urlsplit(url).hostname
@@ -68,18 +73,15 @@ def main():
     for href,title in parser.links:
      target=canonical(urllib.parse.urljoin(resolved,href))
      if not target or urllib.parse.urlsplit(target).hostname!=host or not title or len(title)>250:continue
-     interesting=bool(re.search(r'\.pdf(?:\?|$)|\.docx?(?:\?|$)|\.xlsx?(?:\?|$)|formular|formulare|formulaires|muster|vorlage|steuer|tax|recht|gesundheit',target+' '+title,re.I))
+     interesting=bool(re.search(r'\.pdf(?:\?|$)|\.docx?(?:\?|$)|\.xlsx?(?:\?|$)|formular|formulare|formulaires|muster|vorlage|steuer|tax|recht|gesundheit|kulturlegi|beratung|sozial|familie|kinder|sport|tanzen|bildung|sprache|integration',target+' '+title,re.I))
      if not interesting:continue
      id='doc-'+hashlib.sha256(target.encode()).hexdigest()[:24]
+     discovered.add(id)
      documents[id]={'id':id,'source_id':source['source_id'],'source_url':target,'official_url':target,'title':{l:title for l in ['de','en','ru','uk']},'description_short':{l:'' for l in ['de','en','ru','uk']},'status':'unreviewed','verification_scope':'link-discovery','translation_status':{l:'original-language' for l in ['de','en','ru','uk']},'discovered_at':checked,'parent_url':resolved,'jurisdiction':'CH-SG' if '.sg.ch' in host else 'CH','type':'form-link' if re.search(r'formular|\.pdf|vorlage|muster',target,re.I) else 'guide-link'}
      if not re.search(r'\.(pdf|docx?|xlsx?)(?:\?|$)',target,re.I) and len(queue)<200:queue.append((target,source))
   except urllib.error.HTTPError as e:
    manifest.append({'url':url,'http_status':e.code,'status':'unchanged' if e.code==304 else 'error'})
   except Exception as e:manifest.append({'url':url,'status':'error','error':str(e)})
- (out/'state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
- previous_docs={d['id']:d for d in json.loads((out/'documents.json').read_text())} if (out/'documents.json').exists() else {}
- previous_docs.update(documents)
- (out/'documents.json').write_text(json.dumps(list(previous_docs.values()),ensure_ascii=False,indent=2)+'\n')
- (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
- print(json.dumps({'pages_attempted':len(manifest),'http_200':sum(p.get('http_status')==200 for p in manifest),'discovered_links':len(documents),'stored_unique_links':len(previous_docs),'verified_forms':0}))
+ checkpoint()
+ print(json.dumps({'source_offset':offset,'pages_attempted':len(manifest),'http_200':sum(p.get('http_status')==200 for p in manifest),'discovered_links':len(discovered),'stored_unique_links':len(documents),'verified_forms':0}),flush=True)
 if __name__=='__main__':main()

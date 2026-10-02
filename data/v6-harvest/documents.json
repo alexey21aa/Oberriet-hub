@@ -28,5 +28,755 @@
     "parent_url": "https://www.ch.ch/de/rechtliches/",
     "jurisdiction": "CH",
     "type": "guide-link"
+  },
+  {
+    "id": "doc-8ca3e4b3c73ca4c59cd9c68c",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "official_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "title": {
+      "de": "Zum Hauptinhalt springen",
+      "en": "Zum Hauptinhalt springen",
+      "ru": "Zum Hauptinhalt springen",
+      "uk": "Zum Hauptinhalt springen"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-0d00532d0fe40e33ebea848a",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/6cvR2wYFNhU7/01.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/6cvR2wYFNhU7/01.pdf",
+    "title": {
+      "de": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 31.47 kB 1. Januar 2016",
+      "en": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 31.47 kB 1. Januar 2016",
+      "ru": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 31.47 kB 1. Januar 2016",
+      "uk": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 31.47 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-2cbb804a0807dd71a407950a",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/5gs2T3VRde95/01.docx",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/5gs2T3VRde95/01.docx",
+    "title": {
+      "de": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 33.01 kB 1. Januar 2016",
+      "en": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 33.01 kB 1. Januar 2016",
+      "ru": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 33.01 kB 1. Januar 2016",
+      "uk": "Betreibungsbegehren Form. 1 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 33.01 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "guide-link"
+  },
+  {
+    "id": "doc-f02bec7108a5e14435bb8c1f",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/qwOc9Z9JY18a/02.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/qwOc9Z9JY18a/02.pdf",
+    "title": {
+      "de": "Empfangsbescheinigung (für Betreibungsbegehren, Rechtsvorschläge, Fortsetzungsbegehren, Verwertungsbegehren) Form. 2 (in Kraft seit 1997) PDF 19.94 kB 1. Januar 1997",
+      "en": "Empfangsbescheinigung (für Betreibungsbegehren, Rechtsvorschläge, Fortsetzungsbegehren, Verwertungsbegehren) Form. 2 (in Kraft seit 1997) PDF 19.94 kB 1. Januar 1997",
+      "ru": "Empfangsbescheinigung (für Betreibungsbegehren, Rechtsvorschläge, Fortsetzungsbegehren, Verwertungsbegehren) Form. 2 (in Kraft seit 1997) PDF 19.94 kB 1. Januar 1997",
+      "uk": "Empfangsbescheinigung (für Betreibungsbegehren, Rechtsvorschläge, Fortsetzungsbegehren, Verwertungsbegehren) Form. 2 (in Kraft seit 1997) PDF 19.94 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-adc06b50bd1ee4f18d5964c6",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/aBklzaGd9zla/04.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/aBklzaGd9zla/04.pdf",
+    "title": {
+      "de": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 32.83 kB 1. Januar 2016",
+      "en": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 32.83 kB 1. Januar 2016",
+      "ru": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 32.83 kB 1. Januar 2016",
+      "uk": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 32.83 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-3474bee4ac839974a570bcca",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/XtVYbM4BR-kh/04.docx",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/XtVYbM4BR-kh/04.docx",
+    "title": {
+      "de": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 35.24 kB 1. Januar 2016",
+      "en": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 35.24 kB 1. Januar 2016",
+      "ru": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 35.24 kB 1. Januar 2016",
+      "uk": "Begehren um Fortsetzung der Betreibung Form. 4 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 35.24 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "guide-link"
+  },
+  {
+    "id": "doc-7f5dfa08a45e373609d43209",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/5jbmpcGo0zjp/17.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/5jbmpcGo0zjp/17.pdf",
+    "title": {
+      "de": "Anzeige von der Pfändung eines Anteilrechtes (Art. 104 SchKG) Form. 17 (in Kraft seit 1997) PDF 21.93 kB 1. Januar 1997",
+      "en": "Anzeige von der Pfändung eines Anteilrechtes (Art. 104 SchKG) Form. 17 (in Kraft seit 1997) PDF 21.93 kB 1. Januar 1997",
+      "ru": "Anzeige von der Pfändung eines Anteilrechtes (Art. 104 SchKG) Form. 17 (in Kraft seit 1997) PDF 21.93 kB 1. Januar 1997",
+      "uk": "Anzeige von der Pfändung eines Anteilrechtes (Art. 104 SchKG) Form. 17 (in Kraft seit 1997) PDF 21.93 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-45e6db5a2037f33153aea3e9",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/-IGGpnsegGXU/18.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/-IGGpnsegGXU/18.pdf",
+    "title": {
+      "de": "Anzeige betreffend Ansprache gepfändeter Gegenstände gemäss Art. 106 und 107 SchKG Form. 18 (in Kraft seit 1997) PDF 37.03 kB 1. Januar 1997",
+      "en": "Anzeige betreffend Ansprache gepfändeter Gegenstände gemäss Art. 106 und 107 SchKG Form. 18 (in Kraft seit 1997) PDF 37.03 kB 1. Januar 1997",
+      "ru": "Anzeige betreffend Ansprache gepfändeter Gegenstände gemäss Art. 106 und 107 SchKG Form. 18 (in Kraft seit 1997) PDF 37.03 kB 1. Januar 1997",
+      "uk": "Anzeige betreffend Ansprache gepfändeter Gegenstände gemäss Art. 106 und 107 SchKG Form. 18 (in Kraft seit 1997) PDF 37.03 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-cf53fa162ff24f3f1b5d0afe",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/nzBeOf2rGc36/22.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/nzBeOf2rGc36/22.pdf",
+    "title": {
+      "de": "Anzeige betreffend Eigentumsansprache an retinierten Gegenständen gemäss Art. 106 und 107 SchKG Form. 22 (in Kraft seit 1997) PDF 37.98 kB 1. Januar 1997",
+      "en": "Anzeige betreffend Eigentumsansprache an retinierten Gegenständen gemäss Art. 106 und 107 SchKG Form. 22 (in Kraft seit 1997) PDF 37.98 kB 1. Januar 1997",
+      "ru": "Anzeige betreffend Eigentumsansprache an retinierten Gegenständen gemäss Art. 106 und 107 SchKG Form. 22 (in Kraft seit 1997) PDF 37.98 kB 1. Januar 1997",
+      "uk": "Anzeige betreffend Eigentumsansprache an retinierten Gegenständen gemäss Art. 106 und 107 SchKG Form. 22 (in Kraft seit 1997) PDF 37.98 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-fc81075908ce9e78c06f048b",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/9ammfltU42N1/26.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/9ammfltU42N1/26.pdf",
+    "title": {
+      "de": "Fristansetzung zur Klage betreffend Retentionsrecht Form. 26 (in Kraft seit 1997) PDF 25.47 kB 1. Januar 1997",
+      "en": "Fristansetzung zur Klage betreffend Retentionsrecht Form. 26 (in Kraft seit 1997) PDF 25.47 kB 1. Januar 1997",
+      "ru": "Fristansetzung zur Klage betreffend Retentionsrecht Form. 26 (in Kraft seit 1997) PDF 25.47 kB 1. Januar 1997",
+      "uk": "Fristansetzung zur Klage betreffend Retentionsrecht Form. 26 (in Kraft seit 1997) PDF 25.47 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-f31b9ec98f485f6c8995a01d",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/zU26AEbcUmKF/27.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/zU26AEbcUmKF/27.pdf",
+    "title": {
+      "de": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 28.37 kB 1. Januar 2016",
+      "en": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 28.37 kB 1. Januar 2016",
+      "ru": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 28.37 kB 1. Januar 2016",
+      "uk": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) PDF 28.37 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-fa241ee994fd9c0bc96a2044",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/KBseSHP--d4E/27.docx",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/KBseSHP--d4E/27.docx",
+    "title": {
+      "de": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 32.91 kB 1. Januar 2016",
+      "en": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 32.91 kB 1. Januar 2016",
+      "ru": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 32.91 kB 1. Januar 2016",
+      "uk": "Verwertungsbegehren Form. 27 (in Kraft seit 2016). Formular für den Gläubiger (fakultativ) Word 32.91 kB 1. Januar 2016"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "guide-link"
+  },
+  {
+    "id": "doc-59d4bddecd2b824614caf65f",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/RKeml4gZ2uwx/30.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/RKeml4gZ2uwx/30.pdf",
+    "title": {
+      "de": "Steigerungsanzeige für bewegliche Sachen, Forderungen und Rechte Form. 30 (in Kraft seit 1997) PDF 23.22 kB 1. Januar 1997",
+      "en": "Steigerungsanzeige für bewegliche Sachen, Forderungen und Rechte Form. 30 (in Kraft seit 1997) PDF 23.22 kB 1. Januar 1997",
+      "ru": "Steigerungsanzeige für bewegliche Sachen, Forderungen und Rechte Form. 30 (in Kraft seit 1997) PDF 23.22 kB 1. Januar 1997",
+      "uk": "Steigerungsanzeige für bewegliche Sachen, Forderungen und Rechte Form. 30 (in Kraft seit 1997) PDF 23.22 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-63abc58513bbbc6e8fa3bfa9",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/XgwyoXr8xcWA/31.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/XgwyoXr8xcWA/31.pdf",
+    "title": {
+      "de": "Verwertungsprotokoll für bewegliche Sachen, Forderungen und Rechte, einfaches Blatt Form. 31 (in Kraft seit 1997) PDF 20.50 kB 1. Januar 1997",
+      "en": "Verwertungsprotokoll für bewegliche Sachen, Forderungen und Rechte, einfaches Blatt Form. 31 (in Kraft seit 1997) PDF 20.50 kB 1. Januar 1997",
+      "ru": "Verwertungsprotokoll für bewegliche Sachen, Forderungen und Rechte, einfaches Blatt Form. 31 (in Kraft seit 1997) PDF 20.50 kB 1. Januar 1997",
+      "uk": "Verwertungsprotokoll für bewegliche Sachen, Forderungen und Rechte, einfaches Blatt Form. 31 (in Kraft seit 1997) PDF 20.50 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-59ade201085d5ca9fa7d74c4",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/RHCdKNG5a9c2/44.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/RHCdKNG5a9c2/44.pdf",
+    "title": {
+      "de": "Anzeige betreffend Gewährung eines Rechtsstillstandes Form. 44 (in Kraft seit 1997) PDF 18.15 kB 1. Januar 1997",
+      "en": "Anzeige betreffend Gewährung eines Rechtsstillstandes Form. 44 (in Kraft seit 1997) PDF 18.15 kB 1. Januar 1997",
+      "ru": "Anzeige betreffend Gewährung eines Rechtsstillstandes Form. 44 (in Kraft seit 1997) PDF 18.15 kB 1. Januar 1997",
+      "uk": "Anzeige betreffend Gewährung eines Rechtsstillstandes Form. 44 (in Kraft seit 1997) PDF 18.15 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-947453ab9be5460bff999c53",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/waVhVYW7KlcQ/44b.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/waVhVYW7KlcQ/44b.pdf",
+    "title": {
+      "de": "Anzeige der Bewilligung des nachträglichen Rechtsvorschlags und Klageaufforderung Form. 44b (in Kraft seit 1997) PDF 20.51 kB 1. Januar 1997",
+      "en": "Anzeige der Bewilligung des nachträglichen Rechtsvorschlags und Klageaufforderung Form. 44b (in Kraft seit 1997) PDF 20.51 kB 1. Januar 1997",
+      "ru": "Anzeige der Bewilligung des nachträglichen Rechtsvorschlags und Klageaufforderung Form. 44b (in Kraft seit 1997) PDF 20.51 kB 1. Januar 1997",
+      "uk": "Anzeige der Bewilligung des nachträglichen Rechtsvorschlags und Klageaufforderung Form. 44b (in Kraft seit 1997) PDF 20.51 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-13c35d36c82a5a9be219ab17",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/zj2oaGZkoXwW/vzg-07a.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/zj2oaGZkoXwW/vzg-07a.pdf",
+    "title": {
+      "de": "Bekanntmachung der betreibungsrechtlichen Grundstücksteigerung Form. VZG 7a (in Kraft seit 1997) PDF 44.14 kB 1. Januar 1997",
+      "en": "Bekanntmachung der betreibungsrechtlichen Grundstücksteigerung Form. VZG 7a (in Kraft seit 1997) PDF 44.14 kB 1. Januar 1997",
+      "ru": "Bekanntmachung der betreibungsrechtlichen Grundstücksteigerung Form. VZG 7a (in Kraft seit 1997) PDF 44.14 kB 1. Januar 1997",
+      "uk": "Bekanntmachung der betreibungsrechtlichen Grundstücksteigerung Form. VZG 7a (in Kraft seit 1997) PDF 44.14 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-30f64bcb3b88ed9939368fe5",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/ElZzxoVl6wDt/info21.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/ElZzxoVl6wDt/info21.pdf",
+    "title": {
+      "de": "Information Nr. 21 vom 20. Januar 2020 (Anwendung der neuen Formulare «Steigerungsbedingungen bei Grundstücken») PDF 311.52 kB 20. Januar 2020",
+      "en": "Information Nr. 21 vom 20. Januar 2020 (Anwendung der neuen Formulare «Steigerungsbedingungen bei Grundstücken») PDF 311.52 kB 20. Januar 2020",
+      "ru": "Information Nr. 21 vom 20. Januar 2020 (Anwendung der neuen Formulare «Steigerungsbedingungen bei Grundstücken») PDF 311.52 kB 20. Januar 2020",
+      "uk": "Information Nr. 21 vom 20. Januar 2020 (Anwendung der neuen Formulare «Steigerungsbedingungen bei Grundstücken») PDF 311.52 kB 20. Januar 2020"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-8ec8457167aa5d1ef8018f3b",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/sdiqzQzZfE9T/03c-k.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/sdiqzQzZfE9T/03c-k.pdf",
+    "title": {
+      "de": "Inventar, Eigentumsansprachen Form. 3c K (in Kraft seit 1997) PDF 18.23 kB 1. Januar 1997",
+      "en": "Inventar, Eigentumsansprachen Form. 3c K (in Kraft seit 1997) PDF 18.23 kB 1. Januar 1997",
+      "ru": "Inventar, Eigentumsansprachen Form. 3c K (in Kraft seit 1997) PDF 18.23 kB 1. Januar 1997",
+      "uk": "Inventar, Eigentumsansprachen Form. 3c K (in Kraft seit 1997) PDF 18.23 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-5d4e91bbba1de54005f95f0b",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/iNfH8vn3mBl9/07-k.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/iNfH8vn3mBl9/07-k.pdf",
+    "title": {
+      "de": "Abtretung von Rechtsansprüchen der Masse gemäss Art. 260 SchKG Form. 7 K (in Kraft seit 1997) PDF 34.72 kB 1. Januar 1997",
+      "en": "Abtretung von Rechtsansprüchen der Masse gemäss Art. 260 SchKG Form. 7 K (in Kraft seit 1997) PDF 34.72 kB 1. Januar 1997",
+      "ru": "Abtretung von Rechtsansprüchen der Masse gemäss Art. 260 SchKG Form. 7 K (in Kraft seit 1997) PDF 34.72 kB 1. Januar 1997",
+      "uk": "Abtretung von Rechtsansprüchen der Masse gemäss Art. 260 SchKG Form. 7 K (in Kraft seit 1997) PDF 34.72 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-d28a5817add53d22d157a387",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/dINluHDPqU3D/08-k.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/dINluHDPqU3D/08-k.pdf",
+    "title": {
+      "de": "Anzeige über die konkursrechtliche Grundstücksteigerung Form. 8 K (in Kraft seit 1997) PDF 21.62 kB 1. Januar 1997",
+      "en": "Anzeige über die konkursrechtliche Grundstücksteigerung Form. 8 K (in Kraft seit 1997) PDF 21.62 kB 1. Januar 1997",
+      "ru": "Anzeige über die konkursrechtliche Grundstücksteigerung Form. 8 K (in Kraft seit 1997) PDF 21.62 kB 1. Januar 1997",
+      "uk": "Anzeige über die konkursrechtliche Grundstücksteigerung Form. 8 K (in Kraft seit 1997) PDF 21.62 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-e8bf511b50049e415c0e1da3",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/gAR7-MX736uP/01a-fak.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/gAR7-MX736uP/01a-fak.pdf",
+    "title": {
+      "de": "Aufforderung zur Vorlage von Beweismitteln für Forderungen Form. 1a fak (in Kraft seit 1997) PDF 22.67 kB 1. Januar 1997",
+      "en": "Aufforderung zur Vorlage von Beweismitteln für Forderungen Form. 1a fak (in Kraft seit 1997) PDF 22.67 kB 1. Januar 1997",
+      "ru": "Aufforderung zur Vorlage von Beweismitteln für Forderungen Form. 1a fak (in Kraft seit 1997) PDF 22.67 kB 1. Januar 1997",
+      "uk": "Aufforderung zur Vorlage von Beweismitteln für Forderungen Form. 1a fak (in Kraft seit 1997) PDF 22.67 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-4b39d4ff83099c9eda5e1bea",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/dam/de/sd-web/q2sx5W6m7YDY/01b-fak.pdf",
+    "official_url": "https://www.bj.admin.ch/dam/de/sd-web/q2sx5W6m7YDY/01b-fak.pdf",
+    "title": {
+      "de": "Aufforderung zur Vorlage von Beweismitteln im Widerspruchsverfahren Form. 1b fak (in Kraft seit 1997) PDF 22.97 kB 1. Januar 1997",
+      "en": "Aufforderung zur Vorlage von Beweismitteln im Widerspruchsverfahren Form. 1b fak (in Kraft seit 1997) PDF 22.97 kB 1. Januar 1997",
+      "ru": "Aufforderung zur Vorlage von Beweismitteln im Widerspruchsverfahren Form. 1b fak (in Kraft seit 1997) PDF 22.97 kB 1. Januar 1997",
+      "uk": "Aufforderung zur Vorlage von Beweismitteln im Widerspruchsverfahren Form. 1b fak (in Kraft seit 1997) PDF 22.97 kB 1. Januar 1997"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
+  },
+  {
+    "id": "doc-a22b42148a4402568efc0308",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/de/schuldbetreibung-und-konkurs",
+    "official_url": "https://www.bj.admin.ch/de/schuldbetreibung-und-konkurs",
+    "title": {
+      "de": "Musterformulare Schuldbetreibung",
+      "en": "Musterformulare Schuldbetreibung",
+      "ru": "Musterformulare Schuldbetreibung",
+      "uk": "Musterformulare Schuldbetreibung"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "guide-link"
+  },
+  {
+    "id": "doc-6279b87ce49573965454b497",
+    "source_id": "v6-seed-8ca3e4b3c73ca4c5",
+    "source_url": "https://www.bj.admin.ch/de/formulare",
+    "official_url": "https://www.bj.admin.ch/de/formulare",
+    "title": {
+      "de": "Formulare Zivilstandsdokumente",
+      "en": "Formulare Zivilstandsdokumente",
+      "ru": "Formulare Zivilstandsdokumente",
+      "uk": "Formulare Zivilstandsdokumente"
+    },
+    "description_short": {
+      "de": "",
+      "en": "",
+      "ru": "",
+      "uk": ""
+    },
+    "status": "unreviewed",
+    "verification_scope": "link-discovery",
+    "translation_status": {
+      "de": "original-language",
+      "en": "original-language",
+      "ru": "original-language",
+      "uk": "original-language"
+    },
+    "discovered_at": "2026-10-02T20:31:09+00:00",
+    "parent_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "jurisdiction": "CH",
+    "type": "form-link"
   }
 ]

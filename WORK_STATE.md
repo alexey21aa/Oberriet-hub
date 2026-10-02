@@ -21,9 +21,9 @@ WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MO
 These are candidate tests, not live acceptance. No external provider inference tested and no API credentials configured. Filters currently depend on activity tags; broader ontology tagging is next.
 
 ## Exact next work
-1. Verify fresh GitHub main and WordPress core version. Export/recover production core 0.2.3 via authorized current deployment channel; compare to baseline and retain every newer behavior.
-2. Merge candidate V6 into 0.2.3; rerun npm test, npm run test:search, npm run test:queue, npm run test:local-ai, npm run test:v6, node tests/source-engine.mjs.
-3. Prepare rollback ZIP of actual production code, then update only oberhub-core. Preserve live DB and complete add-only import in batches. Run all 5 mandatory live queries and record exact counts.
+1. Install the prepared isolated addon through wp-admin ZIP upload. User explicitly authorized browser fallback and installation. Preserve live core 0.2.3. Browser credentials and second factor were accepted, dashboard verified, but the browser runtime then blocked file selection with native credential protection. ZIP upload did not complete. Do not bypass that protection or repeat connector authorization.
+2. After addon activation, use WPVibe POST /oberhub/v1/v6/prepare, then /v6/import-batch until complete, then /v6/build-index. Verify /v6/status and all five live queries. Current baseline failures recorded in tests/results/v6-live-baseline.json.
+3. Export/reconcile current core 0.2.3 only when a supported channel allows it; candidate core files are not the live production version. Integrate frontend server answer UI without replacing newer live code blindly.
 4. Configure available free AI provider credentials server-side; verify true inference and failover. Until then evidence-pack fallback is explicit, not claimed generative.
 5. Expand corpus through scripts/harvest-v6-documents.py and 69 manifest seeds; review discovered links before ingestion. Do not count discovered links as verified forms.
 6. Add semantic retrieval/reranker, wider ontology, geo distances/expansion, massive forms/tax/medical coverage and pre-generated synthesis packs. None of these larger targets is claimed complete.
@@ -44,3 +44,10 @@ Install only wp-content/plugins/oberhub-v6. Keeps core 0.2.3 files and its exist
 - Available tools cannot read/write core plugin files or upload custom plugin ZIP. Theme editing blocked by DISALLOW_FILE_EDIT; do not weaken it. Next deployment path is standard wp-admin plugin ZIP upload, using browser only after approval for connector fallback, or owner's upload.
 - Package: releases/oberhub-v6-0.1.0.zip. 17221 bytes; blob a4c1380433f417efbcefacf23b2ddc5c01f957f6. Installing addon alone does not override live routes until /v6/build-index completes.
 - No external generative inference configured or claimed. New data still candidate only.
+
+## Latest authorized continuation
+- Browser fallback and addon installation approved explicitly by owner. WP admin sign-in and second factor completed; dashboard displayed alexey21aa. File chooser operation failed before ZIP upload with native credential observation protection; runtime reset did not recover. No plugin installation or activation occurred, confirmed again by WPVibe plugin list.
+- Fresh live core remains 0.2.3. All five mandatory live queries FAIL: first query returns administrative early childhood support; the other four return zero hits. Candidate passes 531 queries and 60 PHP checks again. Do not confuse local tests with live acceptance.
+- Harvester now saves atomic per-page progress and supports --source-offset for additional source batches; broadened discovery to social, education, sport, children and integration pages. Discoveries remain unreviewed and never count as verified forms.
+- Runtime login protection is a deployment blocker, not an approval refusal or a WordPress permission failure. Production data remains unchanged.
+- Completed next harvest batch: source offset 12, 7 attempted pages, 1 HTTP 200 page, 25 discovered links; total stored unique discoveries 26, verified forms 0. Curated activity delta remains 20 services / 11 verified source pages; live index remains 4503 records. Next harvest source offset 18.

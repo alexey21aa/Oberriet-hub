@@ -1,35 +1,41 @@
 [
   {
-    "url": "https://www.ch.ch/de/arbeit/als-auslander-in-der-schweiz-arbeiten/",
+    "url": "https://www.bj.admin.ch/de/formulare",
     "status": "robots-unavailable",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.ch.ch/de/arbeit/altersvorsorge/1-saule--ahv-/ahv-beitrage/",
-    "status": "robots-unavailable",
-    "error": "<urlopen error timed out>"
-  },
-  {
-    "url": "https://www.ch.ch/de/arbeit/altersvorsorge/1-saule--ahv-/ahv-nummer/",
+    "url": "https://www.bj.admin.ch/de/formulare-fuer-parteieingaben",
     "status": "error",
     "error": "<urlopen error timed out>"
   },
   {
-    "url": "https://www.ch.ch/de/arbeit/altersvorsorge/2-saule--pensionskasse-/",
-    "resolved_url": "https://www.ch.ch/de/arbeit/altersvorsorge/2-saule--pensionskasse-/",
+    "url": "https://www.bj.admin.ch/de/musterformulare-schkg",
+    "resolved_url": "https://www.bj.admin.ch/de/musterformulare-schkg",
     "http_status": 200,
-    "fetched_at": "2026-10-02T16:34:22+00:00",
-    "sha256": "01a0b06f67abb215d76d5da5a80f3443137181f556deead4c970096c9ba6d0b0",
-    "etag": "\"9462e27935f026d2c6d0f5e10413b57b\"",
-    "last_modified": "Fri, 02 Oct 2026 16:26:28 GMT"
+    "fetched_at": "2026-10-02T20:31:09+00:00",
+    "sha256": "d21334475213490872c7e11d513f649b908b703de18ca22600aae68d6d52f6b2",
+    "etag": null,
+    "last_modified": null
   },
   {
-    "url": "https://www.ch.ch/de/rechtliches/",
-    "resolved_url": "https://www.ch.ch/de/rechtliches/",
-    "http_status": 200,
-    "fetched_at": "2026-10-02T16:34:27+00:00",
-    "sha256": "a37e1af34b6df0138730f519a6ac24426d5768ffab252531176e8977d933a590",
-    "etag": "\"a878c046013cc90cb6185e3b7053a215\"",
-    "last_modified": "Fri, 02 Oct 2026 16:26:31 GMT"
+    "url": "https://www.bsv.admin.ch/de/formulare-abrechnung",
+    "status": "robots-unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://www.bsv.admin.ch/de/formulare-beitragsgesuch",
+    "status": "error",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://www.ch.ch/de/wohnen/wohneigentum/immobilien-kaufen/wohneigentumsformen/",
+    "status": "error",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://www.bj.admin.ch/de/schuldbetreibung-und-konkurs",
+    "status": "error",
+    "error": "<urlopen error timed out>"
   }
 ]
