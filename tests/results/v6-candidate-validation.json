@@ -1,10 +1,10 @@
 {
-  "candidate_addon": "0.1.5",
-  "checked_at": "2026-10-02T22:49:28.633162+00:00",
-  "passed": 920,
+  "candidate_addon": "0.1.6",
+  "checked_at": "2026-10-02T23:02:51.471447+00:00",
+  "passed": 956,
   "failed": 0,
   "suites": {
-    "v6-server": 73,
+    "v6-server": 93,
     "v6-answer-packs": 48,
     "v6-import-api": 11,
     "v6-life-search": 31,
@@ -14,6 +14,7 @@
     "v6-support-search": 32,
     "v6-ai-privacy": 90,
     "v6-health-search": 37,
+    "v6-specific-intents": 16,
     "v6-search": 531
   },
   "previous_unchanged_ui_checks": 16,
@@ -21,9 +22,9 @@
   "external_inference_tested": false,
   "deployed": false,
   "package": {
-    "version": "0.1.5",
-    "bytes": 31318,
-    "sha256": "4d755fffce88ea7249c37c413aa0263637803a42e0097a72dd91ca9b38a7572e",
+    "version": "0.1.6",
+    "bytes": 31699,
+    "sha256": "830d1e7f075d2c63d2bbf6c9e3bcd0466c4d164bc891e5a8d1efcd7541d3d130",
     "deployed": false,
     "core_replacement": false,
     "bundled_batches": [

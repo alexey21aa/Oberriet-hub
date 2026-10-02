@@ -112,6 +112,86 @@
     "passed": true
   },
   {
+    "name": "PHP specific shelter убежище для женщин",
+    "passed": true
+  },
+  {
+    "name": "PHP specific shelter убежише доя женщин",
+    "passed": true
+  },
+  {
+    "name": "PHP specific shelter shelter for women",
+    "passed": true
+  },
+  {
+    "name": "PHP specific shelter Frauenhaus",
+    "passed": true
+  },
+  {
+    "name": "PHP specific shelter притулок для жінок",
+    "passed": true
+  },
+  {
+    "name": "PHP no audience-only match palliative women",
+    "passed": true
+  },
+  {
+    "name": "PHP no audience-only match stoma women",
+    "passed": true
+  },
+  {
+    "name": "PHP no audience-only match cancer women",
+    "passed": true
+  },
+  {
+    "name": "PHP no audience-only match инвалидность женщин",
+    "passed": true
+  },
+  {
+    "name": "PHP no audience-only match violence women",
+    "passed": true
+  },
+  {
+    "name": "Addon specific shelter убежище для женщин",
+    "passed": true
+  },
+  {
+    "name": "Addon specific shelter убежише доя женщин",
+    "passed": true
+  },
+  {
+    "name": "Addon specific shelter shelter for women",
+    "passed": true
+  },
+  {
+    "name": "Addon specific shelter Frauenhaus",
+    "passed": true
+  },
+  {
+    "name": "Addon specific shelter притулок для жінок",
+    "passed": true
+  },
+  {
+    "name": "Addon no audience-only match palliative women",
+    "passed": true
+  },
+  {
+    "name": "Addon no audience-only match stoma women",
+    "passed": true
+  },
+  {
+    "name": "Addon no audience-only match cancer women",
+    "passed": true
+  },
+  {
+    "name": "Addon no audience-only match инвалидность женщин",
+    "passed": true
+  },
+  {
+    "name": "Addon no audience-only match violence women",
+    "passed": true
+  },
+  {
     "name": "Local Oberriet above Grabs",
     "passed": true
   },

@@ -1,0 +1,88 @@
+[
+  {
+    "q": "убежище для женщин",
+    "ids": [
+      "canton-service-2b1f65d4d04c6f"
+    ],
+    "total": 1,
+    "passed": true
+  },
+  {
+    "q": "убежише доя женщин",
+    "ids": [
+      "canton-service-2b1f65d4d04c6f"
+    ],
+    "total": 1,
+    "passed": true
+  },
+  {
+    "q": "shelter for women",
+    "ids": [
+      "canton-service-2b1f65d4d04c6f"
+    ],
+    "total": 1,
+    "passed": true
+  },
+  {
+    "q": "Frauenhaus",
+    "ids": [
+      "canton-service-2b1f65d4d04c6f",
+      "24057",
+      "nav-06c5dcc7baa6"
+    ],
+    "total": 3,
+    "passed": true
+  },
+  {
+    "q": "притулок для жінок",
+    "ids": [
+      "canton-service-2b1f65d4d04c6f"
+    ],
+    "total": 1,
+    "passed": true
+  },
+  {
+    "q": "palliative women",
+    "passed": true
+  },
+  {
+    "q": "stoma women",
+    "passed": true
+  },
+  {
+    "q": "cancer women",
+    "passed": true
+  },
+  {
+    "q": "инвалидность женщин",
+    "passed": true
+  },
+  {
+    "q": "violence women",
+    "passed": true
+  },
+  {
+    "q": "политическое убежище",
+    "passed": true
+  },
+  {
+    "q": "Спорт для детей",
+    "passed": true
+  },
+  {
+    "q": "Спорт доя детей",
+    "passed": true
+  },
+  {
+    "q": "Танцы для женщин",
+    "passed": true
+  },
+  {
+    "q": "танци доя женщин",
+    "passed": true
+  },
+  {
+    "q": "Развлекательные центры для детей",
+    "passed": true
+  }
+]

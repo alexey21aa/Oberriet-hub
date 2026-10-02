@@ -24,7 +24,19 @@ final class QueryUnderstanding {
     public static function needsActivity(array $tokens): bool {
         return (bool)array_intersect($tokens,['sport','dance','indoor']);
     }
+    private static function texts($value):array {
+        if(is_string($value))return [$value];
+        $out=[];if(is_array($value))foreach($value as $item)$out=array_merge($out,self::texts($item));return $out;
+    }
     public static function relevant(array $record,array $tokens): bool {
+        // Specific clinical/safety intents must not match only a generic audience word.
+        $anchors=array_intersect($tokens,['cancer','stoma','palliative','disability','violence','shelter']);
+        if($anchors){
+            $fields=[];foreach(['title','name','description_short','synonyms','aliases','question','search_concepts'] as $key)$fields=array_merge($fields,self::texts($record[$key]??[]));
+            $recordTokens=Knowledge::tokens(implode(' ',$fields));
+            if(array_diff($anchors,$recordTokens))return false;
+            if(in_array('shelter',$anchors,true)&&in_array('women',$tokens,true)&&!in_array('women',$recordTokens,true))return false;
+        }
         if (!self::needsActivity($tokens)) return true;
         $labels=$record['search_concepts'] ?? [];
         if (!$labels) return false;
