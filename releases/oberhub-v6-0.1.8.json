@@ -1,0 +1,11 @@
+{
+  "version": "0.1.8",
+  "sha256": "9b5b977f92c541594830a766420667c9e66a0a11f7786693b2ef61530e717c32",
+  "bytes": 163338,
+  "candidate_only": true,
+  "core_included": false,
+  "ontology": {
+    "concepts": 740,
+    "terms": 9234
+  }
+}

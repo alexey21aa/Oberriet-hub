@@ -1,26 +1,27 @@
 {
-  "canonical_concepts": 491,
+  "canonical_concepts": 740,
   "canonical_concepts_semantically_audited": 0,
-  "unique_terms": 7591,
-  "aliases": 7707,
-  "translations": 915,
+  "unique_terms": 9564,
+  "aliases": 9368,
+  "translations": 1504,
   "typo_forms": 0,
-  "rejected_duplicates": 289,
+  "rejected_duplicates": 351,
   "excluded_presets": {
-    "technical_or_unsearchable": 958,
-    "same_primary_tag_or_label": 289,
-    "generic_brand_or_named": 6
+    "technical_or_unsearchable": 765,
+    "same_primary_tag_or_label": 351,
+    "generic_brand_or_named": 8
   },
-  "ambiguous_terms": 861,
+  "ambiguous_terms": 1073,
   "source_breakdown": {
+    "oberhub-editorial-needs": 120,
     "reviewed-primary-provider": 7,
-    "osm-id-schema": 484
+    "osm-id-schema": 613
   },
   "target_25000_met": false,
   "target_100000_met": false,
   "businesses_inferred_from_taxonomy": 0,
   "limitations": [
-    "OSM taxonomy plus seven reviewed health concepts only; not complete NOGA/medical/job/human-life coverage.",
+    "OSM taxonomy, primary-provider concepts and editorial human needs; targets remain pending. Editorial concepts assert no provider facts.",
     "Exact normalized label and primary-tag dedupe; embedding semantic audit still pending.",
     "Terms/translations and combinatorial intents do not count as canonical topics."
   ]

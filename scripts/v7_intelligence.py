@@ -103,7 +103,9 @@ def reviewed_offering_candidates(index,entities,offerings,query,municipality=Non
  resolved=index.resolve(query);ids=set(resolved['concept_ids']);by_id={r['id']:r for r in entities};matches=[]
  for offer in offerings:
   if not ids.intersection(offer.get('concept_ids',[])) or not offer.get('offering_verified'):continue
-  p=offer['source_provenance'];checked=datetime.fromisoformat(p['checked_at'].replace('Z','+00:00'))
+  p=offer['source_provenance']
+  if p.get('fetch_status')=='error' or p.get('external_ai_eligible') is False:continue
+  checked=datetime.fromisoformat(p['checked_at'].replace('Z','+00:00'))
   if checked.tzinfo is None:checked=checked.replace(tzinfo=timezone.utc)
   if not timedelta(0)<=datetime.now(timezone.utc)-checked<=timedelta(days=p.get('ttl_days',7)):continue
   entity=by_id.get(offer['business_entity_id'])

@@ -36,10 +36,10 @@
     "expected": "v6-health-cancer-advice",
     "ids": [
       "v6-health-cancer-advice",
-      "health-emergency",
-      "23895",
-      "lighting",
-      "practical-dentist"
+      "nav-0d23596d0952",
+      "nav-2ee49e237592",
+      "nav-b3598bf6b3f4",
+      "nav-be7d9abacd3a"
     ],
     "passed": true
   },
@@ -64,8 +64,7 @@
       "v6-health-cancer-social-insurance",
       "v6-health-cancer-advice",
       "v6-health-cancer-financial-support",
-      "practical-debt-advice",
-      "practical-kulturlegi"
+      "nav-b3598bf6b3f4"
     ],
     "passed": true
   },
@@ -77,8 +76,8 @@
       "v6-health-cancer-social-insurance",
       "v6-health-cancer-advice",
       "v6-health-cancer-financial-support",
-      "practical-self-employment",
-      "practical-debt-advice"
+      "nav-b3598bf6b3f4",
+      "nav-0d23596d0952"
     ],
     "passed": true
   },
@@ -98,10 +97,10 @@
     "expected": "v6-health-cancer-financial-support",
     "ids": [
       "v6-health-cancer-financial-support",
-      "answer-practical-german-courses-cost",
       "v6-health-cancer-social-insurance",
-      "v6-life-german-courses",
-      "82493"
+      "nav-0d23596d0952",
+      "nav-2ee49e237592",
+      "nav-b3598bf6b3f4"
     ],
     "passed": true
   },
@@ -111,10 +110,10 @@
     "expected": "v6-health-cancer-financial-support",
     "ids": [
       "v6-health-cancer-financial-support",
-      "practical-german-courses",
       "v6-health-cancer-advice",
-      "v6-life-german-courses",
-      "82487"
+      "nav-b3598bf6b3f4",
+      "nav-0d23596d0952",
+      "nav-2ee49e237592"
     ],
     "passed": true
   },
@@ -126,8 +125,8 @@
       "v6-health-cancer-financial-support",
       "v6-health-cancer-advice",
       "v6-health-cancer-social-insurance",
-      "24174",
-      "nav-0d23596d0952"
+      "nav-0d23596d0952",
+      "nav-2ee49e237592"
     ],
     "passed": true
   },
@@ -139,8 +138,8 @@
       "v6-health-cancer-financial-support",
       "v6-health-cancer-advice",
       "v6-health-cancer-social-insurance",
-      "24174",
-      "nav-17ec80d7f4fa"
+      "nav-0d23596d0952",
+      "nav-2ee49e237592"
     ],
     "passed": true
   },
@@ -149,11 +148,7 @@
     "q": "Stomaberatung Ostschweiz",
     "expected": "v6-health-stoma-advice",
     "ids": [
-      "v6-health-stoma-advice",
-      "v6-health-cancer-advice",
-      "answer-health-emergency-cost",
-      "hospital-grabs",
-      "office-hospital-grabs"
+      "v6-health-stoma-advice"
     ],
     "passed": true
   },
@@ -162,11 +157,7 @@
     "q": "Stoma care advice Ostschweiz",
     "expected": "v6-health-stoma-advice",
     "ids": [
-      "v6-health-stoma-advice",
-      "v6-health-cancer-advice",
-      "v6-support-spitex-assessment",
-      "practical-debt-advice",
-      "practical-legal-advice"
+      "v6-health-stoma-advice"
     ],
     "passed": true
   },
@@ -175,11 +166,7 @@
     "q": "Консультации по уходу за стомой",
     "expected": "v6-health-stoma-advice",
     "ids": [
-      "v6-health-stoma-advice",
-      "v6-support-spitex-assessment",
-      "practical-debt-advice",
-      "practical-legal-advice",
-      "regional-consultation-altstaetten"
+      "v6-health-stoma-advice"
     ],
     "passed": true
   },
@@ -188,11 +175,7 @@
     "q": "Консультації з догляду за стомою",
     "expected": "v6-health-stoma-advice",
     "ids": [
-      "v6-health-stoma-advice",
-      "v6-support-spitex-assessment",
-      "practical-debt-advice",
-      "practical-legal-advice",
-      "regional-consultation-altstaetten"
+      "v6-health-stoma-advice"
     ],
     "passed": true
   },
@@ -222,9 +205,7 @@
     "expected": "v6-health-palliative-home-care",
     "ids": [
       "v6-health-palliative-home-care",
-      "v6-health-palliative-registration",
-      "v6-support-spitex-assessment",
-      "nav-56205e01664e"
+      "v6-health-palliative-registration"
     ],
     "passed": true
   },
@@ -234,9 +215,7 @@
     "expected": "v6-health-palliative-home-care",
     "ids": [
       "v6-health-palliative-home-care",
-      "v6-health-palliative-registration",
-      "v6-support-spitex-assessment",
-      "nav-56205e01664e"
+      "v6-health-palliative-registration"
     ],
     "passed": true
   },
@@ -256,10 +235,7 @@
     "expected": "v6-health-palliative-registration",
     "ids": [
       "v6-health-palliative-registration",
-      "v6-health-palliative-home-care",
-      "23620",
-      "23627",
-      "23895"
+      "v6-health-palliative-home-care"
     ],
     "passed": true
   },
@@ -269,9 +245,7 @@
     "expected": "v6-health-palliative-registration",
     "ids": [
       "v6-health-palliative-registration",
-      "v6-health-palliative-home-care",
-      "nav-56205e01664e",
-      "nav-e9403f6aa3cf"
+      "v6-health-palliative-home-care"
     ],
     "passed": true
   },
@@ -281,9 +255,7 @@
     "expected": "v6-health-palliative-registration",
     "ids": [
       "v6-health-palliative-registration",
-      "v6-health-palliative-home-care",
-      "nav-e9403f6aa3cf",
-      "nav-56205e01664e"
+      "v6-health-palliative-home-care"
     ],
     "passed": true
   },
@@ -294,9 +266,9 @@
     "ids": [
       "v6-health-cancer-advice",
       "v6-health-cancer-social-insurance",
-      "health-emergency",
       "v6-health-cancer-financial-support",
-      "v6-health-palliative-home-care"
+      "nav-0d23596d0952",
+      "nav-2ee49e237592"
     ],
     "passed": true
   },
@@ -305,11 +277,7 @@
     "q": "консультации по уходу за стомой",
     "expected": "v6-health-stoma-advice",
     "ids": [
-      "v6-health-stoma-advice",
-      "v6-support-spitex-assessment",
-      "practical-debt-advice",
-      "practical-legal-advice",
-      "regional-consultation-altstaetten"
+      "v6-health-stoma-advice"
     ],
     "passed": true
   },
@@ -319,9 +287,7 @@
     "expected": "v6-health-palliative-home-care",
     "ids": [
       "v6-health-palliative-home-care",
-      "v6-health-palliative-registration",
-      "v6-support-spitex-assessment",
-      "nav-56205e01664e"
+      "v6-health-palliative-registration"
     ],
     "passed": true
   },
@@ -331,10 +297,7 @@
     "expected": "v6-health-palliative-registration",
     "ids": [
       "v6-health-palliative-registration",
-      "v6-life-rheintal-help",
-      "v6-health-palliative-home-care",
-      "23620",
-      "23627"
+      "v6-health-palliative-home-care"
     ],
     "passed": true
   },
@@ -344,10 +307,7 @@
     "expected": "v6-health-palliative-home-care",
     "ids": [
       "v6-health-palliative-home-care",
-      "v6-health-palliative-registration",
-      "health-emergency",
-      "v6-health-cancer-advice",
-      "v6-health-cancer-social-insurance"
+      "v6-health-palliative-registration"
     ],
     "passed": true
   },
@@ -357,10 +317,7 @@
     "expected": "v6-health-palliative-home-care",
     "ids": [
       "v6-health-palliative-home-care",
-      "v6-health-palliative-registration",
-      "23620",
-      "23627",
-      "23895"
+      "v6-health-palliative-registration"
     ],
     "passed": true
   },
@@ -400,8 +357,8 @@
       "v6-health-cancer-advice",
       "v6-health-cancer-financial-support",
       "v6-health-cancer-social-insurance",
-      "practical-debt-advice",
-      "practical-legal-advice"
+      "v6-community-juniorband",
+      "nav-0d23596d0952"
     ],
     "passed": true
   },

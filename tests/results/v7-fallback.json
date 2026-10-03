@@ -1,0 +1,42 @@
+{
+  "candidate_only": true,
+  "checks": [
+    {
+      "name": "Cross-language fallback finds server results",
+      "passed": true
+    },
+    {
+      "name": "Pagination preserved",
+      "passed": true
+    },
+    {
+      "name": "German provider label selected",
+      "passed": true
+    },
+    {
+      "name": "All filters preserved",
+      "passed": true
+    },
+    {
+      "name": "All filters preserved",
+      "passed": true
+    },
+    {
+      "name": "All filters preserved",
+      "passed": true
+    },
+    {
+      "name": "Successful V6 results preserved",
+      "passed": true
+    },
+    {
+      "name": "Ambiguous alias is not expanded",
+      "passed": true
+    },
+    {
+      "name": "Unknown query stays empty",
+      "passed": true
+    }
+  ],
+  "live": false
+}

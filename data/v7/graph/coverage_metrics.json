@@ -1,18 +1,31 @@
 {
-  "entities": 608,
-  "osm_discovery_pois": 600,
+  "entities": 792,
+  "osm_discovery_pois": 778,
   "reviewed_provider_locations": 8,
-  "reviewed_offerings": 24,
+  "reviewed_offerings": 33,
   "primary_reviewed_osm_locations": 3,
-  "existing_live_offerings": 20,
-  "new_candidate_offer_drafts": 4,
+  "fresh_primary_verified_offerings": 24,
+  "receipt_pending_offerings": 9,
+  "reviewed_civic_provider_locations": 6,
+  "existing_live_offerings": 22,
+  "new_candidate_offer_drafts": 11,
   "verified_customer_opening_schedules": 0,
   "employer_shift_claims": 0,
   "automatic_cross_source_merges": 0,
   "live_new_entities": 0,
   "coverage_by_municipality": {
+    "Widnau": {
+      "entities": 133,
+      "amenity": 53,
+      "shop": 50,
+      "tourism": 14,
+      "leisure": 8,
+      "healthcare": 5,
+      "craft": 3,
+      "office": 5
+    },
     "Altstätten": {
-      "entities": 311,
+      "entities": 315,
       "shop": 112,
       "tourism": 37,
       "amenity": 107,
@@ -20,7 +33,7 @@
       "healthcare": 11,
       "craft": 16,
       "leisure": 14,
-      "reviewed_offerings": 7
+      "reviewed_offerings": 11
     },
     "Oberriet": {
       "entities": 156,
@@ -43,6 +56,16 @@
       "leisure": 6,
       "shop": 4
     },
+    "Berneck": {
+      "entities": 45,
+      "tourism": 6,
+      "shop": 12,
+      "craft": 1,
+      "office": 4,
+      "amenity": 19,
+      "leisure": 3,
+      "healthcare": 1
+    },
     "Rebstein": {
       "entities": 57,
       "shop": 19,
@@ -55,14 +78,15 @@
       "healthcare": 1
     },
     "Marbach": {
-      "entities": 55,
+      "entities": 56,
       "amenity": 22,
       "shop": 16,
       "craft": 10,
       "tourism": 3,
       "healthcare": 2,
       "office": 1,
-      "leisure": 2
+      "leisure": 2,
+      "reviewed_offerings": 1
     },
     "Grabs": {
       "entities": 1,
@@ -71,12 +95,16 @@
     "unknown": {
       "entities": 2,
       "reviewed_offerings": 2
+    },
+    "Heerbrugg": {
+      "entities": 1,
+      "reviewed_offerings": 4
     }
   },
   "limitations": [
     "OSM POIs include businesses and public facilities; counts are not verified registered company counts.",
     "Discovery classifications/hours are not primary verified offerings or current-open claims.",
-    "Twenty offerings reuse existing live activities; four primary-reviewed medical drafts are not live and still require canonical comparison.",
+    "Existing live activities, primary-reviewed drafts and receipt-pending civic drafts are counted separately. New graph drafts are not live.",
     "Different branches sharing website/phone stay distinct until reviewed identity mapping."
   ]
 }

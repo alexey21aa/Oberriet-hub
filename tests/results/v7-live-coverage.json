@@ -1,0 +1,212 @@
+{
+  "checked_at": "2026-10-03T10:51:13.512Z",
+  "active_core": "0.2.3",
+  "active_addon": "0.1.0",
+  "candidate_addon": "0.1.8",
+  "status": {
+    "version": "0.1.0",
+    "ready": true,
+    "stats": {
+      "records": 4523,
+      "terms": 5766,
+      "indexed_at": "2026-10-03T10:45:00+00:00"
+    },
+    "import": {
+      "stage": "complete",
+      "total": 31,
+      "processed": 31,
+      "imported": 31,
+      "skipped": 0,
+      "started_at": "2026-10-02T21:05:33+00:00",
+      "error": "",
+      "completed_at": "2026-10-02T21:06:10+00:00"
+    }
+  },
+  "queries": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "engine": "v6-server-index"
+    }
+  ],
+  "mandatory_pass": true,
+  "canonical_typo_ids_equal": true,
+  "provider_enrichment": [
+    {
+      "post_id": 3578,
+      "canonical_id": "canton-service-09f869901ca2eb",
+      "changed_fields": [
+        "title",
+        "description_short",
+        "synonyms",
+        "provider_content_reviewed",
+        "provider_primary_verified",
+        "provider_fetch_status",
+        "provider_reviewed_at",
+        "provider_primary_url",
+        "provider_review_method",
+        "locality",
+        "translation_status",
+        "description_full"
+      ],
+      "preserved_fields": [
+        "id",
+        "slug",
+        "topic",
+        "subtopic",
+        "authority",
+        "address",
+        "organization_id",
+        "contact",
+        "eligibility",
+        "requirements",
+        "documents",
+        "fee",
+        "processing_time",
+        "online_available",
+        "verification_scope",
+        "source_url",
+        "source_authority",
+        "source_trust_level",
+        "directory_row",
+        "source_id",
+        "source_checked_at",
+        "status",
+        "trust_level",
+        "official_url"
+      ],
+      "exact_readback": true
+    },
+    {
+      "post_id": 3636,
+      "canonical_id": "canton-service-1b2ebfa74cc358",
+      "changed_fields": [
+        "title",
+        "description_short",
+        "synonyms",
+        "provider_content_reviewed",
+        "provider_primary_verified",
+        "provider_fetch_status",
+        "provider_reviewed_at",
+        "provider_primary_url",
+        "provider_review_method",
+        "locality",
+        "translation_status",
+        "description_full"
+      ],
+      "preserved_fields": [
+        "id",
+        "slug",
+        "topic",
+        "subtopic",
+        "authority",
+        "address",
+        "organization_id",
+        "contact",
+        "eligibility",
+        "requirements",
+        "documents",
+        "fee",
+        "processing_time",
+        "online_available",
+        "verification_scope",
+        "source_url",
+        "source_authority",
+        "source_trust_level",
+        "directory_row",
+        "source_id",
+        "source_checked_at",
+        "status",
+        "trust_level",
+        "official_url"
+      ],
+      "exact_readback": true
+    }
+  ],
+  "new_provider_queries": [
+    {
+      "q": "профориентация",
+      "total": 1,
+      "ids": [
+        "canton-service-1b2ebfa74cc358"
+      ]
+    },
+    {
+      "q": "консультация для пар",
+      "total": 81,
+      "ids": [
+        "canton-service-09f869901ca2eb",
+        "129544",
+        "24060"
+      ]
+    }
+  ],
+  "new_live_imports": 0,
+  "notes": [
+    "Two existing services enriched from primary web review; direct receipt failed, so external AI promotion stays disabled.",
+    "V7 ontology and UniversalSearch are candidate-only; no deployed version claim."
+  ]
+}

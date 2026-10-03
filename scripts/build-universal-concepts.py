@@ -2,12 +2,13 @@
 """Pinned, licensed taxonomy -> canonical tag concepts + separate multilingual aliases.
 Never count translations, brands, audiences, locations or query combinations as concepts.
 """
-import argparse,collections,hashlib,json,re,unicodedata,urllib.request
+import argparse,collections,csv,hashlib,json,re,unicodedata,urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 UP=ROOT/'data/v7/upstream';OUT=ROOT/'data/v7/ontology'
 SHA='d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199'
-KEYS=['amenity','shop','craft','office','healthcare','leisure','sport','tourism','club','social_facility']
+KEYS=['amenity','shop','craft','office','healthcare','leisure','sport','tourism','club','social_facility',
+ 'emergency','public_transport','playground','vending','attraction','historic','natural']
 EXCLUDE={'yes','no','other','unknown','construction','disused','abandoned','vacant','proposed'}
 def normalize(s):
  return ' '.join(re.findall(r'[^\W_]+',unicodedata.normalize('NFKC',s).casefold()))
@@ -44,10 +45,21 @@ def build():
    for text,kind in values:
     n=normalize(text)
     if n and len(n)<=100:aliases[(cid,lang,n)]={'concept_id':cid,'lang':lang,'term':text,'normalized':n,'kind':kind}
+ extensions=[];canonical_map={}
  extension=ROOT/'data/v7/review/medical-concept-extension.json'
- if extension.exists():
-  for c in json.loads(extension.read_text()):
+ if extension.exists():extensions.extend(json.loads(extension.read_text()))
+ needs=ROOT/'data/v7/review/human-needs.tsv'
+ if needs.exists():
+  with needs.open() as f:
+   for r in csv.DictReader(f,delimiter='\t'):
+    extensions.append({'id':'need:'+r['domain']+':'+r['slug'],'label':r['en'],
+     'labels':{l:r[l] for l in ['en','de','ru','uk']},'parent_id':'category:'+r['domain'],
+     'classifications':[{'human_need':r['slug']}],'source_id':'oberhub-editorial-needs',
+     'semantic_review':'editorial-distinction-reviewed-cross-taxonomy-audit-pending',
+     'provider_facts_asserted':False})
+ for c in extensions:
    label_key=normalize(c['label']);cid=by_label.get(label_key,c['id'])
+   canonical_map[c['id']]=cid
    if cid not in concepts:concepts[cid]=c;by_label[label_key]=cid
    else:rejected['same_primary_tag_or_label']+=1
    for lang,text in c['labels'].items():
@@ -56,6 +68,7 @@ def build():
  rows=sorted(concepts.values(),key=lambda x:x['id']);ars=sorted(aliases.values(),key=lambda x:(x['concept_id'],x['lang'],x['normalized']))
  jsonl(OUT/'concepts.jsonl',rows);jsonl(OUT/'concept_aliases.jsonl',ars)
  write(OUT/'preset_concept_map.json',json.dumps(preset_map,ensure_ascii=False,separators=(',',':'))+'\n')
+ write(OUT/'extension_concept_map.json',json.dumps(canonical_map,ensure_ascii=False,indent=2)+'\n')
  reverse=collections.defaultdict(set)
  for a in ars:reverse[(a['lang'],a['normalized'])].add(a['concept_id'])
  metrics={'canonical_concepts':len(rows),'canonical_concepts_semantically_audited':0,
@@ -64,7 +77,7 @@ def build():
   'rejected_duplicates':rejected['same_primary_tag_or_label'],'excluded_presets':dict(rejected),
   'ambiguous_terms':sum(len(v)>1 for v in reverse.values()),'source_breakdown':dict(collections.Counter(r['source_id'] for r in rows)),
   'target_25000_met':False,'target_100000_met':False,'businesses_inferred_from_taxonomy':0,
-  'limitations':['OSM taxonomy plus seven reviewed health concepts only; not complete NOGA/medical/job/human-life coverage.',
+  'limitations':['OSM taxonomy, primary-provider concepts and editorial human needs; targets remain pending. Editorial concepts assert no provider facts.',
    'Exact normalized label and primary-tag dedupe; embedding semantic audit still pending.',
    'Terms/translations and combinatorial intents do not count as canonical topics.']}
  write(OUT/'concept_metrics.json',json.dumps(metrics,ensure_ascii=False,indent=2)+'\n')

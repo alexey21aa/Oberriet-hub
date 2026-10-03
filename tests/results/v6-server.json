@@ -370,5 +370,9 @@
   {
     "name": "PHP syntax 38",
     "passed": true
+  },
+  {
+    "name": "PHP syntax 39",
+    "passed": true
   }
 ]

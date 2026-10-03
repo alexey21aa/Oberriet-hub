@@ -1,0 +1,142 @@
+[
+  {
+    "post_id": 3578,
+    "canonical_id": "canton-service-09f869901ca2eb",
+    "fields": {
+      "title": {
+        "de": "Paar- und Familienberatung Rheintal",
+        "en": "Couples and family counselling Rheintal",
+        "ru": "Консультация для пар и семей Rheintal",
+        "uk": "Консультація для пар і сімей Rheintal"
+      },
+      "description_short": {
+        "de": "Paarberatung bei Konflikten. Erstgespräch kostenlos; weitere Gespräche mit angepasster Kostenbeteiligung.",
+        "en": "Couples counselling for relationship conflict. First discussion free; later sessions involve an adjusted contribution.",
+        "ru": "Консультация при конфликтах в паре. Первая беседа бесплатна; следующие требуют индивидуального взноса.",
+        "uk": "Консультація при конфліктах у парі. Перша бесіда безкоштовна; наступні потребують індивідуального внеску."
+      },
+      "synonyms": [
+        "Paarberatung",
+        "couples counselling",
+        "консультация для пар",
+        "семейная консультация",
+        "консультація для пар",
+        "сімейна консультація"
+      ],
+      "provider_content_reviewed": true,
+      "provider_primary_verified": false,
+      "provider_fetch_status": "error",
+      "provider_reviewed_at": "2026-10-03",
+      "provider_primary_url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/",
+      "provider_review_method": "Primary web content reviewed; direct DNS validation failed. No external AI promotion.",
+      "locality": "altstatten",
+      "translation_status": {
+        "en": "editorially-reviewed",
+        "ru": "editorially-reviewed",
+        "uk": "editorially-reviewed"
+      },
+      "description_full": {
+        "de": "Paarberatung bei Konflikten. Erstgespräch kostenlos; weitere Gespräche mit angepasster Kostenbeteiligung.",
+        "en": "Couples counselling for relationship conflict. First discussion free; later sessions involve an adjusted contribution.",
+        "ru": "Консультация при конфликтах в паре. Первая беседа бесплатна; следующие требуют индивидуального взноса.",
+        "uk": "Консультація при конфліктах у парі. Перша бесіда безкоштовна; наступні потребують індивідуального внеску."
+      }
+    },
+    "preserved_fields": [
+      "id",
+      "slug",
+      "topic",
+      "subtopic",
+      "authority",
+      "address",
+      "organization_id",
+      "contact",
+      "eligibility",
+      "requirements",
+      "documents",
+      "fee",
+      "processing_time",
+      "online_available",
+      "verification_scope",
+      "source_url",
+      "source_authority",
+      "source_trust_level",
+      "directory_row",
+      "source_id",
+      "source_checked_at",
+      "status",
+      "trust_level",
+      "official_url"
+    ]
+  },
+  {
+    "post_id": 3636,
+    "canonical_id": "canton-service-1b2ebfa74cc358",
+    "fields": {
+      "title": {
+        "de": "Berufs- und Laufbahnberatung Rheintal",
+        "en": "Career guidance Rheintal",
+        "ru": "Профориентация Rheintal",
+        "uk": "Профорієнтація Rheintal"
+      },
+      "description_short": {
+        "de": "Berufs- und Laufbahnberatung in Altstätten, vor Ort oder online. Kurzgespräche ohne Voranmeldung möglich.",
+        "en": "Career guidance in Altstätten, on site or online. Short consultations available without prior booking.",
+        "ru": "Профориентация в Altstätten, лично или онлайн. Короткие беседы возможны без предварительной записи.",
+        "uk": "Профорієнтація в Altstätten, особисто або онлайн. Короткі бесіди можливі без попереднього запису."
+      },
+      "synonyms": [
+        "Berufsberatung",
+        "career guidance",
+        "профориентация",
+        "профорієнтація",
+        "смена профессии",
+        "зміна професії"
+      ],
+      "provider_content_reviewed": true,
+      "provider_primary_verified": false,
+      "provider_fetch_status": "error",
+      "provider_reviewed_at": "2026-10-03",
+      "provider_primary_url": "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html",
+      "provider_review_method": "Primary web content reviewed; direct DNS validation failed. No external AI promotion.",
+      "locality": "altstatten",
+      "translation_status": {
+        "en": "editorially-reviewed",
+        "ru": "editorially-reviewed",
+        "uk": "editorially-reviewed"
+      },
+      "description_full": {
+        "de": "Berufs- und Laufbahnberatung in Altstätten, vor Ort oder online. Kurzgespräche ohne Voranmeldung möglich.",
+        "en": "Career guidance in Altstätten, on site or online. Short consultations available without prior booking.",
+        "ru": "Профориентация в Altstätten, лично или онлайн. Короткие беседы возможны без предварительной записи.",
+        "uk": "Профорієнтація в Altstätten, особисто або онлайн. Короткі бесіди можливі без попереднього запису."
+      }
+    },
+    "preserved_fields": [
+      "id",
+      "slug",
+      "topic",
+      "subtopic",
+      "authority",
+      "address",
+      "organization_id",
+      "contact",
+      "eligibility",
+      "requirements",
+      "documents",
+      "fee",
+      "processing_time",
+      "online_available",
+      "verification_scope",
+      "source_url",
+      "source_authority",
+      "source_trust_level",
+      "directory_row",
+      "source_id",
+      "source_checked_at",
+      "status",
+      "trust_level",
+      "official_url"
+    ]
+  }
+]

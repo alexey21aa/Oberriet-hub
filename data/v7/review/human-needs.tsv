@@ -1,0 +1,121 @@
+domain	slug	en	de	ru	uk
+housing	find-rental	Find a rental home	Mietwohnung finden	Поиск съёмного жилья	Пошук орендованого житла
+housing	rental-deposit	Rental deposit	Mietkaution	Залог за аренду	Застава за оренду
+housing	rental-dispute	Rental dispute conciliation	Mietschlichtung	Примирение по спорам аренды	Примирення у спорах оренди
+housing	mould	Mould in housing	Schimmel in der Wohnung	Плесень в квартире	Пліснява у квартирі
+housing	moving-notification	Notify a change of address	Adressänderung melden	Сообщить о смене адреса	Повідомити про зміну адреси
+housing	emergency-accommodation	Emergency accommodation	Notunterkunft	Экстренное размещение	Екстрене розміщення
+housing	tenant-advice	Tenant advice	Mieterberatung	Консультация арендаторам	Консультація орендарям
+housing	heating-repair	Heating repair	Heizungsreparatur	Ремонт отопления	Ремонт опалення
+housing	water-leak	Water leak repair	Wasserleck reparieren	Устранение протечки воды	Усунення витоку води
+housing	energy-audit	Home energy advice	Energieberatung Wohnen	Энергоконсультация для жилья	Енергоконсультація для житла
+work	career-guidance	Career guidance	Berufsberatung	Профориентация	Профорієнтація
+work	career-change	Career change advice	Berufliche Neuorientierung	Смена профессии	Зміна професії
+work	apprenticeship-search	Find an apprenticeship	Lehrstelle finden	Поиск места ученичества	Пошук місця учнівства
+work	qualification-recognition	Qualification recognition	Diplomanerkennung	Признание диплома	Визнання диплома
+work	employment-dispute	Employment dispute conciliation	Arbeitsschlichtung	Примирение по трудовым спорам	Примирення у трудових спорах
+work	unemployment-registration	Unemployment registration	Arbeitslosmeldung	Регистрация безработицы	Реєстрація безробіття
+work	job-application-help	Job application help	Bewerbungshilfe	Помощь с заявкой на работу	Допомога із заявкою на роботу
+work	workplace-harassment	Workplace harassment help	Hilfe bei Mobbing am Arbeitsplatz	Помощь при травле на работе	Допомога при цькуванні на роботі
+work	salary-arrears	Unpaid salary assistance	Hilfe bei ausstehendem Lohn	Помощь при невыплате зарплаты	Допомога при невиплаті зарплати
+work	return-to-work	Return to work support	Beruflicher Wiedereinstieg	Возвращение к работе	Повернення до роботи
+finance	tax-return	Tax return help	Steuererklärung Hilfe	Помощь с налоговой декларацией	Допомога з податковою декларацією
+finance	tax-deadline	Tax deadline extension	Steuerfristverlängerung	Продление срока налоговой декларации	Продовження строку податкової декларації
+finance	withholding-tax	Withholding tax information	Quellensteuer Information	Информация о налоге у источника	Інформація про податок у джерела
+finance	debt-advice	Debt counselling	Schuldenberatung	Консультация по долгам	Консультація щодо боргів
+finance	budget-advice	Budget counselling	Budgetberatung	Консультация по бюджету	Консультація щодо бюджету
+finance	insurance-premium-subsidy	Health insurance premium subsidy	Prämienverbilligung	Субсидия на медицинскую страховку	Субсидія на медичне страхування
+finance	debt-enforcement-extract	Debt enforcement register extract	Betreibungsregisterauszug	Выписка из реестра взысканий	Витяг із реєстру стягнень
+finance	payment-instalments	Request payment instalments	Ratenzahlung beantragen	Запросить оплату частями	Запросити оплату частинами
+finance	emergency-financial-help	Emergency financial assistance	Finanzielle Nothilfe	Экстренная финансовая помощь	Екстрена фінансова допомога
+finance	pension-advice	Pension advice	Pensionsberatung	Пенсионная консультация	Пенсійна консультація
+family	couples-counselling	Couples counselling	Paarberatung	Консультация для пар	Консультація для пар
+family	family-counselling	Family counselling	Familienberatung	Семейная консультация	Сімейна консультація
+family	separation-mediation	Separation mediation	Trennungsmediation	Медиация при расставании	Медіація при розставанні
+family	parenting-advice	Parenting advice	Erziehungsberatung	Консультация по воспитанию	Консультація з виховання
+family	child-maintenance	Child maintenance information	Kindesunterhalt Information	Информация об алиментах на ребёнка	Інформація про аліменти на дитину
+family	childcare-search	Find childcare	Kinderbetreuung finden	Поиск ухода за ребёнком	Пошук догляду за дитиною
+family	day-family	Childminder placement	Tagesfamilien Vermittlung	Подбор дневной семьи для ребёнка	Підбір денної сімʼї для дитини
+family	pregnancy-counselling	Pregnancy counselling	Schwangerschaftsberatung	Консультация по беременности	Консультація щодо вагітності
+family	breastfeeding-support	Breastfeeding support	Stillberatung	Помощь с грудным вскармливанием	Допомога з грудним вигодовуванням
+family	family-respite	Family respite support	Familienentlastung	Помощь для разгрузки семьи	Допомога для розвантаження сімʼї
+health	addiction-counselling	Addiction counselling	Suchtberatung	Консультация по зависимости	Консультація щодо залежності
+health	alcohol-counselling	Alcohol counselling	Alkoholberatung	Консультация по алкогольной зависимости	Консультація щодо алкогольної залежності
+health	gaming-addiction	Gaming addiction counselling	Gaming-Suchtberatung	Помощь при игровой зависимости	Допомога при ігровій залежності
+health	mental-health-help	Mental health support	Psychische Gesundheit Unterstützung	Поддержка психического здоровья	Підтримка психічного здоровʼя
+health	crisis-counselling	Crisis counselling	Krisenberatung	Кризисная консультация	Кризова консультація
+health	find-family-doctor	Find a family doctor	Hausarzt finden	Поиск семейного врача	Пошук сімейного лікаря
+health	medical-interpreter	Medical interpreting	Dolmetschen im Gesundheitswesen	Медицинский переводчик	Медичний перекладач
+health	vaccination-appointment	Vaccination appointment	Impftermin	Запись на вакцинацию	Запис на вакцинацію
+health	physiotherapy	Physiotherapy	Physiotherapie	Физиотерапия	Фізіотерапія
+health	occupational-therapy	Occupational therapy	Ergotherapie	Эрготерапия	Ерготерапія
+health	speech-therapy	Speech therapy	Logopädie	Логопедия	Логопедія
+health	palliative-support	Palliative support	Palliative Unterstützung	Паллиативная поддержка	Паліативна підтримка
+health	cancer-counselling	Cancer counselling	Krebsberatung	Консультация при онкологии	Консультація при онкології
+health	stoma-care	Stoma care advice	Stomaberatung	Консультация по уходу за стомой	Консультація з догляду за стомою
+health	hearing-assessment	Hearing assessment	Hörtest	Проверка слуха	Перевірка слуху
+health	vision-test	Vision test	Sehtest	Проверка зрения	Перевірка зору
+health	dental-emergency	Dental emergency service	Zahnärztlicher Notfalldienst	Неотложная стоматология	Невідкладна стоматологія
+health	prescription-renewal	Prescription renewal	Rezeptverlängerung	Продление рецепта	Продовження рецепта
+health	patient-rights	Patient rights advice	Patientenrechte Beratung	Консультация по правам пациента	Консультація щодо прав пацієнта
+health	care-at-home	Home nursing	Pflege zu Hause	Сестринский уход на дому	Сестринський догляд удома
+education	german-course	German language course	Deutschkurs	Курс немецкого языка	Курс німецької мови
+education	literacy-course	Literacy course	Alphabetisierungskurs	Курс грамотности	Курс грамотності
+education	tutoring	School tutoring	Nachhilfe	Помощь с учёбой	Допомога з навчанням
+education	adult-education	Adult education	Erwachsenenbildung	Образование для взрослых	Освіта для дорослих
+education	study-grant	Study grant application	Stipendium beantragen	Заявка на учебную стипендию	Заявка на навчальну стипендію
+education	special-education	Special education support	Sonderpädagogische Unterstützung	Поддержка специального образования	Підтримка спеціальної освіти
+education	school-social-work	School social work	Schulsozialarbeit	Школьная социальная работа	Шкільна соціальна робота
+education	digital-skills	Digital skills training	Digitale Kompetenzen lernen	Обучение цифровым навыкам	Навчання цифрових навичок
+education	music-lessons	Music lessons	Musikunterricht	Уроки музыки	Уроки музики
+education	library-membership	Library membership	Bibliotheksmitgliedschaft	Запись в библиотеку	Запис до бібліотеки
+transport	public-transport-pass	Public transport season ticket	ÖV-Abonnement	Проездной на общественный транспорт	Проїзний на громадський транспорт
+transport	driving-licence-exchange	Driving licence exchange	Führerausweis umtauschen	Обмен водительских прав	Обмін водійських прав
+transport	vehicle-registration	Vehicle registration	Fahrzeugzulassung	Регистрация автомобиля	Реєстрація автомобіля
+transport	accessible-transport	Accessible transport	Behindertenfahrdienst	Доступный транспорт для инвалидности	Доступний транспорт при інвалідності
+transport	bicycle-repair	Bicycle repair	Veloreparatur	Ремонт велосипеда	Ремонт велосипеда
+transport	car-sharing	Car sharing	Carsharing	Совместное использование автомобиля	Спільне використання автомобіля
+transport	lost-property	Lost property retrieval	Fundbüro Anfrage	Поиск потерянных вещей	Пошук загублених речей
+transport	school-transport	School transport	Schülertransport	Школьный транспорт	Шкільний транспорт
+transport	cross-border-commuting	Cross-border commuting	Grenzüberschreitendes Pendeln	Приграничные поездки на работу	Прикордонні поїздки на роботу
+transport	customs-declaration	Customs declaration	Zollanmeldung	Таможенная декларация	Митна декларація
+legal	civil-conciliation	Civil dispute conciliation	Zivilschlichtung	Примирение по гражданским спорам	Примирення у цивільних спорах
+legal	legal-aid	Legal aid application	Unentgeltliche Rechtspflege beantragen	Заявка на бесплатную правовую помощь	Заявка на безоплатну правову допомогу
+legal	victim-support	Victim support	Opferhilfe	Помощь пострадавшим	Допомога постраждалим
+legal	domestic-violence-help	Domestic violence support	Hilfe bei häuslicher Gewalt	Помощь при домашнем насилии	Допомога при домашньому насильстві
+legal	residence-permit	Residence permit information	Aufenthaltsbewilligung Information	Информация о разрешении на проживание	Інформація про дозвіл на проживання
+legal	family-reunification	Family reunification information	Familiennachzug Information	Информация о воссоединении семьи	Інформація про воззʼєднання сімʼї
+legal	naturalisation	Naturalisation information	Einbürgerung Information	Информация о натурализации	Інформація про натуралізацію
+legal	administrative-appeal	Administrative appeal information	Verwaltungsrekurs Information	Информация об административной жалобе	Інформація про адміністративну скаргу
+legal	consumer-complaint	Consumer complaint advice	Konsumentenbeschwerde Beratung	Консультация по жалобе потребителя	Консультація щодо скарги споживача
+legal	data-protection	Data protection request	Datenschutz Auskunftsgesuch	Запрос о защите данных	Запит щодо захисту даних
+care	senior-advice	Advice for older people	Altersberatung	Консультация для пожилых	Консультація для літніх людей
+care	disability-advice	Disability advice	Behindertenberatung	Консультация по инвалидности	Консультація щодо інвалідності
+care	caregiver-support	Support for family carers	Unterstützung pflegender Angehöriger	Поддержка ухаживающих родственников	Підтримка родичів, які доглядають
+care	assistive-equipment	Assistive equipment access	Hilfsmittelversorgung	Получение вспомогательных средств	Отримання допоміжних засобів
+care	meal-delivery	Meal delivery support	Mahlzeitendienst	Доставка готового питания	Доставка готового харчування
+care	advance-directive	Advance healthcare directive	Patientenverfügung	Предварительное медицинское распоряжение	Попереднє медичне розпорядження
+care	advance-care-mandate	Advance care mandate	Vorsorgeauftrag	Поручение на случай недееспособности	Доручення на випадок недієздатності
+care	bereavement-support	Bereavement support	Trauerbegleitung	Поддержка при утрате	Підтримка при втраті
+care	respite-care	Respite care	Entlastungspflege	Временный замещающий уход	Тимчасовий замінний догляд
+care	accessible-housing	Accessible housing advice	Barrierefreies Wohnen Beratung	Консультация по доступному жилью	Консультація щодо доступного житла
+community	volunteering	Volunteering opportunities	Freiwilligenarbeit finden	Волонтёрские возможности	Волонтерські можливості
+community	local-events	Find local events	Lokale Veranstaltungen finden	Поиск местных событий	Пошук місцевих подій
+community	culture-discount	Cultural discount access	Kulturvergünstigungen	Культурные скидки	Культурні знижки
+community	sports-membership	Sports club membership	Sportverein beitreten	Запись в спортивный клуб	Запис до спортивного клубу
+community	toy-library	Toy library borrowing	Ludothek Ausleihe	Прокат игр и игрушек	Прокат ігор та іграшок
+community	women-meeting	Women's meeting group	Frauentreff	Встречи для женщин	Зустрічі для жінок
+community	men-meeting	Men's meeting group	Männertreff	Встречи для мужчин	Зустрічі для чоловіків
+community	senior-meeting	Older people's meeting group	Seniorentreff	Встречи для пожилых	Зустрічі для літніх людей
+community	food-assistance	Food assistance	Lebensmittelhilfe	Продовольственная помощь	Продовольча допомога
+community	second-hand-goods	Second-hand goods	Gebrauchtwaren	Подержанные товары	Вживані товари
+business	start-business	Starting a business advice	Unternehmensgründung Beratung	Консультация по открытию бизнеса	Консультація з відкриття бізнесу
+business	commercial-register	Commercial register entry	Handelsregistereintrag	Запись в торговый реестр	Запис до торгового реєстру
+business	business-bookkeeping	Business bookkeeping	Geschäftsbuchhaltung	Бухгалтерия бизнеса	Бухгалтерія бізнесу
+business	business-premises	Find business premises	Gewerberaum finden	Поиск помещения для бизнеса	Пошук приміщення для бізнесу
+business	repair-electronics	Electronics repair	Elektronikreparatur	Ремонт электроники	Ремонт електроніки
+business	clothing-alterations	Clothing alterations	Kleideränderungen	Подгонка и ремонт одежды	Підгонка та ремонт одягу
+business	key-cutting	Key cutting	Schlüssel nachmachen	Изготовление ключей	Виготовлення ключів
+business	appliance-repair	Appliance repair	Haushaltsgerätereparatur	Ремонт бытовой техники	Ремонт побутової техніки
+business	printing-service	Printing service	Druckservice	Услуги печати	Послуги друку
+business	translation-service	Translation service	Übersetzungsdienst	Услуги перевода	Послуги перекладу
