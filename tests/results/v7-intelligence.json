@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-10-03T08:26:10.049576+00:00",
+  "candidate_only": true,
+  "live_tests_included": false,
+  "checks": {
+    "multilingual_exact_alias": 9082,
+    "concept_integrity": 484,
+    "edit_distance": 7,
+    "search_concept": 4,
+    "typed_facets": 1,
+    "query_bound": 1,
+    "geo_distance": 1,
+    "geo_invalid": 6,
+    "geo_municipality": 1,
+    "geo_radius": 1,
+    "geo_unknown": 1,
+    "geo_ambiguity": 1,
+    "identity_shared_domain": 1,
+    "identity_uid_conflict": 1,
+    "identity_uid_branches": 1,
+    "discovery_exclusion": 2,
+    "discovery_not_verified": 600,
+    "taxonomy_retrieval": 5
+  },
+  "total": 10200,
+  "failed": 0,
+  "failures": [],
+  "elapsed_seconds": 0.49,
+  "typo_benchmark": {
+    "distinct_queries": 500,
+    "concept_recovery": 500,
+    "recall": 1.0,
+    "p95_ms": 0.858,
+    "miss_examples": [],
+    "scope": "candidate deterministic deletion corpus, not human relevance or live search"
+  },
+  "limitations": [
+    "Candidate typo recall is measured separately from passing integrity checks.",
+    "Semantic reranking/inference and live deployment are not covered."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "next_cursor": 7,
+  "jobs": [
+    {
+      "municipality": "Oberriet",
+      "checked_at": "2026-10-03T08:11:18+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "9db9700437b106bf466ccf38266c8f6f6f468f49e9b49c5abae802e892684e93",
+      "status": "error",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "municipality": "Altstätten",
+      "checked_at": "2026-10-03T08:11:31+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "13005ee2d56f10d3e362259fa7d4cc43954f518b7b09e2e85852d1dc44edaa7f",
+      "status": "error",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "municipality": "Oberriet",
+      "checked_at": "2026-10-03T08:13:10+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "9a722cdaa0b7c14d6cfc96e7ddf2aa9c248eac9aeb6802f0ca843d1d1dd8bb65",
+      "sha256": "1ad66d750b18f76cf20af321fba7754874bbd2847a6f213426a9ad153d6306ae",
+      "http_status": 200,
+      "bytes": 58744,
+      "osm_base": "2026-10-03T08:11:51Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 154,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Altstätten",
+      "checked_at": "2026-10-03T08:13:23+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "21de75dab842eed830ff1e9fc102710fadcfc9c92920832a99ddae1a677cb633",
+      "sha256": "7ef951489db77ddde957d177cee94a5d59913cc91272685233a8c09213d3f24f",
+      "http_status": 200,
+      "bytes": 114969,
+      "osm_base": "2026-10-03T08:11:51Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 309,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Rüthi",
+      "checked_at": "2026-10-03T08:15:04+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "18a4d145472ac843676e13d37112ab2a763ae1ddf55ff7bbe15f05fcbe37362b",
+      "sha256": "485c31f48d9df342bade64a7e06b2277f1b8949a29753ed20743d682f7a45786",
+      "http_status": 200,
+      "bytes": 339,
+      "osm_base": "2026-10-03T08:13:51Z",
+      "municipality_area_resolved": false,
+      "status": "error",
+      "error": "Municipality area unresolved; not evidence of zero businesses"
+    },
+    {
+      "municipality": "Eichberg",
+      "checked_at": "2026-10-03T08:15:18+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "b2ccb459719b49019995e791e3738ab6b6e84832484980122b030c3a43bb8fd7",
+      "sha256": "a714fa56c9b16afe21d931f45f7e28d17d25497c8f15fa7af2b615414edeb63c",
+      "http_status": 200,
+      "bytes": 9655,
+      "osm_base": "2026-10-03T08:13:51Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 26,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Rebstein",
+      "checked_at": "2026-10-03T08:15:33+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "43b4a4414c36985fc6a58864f3e2f08cb41063af49f52a15303f1a9c8b1d1945",
+      "sha256": "6caf6a1b2942af5b1b2c42192528f8c6a646ff8e176ec2c902ca3673a10d1444",
+      "http_status": 200,
+      "bytes": 21799,
+      "osm_base": "2026-10-03T08:13:51Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 59,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Marbach",
+      "checked_at": "2026-10-03T08:15:47+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "e8cc129d1a70a0cdaca20eded001c7b1b15da1f07145685ed4ccd7fc95f9cd50",
+      "sha256": "53b5c3aa939e8b9e7eff22ecb7b20779106a2ec373b30f64526cdc59bf430f6c",
+      "http_status": 200,
+      "bytes": 23807,
+      "osm_base": "2026-10-03T08:14:51Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 55,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Balgach",
+      "checked_at": "2026-10-03T08:16:05+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "16332eff09d39a2b128e41b3932649cdcdf1b64308106caaa3261c99380f54d9",
+      "status": "error",
+      "http_status": 429,
+      "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::rate_limited. Please check /api/status for the quota of your IP address. </p>\n\n</body>\n</html>\n"
+    }
+  ]
+}

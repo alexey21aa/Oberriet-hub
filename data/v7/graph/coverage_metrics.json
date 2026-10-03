@@ -1,0 +1,79 @@
+{
+  "entities": 608,
+  "osm_discovery_pois": 600,
+  "reviewed_provider_locations": 8,
+  "reviewed_offerings": 20,
+  "verified_customer_opening_schedules": 0,
+  "employer_shift_claims": 0,
+  "automatic_cross_source_merges": 0,
+  "live_new_entities": 0,
+  "coverage_by_municipality": {
+    "Altstätten": {
+      "entities": 311,
+      "shop": 112,
+      "tourism": 37,
+      "amenity": 107,
+      "office": 20,
+      "healthcare": 11,
+      "craft": 16,
+      "leisure": 14,
+      "reviewed_offerings": 3
+    },
+    "Oberriet": {
+      "entities": 156,
+      "shop": 30,
+      "tourism": 53,
+      "amenity": 61,
+      "office": 4,
+      "craft": 3,
+      "club": 1,
+      "healthcare": 2,
+      "leisure": 3,
+      "reviewed_offerings": 14
+    },
+    "Eichberg": {
+      "entities": 26,
+      "tourism": 3,
+      "amenity": 10,
+      "craft": 3,
+      "healthcare": 1,
+      "leisure": 6,
+      "shop": 4
+    },
+    "Rebstein": {
+      "entities": 57,
+      "shop": 19,
+      "amenity": 30,
+      "craft": 1,
+      "tourism": 4,
+      "office": 1,
+      "club": 1,
+      "leisure": 1,
+      "healthcare": 1
+    },
+    "Marbach": {
+      "entities": 55,
+      "amenity": 22,
+      "shop": 16,
+      "craft": 10,
+      "tourism": 3,
+      "healthcare": 2,
+      "office": 1,
+      "leisure": 2
+    },
+    "Grabs": {
+      "entities": 1,
+      "reviewed_offerings": 1
+    },
+    "unknown": {
+      "entities": 2,
+      "reviewed_offerings": 2
+    }
+  },
+  "limitations": [
+    "OSM POIs include businesses and public facilities; counts are not verified registered company counts.",
+    "Discovery classifications/hours are not primary verified offerings or current-open claims.",
+    "Reviewed offerings reuse existing live activities; not new imported services.",
+    "Different branches sharing website/phone stay distinct until reviewed identity mapping."
+  ]
+}

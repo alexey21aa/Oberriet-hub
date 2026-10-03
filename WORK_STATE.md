@@ -1,10 +1,10 @@
-# Oberriet Hub continuation checkpoint — 2026-10-02
+# Oberriet Hub continuation checkpoint — 2026-10-03
 
 ## Authority and production
-V6 attached by owner supersedes all earlier specs. Continue existing project.
+V7 extends existing V6; current owner V7 specification governs continuation. Preserve deployed V6 and production data.
 Production https://oberriethub.ch, WP 7.1.2, PHP 8.4.26, theme 0.2.0.
 IMPORTANT latest WPVibe read at resumed session: core **0.2.3**, while restored Git baseline is 0.2.1. Production changed during pause. Do not install this candidate over production until current 0.2.3 code is exported and reconciled.
-Latest live V6 index: 4523 records, 5568 terms, indexed 2026-10-02T22:54:18Z. Active core 0.2.3 + addon 0.1.0.
+Latest confirmed live V6 index: 4523 records, 5728 terms, indexed 2026-10-02T23:20:46Z; rechecked 2026-10-03. Active core 0.2.3 + addon 0.1.0.
 WPVibe reads verified. DISALLOW_FILE_EDIT blocks draft editing. DISALLOW_FILE_MODS not defined. Owner installed and activated isolated addon 0.1.0. WPVibe import completed 31/31 rows (20 services, 11 sources), zero skips. Its separate V6 index is ready and live routes now use v6-server-index. Existing core 0.2.3 preserved.
 
 ## Completed
@@ -172,3 +172,21 @@ Latest package SHA256: ab49be1515ef8680ac4f9cd5a35a72357b54ac61114a422058f5642a3
 - Budget tool documentation says budgets are stored externally and retrieved by code; catalogue identifies external-provider-only processing. Offline PDF/Excel templates are linked from the provider directory; no official appearance or guaranteed personalised financial advice claimed.
 - Coverage audit now consumes all4confirmed canonical mappings instead of hardcoding only legal/victim pairs. Still788live service titles/312source registry entries from22:35snapshot,50candidate services including20already-live; these older title/provenance inventory counts are not a fresh full factual export. No discoveries upgraded without primary review, no data imported.
 - Next: actual template-file validation when source downloads succeed; canonical-filtered imports after supported addon deployment; navigation-answer enrichment for reviewed existing services; primary addiction/family/medical breadth. Preserve current live core0.2.3/addon0.1.0 and latest undeployed candidate0.1.7. Real server generative inference remains pending.
+
+
+## V7 universal ontology / graph checkpoint — 2026-10-03 08:29 UTC
+- Resumed actual main f21358781fc9c41cdf5e8cc69da57a7ab229097a, containing KESB candidate delta. Read full remote WORK_STATE and V7 specification. Preserve KESB and all history; never push the locally modified source ZIP. No repeat live activity import.
+- WPVibe Core0.2.3/addon0.1.0 active; isolated index4523records/5728terms ready; original import31/31 unchanged. Mandatory live queries PASS13/13/3/3/1; canonical/typo full IDs equal. tests/results/v7-live-baseline.json. Latest undeployed candidate remains addon0.1.7 (ZIP SHA256 dde442cdd39c5c58e08c454a27cdb3084841221e19b75eef4b9d8c1286255bd7). No deployment.
+- Pinned ISC OSM iD taxonomy:484 primary-tag/normalized-label canonical CANDIDATES,7563 unique(language,normalized-term) pairs,9082 alias/label rows,894 translated labels;289 duplicates collapsed. Semantically audited concepts0; typo rows0; targets25000/100000 NOT reached. Commit d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199, SHA256 receipts/licenses preserved. Raw reproducible cache ignored. Do not equate taxonomy with verified businesses/offers.
+- Serial Overpass harvest600 unique named public POI discoveries across5 resolved municipalities, NOT600 verified businesses.0 new verified offerings/0 live imports. ODbL attribution separate from schema ISC. Private/disused metadata excluded; no employee rosters/private records. Discovery classes/hours are unverified.
+- Harvest cursor7 (next Widnau), full error history retained. Initial2syntax400 fixed/retried; Rüthi area-name unresolved; Balgach429 stopped batch. Future429/406 persist5minute cooldown; requests serial10second spacing. Future same-ID boundary memberships retained, no silent reassignment. Historic first-harvest overlap memberships require reconciliation. Unresolved area is not zero coverage.
+- Graph608entities=600OSM discoveries+8reviewed provider locations;20reviewed offerings reuse EXISTING LIVE activities.0 new live entities/0 verified opening schedules/0 shift claims/0 automatic cross-source merges. Village/municipality mapping normalized; regional/unknown remains unknown. Reviewed activity-source freshness expires after7days. Shared domain/phone not identity; same legal UID retains separate branches.
+- Candidate server Python primitives: Unicode/phrase/one-edit resolution, typed facets, classification joins, municipality then10/25/50km tiers, review-only identity signals. Missing/invalid coordinates produce no distances. No device inputs. NOT deployed API or semantic/generative model.
+-10200 candidate integrity/behavior assertions PASS0fail. Separate500 distinct deletion-typo benchmark: concept recovery84.6% before fix ->100% after complete-phrase one-edit matching precedes generic fragments; p95~0.858ms. Limited synthetic corpus, not universal relevance/live QA. Results tests/results/v7-intelligence.json.
+- Intent Cube/source registry/documentation added. Query combinations never inflate concepts. Zefix CKAN has no license and isopen:false; bulk redistribution not authorized/evidenced, no import. NOGA2025 ingestion pending. Primary provider review required before discovery publication. Ages/fees/eligibility/hours unknown unless independently verified. Current evidence packs are not generative AI.
+### Exact next work
+1. python tests/v7-intelligence.py; python scripts/build-universal-concepts.py --fetch reproduces pinned taxonomy. Generated files/licenses are native GitHub files, raw cache excluded.
+2. Resolve municipality boundaries with public stable identifiers (Rüthi/Au/Marbach especially), review cross-boundary memberships. Resume serial harvest --max-municipalities1 --timeout35; --retry-failed after cooldown. Never bypass quota or parallelize public Overpass calls.
+3. Add licensed NOGA2025/medical/legal/jobs/human-needs concepts with cross-taxonomy semantic dedupe and provider-review queue/field freshness. Targets25000/100000 pending. Translations/brands/facets/place copies do not create topics.
+4. Integrate reviewed graph into isolated server index; semantic reranking and actual device-independent server generative inference pending. Discovery search is candidate-only. Supported authenticated ZIP install still required for newest addon; preserve core0.2.3.
+5. Continue provider/form/navigation enrichment; debt availability recheck on/after05Oct. Save receipts and canonical mappings, never reimport existing activities or confirmed overlapping offerings.

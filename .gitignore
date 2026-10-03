@@ -10,3 +10,6 @@ release/
 
 __pycache__/
 *.pyc
+
+# Reproducible pinned taxonomy download cache
+data/v7/upstream/

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "osm-presets.json",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/dist/presets.min.json",
+    "sha256": "8e5fb77f59046c0ae4f9ecdfd89a40361e57391de6b94ec8f3105433f052acbd",
+    "bytes": 680001
+  },
+  {
+    "file": "osm-de.json",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/dist/translations/de.min.json",
+    "sha256": "b1aa9dad94277d26741a5dba21d591acf66c52129e79cb6347ccfbf62ccaa0de",
+    "bytes": 356160
+  },
+  {
+    "file": "osm-ru.json",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/dist/translations/ru.min.json",
+    "sha256": "a85fdc585050ee49d740c06ff650928c5685ac2ebeeb04122a254d5e842c9d02",
+    "bytes": 373210
+  },
+  {
+    "file": "osm-uk.json",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/dist/translations/uk.min.json",
+    "sha256": "a8c25f2a7c760482c93eb3d1ffafe297b6b49b2ff0ab5fd0a402a926defbfc51",
+    "bytes": 485067
+  },
+  {
+    "file": "osm-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/LICENSE.md",
+    "sha256": "529e9838cff9f38b288ad2bd4123858c279975045b09d099319fd6ed1efb17c7",
+    "bytes": 744
+  },
+  {
+    "file": "osm-en.json",
+    "url": "https://raw.githubusercontent.com/openstreetmap/id-tagging-schema/d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199/dist/translations/en.min.json",
+    "sha256": "56b050ce5880093eeac06eddbbc9a5ca21f38c1798395b32f4f63472e9a95c83",
+    "bytes": 311628
+  }
+]

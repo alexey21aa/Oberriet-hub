@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {"id":"osm-id-schema","url":"https://github.com/openstreetmap/id-tagging-schema","revision":"d0f7d2e897c2c3a3e84879cdf90ed7b5d768e199","license":"ISC","role":"classification-and-multilingual-aliases","facts_verified":false},
+    {"id":"osm-overpass","url":"https://overpass-api.de/api/interpreter","license":"ODbL-1.0","role":"public-poi-discovery","review_status":"discovery-only","requests":"serial-bounded-resumable","quota_action":"persist-cooldown-stop","provider_review_required":true},
+    {"id":"bfs-noga-2025","url":"https://www.kubb-tool.bfs.admin.ch/en/noga/2025","role":"business-classification-backbone","status":"adapter-pending","bulk_license_verified":false},
+    {"id":"zefix-lindas","url":"https://lindas.admin.ch/query","role":"public-legal-entity-core-data","status":"license-confirmation-pending","bulk_license_verified":false,"published_records":0}
+  ]
+}

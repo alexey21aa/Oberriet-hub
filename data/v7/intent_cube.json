@@ -1,0 +1,18 @@
+{
+ "version":1,
+ "status":"candidate-schema-not-enumerated-facts",
+ "dimensions":["concept_ids","audience","age","municipality","radius_km","budget","accessibility","time","language","delivery_mode","eligibility"],
+ "audience":["children","women","men","families","seniors","students","jobseekers","businesses","all"],
+ "budget":["free-requested","discount-requested","paid-acceptable","unknown"],
+ "time":["open-now-requested","today-requested","date-requested","unspecified"],
+ "delivery_mode":["in-person","online","home-visit","unknown"],
+ "rules":[
+   "Combinations are queries, not new canonical concepts or verified facts.",
+   "A requested discount or open-now facet requires explicit current evidence before assertion.",
+   "Unknown eligibility, ages, prices and coordinates remain unknown.",
+   "All main retrieval, reranking and answer generation run on the server with the same corpus for every device.",
+   "Browser AI is optional offline/privacy mode, never a reduced-quality main answer."
+ ],
+ "materialized_combinations":0,
+ "counted_as_canonical_concepts":0
+}
