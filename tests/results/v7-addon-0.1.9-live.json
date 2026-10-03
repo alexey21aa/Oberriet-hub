@@ -300,5 +300,12 @@
     "query": "Регистрация собаки",
     "parsed": false,
     "reason": "Connector response truncation; not counted as an acceptance pass."
+  },
+  "frontend": {
+    "script_tags": [
+      "<script id=\"oberhub-v6-server-answer-js\" src=\"https://oberriethub.ch/wp-content/plugins/oberhub-v6/assets/server-answer.js?ver=0.1.9\">"
+    ],
+    "addon_v19_enqueued": true,
+    "scope": "Public rendered HTML confirms asset enqueue; no full visual interaction acceptance claimed."
   }
 }
