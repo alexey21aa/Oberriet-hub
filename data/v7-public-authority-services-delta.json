@@ -1,0 +1,39 @@
+{
+  "services": [{
+    "id": "v7-authority-kesb-rheintal",
+    "title": {"de":"KESB Rheintal · Kindes- und Erwachsenenschutz","en":"KESB Rheintal · child and adult protection","ru":"KESB Rheintal · защита детей и взрослых","uk":"KESB Rheintal · захист дітей і дорослих"},
+    "description_short": {"de":"Regionale Kindes- und Erwachsenenschutzbehörde in Altstätten; zuständig auch für Oberriet.","en":"Regional child and adult protection authority in Altstätten; also responsible for Oberriet.","ru":"Региональный орган защиты детей и взрослых в Altstätten; обслуживает также Oberriet.","uk":"Регіональний орган захисту дітей і дорослих в Altstätten; обслуговує також Oberriet."},
+    "topic":"legal-social",
+    "locality":"rheintal",
+    "authority":"KESB Rheintal",
+    "source_id":"v7-authority-kesb-rheintal-source",
+    "source_url":"https://www.kesb.sg.ch/kontakt/rheintal/",
+    "official_url":"https://www.kesb.sg.ch/kontakt/rheintal/",
+    "source_checked_at":"2026-10-03",
+    "source_trust_level":"A",
+    "status":"checked",
+    "verification_scope":"primary-authority-page",
+    "search_concepts":["child-protection","adult-protection","guardianship","family-law-routing"],
+    "service_area":["Altstätten","Au","Balgach","Berneck","Diepoldsau","Eichberg","Marbach","Oberriet","Rebstein","Rüthi","St. Margrethen","Widnau"],
+    "opening_hours_note":{"de":"Aktuelle Schalter- und Telefonzeiten auf der offiziellen Seite prüfen; saisonal gelten Abweichungen.","en":"Check current counter and phone hours on the official page; seasonal exceptions apply.","ru":"Актуальные часы приёма и телефона проверяйте на официальной странице; бывают сезонные изменения.","uk":"Актуальні години прийому й телефону перевіряйте на офіційній сторінці; бувають сезонні зміни."},
+    "next_action":{"de":"Offizielle Seite öffnen und passenden Kontaktweg wählen.","en":"Open the official page and choose the appropriate contact route.","ru":"Откройте официальную страницу и выберите подходящий способ обращения.","uk":"Відкрийте офіційну сторінку та виберіть відповідний спосіб звернення."},
+    "translation_status":{"de":"editorial-reviewed","en":"editorial-reviewed","ru":"editorial-reviewed","uk":"editorial-reviewed"}
+  }],
+  "sources": [{
+    "source_id":"v7-authority-kesb-rheintal-source",
+    "source_url":"https://www.kesb.sg.ch/kontakt/rheintal/",
+    "authority":"KESB Rheintal",
+    "review_status":"checked",
+    "last_checked":"2026-10-03",
+    "content_reviewed_at":"2026-10-03",
+    "trust":"A",
+    "ttl_days":7,
+    "freshness_class":"F2",
+    "fetch_mode":"web-primary",
+    "fetch_status":"current",
+    "verification_scope":"primary-authority-page",
+    "metadata_only":true,
+    "reuse_note":"Concise multilingual routing summary only; no staff roster copied.",
+    "evidence_method":"Current primary authority page reviewed on 2026-10-03."
+  }]
+}
