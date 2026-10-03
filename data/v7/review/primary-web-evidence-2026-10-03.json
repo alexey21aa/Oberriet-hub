@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-03T14:17:58Z",
+  "status": "reviewed-primary-web-evidence",
+  "live_imported": false,
+  "providers": [
+    {
+      "id": "reviewed:civic:biz-rheintal",
+      "source_url": "https://berufswahl.sg.ch/berufsberatung/",
+      "reviewed_at": "2026-10-03",
+      "locality": "Altstätten",
+      "opening_hours": [
+        "Mo 08:00-12:00,13:30-17:00",
+        "Di 08:00-12:00,13:30-18:00",
+        "Mi 08:00-12:00,13:30-17:00",
+        "Do 08:00-12:00,13:30-17:00",
+        "Fr 08:00-12:00,13:30-17:00"
+      ],
+      "walk_in_short_consultations": [
+        "Di 16:00-18:00",
+        "Mi 08:00-10:00"
+      ]
+    },
+    {
+      "id": "reviewed:civic:pair-rheintal",
+      "source_url": "https://www.paarundfamilienberatung-rheintal.ch/",
+      "reviewed_at": "2026-10-03",
+      "locality": "Altstätten",
+      "service_area_summary": "catchment between Staad and Sennwald, including Walzenhausen",
+      "service_summary": [
+        "individual counselling",
+        "couples counselling",
+        "family counselling",
+        "critical life events"
+      ]
+    },
+    {
+      "id": "reviewed:civic:pair-rheintal-family",
+      "source_url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/familienberatung/",
+      "reviewed_at": "2026-10-03",
+      "duration": "usually 75-90 minutes",
+      "first_session_cost": "free",
+      "later_session_cost": "situation-adjusted contribution",
+      "topics": [
+        "family and patchwork conflict",
+        "serious illness or adverse family life events",
+        "separation and divorce questions"
+      ]
+    },
+    {
+      "id": "reviewed:civic:kesb-rheintal",
+      "source_url": "https://www.kesb.sg.ch/kontakt/rheintal/",
+      "reviewed_at": "2026-10-03",
+      "locality": "Altstätten",
+      "counter_hours": [
+        "Mo 08:00-11:30,13:30-18:00",
+        "Di 08:00-11:30,13:30-17:00",
+        "Mi 13:30-17:00",
+        "Do 08:00-11:30,13:30-17:00",
+        "Fr 07:00-15:00"
+      ],
+      "municipalities": [
+        "Altstätten",
+        "Au",
+        "Balgach",
+        "Berneck",
+        "Diepoldsau",
+        "Eichberg",
+        "Marbach",
+        "Oberriet",
+        "Rebstein",
+        "Rüthi",
+        "St. Margrethen",
+        "Widnau"
+      ],
+      "seasonal_hours_warning": true
+    },
+    {
+      "id": "reviewed:civic:sdm-family-support",
+      "source_url": "https://s-d-m.ch/wp-content/uploads/2025/01/Flyer-Sozialpaedagogische-Familienbegleitung.pdf",
+      "reviewed_at": "2026-10-03",
+      "locality": "Heerbrugg",
+      "reachability": [
+        "Mo-Fr 08:00-11:30",
+        "Mo-Fr 13:30-17:00"
+      ],
+      "appointments_outside_office_hours_possible": true,
+      "municipalities": [
+        "Balgach",
+        "Berneck",
+        "Diepoldsau",
+        "Widnau"
+      ],
+      "cost_note": "fee-based; amount not inferred"
+    }
+  ],
+  "routing_evidence": {
+    "source_url": "https://www.kesb.sg.ch/fileadmin/kundendaten/web/regionen/rheintal/Informationstext_-_Einvernehmliche_Unterhaltsregelung_bei_der_KESB_Rheintal.pdf",
+    "reviewed_at": "2026-10-03",
+    "nodes": [
+      "Kreisgericht Rheintal",
+      "Vermittlungsamt Rheintal",
+      "Beratung Familie, Soziales, Sucht SDM",
+      "Soziale Dienste Oberes Rheintal",
+      "Sozialberatung Gemeinde St. Margrethen",
+      "Paar- und Familienberatung Rheintal"
+    ]
+  },
+  "safeguards": [
+    "No staff rosters copied",
+    "No inferred fixed fees",
+    "No employer shift claims",
+    "No live import or canonical merge",
+    "Freshness metadata required before promotion"
+  ]
+}
