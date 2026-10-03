@@ -41,6 +41,19 @@ if review_file.exists():
   checked=datetime.fromisoformat(r['source_provenance']['checked_at'])
   fresh=timedelta(0)<=datetime.now(timezone.utc)-checked<=timedelta(days=r['source_provenance']['ttl_days'])
   offerings.append(dict(r,offering_verified=fresh,source_freshness='within-review-window' if fresh else 'needs-refresh'))
+civic=ROOT/'data/v7/review/civic-reviewed-offerings.json'
+if civic.exists():
+ reviewed=json.loads(civic.read_text())
+ for r in reviewed['entities']:
+  if r['id'] in entities:raise ValueError('Duplicate civic entity '+r['id'])
+  entities[r['id']]=r
+ for r in reviewed['offerings']:
+  if r['business_entity_id'] not in entities:raise ValueError('Missing civic provider '+r['id'])
+  offerings.append(r)
+mapping_path=ROOT/'data/v7/ontology/extension_concept_map.json'
+mapping=json.loads(mapping_path.read_text()) if mapping_path.exists() else {}
+for offer in offerings:
+ if 'concept_ids' in offer:offer['concept_ids']=sorted({mapping.get(cid,cid) for cid in offer['concept_ids']})
 write_jsonl(OUT/'business_entities.jsonl',sorted(entities.values(),key=lambda r:r['id']))
 write_jsonl(OUT/'business_offerings.jsonl',offerings)
 coverage=collections.defaultdict(lambda:collections.Counter())
@@ -50,13 +63,16 @@ for r in entities.values():
 for r in offerings:coverage[entities[r['business_entity_id']]['municipality'] or 'unknown']['reviewed_offerings']+=1
 metrics={'entities':len(entities),'osm_discovery_pois':sum(k.startswith('osm:') for k in entities),
  'reviewed_provider_locations':sum(k.startswith('curated:') for k in entities),'reviewed_offerings':len(offerings),
- 'primary_reviewed_osm_locations':sum(bool(r.get('primary_provider_review')) for r in entities.values()),
+ 'primary_reviewed_osm_locations':sum(k.startswith('osm:') and bool(r.get('primary_provider_review')) for k,r in entities.items()),
+ 'fresh_primary_verified_offerings':sum(bool(r.get('offering_verified')) for r in offerings),
+ 'receipt_pending_offerings':sum(not r.get('offering_verified') for r in offerings),
+ 'reviewed_civic_provider_locations':sum(k.startswith('reviewed:civic:') for k in entities),
  'existing_live_offerings':sum(r['existing_live_service'] for r in offerings),
  'new_candidate_offer_drafts':sum(not r['existing_live_service'] for r in offerings),
  'verified_customer_opening_schedules':0,'employer_shift_claims':0,'automatic_cross_source_merges':0,
  'live_new_entities':0,'coverage_by_municipality':dict(coverage),
  'limitations':['OSM POIs include businesses and public facilities; counts are not verified registered company counts.',
  'Discovery classifications/hours are not primary verified offerings or current-open claims.',
- 'Twenty offerings reuse existing live activities; four primary-reviewed medical drafts are not live and still require canonical comparison.',
+ 'Existing live activities, primary-reviewed drafts and receipt-pending civic drafts are counted separately. New graph drafts are not live.',
  'Different branches sharing website/phone stay distinct until reviewed identity mapping.']}
 (OUT/'coverage_metrics.json').write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+'\n');print(json.dumps(metrics,ensure_ascii=False))

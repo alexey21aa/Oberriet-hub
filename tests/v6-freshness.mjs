@@ -5,6 +5,7 @@ import {loadNodeRuntime} from '@php-wasm/node';
 const php=new PHP(await loadNodeRuntime('8.3',{emscriptenOptions:{processId:process.pid}}));
 for(const dir of ['/addon','/addon/src','/addon/src/AI'])php.mkdir(dir);
 php.writeFile('/addon/oberhub-v6.php',fs.readFileSync('wp-content/plugins/oberhub-v6/oberhub-v6.php'));
+php.writeFile('/addon/src/UniversalSearch.php',fs.readFileSync('wp-content/plugins/oberhub-v6/src/UniversalSearch.php'));
 // Replace index storage only; execute actual plugin hooks and REST callbacks.
 php.writeFile('/addon/src/Knowledge.php',`<?php namespace OberHubV6; class Knowledge {static $calls=0;static $mode='ok';static function install(){}static function rebuild($data){self::$calls++;if(self::$mode==='throw')throw new \\RuntimeException('private failure');if(self::$mode==='race')update_option('oh_v6_index_dirty',99,false);return ['records'=>self::$mode==='empty'?0:3];}}`);
 for(const name of ['AIProvider','NullProvider','OpenAICompatibleProvider','AnswerPacks','Gateway'])php.writeFile('/addon/src/AI/'+name+'.php','<?php');

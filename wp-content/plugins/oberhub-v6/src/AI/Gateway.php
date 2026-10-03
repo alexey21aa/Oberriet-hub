@@ -23,7 +23,7 @@ final class Gateway {
         $count=(int)get_transient($bucket);
         if ($count>=12) return ['mode'=>'rate-limited','answer'=>null,'retry_after'=>60];
         set_transient($bucket,$count+1,70);
-        $retrieval=Knowledge::search($question,$lang,1,7,'all','services');
+        $retrieval=class_exists(\OberHubV6\UniversalSearch::class)?\OberHubV6\UniversalSearch::search($question,$lang,1,7,'all','services'):Knowledge::search($question,$lang,1,7,'all','services');
         $records=array_column($retrieval['results'],'record');
         $registry=array_column(\OberHub\records('source'),null,'source_id');
         $context=[];$evidence=[];

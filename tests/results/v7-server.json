@@ -1,0 +1,8 @@
+{
+  "candidate_only": true,
+  "checks": 11613,
+  "failed": 0,
+  "failures": [],
+  "device_independent": true,
+  "live_deployed": false
+}

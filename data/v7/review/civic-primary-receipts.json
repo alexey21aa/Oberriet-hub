@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html",
+    "checked_at": "2026-10-03T10:38:13+00:00",
+    "status": "error",
+    "error": "[Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+    "checked_at": "2026-10-03T10:38:13+00:00",
+    "status": "error",
+    "error": "[Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "url": "https://s-d-m.ch/familie-soziales-sucht/familien-in-not/",
+    "checked_at": "2026-10-03T10:38:13+00:00",
+    "status": "error",
+    "error": "[Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/",
+    "checked_at": "2026-10-03T10:38:13+00:00",
+    "status": "error",
+    "error": "[Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+    "checked_at": "2026-10-03T10:38:13+00:00",
+    "status": "error",
+    "error": "[Errno -3] Temporary failure in name resolution"
+  }
+]

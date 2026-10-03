@@ -4,7 +4,11 @@
     "q": "Spitex Oberriet · Abklärung und Beratung",
     "expected": "v6-support-spitex-assessment",
     "ids": [
-      "v6-support-spitex-assessment"
+      "v6-support-spitex-assessment",
+      "regional-consultation-oberriet",
+      "regional-consultation-altstaetten",
+      "regional-consultation-diepoldsau",
+      "regional-consultation-heerbrugg"
     ],
     "passed": true
   },
@@ -15,7 +19,9 @@
     "ids": [
       "v6-support-spitex-assessment",
       "practical-self-employment",
-      "nav-e3f3f84392d7"
+      "v6-support-spitex-care",
+      "blatten",
+      "museum"
     ],
     "passed": true
   },
@@ -26,8 +32,9 @@
     "ids": [
       "v6-support-spitex-assessment",
       "v6-support-spitex-care",
-      "24967",
-      "nav-56205e01664e"
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -38,8 +45,9 @@
     "ids": [
       "v6-support-spitex-assessment",
       "v6-support-spitex-care",
-      "24967",
-      "nav-56205e01664e"
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -49,7 +57,10 @@
     "expected": "v6-support-spitex-care",
     "ids": [
       "v6-support-spitex-care",
-      "v6-support-spitex-assessment"
+      "v6-support-spitex-assessment",
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -60,7 +71,9 @@
     "ids": [
       "v6-support-spitex-care",
       "v6-support-spitex-assessment",
-      "regional-home-language-support"
+      "regional-home-language-support",
+      "regional-consultation-oberriet",
+      "practical-rental-search"
     ],
     "passed": true
   },
@@ -70,7 +83,10 @@
     "expected": "v6-support-spitex-care",
     "ids": [
       "v6-support-spitex-care",
-      "v6-support-spitex-assessment"
+      "v6-support-spitex-assessment",
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -80,7 +96,10 @@
     "expected": "v6-support-spitex-care",
     "ids": [
       "v6-support-spitex-care",
-      "v6-support-spitex-assessment"
+      "v6-support-spitex-assessment",
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -117,9 +136,9 @@
     "ids": [
       "v6-support-legal-advice",
       "practical-legal-advice",
+      "v6-support-victim-advice",
       "regional-consultation-altstaetten",
-      "regional-consultation-diepoldsau",
-      "regional-consultation-heerbrugg"
+      "regional-consultation-diepoldsau"
     ],
     "passed": true
   },
@@ -131,8 +150,8 @@
       "v6-support-legal-advice",
       "practical-legal-advice",
       "24238",
-      "regional-consultation-altstaetten",
-      "regional-consultation-diepoldsau"
+      "v6-support-victim-advice",
+      "regional-consultation-altstaetten"
     ],
     "passed": true
   },
@@ -160,11 +179,7 @@
     "q": "Помощь пострадавшим от насилия",
     "expected": "v6-support-victim-advice",
     "ids": [
-      "v6-support-victim-advice",
-      "23620",
-      "practical-german-courses",
-      "transport",
-      "nav-3a85e03fe69b"
+      "v6-support-victim-advice"
     ],
     "passed": true
   },
@@ -173,11 +188,7 @@
     "q": "Допомога постраждалим від насильства",
     "expected": "v6-support-victim-advice",
     "ids": [
-      "v6-support-victim-advice",
-      "23620",
-      "practical-german-courses",
-      "transport",
-      "nav-3a85e03fe69b"
+      "v6-support-victim-advice"
     ],
     "passed": true
   },
@@ -259,11 +270,11 @@
     "q": "уход на дому Oberriet",
     "expected": "v6-support-spitex-care",
     "ids": [
-      "v6-support-spitex-care",
       "v6-support-spitex-assessment",
-      "childcare",
-      "regional-home-language-support",
-      "nav-5d047ce1cf3b"
+      "v6-support-spitex-care",
+      "blatten",
+      "museum",
+      "school-oberriet"
     ],
     "passed": true
   },
@@ -275,8 +286,8 @@
       "practical-legal-advice",
       "v6-support-legal-advice",
       "24238",
-      "v6-life-rheintal-help",
-      "practical-debt-advice"
+      "answer-practical-debt-advice-deadline",
+      "v6-support-victim-advice"
     ],
     "passed": true
   },
@@ -285,11 +296,7 @@
     "q": "помощь пострадавшим от насилия",
     "expected": "v6-support-victim-advice",
     "ids": [
-      "v6-support-victim-advice",
-      "23620",
-      "practical-german-courses",
-      "transport",
-      "nav-3a85e03fe69b"
+      "v6-support-victim-advice"
     ],
     "passed": true
   },

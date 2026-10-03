@@ -1,5 +1,5 @@
 {
-  "next_cursor": 7,
+  "next_cursor": 12,
   "jobs": [
     {
       "municipality": "Oberriet",
@@ -103,6 +103,59 @@
       "status": "error",
       "http_status": 429,
       "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::rate_limited. Please check /api/status for the quota of your IP address. </p>\n\n</body>\n</html>\n"
+    },
+    {
+      "municipality": "Widnau",
+      "checked_at": "2026-10-03T10:37:19+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "5479d8b420934d325b0114e4ecd14cbc56c5e413f5ea848f2ea22db722d80a96",
+      "sha256": "0322b0bb2af0f351d996aa7c142cd01cf79900c54b5cd3fafe1ce9cb5c60eb00",
+      "http_status": 200,
+      "bytes": 63117,
+      "osm_base": "2026-10-03T10:36:01Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 133,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Diepoldsau",
+      "checked_at": "2026-10-03T10:39:13+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "d07328c44777c2f92b5c2a6b0ac7a761eac5a8b630ca47b876ed8bb04a373a46",
+      "status": "error",
+      "http_status": 504,
+      "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::timeout. The server is probably too busy to handle your request. </p>\n\n</body>\n</html>\n"
+    },
+    {
+      "municipality": "Au",
+      "checked_at": "2026-10-03T10:39:37+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "8c9de7794a54665e85e396a5180ff3b1de72419a04e424c8e13a80fee339176e",
+      "status": "error",
+      "http_status": 504,
+      "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::timeout. The server is probably too busy to handle your request. </p>\n\n</body>\n</html>\n"
+    },
+    {
+      "municipality": "Berneck",
+      "checked_at": "2026-10-03T10:40:04+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "90b5ce7c8796e813789587f40d500b865000acada510f9cdb2df1f5364115ff6",
+      "sha256": "653374e6c13953e8207b8db0810a1e15cb1ed8dca7e23554759a091d156a8d18",
+      "http_status": 200,
+      "bytes": 15437,
+      "osm_base": "2026-10-03T10:39:01Z",
+      "municipality_area_resolved": true,
+      "discovered_entities": 45,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "St. Margrethen",
+      "checked_at": "2026-10-03T10:40:22+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "472f81386fe1b7bd3b909c9fe6a2d5790387166584d35eec8769e020b3c92fa6",
+      "status": "error",
+      "http_status": 504,
+      "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::timeout. The server is probably too busy to handle your request. </p>\n\n</body>\n</html>\n"
     }
   ]
 }

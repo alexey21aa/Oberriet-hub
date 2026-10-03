@@ -1,0 +1,707 @@
+{
+  "entities": [
+    {
+      "id": "reviewed:civic:biz-rheintal",
+      "entity_kind": "provider-location",
+      "name": "Berufs- und Laufbahnberatung Rheintal",
+      "municipality": "Altstätten",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Berufs- und Laufbahnberatung Rheintal",
+        "municipality": "Altstätten",
+        "address": "Marktgasse 27, 9450 Altstätten",
+        "contact_provenance": {
+          "source_url": "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    },
+    {
+      "id": "reviewed:civic:sdm-fss",
+      "entity_kind": "provider-location",
+      "name": "Familie, Soziales, Sucht SDM",
+      "municipality": "Heerbrugg",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "B",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Familie, Soziales, Sucht SDM",
+        "municipality": "Heerbrugg",
+        "address": "Widnauerstrasse 8, 9435 Heerbrugg",
+        "contact_provenance": {
+          "source_url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "B",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    },
+    {
+      "id": "reviewed:civic:pair-rheintal",
+      "entity_kind": "provider-location",
+      "name": "Paar- und Familienberatung Rheintal",
+      "municipality": "Altstätten",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "B",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Paar- und Familienberatung Rheintal",
+        "municipality": "Altstätten",
+        "address": "Marktgasse 21, 9450 Altstätten",
+        "contact_provenance": {
+          "source_url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "B",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    },
+    {
+      "id": "reviewed:civic:conciliation-rheintal",
+      "entity_kind": "provider-location",
+      "name": "Vermittlungsamt Rheintal",
+      "municipality": "Marbach",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Vermittlungsamt Rheintal",
+        "municipality": "Marbach",
+        "address": "Obergasse 4, 9437 Marbach",
+        "contact_provenance": {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    },
+    {
+      "id": "reviewed:civic:rent-conciliation-rheintal",
+      "entity_kind": "provider-location",
+      "name": "Schlichtungsstelle für Miet- und Pachtverhältnisse Rheintal",
+      "municipality": "Altstätten",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Schlichtungsstelle für Miet- und Pachtverhältnisse Rheintal",
+        "municipality": "Altstätten",
+        "address": "Rathausplatz 2, 9450 Altstätten",
+        "contact_provenance": {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    },
+    {
+      "id": "reviewed:civic:work-conciliation-rheintal",
+      "entity_kind": "provider-location",
+      "name": "Schlichtungsstelle für Arbeitsverhältnisse Rheintal",
+      "municipality": "Altstätten",
+      "coordinates": null,
+      "category_tags": {},
+      "source_links": [
+        "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html"
+      ],
+      "source_provenance": [
+        {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      ],
+      "legal_registration_verified": false,
+      "published_live": false,
+      "primary_provider_review": {
+        "provider_name": "Schlichtungsstelle für Arbeitsverhältnisse Rheintal",
+        "municipality": "Altstätten",
+        "address": "Im Kirlenhof 1, 9450 Altstätten",
+        "contact_provenance": {
+          "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+          "checked_at": "2026-10-03T10:38:13+00:00",
+          "body_sha256": null,
+          "fetch_status": "error",
+          "review_status": "primary-web-content-reviewed",
+          "evidence_method": "reviewed-web-snapshot",
+          "trust": "A",
+          "ttl_days": 7,
+          "external_ai_eligible": false
+        }
+      }
+    }
+  ],
+  "offerings": [
+    {
+      "id": "v7-civic-career",
+      "business_entity_id": "reviewed:civic:biz-rheintal",
+      "title": {
+        "en": "Career guidance Rheintal",
+        "de": "Berufsberatung Rheintal",
+        "ru": "Профориентация Rheintal",
+        "uk": "Профорієнтація Rheintal"
+      },
+      "description": {
+        "en": "Career appointments on site or online; short consultations available without booking.",
+        "de": "Beratung vor Ort oder online; Kurzgespräche ohne Voranmeldung möglich.",
+        "ru": "Консультации лично или онлайн; короткие беседы возможны без предварительной записи.",
+        "uk": "Консультації особисто або онлайн; короткі бесіди можливі без попереднього запису."
+      },
+      "concept_ids": [
+        "need:work:career-guidance",
+        "need:work:career-change"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.sg.ch/bildung-sport/bslb/biz-standorte/rheintal.html",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "A",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": true,
+      "graph_published_live": false,
+      "canonical_review": "matched-existing-live-record-enrichment",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": null,
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ],
+      "canonical_live_service_id": "canton-service-1b2ebfa74cc358"
+    },
+    {
+      "id": "v7-civic-family",
+      "business_entity_id": "reviewed:civic:sdm-fss",
+      "title": {
+        "en": "Family advice and mediation SDM",
+        "de": "Familienberatung und Mediation SDM",
+        "ru": "Семейная консультация и медиация SDM",
+        "uk": "Сімейна консультація та медіація SDM"
+      },
+      "description": {
+        "en": "Family and separation support; phone ahead. Service area is limited to four municipalities.",
+        "de": "Hilfe bei Familien- und Trennungsthemen; vorher anrufen. Angebot für vier Gemeinden.",
+        "ru": "Помощь по семейным вопросам и расставанию; запись по телефону. Обслуживаются четыре общины.",
+        "uk": "Допомога із сімейними питаннями та розставанням; запис телефоном. Обслуговуються чотири громади."
+      },
+      "concept_ids": [
+        "need:family:family-counselling",
+        "need:family:parenting-advice",
+        "need:family:separation-mediation"
+      ],
+      "source_provenance": {
+        "source_url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "B",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": [
+        "Balgach",
+        "Berneck",
+        "Widnau",
+        "Diepoldsau"
+      ],
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-addiction",
+      "business_entity_id": "reviewed:civic:sdm-fss",
+      "title": {
+        "en": "Addiction counselling SDM",
+        "de": "Suchtberatung SDM",
+        "ru": "Консультация по зависимости SDM",
+        "uk": "Консультація щодо залежності SDM"
+      },
+      "description": {
+        "en": "Advice about substances and behavioural addictions, also for relatives. Appointment required.",
+        "de": "Beratung zu Substanzen und Verhaltenssüchten, auch für Angehörige. Termin vereinbaren.",
+        "ru": "Консультации по зависимостям от веществ и поведения, также для близких. Нужна запись.",
+        "uk": "Консультації щодо залежностей від речовин і поведінки, також для близьких. Потрібен запис."
+      },
+      "concept_ids": [
+        "need:health:addiction-counselling",
+        "need:health:alcohol-counselling",
+        "need:health:gaming-addiction"
+      ],
+      "source_provenance": {
+        "source_url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "B",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": [
+        "Balgach",
+        "Berneck",
+        "Widnau",
+        "Diepoldsau"
+      ],
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-budget",
+      "business_entity_id": "reviewed:civic:sdm-fss",
+      "title": {
+        "en": "Budget and debt counselling SDM",
+        "de": "Budget- und Schuldenberatung SDM",
+        "ru": "Консультация по бюджету и долгам SDM",
+        "uk": "Консультація щодо бюджету та боргів SDM"
+      },
+      "description": {
+        "en": "Advice on budgets, debts and social insurance; phone to arrange a consultation.",
+        "de": "Beratung zu Budget, Schulden und Sozialversicherungen; Termin telefonisch vereinbaren.",
+        "ru": "Консультации по бюджету, долгам и социальному страхованию; запись по телефону.",
+        "uk": "Консультації щодо бюджету, боргів і соціального страхування; запис телефоном."
+      },
+      "concept_ids": [
+        "need:finance:budget-advice",
+        "need:finance:debt-advice"
+      ],
+      "source_provenance": {
+        "source_url": "https://s-d-m.ch/familie-soziales-sucht/beratung-mediation/",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "B",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": [
+        "Balgach",
+        "Berneck",
+        "Widnau",
+        "Diepoldsau"
+      ],
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-emergency-aid",
+      "business_entity_id": "reviewed:civic:sdm-fss",
+      "title": {
+        "en": "Family emergency assistance SDM",
+        "de": "Familien in Not SDM",
+        "ru": "Помощь семьям в трудной ситуации SDM",
+        "uk": "Допомога сімʼям у скруті SDM"
+      },
+      "description": {
+        "en": "Possible one-time help for local clients in counselling; assessment required, no guaranteed payment.",
+        "de": "Mögliche einmalige Hilfe für lokale Beratungsklienten; Abklärung erforderlich, keine Auszahlungsgarantie.",
+        "ru": "Возможна разовая помощь местным клиентам консультации; требуется оценка, выплата не гарантируется.",
+        "uk": "Можлива разова допомога місцевим клієнтам консультації; потрібне оцінювання, виплата не гарантована."
+      },
+      "concept_ids": [
+        "need:finance:emergency-financial-help",
+        "need:community:food-assistance"
+      ],
+      "source_provenance": {
+        "source_url": "https://s-d-m.ch/familie-soziales-sucht/familien-in-not/",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "B",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": [
+        "Balgach",
+        "Berneck",
+        "Widnau",
+        "Diepoldsau"
+      ],
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-couples",
+      "business_entity_id": "reviewed:civic:pair-rheintal",
+      "title": {
+        "en": "Couples counselling Rheintal",
+        "de": "Paarberatung Rheintal",
+        "ru": "Консультация для пар Rheintal",
+        "uk": "Консультація для пар Rheintal"
+      },
+      "description": {
+        "en": "Support for relationship conflict; the first discussion is free, later sessions involve an adjusted contribution.",
+        "de": "Hilfe bei Beziehungskonflikten; Erstgespräch kostenlos, weitere Gespräche mit angepasster Kostenbeteiligung.",
+        "ru": "Помощь при конфликтах в паре; первая беседа бесплатна, следующие требуют индивидуального взноса.",
+        "uk": "Допомога при конфліктах у парі; перша бесіда безкоштовна, наступні потребують індивідуального внеску."
+      },
+      "concept_ids": [
+        "need:family:couples-counselling"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.paarundfamilienberatung-rheintal.ch/angebot/paarberatung/",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "B",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": true,
+      "graph_published_live": false,
+      "canonical_review": "matched-existing-live-record-enrichment",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": null,
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ],
+      "canonical_live_service_id": "canton-service-09f869901ca2eb"
+    },
+    {
+      "id": "v7-civic-civil",
+      "business_entity_id": "reviewed:civic:conciliation-rheintal",
+      "title": {
+        "en": "Civil conciliation Rheintal",
+        "de": "Zivilschlichtung Rheintal",
+        "ru": "Примирение по гражданским спорам Rheintal",
+        "uk": "Примирення у цивільних спорах Rheintal"
+      },
+      "description": {
+        "en": "Civil conciliation office in Marbach; this office does not provide legal advice.",
+        "de": "Vermittlungsamt in Marbach; das Amt erteilt keine Rechtsauskünfte.",
+        "ru": "Примирительное ведомство в Marbach; правовых консультаций здесь не предоставляют.",
+        "uk": "Примирне відомство в Marbach; правових консультацій тут не надають."
+      },
+      "concept_ids": [
+        "need:legal:civil-conciliation"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "A",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": null,
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-rent",
+      "business_entity_id": "reviewed:civic:rent-conciliation-rheintal",
+      "title": {
+        "en": "Rental conciliation Rheintal",
+        "de": "Mietschlichtung Rheintal",
+        "ru": "Примирение по спорам аренды Rheintal",
+        "uk": "Примирення у спорах оренди Rheintal"
+      },
+      "description": {
+        "en": "Specialist rental and lease conciliation office in Altstätten. Check jurisdiction before submission.",
+        "de": "Schlichtungsstelle für Miete und Pacht in Altstätten. Zuständigkeit vor Eingabe prüfen.",
+        "ru": "Специализированное примирение по аренде в Altstätten. Перед подачей проверьте компетенцию.",
+        "uk": "Спеціалізоване примирення щодо оренди в Altstätten. Перед поданням перевірте компетенцію."
+      },
+      "concept_ids": [
+        "need:housing:rental-dispute"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "A",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": null,
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    },
+    {
+      "id": "v7-civic-work",
+      "business_entity_id": "reviewed:civic:work-conciliation-rheintal",
+      "title": {
+        "en": "Employment conciliation Rheintal",
+        "de": "Arbeitsschlichtung Rheintal",
+        "ru": "Примирение по трудовым спорам Rheintal",
+        "uk": "Примирення у трудових спорах Rheintal"
+      },
+      "description": {
+        "en": "Employment conciliation office in Altstätten. Confirm its remit for your employment relationship.",
+        "de": "Arbeitsschlichtungsstelle in Altstätten. Zuständigkeit für das Arbeitsverhältnis klären.",
+        "ru": "Ведомство примирения по трудовым спорам в Altstätten. Уточните компетенцию для ваших трудовых отношений.",
+        "uk": "Відомство примирення у трудових спорах в Altstätten. Уточніть компетенцію для ваших трудових відносин."
+      },
+      "concept_ids": [
+        "need:work:employment-dispute"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.sg.ch/recht/gerichte/organisation---standorte/schlichtungsstellen-und-vermittlungsaemter.html",
+        "checked_at": "2026-10-03T10:38:13+00:00",
+        "body_sha256": null,
+        "fetch_status": "error",
+        "review_status": "primary-web-content-reviewed",
+        "evidence_method": "reviewed-web-snapshot",
+        "trust": "A",
+        "ttl_days": 7,
+        "external_ai_eligible": false
+      },
+      "offering_verified": false,
+      "content_reviewed": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false,
+      "service_area": null,
+      "unknown_fields": [
+        "current-intake",
+        "individual-eligibility",
+        "opening-exceptions"
+      ]
+    }
+  ],
+  "new_live_imports": 0,
+  "limitations": [
+    "Web snapshots were reviewed; direct receipt failures stay explicit and fail closed.",
+    "Canonical comparison required before publishing.",
+    "Fees/hours are not inferred; office availability is not employer shifts."
+  ]
+}
