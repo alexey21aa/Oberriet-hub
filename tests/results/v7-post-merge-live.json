@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-10-03T11:33:30.234Z",
+  "merged_pr": 1,
+  "merge_sha": "120e70d4a6a3956a7a8ef99b69da0ad6a7aa1976",
+  "active_addon": "0.1.0",
+  "candidate_addon": "0.1.9",
+  "production_changed": false,
+  "queries": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-kiri-oberriet",
+        "v6-stvoe-jugi",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-kitu",
+        "v6-montlingen-muki",
+        "v6-plusport-kids",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness",
+        "v6-msor-adult-dance"
+      ],
+      "engine": "v6-server-index"
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "engine": "v6-server-index"
+    }
+  ],
+  "canonical_typo_ids_equal": true,
+  "all_mandatory_passed": true
+}

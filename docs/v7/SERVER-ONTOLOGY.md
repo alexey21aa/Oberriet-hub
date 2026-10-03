@@ -10,6 +10,10 @@ V7 extends the existing V6 addon. Production core 0.2.3 is never included in the
 
 This is multilingual lexical query expansion, not embedding semantic reranking. It does not solve noisy nonempty V6 results, complex free-text constraints, live business hours, incomplete provider coverage or external generative inference. Existing evidence and privacy gates still control what can reach an external AI provider.
 
+Addon 0.1.9 expands original editorial needs into 22 domains, including repair, technology, animals, agriculture, industry, environment and commerce. These are distinct tasks; they assert no local provider, price or opening schedule. Duplicate IDs/English labels, invalid identifiers and missing translations stop the build. Domain counts are included in the coverage report. The schema-2 server pack groups Unicode term lengths so one-edit lookup examines only the three compatible length buckets. Schema-1 packs remain compatible. This improves candidate lookup cost without claiming semantic AI or universal typo accuracy.
+
+Municipality harvesting is confined to canton CH-SG and accepts the official ` (SG)` name suffix. Exactly one matching administrative area is required; its area/relation IDs are recorded in receipts. Missing, multiple or mismatched boundaries produce an error rather than zero coverage. Earlier memberships still need comparison with newly recorded boundary IDs; changing the query does not retroactively verify geography.
+
 The civic graph contains primary web-reviewed summaries. Failed direct receipts stay `fetch_status=error`, are not promoted to verified offerings, and remain excluded from reviewed graph retrieval/external AI. Two civic offers map to enriched existing live service IDs; do not create duplicate imports.
 
 Reproduce:

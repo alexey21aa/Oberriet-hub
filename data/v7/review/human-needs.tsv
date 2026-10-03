@@ -119,3 +119,144 @@ business	key-cutting	Key cutting	Schlüssel nachmachen	Изготовление 
 business	appliance-repair	Appliance repair	Haushaltsgerätereparatur	Ремонт бытовой техники	Ремонт побутової техніки
 business	printing-service	Printing service	Druckservice	Услуги печати	Послуги друку
 business	translation-service	Translation service	Übersetzungsdienst	Услуги перевода	Послуги перекладу
+technology	computer-repair	Computer repair	Computerreparatur	Ремонт компьютера	Ремонт компʼютера
+technology	phone-screen-repair	Phone screen replacement	Handy-Display ersetzen	Замена экрана телефона	Заміна екрана телефона
+technology	data-recovery	Data recovery	Datenrettung	Восстановление данных	Відновлення даних
+technology	backup-setup	Backup setup	Datensicherung einrichten	Настройка резервного копирования	Налаштування резервного копіювання
+technology	wifi-installation	Wi-Fi installation	WLAN einrichten	Настройка Wi-Fi	Налаштування Wi-Fi
+technology	network-cabling	Network cabling installation	Netzwerkverkabelung installieren	Прокладка сетевого кабеля	Прокладання мережевого кабелю
+technology	malware-removal	Malware removal	Schadsoftware entfernen	Удаление вредоносных программ	Видалення шкідливих програм
+technology	account-recovery	Online account recovery	Online-Konto wiederherstellen	Восстановление доступа к аккаунту	Відновлення доступу до облікового запису
+technology	website-development	Website development	Website erstellen lassen	Разработка сайта	Розроблення сайту
+technology	printer-installation	Printer installation	Drucker einrichten	Настройка принтера	Налаштування принтера
+technology	server-administration	Server administration service	Serveradministration	Администрирование серверов	Адміністрування серверів
+technology	business-cybersecurity	Business cybersecurity assessment	IT-Sicherheitsprüfung für Unternehmen	Проверка кибербезопасности бизнеса	Перевірка кібербезпеки бізнесу
+technology	video-digitisation	Video cassette digitisation	Videokassetten digitalisieren	Оцифровка видеокассет	Оцифрування відеокасет
+technology	photo-scanning	Photo scanning service	Fotos digitalisieren	Сканирование фотографий	Сканування фотографій
+technology	accessible-device-setup	Accessible device setup	Barrierefreie Gerätebedienung einrichten	Настройка доступности устройств	Налаштування доступності пристроїв
+technology	software-development	Custom software development	Individuelle Softwareentwicklung	Разработка программ на заказ	Розроблення програм на замовлення
+technology	3d-printing	3D printing service	3D-Druckservice	Услуги 3D-печати	Послуги 3D-друку
+technology	internet-contract	Home internet subscription	Internetanschluss bestellen	Подключение домашнего интернета	Підключення домашнього інтернету
+technology	digital-signature	Electronic signature setup	Elektronische Signatur einrichten	Настройка электронной подписи	Налаштування електронного підпису
+technology	online-fraud-help	Online fraud assistance	Hilfe bei Online-Betrug	Помощь при интернет-мошенничестве	Допомога при інтернет-шахрайстві
+repair	lockout-assistance	Door lockout assistance	Türöffnung bei Aussperrung	Вскрытие двери при потере ключей	Відкриття дверей при втраті ключів
+repair	window-repair	Window repair	Fensterreparatur	Ремонт окон	Ремонт вікон
+repair	roller-shutter-repair	Roller shutter repair	Rollladenreparatur	Ремонт рольставней	Ремонт ролет
+repair	roof-leak-repair	Roof leak repair	Undichtes Dach reparieren	Устранение протечки крыши	Усунення протікання даху
+repair	drain-unblocking	Drain unblocking	Abflussreinigung	Прочистка канализации	Прочищення каналізації
+repair	electrical-fault	Electrical fault repair	Elektrische Störung beheben	Устранение электрической неисправности	Усунення електричної несправності
+repair	furniture-restoration	Furniture restoration	Möbelrestaurierung	Реставрация мебели	Реставрація меблів
+repair	upholstery-repair	Furniture upholstery repair	Möbel neu polstern	Перетяжка мебели	Перетягування меблів
+repair	shoe-repair	Shoe repair	Schuhreparatur	Ремонт обуви	Ремонт взуття
+repair	watch-repair	Watch repair	Uhrenreparatur	Ремонт часов	Ремонт годинників
+repair	jewellery-repair	Jewellery repair	Schmuckreparatur	Ремонт ювелирных изделий	Ремонт ювелірних виробів
+repair	musical-instrument-repair	Musical instrument repair	Musikinstrumente reparieren	Ремонт музыкальных инструментов	Ремонт музичних інструментів
+repair	piano-tuning	Piano tuning	Klavier stimmen	Настройка фортепиано	Налаштування фортепіано
+repair	sewing-machine-repair	Sewing machine repair	Nähmaschinenreparatur	Ремонт швейной машины	Ремонт швейної машини
+repair	tool-sharpening	Tool sharpening	Werkzeuge schärfen	Заточка инструментов	Заточування інструментів
+repair	welding-service	Welding service	Schweissarbeiten	Сварочные работы	Зварювальні роботи
+repair	car-body-repair	Car body repair	Karosseriereparatur	Кузовной ремонт автомобиля	Кузовний ремонт автомобіля
+repair	windscreen-replacement	Windscreen replacement	Windschutzscheibe ersetzen	Замена лобового стекла	Заміна лобового скла
+repair	tyre-fitting	Tyre fitting	Reifenmontage	Шиномонтаж	Шиномонтаж
+repair	vehicle-inspection-preparation	Vehicle inspection preparation	Fahrzeug für MFK vorbereiten	Подготовка автомобиля к техосмотру	Підготовка автомобіля до техогляду
+home	furniture-assembly	Furniture assembly	Möbelmontage	Сборка мебели	Збирання меблів
+home	end-tenancy-cleaning	End of tenancy cleaning	Wohnungsreinigung bei Auszug	Уборка квартиры при выезде	Прибирання квартири при виїзді
+home	carpet-cleaning	Carpet cleaning	Teppichreinigung	Чистка ковров	Чищення килимів
+home	chimney-cleaning	Chimney cleaning	Kaminreinigung	Чистка дымохода	Чищення димоходу
+home	pest-control	Pest control service	Schädlingsbekämpfung	Уничтожение вредителей	Знищення шкідників
+home	garden-maintenance	Garden maintenance	Gartenpflege	Уход за садом	Догляд за садом
+home	tree-pruning	Tree pruning service	Baumschnitt	Обрезка деревьев	Обрізування дерев
+home	snow-clearing	Snow clearing service	Schneeräumung	Уборка снега	Прибирання снігу
+home	irrigation-installation	Garden irrigation installation	Gartenbewässerung installieren	Монтаж полива сада	Монтаж поливу саду
+home	solar-panel-installation	Solar panel installation	Solaranlage installieren	Установка солнечных панелей	Встановлення сонячних панелей
+home	heat-pump-installation	Heat pump installation	Wärmepumpe installieren	Установка теплового насоса	Встановлення теплового насоса
+home	building-insulation	Building insulation	Gebäudedämmung	Утепление здания	Утеплення будівлі
+home	accessibility-conversion	Home accessibility conversion	Wohnung barrierefrei umbauen	Переоборудование жилья для доступности	Переобладнання житла для доступності
+home	water-quality-testing	Drinking water testing	Trinkwasser untersuchen	Анализ питьевой воды	Аналіз питної води
+home	radon-testing	Home radon measurement	Radonmessung im Haus	Измерение радона в доме	Вимірювання радону в будинку
+animals	veterinary-emergency	Veterinary emergency care	Tierärztlicher Notdienst	Экстренная ветеринарная помощь	Екстрена ветеринарна допомога
+animals	pet-vaccination	Pet vaccination	Haustierimpfung	Вакцинация домашних животных	Вакцинація домашніх тварин
+animals	pet-passport	Pet passport and travel documents	Heimtierpass und Reisedokumente	Паспорт и документы для поездки с животным	Паспорт і документи для поїздки з твариною
+animals	pet-boarding	Pet boarding service	Tierpension buchen	Передержка домашних животных	Перетримка домашніх тварин
+animals	pet-sitting	In-home pet sitting	Tierbetreuung zu Hause	Присмотр за животными дома	Догляд за тваринами вдома
+animals	dog-training	Dog training classes	Hundetraining	Дрессировка собак	Дресирування собак
+animals	pet-grooming	Pet grooming service	Tierpflege und Fellpflege	Стрижка и уход за шерстью животных	Стрижка та догляд за шерстю тварин
+animals	animal-adoption	Animal adoption	Tier adoptieren	Усыновление животного	Прилаштування тварини в сімʼю
+animals	lost-pet-search	Lost pet search	Vermisstes Haustier suchen	Поиск пропавшего животного	Пошук зниклої тварини
+animals	wildlife-rescue	Injured wildlife assistance	Hilfe für verletzte Wildtiere	Помощь раненым диким животным	Допомога пораненим диким тваринам
+animals	dog-registration	Dog registration	Hund anmelden	Регистрация собаки	Реєстрація собаки
+animals	pet-cremation	Pet cremation service	Tierkremation	Кремация домашнего животного	Кремація домашньої тварини
+agriculture	farm-direct-sales	Buy directly from a farm	Direkt beim Bauernhof kaufen	Покупка продуктов у фермеров	Купівля продуктів у фермерів
+agriculture	seasonal-picking	Pick your own farm produce	Obst selbst pflücken	Самостоятельный сбор урожая на ферме	Самостійне збирання врожаю на фермі
+agriculture	farm-machinery-repair	Farm machinery repair	Landmaschinenreparatur	Ремонт сельхозтехники	Ремонт сільгосптехніки
+agriculture	soil-analysis	Agricultural soil analysis	Bodenanalyse Landwirtschaft	Анализ сельскохозяйственной почвы	Аналіз сільськогосподарського ґрунту
+agriculture	beekeeping-training	Beekeeping training	Imkerkurs	Обучение пчеловодству	Навчання бджільництва
+agriculture	community-garden	Community garden plot	Gemeinschaftsgarten-Parzelle	Участок в общественном саду	Ділянка в громадському саду
+agriculture	crop-protection-advice	Crop protection advice	Pflanzenschutzberatung	Консультация по защите растений	Консультація із захисту рослин
+environment	bulky-waste-disposal	Bulky waste disposal	Sperrgut entsorgen	Вывоз крупногабаритного мусора	Вивезення великогабаритного сміття
+environment	hazardous-waste-disposal	Household hazardous waste disposal	Sonderabfall aus Haushalten entsorgen	Утилизация опасных бытовых отходов	Утилізація небезпечних побутових відходів
+environment	electronics-recycling	Electronics recycling	Elektrogeräte recyceln	Утилизация электроники	Утилізація електроніки
+environment	garden-waste-disposal	Garden waste disposal	Grünabfall entsorgen	Утилизация садовых отходов	Утилізація садових відходів
+environment	composting-help	Home composting advice	Kompostberatung	Консультация по компостированию	Консультація з компостування
+environment	noise-complaint	Noise complaint routing	Lärmbeschwerde einreichen	Подача жалобы на шум	Подання скарги на шум
+environment	water-pollution-report	Report water pollution	Gewässerverschmutzung melden	Сообщение о загрязнении воды	Повідомлення про забруднення води
+environment	flood-preparation	Household flood preparation	Hochwasservorsorge für Haushalte	Подготовка дома к наводнению	Підготовка оселі до повені
+environment	invasive-plant-report	Report invasive plants	Invasive Pflanzen melden	Сообщение об инвазивных растениях	Повідомлення про інвазивні рослини
+events	venue-hire	Event venue hire	Veranstaltungsraum mieten	Аренда зала для мероприятия	Оренда зали для заходу
+events	party-equipment-hire	Party equipment hire	Festausrüstung mieten	Прокат оборудования для праздника	Прокат обладнання для свята
+events	event-catering	Event catering service	Catering für Veranstaltungen	Кейтеринг для мероприятий	Кейтеринг для заходів
+events	wedding-photography	Wedding photography	Hochzeitsfotografie	Свадебная фотосъёмка	Весільне фотографування
+events	event-sound-hire	Event sound equipment hire	Tontechnik für Veranstaltungen mieten	Прокат звука для мероприятий	Прокат звуку для заходів
+events	event-permit	Public event permit routing	Veranstaltungsbewilligung beantragen	Оформление разрешения на мероприятие	Оформлення дозволу на захід
+events	market-stall	Market stall application	Marktstand anmelden	Заявка на торговое место на рынке	Заявка на торгове місце на ринку
+events	birthday-entertainment	Birthday entertainment booking	Unterhaltung für Geburtstag buchen	Заказ развлечений на день рождения	Замовлення розваг на день народження
+events	funeral-arrangements	Funeral arrangements	Bestattung organisieren	Организация похорон	Організація похорону
+arts	pottery-class	Pottery class	Töpferkurs	Занятия гончарным делом	Заняття гончарством
+arts	painting-class	Painting class	Malkurs	Занятия живописью	Заняття живописом
+arts	sewing-class	Sewing class	Nähkurs	Обучение шитью	Навчання шиття
+arts	photography-class	Photography class	Fotokurs	Обучение фотографии	Навчання фотографії
+arts	theatre-group	Amateur theatre participation	Amateurtheater mitmachen	Участие в любительском театре	Участь в аматорському театрі
+arts	choir-participation	Choir participation	Im Chor mitsingen	Участие в хоре	Участь у хорі
+arts	art-framing	Picture framing service	Bilderrahmung	Обрамление картин	Обрамлення картин
+arts	instrument-hire	Musical instrument hire	Musikinstrument mieten	Прокат музыкального инструмента	Прокат музичного інструмента
+arts	dance-class-booking	Dance class booking	Tanzkurs buchen	Запись на занятия танцами	Запис на заняття танцями
+outdoors	hiking-route	Find a hiking route	Wanderroute finden	Поиск пешеходного маршрута	Пошук пішохідного маршруту
+outdoors	cycling-route	Find a cycling route	Veloroute finden	Поиск велосипедного маршрута	Пошук велосипедного маршруту
+outdoors	fishing-permit	Fishing permit application	Fischereipatent beantragen	Оформление разрешения на рыбалку	Оформлення дозволу на риболовлю
+outdoors	climbing-course	Climbing course	Kletterkurs	Обучение скалолазанию	Навчання скелелазіння
+outdoors	swimming-lessons	Swimming lessons	Schwimmunterricht	Уроки плавания	Уроки плавання
+outdoors	ski-equipment-hire	Ski equipment hire	Skiausrüstung mieten	Прокат лыжного снаряжения	Прокат лижного спорядження
+outdoors	camping-reservation	Campsite reservation	Campingplatz reservieren	Бронирование места в кемпинге	Бронювання місця в кемпінгу
+outdoors	guided-nature-tour	Guided nature tour	Geführte Naturexkursion	Экскурсия с природным гидом	Екскурсія з природним гідом
+outdoors	barbecue-site	Find a public barbecue site	Öffentliche Grillstelle finden	Поиск общественного места для барбекю	Пошук громадського місця для барбекю
+outdoors	boat-hire	Boat hire	Boot mieten	Прокат лодки	Прокат човна
+commerce	parcel-collection	Parcel collection service	Paket abholen	Получение посылки	Отримання посилки
+commerce	parcel-return	Parcel return service	Paket zurücksenden	Возврат посылки	Повернення посилки
+commerce	shoe-fitting	Shoe fitting consultation	Schuhanpassung Beratung	Подбор обуви	Підбір взуття
+commerce	prescription-glasses	Prescription glasses fitting	Brille anpassen lassen	Подбор очков по рецепту	Підбір окулярів за рецептом
+commerce	dry-cleaning	Dry cleaning service	Chemische Reinigung	Химчистка одежды	Хімчистка одягу
+commerce	laundry-service	Laundry service	Wäscheservice	Услуги стирки	Послуги прання
+commerce	flower-delivery	Flower delivery	Blumenlieferung	Доставка цветов	Доставка квітів
+commerce	cake-order	Custom cake order	Torte bestellen	Заказ торта	Замовлення торта
+commerce	food-allergen-enquiry	Food allergen enquiry	Lebensmittelallergene erfragen	Уточнение аллергенов в продуктах	Уточнення алергенів у продуктах
+commerce	product-recall	Product recall information	Produktrückruf prüfen	Проверка отзыва товара	Перевірка відкликання товару
+commerce	warranty-claim	Product warranty claim	Garantieanspruch anmelden	Обращение по гарантии товара	Звернення за гарантією товару
+commerce	mobility-aid-rental	Mobility aid rental	Mobilitätshilfen mieten	Прокат средств передвижения	Прокат засобів пересування
+industry	cnc-machining	CNC machining service	CNC-Bearbeitung	Обработка на станках с ЧПУ	Оброблення на верстатах із ЧПК
+industry	metal-fabrication	Metal fabrication service	Metallbauarbeiten	Изготовление металлоконструкций	Виготовлення металоконструкцій
+industry	laser-cutting	Laser cutting service	Laserschneiden	Лазерная резка	Лазерне різання
+industry	powder-coating	Powder coating service	Pulverbeschichtung	Порошковая покраска	Порошкове фарбування
+industry	industrial-automation	Industrial automation service	Industrieautomation	Промышленная автоматизация	Промислова автоматизація
+industry	measurement-calibration	Measuring instrument calibration	Messgeräte kalibrieren	Калибровка измерительных приборов	Калібрування вимірювальних приладів
+industry	prototype-manufacturing	Prototype manufacturing	Prototypenfertigung	Изготовление прототипов	Виготовлення прототипів
+industry	packaging-production	Custom packaging production	Verpackungen herstellen lassen	Изготовление упаковки на заказ	Виготовлення паковання на замовлення
+industry	warehouse-storage	Commercial warehouse storage	Gewerbliche Lagerung	Складское хранение для бизнеса	Складське зберігання для бізнесу
+industry	freight-forwarding	Freight forwarding service	Speditionsdienst	Экспедирование грузов	Експедирування вантажів
+business	payroll-service	Payroll administration service	Lohnbuchhaltung	Расчёт заработной платы	Розрахунок заробітної плати
+business	business-insurance-advice	Business insurance advice	Unternehmensversicherung Beratung	Консультация по страхованию бизнеса	Консультація зі страхування бізнесу
+business	commercial-lease-review	Commercial lease review	Gewerbemietvertrag prüfen	Проверка договора коммерческой аренды	Перевірка договору комерційної оренди
+business	trademark-registration	Trademark registration routing	Marke anmelden	Регистрация торговой марки	Реєстрація торговельної марки
+business	tender-search	Public tender search	Öffentliche Ausschreibungen finden	Поиск государственных тендеров	Пошук державних тендерів
+business	coworking-booking	Coworking desk booking	Coworking-Platz buchen	Бронирование места в коворкинге	Бронювання місця в коворкінгу
+business	product-photography	Product photography	Produktfotografie	Предметная фотосъёмка	Предметне фотографування
+business	business-succession	Business succession advice	Unternehmensnachfolge Beratung	Консультация по передаче бизнеса	Консультація з передання бізнесу

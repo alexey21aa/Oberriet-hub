@@ -1,6 +1,6 @@
 {
-  "entities": 792,
-  "osm_discovery_pois": 778,
+  "entities": 1156,
+  "osm_discovery_pois": 1142,
   "reviewed_provider_locations": 8,
   "reviewed_offerings": 33,
   "primary_reviewed_osm_locations": 3,
@@ -24,6 +24,16 @@
       "craft": 3,
       "office": 5
     },
+    "Au": {
+      "entities": 149,
+      "shop": 52,
+      "leisure": 3,
+      "tourism": 9,
+      "amenity": 77,
+      "healthcare": 7,
+      "office": 8,
+      "craft": 1
+    },
     "Altstätten": {
       "entities": 315,
       "shop": 112,
@@ -34,6 +44,15 @@
       "craft": 16,
       "leisure": 14,
       "reviewed_offerings": 11
+    },
+    "St. Margrethen": {
+      "entities": 93,
+      "tourism": 14,
+      "shop": 23,
+      "amenity": 52,
+      "office": 4,
+      "leisure": 3,
+      "healthcare": 1
     },
     "Oberriet": {
       "entities": 156,
@@ -46,6 +65,23 @@
       "healthcare": 2,
       "leisure": 3,
       "reviewed_offerings": 14
+    },
+    "Rüthi": {
+      "entities": 22,
+      "amenity": 12,
+      "tourism": 7,
+      "shop": 2,
+      "leisure": 1
+    },
+    "Diepoldsau": {
+      "entities": 100,
+      "tourism": 14,
+      "shop": 20,
+      "amenity": 45,
+      "craft": 3,
+      "office": 7,
+      "leisure": 11,
+      "healthcare": 3
     },
     "Eichberg": {
       "entities": 26,

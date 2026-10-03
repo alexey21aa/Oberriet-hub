@@ -35,6 +35,12 @@ check('identity_uid_conflict',merge_candidates(dict(a,legal_uid_hint='CHE-111.11
 check('identity_uid_branches',merge_candidates(dict(a,legal_uid_hint='CHE-111.111.111'),dict(b,legal_uid_hint='CHE-111.111.111'))=='same-legal-entity-keep-branches','one UID distinct branches')
 for tag in [{'access':'private'},{'disused:shop':'yes'}]:check('discovery_exclusion',h.normalize_element({'type':'node','id':1,'tags':dict(name='x',shop='books',**tag)},'Oberriet',{}) is None,str(tag))
 pois=json.loads((ROOT/'data/v7/business/business_entities.json').read_text())
+area={'type':'area','id':3600123456,'tags':{'name':'Rüthi (SG)','boundary':'administrative','admin_level':'8'}}
+check('municipality_boundary_identity',h.resolved_boundary([area],'Rüthi')['relation_id']==123456,'official suffix with stable relation ID')
+for elements in [[],[area,area],[dict(area,tags=dict(area['tags'],name='Rüti'))],[dict(area,tags=dict(area['tags'],admin_level='4'))]]:
+ try:h.resolved_boundary(elements,'Rüthi');rejected=False
+ except ValueError:rejected=True
+ check('municipality_boundary_rejection',rejected,'unresolved, duplicate or wrong administrative identity')
 for p in pois:check('discovery_not_verified',not p['offerings_verified'] and not p['opening_hours_verified'] and not p['published_live'],p['id'])
 for q in ['dentist','pharmacy','bakery','sauna','supermarket']:
  r=taxonomy_candidates(index,pois,q,'Oberriet');check('taxonomy_retrieval',all(p['category_tags'] for p in r['results']) and r['mode']=='discovery-only' and r['verified_offerings']==0,q)

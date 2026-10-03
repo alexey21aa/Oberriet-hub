@@ -32,8 +32,19 @@ def normalize_element(e,municipality,receipt):
   'source_provenance':[{'source_id':'osm-overpass','checked_at':receipt['checked_at'],'receipt_sha256':receipt['sha256'],'trust':'D','review_status':'discovery-only'}],
   'offerings_verified':False,'opening_hours_verified':False,'published_live':False}
 def query(m):
- name=json.dumps(m,ensure_ascii=False)
- return f'[out:json][timeout:25];area["ISO3166-1"="CH"]["admin_level"="2"]->.ch;relation(area.ch)["boundary"="administrative"]["admin_level"="8"]["name"={name}];map_to_area->.a;.a out tags;nwr(area.a)["name"][~"^(shop|craft|office|healthcare|amenity|leisure|tourism|club)$"~"."];out center tags;'
+ # Names such as Rüthi (SG), Au (SG) and Marbach (SG) require the
+ # official canton suffix. Limit discovery to St. Gallen, never all of CH.
+ if m not in MUNICIPALITIES:raise ValueError('Unknown municipality')
+ pattern=json.dumps('^'+re.escape(m)+r'( \(SG\))?$',ensure_ascii=False)
+ return f'[out:json][timeout:25];area["ISO3166-2"="CH-SG"]["admin_level"="4"]->.sg;relation(area.sg)["boundary"="administrative"]["admin_level"="8"]["name"~{pattern}];map_to_area->.a;.a out tags;nwr(area.a)["name"][~"^(shop|craft|office|healthcare|amenity|leisure|tourism|club)$"~"."];out center tags;'
+def resolved_boundary(elements,municipality):
+ areas=[e for e in elements if e.get('type')=='area']
+ if len(areas)!=1:raise ValueError('Expected exactly one municipality area; unresolved or ambiguous is not zero coverage')
+ area=areas[0];tags=area.get('tags',{})
+ if tags.get('name') not in [municipality,municipality+' (SG)'] or tags.get('boundary')!='administrative' or tags.get('admin_level')!='8':
+  raise ValueError('Municipality boundary identity mismatch')
+ if not isinstance(area.get('id'),int) or area['id']<=3600000000:raise ValueError('Expected relation-derived municipality area')
+ return {'area_id':area['id'],'relation_id':area['id']-3600000000,'name':tags['name'],'canton':'CH-SG','bfs_ref':tags.get('ref:FSO')}
 def harvest(max_municipalities,timeout,retry_failed=False):
  state=read(OUT/'state.json',{'next_cursor':0,'jobs':[]});entities={x['id']:x for x in read(OUT/'business_entities.json',[])}
  cooldown=state.get('retry_not_before')
@@ -51,9 +62,10 @@ def harvest(max_municipalities,timeout,retry_failed=False):
    result=json.loads(body)
    if result.get('remark'):raise ValueError('Incomplete Overpass response: '+result['remark'][:200])
    receipt.update(sha256=hashlib.sha256(body).hexdigest(),http_status=200,bytes=len(body),osm_base=result.get('osm3s',{}).get('timestamp_osm_base'))
-   elements=result.get('elements',[]);area_seen=any(e.get('type')=='area' for e in elements)
-   receipt['municipality_area_resolved']=area_seen
-   if not area_seen:raise ValueError('Municipality area unresolved; not evidence of zero businesses')
+   elements=result.get('elements',[])
+   receipt['municipality_area_resolved']=False
+   boundary=resolved_boundary(elements,m)
+   receipt.update(municipality_area_resolved=True,boundary=boundary)
    count=0
    for e in elements:
     row=normalize_element(e,m,receipt)

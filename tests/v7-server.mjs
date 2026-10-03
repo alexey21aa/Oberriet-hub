@@ -18,6 +18,7 @@ foreach(['unreviewed test','unknown municipal form xyz','therapist qxyz'] as $q)
 $r=OberHubV6\\UniversalSearch::resolve('колоноскопя');check('Cyrillic typo',in_array('need:health:colonoscopy',$r['concept_ids'],true));
 $r=OberHubV6\\UniversalSearch::resolve('ПРОФОРИЕНТАЦИЯ');check('Cyrillic case',in_array('need:work:career-guidance',$r['concept_ids'],true));
 $r=OberHubV6\\UniversalSearch::resolve('FÜHRERAUSWEIS UMTAUSCHEN');check('German case',in_array('need:transport:driving-licence-exchange',$r['concept_ids'],true));
+foreach(['Ремонт компьютера'=>'need:technology:computer-repair','Калібрування вимірювальних приладів'=>'need:industry:measurement-calibration','Tierärztlicher Notdienst'=>'need:animals:veterinary-emergency','Data recovry'=>'need:technology:data-recovery'] as $q=>$id){$r=OberHubV6\\UniversalSearch::resolve($q);check('New needs exact/fuzzy '.$q,in_array($id,$r['concept_ids'],true));}
 echo json_encode($checks,JSON_UNESCAPED_UNICODE);`});
 const checks=JSON.parse(r.text);const failed=checks.filter(c=>!c.passed);
 const result={candidate_only:true,checks:checks.length,failed:failed.length,failures:failed,device_independent:true,live_deployed:false};

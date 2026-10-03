@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-03T10:52:01.202398+00:00",
+  "timestamp": "2026-10-03T11:30:28.645020+00:00",
   "candidate_only": true,
   "live_tests_included": false,
   "checks": {
-    "multilingual_exact_alias": 11607,
-    "concept_integrity": 740,
+    "multilingual_exact_alias": 12171,
+    "concept_integrity": 881,
     "edit_distance": 7,
     "search_concept": 4,
     "unknown_intent_not_camping": 1,
@@ -20,7 +20,9 @@
     "identity_uid_conflict": 1,
     "identity_uid_branches": 1,
     "discovery_exclusion": 2,
-    "discovery_not_verified": 778,
+    "municipality_boundary_identity": 1,
+    "municipality_boundary_rejection": 4,
+    "discovery_not_verified": 1142,
     "taxonomy_retrieval": 5,
     "reviewed_graph_multilingual": 20,
     "reviewed_graph_typos": 3,
@@ -29,15 +31,15 @@
     "review_url_guard": 9,
     "review_url_public": 1
   },
-  "total": 13206,
+  "total": 14280,
   "failed": 0,
   "failures": [],
-  "elapsed_seconds": 0.701,
+  "elapsed_seconds": 0.733,
   "typo_benchmark": {
     "distinct_queries": 500,
     "concept_recovery": 500,
     "recall": 1.0,
-    "p95_ms": 1.096,
+    "p95_ms": 1.028,
     "miss_examples": [],
     "scope": "candidate deterministic deletion corpus, not human relevance or live search"
   },

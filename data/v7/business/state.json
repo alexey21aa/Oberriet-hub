@@ -156,6 +156,108 @@
       "status": "error",
       "http_status": 504,
       "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::timeout. The server is probably too busy to handle your request. </p>\n\n</body>\n</html>\n"
+    },
+    {
+      "municipality": "Rüthi",
+      "checked_at": "2026-10-03T11:22:54+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "18a4d145472ac843676e13d37112ab2a763ae1ddf55ff7bbe15f05fcbe37362b",
+      "sha256": "cb5782ae8c411d59a1f135dd84e6e4ae462788109acba3fdac562558bc02225a",
+      "http_status": 200,
+      "bytes": 339,
+      "osm_base": "2026-10-03T11:21:45Z",
+      "municipality_area_resolved": false,
+      "status": "error",
+      "error": "Municipality area unresolved; not evidence of zero businesses"
+    },
+    {
+      "municipality": "Rüthi",
+      "checked_at": "2026-10-03T11:27:26+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "303179690ce88587aede02db03c5c748e5b065b446cdb35eff69bd29e3d3069e",
+      "sha256": "fd4a5a5f6b06e8c57beb957c084ff494ef61757926cf1051d34cc023d916a9ba",
+      "http_status": 200,
+      "bytes": 6663,
+      "osm_base": "2026-10-03T11:25:51Z",
+      "municipality_area_resolved": true,
+      "boundary": {
+        "area_id": 3601683930,
+        "relation_id": 1683930,
+        "name": "Rüthi (SG)",
+        "canton": "CH-SG",
+        "bfs_ref": null
+      },
+      "discovered_entities": 22,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Balgach",
+      "checked_at": "2026-10-03T11:28:13+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "4b41c89bd57b3fa777da4d4d216c4bc3e0d99c2a9e733b58278b74d9fa13413d",
+      "status": "error",
+      "http_status": 504,
+      "error": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" lang=\"en\"/>\n  <title>OSM3S Response</title>\n</head>\n<body>\n\n<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>\n<p><strong style=\"color:#FF0000\">Error</strong>: runtime error: open64: 0 Success /osm3s_osm_base Dispatcher_Client::request_read_and_idx::timeout. The server is probably too busy to handle your request. </p>\n\n</body>\n</html>\n"
+    },
+    {
+      "municipality": "Diepoldsau",
+      "checked_at": "2026-10-03T11:28:44+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "c04015cff45565943febcb60b18ac2d3eab14f655c8b6c297c6ea025d8105d5b",
+      "sha256": "2ea7b0cef9fba75af59c6886405f684e9034269336f43a2156797293bef8780d",
+      "http_status": 200,
+      "bytes": 37931,
+      "osm_base": "2026-10-03T11:26:51Z",
+      "municipality_area_resolved": true,
+      "boundary": {
+        "area_id": 3601683873,
+        "relation_id": 1683873,
+        "name": "Diepoldsau",
+        "canton": "CH-SG",
+        "bfs_ref": null
+      },
+      "discovered_entities": 100,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "Au",
+      "checked_at": "2026-10-03T11:29:03+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "71f8cff86ac746af06a3f2be0142554e1c4aa448f3579d67ea5e936042f997db",
+      "sha256": "78947a867939a23471f8cc0194b33ef2167e349e588e549bbd4fd0daf6ce4eac",
+      "http_status": 200,
+      "bytes": 61577,
+      "osm_base": "2026-10-03T11:27:50Z",
+      "municipality_area_resolved": true,
+      "boundary": {
+        "area_id": 3601683861,
+        "relation_id": 1683861,
+        "name": "Au (SG)",
+        "canton": "CH-SG",
+        "bfs_ref": null
+      },
+      "discovered_entities": 149,
+      "status": "discovery-complete"
+    },
+    {
+      "municipality": "St. Margrethen",
+      "checked_at": "2026-10-03T11:29:23+00:00",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query_sha256": "da4d955654f30d6d2e276ee3421be6ab4dddd938eab169e32388bbb618515277",
+      "sha256": "812776bca7c2ff95c744133a92c7189105e5296d69d793f5229a6235f92f338e",
+      "http_status": 200,
+      "bytes": 44895,
+      "osm_base": "2026-10-03T11:27:50Z",
+      "municipality_area_resolved": true,
+      "boundary": {
+        "area_id": 3601683943,
+        "relation_id": 1683943,
+        "name": "St. Margrethen",
+        "canton": "CH-SG",
+        "bfs_ref": null
+      },
+      "discovered_entities": 93,
+      "status": "discovery-complete"
     }
   ]
 }

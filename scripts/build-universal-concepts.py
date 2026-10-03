@@ -50,8 +50,14 @@ def build():
  if extension.exists():extensions.extend(json.loads(extension.read_text()))
  needs=ROOT/'data/v7/review/human-needs.tsv'
  if needs.exists():
+  need_ids=set();need_labels=set()
   with needs.open() as f:
    for r in csv.DictReader(f,delimiter='\t'):
+    nid=r['domain']+':'+r['slug'];label_key=normalize(r['en'])
+    if nid in need_ids or label_key in need_labels:raise ValueError('Duplicate editorial need: '+nid)
+    if not re.fullmatch(r'[a-z]+',r['domain']) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',r['slug']):raise ValueError('Invalid editorial identifier: '+nid)
+    if any(not r.get(l,'').strip() for l in ['en','de','ru','uk']):raise ValueError('Missing editorial translation: '+nid)
+    need_ids.add(nid);need_labels.add(label_key)
     extensions.append({'id':'need:'+r['domain']+':'+r['slug'],'label':r['en'],
      'labels':{l:r[l] for l in ['en','de','ru','uk']},'parent_id':'category:'+r['domain'],
      'classifications':[{'human_need':r['slug']}],'source_id':'oberhub-editorial-needs',
@@ -76,6 +82,7 @@ def build():
   'translations':sum(a['kind']=='label' and a['lang']!='en' for a in ars),'typo_forms':0,
   'rejected_duplicates':rejected['same_primary_tag_or_label'],'excluded_presets':dict(rejected),
   'ambiguous_terms':sum(len(v)>1 for v in reverse.values()),'source_breakdown':dict(collections.Counter(r['source_id'] for r in rows)),
+  'editorial_needs_by_domain':dict(sorted(collections.Counter(r['parent_id'].removeprefix('category:') for r in rows if r['source_id']=='oberhub-editorial-needs').items())),
   'target_25000_met':False,'target_100000_met':False,'businesses_inferred_from_taxonomy':0,
   'limitations':['OSM taxonomy, primary-provider concepts and editorial human needs; targets remain pending. Editorial concepts assert no provider facts.',
    'Exact normalized label and primary-tag dedupe; embedding semantic audit still pending.',

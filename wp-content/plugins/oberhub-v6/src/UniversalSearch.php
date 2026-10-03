@@ -3,12 +3,25 @@ namespace OberHubV6;
 /** V7 extends V6 using server-owned ontology labels. Never exposes raw POI discoveries. */
 final class UniversalSearch {
     private static ?array $pack=null;
+    private static ?array $lengthBuckets=null;
     private static function pack():array {
         if(self::$pack===null){
             $file=dirname(__DIR__).'/ontology.json';
             self::$pack=is_file($file)?(json_decode(file_get_contents($file),true)?:[]):[];
         }
         return self::$pack;
+    }
+    private static function lengthBuckets():array {
+        if(self::$lengthBuckets===null){
+            $pack=self::pack();
+            self::$lengthBuckets=$pack['terms_by_length']??[];
+            // Existing packs/fixtures remain compatible; compute once per request.
+            if(!self::$lengthBuckets)foreach(array_keys($pack['terms']??[]) as $term){
+                $length=count(preg_split('//u',(string)$term,-1,PREG_SPLIT_NO_EMPTY));
+                self::$lengthBuckets[$length][]=$term;
+            }
+        }
+        return self::$lengthBuckets;
     }
     public static function normalize(string $text):string {
         if(class_exists('Normalizer'))$text=\Normalizer::normalize($text,\Normalizer::FORM_KC);
@@ -23,9 +36,9 @@ final class UniversalSearch {
         $ids=$terms[$q]??[];$method=$ids?'exact':'none';
         $length=count(preg_split('//u',$q,-1,PREG_SPLIT_NO_EMPTY));
         if(!$ids&&$allowFuzzy&&$length>=4){
-            foreach($terms as $term=>$cids){
-                if(abs(count(preg_split('//u',$term,-1,PREG_SPLIT_NO_EMPTY))-$length)>1)continue;
-                if(Knowledge::distance($q,(string)$term)<=1){$ids=array_merge($ids,$cids);$method='one-edit';}
+            $buckets=self::lengthBuckets();
+            foreach([$length-1,$length,$length+1] as $bucket)foreach($buckets[$bucket]??[] as $term){
+                if(Knowledge::distance($q,(string)$term)<=1){$ids=array_merge($ids,$terms[$term]);$method='one-edit';}
             }
         }
         $ids=array_values(array_unique($ids));sort($ids);

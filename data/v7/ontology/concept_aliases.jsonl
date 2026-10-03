@@ -1,3 +1,115 @@
+{"concept_id":"need:agriculture:beekeeping-training","lang":"de","term":"Imkerkurs","normalized":"imkerkurs","kind":"label"}
+{"concept_id":"need:agriculture:beekeeping-training","lang":"en","term":"Beekeeping training","normalized":"beekeeping training","kind":"label"}
+{"concept_id":"need:agriculture:beekeeping-training","lang":"ru","term":"Обучение пчеловодству","normalized":"обучение пчеловодству","kind":"label"}
+{"concept_id":"need:agriculture:beekeeping-training","lang":"uk","term":"Навчання бджільництва","normalized":"навчання бджільництва","kind":"label"}
+{"concept_id":"need:agriculture:community-garden","lang":"de","term":"Gemeinschaftsgarten-Parzelle","normalized":"gemeinschaftsgarten parzelle","kind":"label"}
+{"concept_id":"need:agriculture:community-garden","lang":"en","term":"Community garden plot","normalized":"community garden plot","kind":"label"}
+{"concept_id":"need:agriculture:community-garden","lang":"ru","term":"Участок в общественном саду","normalized":"участок в общественном саду","kind":"label"}
+{"concept_id":"need:agriculture:community-garden","lang":"uk","term":"Ділянка в громадському саду","normalized":"ділянка в громадському саду","kind":"label"}
+{"concept_id":"need:agriculture:crop-protection-advice","lang":"de","term":"Pflanzenschutzberatung","normalized":"pflanzenschutzberatung","kind":"label"}
+{"concept_id":"need:agriculture:crop-protection-advice","lang":"en","term":"Crop protection advice","normalized":"crop protection advice","kind":"label"}
+{"concept_id":"need:agriculture:crop-protection-advice","lang":"ru","term":"Консультация по защите растений","normalized":"консультация по защите растений","kind":"label"}
+{"concept_id":"need:agriculture:crop-protection-advice","lang":"uk","term":"Консультація із захисту рослин","normalized":"консультація із захисту рослин","kind":"label"}
+{"concept_id":"need:agriculture:farm-direct-sales","lang":"de","term":"Direkt beim Bauernhof kaufen","normalized":"direkt beim bauernhof kaufen","kind":"label"}
+{"concept_id":"need:agriculture:farm-direct-sales","lang":"en","term":"Buy directly from a farm","normalized":"buy directly from a farm","kind":"label"}
+{"concept_id":"need:agriculture:farm-direct-sales","lang":"ru","term":"Покупка продуктов у фермеров","normalized":"покупка продуктов у фермеров","kind":"label"}
+{"concept_id":"need:agriculture:farm-direct-sales","lang":"uk","term":"Купівля продуктів у фермерів","normalized":"купівля продуктів у фермерів","kind":"label"}
+{"concept_id":"need:agriculture:farm-machinery-repair","lang":"de","term":"Landmaschinenreparatur","normalized":"landmaschinenreparatur","kind":"label"}
+{"concept_id":"need:agriculture:farm-machinery-repair","lang":"en","term":"Farm machinery repair","normalized":"farm machinery repair","kind":"label"}
+{"concept_id":"need:agriculture:farm-machinery-repair","lang":"ru","term":"Ремонт сельхозтехники","normalized":"ремонт сельхозтехники","kind":"label"}
+{"concept_id":"need:agriculture:farm-machinery-repair","lang":"uk","term":"Ремонт сільгосптехніки","normalized":"ремонт сільгосптехніки","kind":"label"}
+{"concept_id":"need:agriculture:seasonal-picking","lang":"de","term":"Obst selbst pflücken","normalized":"obst selbst pflücken","kind":"label"}
+{"concept_id":"need:agriculture:seasonal-picking","lang":"en","term":"Pick your own farm produce","normalized":"pick your own farm produce","kind":"label"}
+{"concept_id":"need:agriculture:seasonal-picking","lang":"ru","term":"Самостоятельный сбор урожая на ферме","normalized":"самостоятельный сбор урожая на ферме","kind":"label"}
+{"concept_id":"need:agriculture:seasonal-picking","lang":"uk","term":"Самостійне збирання врожаю на фермі","normalized":"самостійне збирання врожаю на фермі","kind":"label"}
+{"concept_id":"need:agriculture:soil-analysis","lang":"de","term":"Bodenanalyse Landwirtschaft","normalized":"bodenanalyse landwirtschaft","kind":"label"}
+{"concept_id":"need:agriculture:soil-analysis","lang":"en","term":"Agricultural soil analysis","normalized":"agricultural soil analysis","kind":"label"}
+{"concept_id":"need:agriculture:soil-analysis","lang":"ru","term":"Анализ сельскохозяйственной почвы","normalized":"анализ сельскохозяйственной почвы","kind":"label"}
+{"concept_id":"need:agriculture:soil-analysis","lang":"uk","term":"Аналіз сільськогосподарського ґрунту","normalized":"аналіз сільськогосподарського ґрунту","kind":"label"}
+{"concept_id":"need:animals:animal-adoption","lang":"de","term":"Tier adoptieren","normalized":"tier adoptieren","kind":"label"}
+{"concept_id":"need:animals:animal-adoption","lang":"en","term":"Animal adoption","normalized":"animal adoption","kind":"label"}
+{"concept_id":"need:animals:animal-adoption","lang":"ru","term":"Усыновление животного","normalized":"усыновление животного","kind":"label"}
+{"concept_id":"need:animals:animal-adoption","lang":"uk","term":"Прилаштування тварини в сімʼю","normalized":"прилаштування тварини в сімʼю","kind":"label"}
+{"concept_id":"need:animals:dog-registration","lang":"de","term":"Hund anmelden","normalized":"hund anmelden","kind":"label"}
+{"concept_id":"need:animals:dog-registration","lang":"en","term":"Dog registration","normalized":"dog registration","kind":"label"}
+{"concept_id":"need:animals:dog-registration","lang":"ru","term":"Регистрация собаки","normalized":"регистрация собаки","kind":"label"}
+{"concept_id":"need:animals:dog-registration","lang":"uk","term":"Реєстрація собаки","normalized":"реєстрація собаки","kind":"label"}
+{"concept_id":"need:animals:dog-training","lang":"de","term":"Hundetraining","normalized":"hundetraining","kind":"label"}
+{"concept_id":"need:animals:dog-training","lang":"en","term":"Dog training classes","normalized":"dog training classes","kind":"label"}
+{"concept_id":"need:animals:dog-training","lang":"ru","term":"Дрессировка собак","normalized":"дрессировка собак","kind":"label"}
+{"concept_id":"need:animals:dog-training","lang":"uk","term":"Дресирування собак","normalized":"дресирування собак","kind":"label"}
+{"concept_id":"need:animals:lost-pet-search","lang":"de","term":"Vermisstes Haustier suchen","normalized":"vermisstes haustier suchen","kind":"label"}
+{"concept_id":"need:animals:lost-pet-search","lang":"en","term":"Lost pet search","normalized":"lost pet search","kind":"label"}
+{"concept_id":"need:animals:lost-pet-search","lang":"ru","term":"Поиск пропавшего животного","normalized":"поиск пропавшего животного","kind":"label"}
+{"concept_id":"need:animals:lost-pet-search","lang":"uk","term":"Пошук зниклої тварини","normalized":"пошук зниклої тварини","kind":"label"}
+{"concept_id":"need:animals:pet-boarding","lang":"de","term":"Tierpension buchen","normalized":"tierpension buchen","kind":"label"}
+{"concept_id":"need:animals:pet-boarding","lang":"en","term":"Pet boarding service","normalized":"pet boarding service","kind":"label"}
+{"concept_id":"need:animals:pet-boarding","lang":"ru","term":"Передержка домашних животных","normalized":"передержка домашних животных","kind":"label"}
+{"concept_id":"need:animals:pet-boarding","lang":"uk","term":"Перетримка домашніх тварин","normalized":"перетримка домашніх тварин","kind":"label"}
+{"concept_id":"need:animals:pet-cremation","lang":"de","term":"Tierkremation","normalized":"tierkremation","kind":"label"}
+{"concept_id":"need:animals:pet-cremation","lang":"en","term":"Pet cremation service","normalized":"pet cremation service","kind":"label"}
+{"concept_id":"need:animals:pet-cremation","lang":"ru","term":"Кремация домашнего животного","normalized":"кремация домашнего животного","kind":"label"}
+{"concept_id":"need:animals:pet-cremation","lang":"uk","term":"Кремація домашньої тварини","normalized":"кремація домашньої тварини","kind":"label"}
+{"concept_id":"need:animals:pet-grooming","lang":"de","term":"Tierpflege und Fellpflege","normalized":"tierpflege und fellpflege","kind":"label"}
+{"concept_id":"need:animals:pet-grooming","lang":"en","term":"Pet grooming service","normalized":"pet grooming service","kind":"label"}
+{"concept_id":"need:animals:pet-grooming","lang":"ru","term":"Стрижка и уход за шерстью животных","normalized":"стрижка и уход за шерстью животных","kind":"label"}
+{"concept_id":"need:animals:pet-grooming","lang":"uk","term":"Стрижка та догляд за шерстю тварин","normalized":"стрижка та догляд за шерстю тварин","kind":"label"}
+{"concept_id":"need:animals:pet-passport","lang":"de","term":"Heimtierpass und Reisedokumente","normalized":"heimtierpass und reisedokumente","kind":"label"}
+{"concept_id":"need:animals:pet-passport","lang":"en","term":"Pet passport and travel documents","normalized":"pet passport and travel documents","kind":"label"}
+{"concept_id":"need:animals:pet-passport","lang":"ru","term":"Паспорт и документы для поездки с животным","normalized":"паспорт и документы для поездки с животным","kind":"label"}
+{"concept_id":"need:animals:pet-passport","lang":"uk","term":"Паспорт і документи для поїздки з твариною","normalized":"паспорт і документи для поїздки з твариною","kind":"label"}
+{"concept_id":"need:animals:pet-sitting","lang":"de","term":"Tierbetreuung zu Hause","normalized":"tierbetreuung zu hause","kind":"label"}
+{"concept_id":"need:animals:pet-sitting","lang":"en","term":"In-home pet sitting","normalized":"in home pet sitting","kind":"label"}
+{"concept_id":"need:animals:pet-sitting","lang":"ru","term":"Присмотр за животными дома","normalized":"присмотр за животными дома","kind":"label"}
+{"concept_id":"need:animals:pet-sitting","lang":"uk","term":"Догляд за тваринами вдома","normalized":"догляд за тваринами вдома","kind":"label"}
+{"concept_id":"need:animals:pet-vaccination","lang":"de","term":"Haustierimpfung","normalized":"haustierimpfung","kind":"label"}
+{"concept_id":"need:animals:pet-vaccination","lang":"en","term":"Pet vaccination","normalized":"pet vaccination","kind":"label"}
+{"concept_id":"need:animals:pet-vaccination","lang":"ru","term":"Вакцинация домашних животных","normalized":"вакцинация домашних животных","kind":"label"}
+{"concept_id":"need:animals:pet-vaccination","lang":"uk","term":"Вакцинація домашніх тварин","normalized":"вакцинація домашніх тварин","kind":"label"}
+{"concept_id":"need:animals:veterinary-emergency","lang":"de","term":"Tierärztlicher Notdienst","normalized":"tierärztlicher notdienst","kind":"label"}
+{"concept_id":"need:animals:veterinary-emergency","lang":"en","term":"Veterinary emergency care","normalized":"veterinary emergency care","kind":"label"}
+{"concept_id":"need:animals:veterinary-emergency","lang":"ru","term":"Экстренная ветеринарная помощь","normalized":"экстренная ветеринарная помощь","kind":"label"}
+{"concept_id":"need:animals:veterinary-emergency","lang":"uk","term":"Екстрена ветеринарна допомога","normalized":"екстрена ветеринарна допомога","kind":"label"}
+{"concept_id":"need:animals:wildlife-rescue","lang":"de","term":"Hilfe für verletzte Wildtiere","normalized":"hilfe für verletzte wildtiere","kind":"label"}
+{"concept_id":"need:animals:wildlife-rescue","lang":"en","term":"Injured wildlife assistance","normalized":"injured wildlife assistance","kind":"label"}
+{"concept_id":"need:animals:wildlife-rescue","lang":"ru","term":"Помощь раненым диким животным","normalized":"помощь раненым диким животным","kind":"label"}
+{"concept_id":"need:animals:wildlife-rescue","lang":"uk","term":"Допомога пораненим диким тваринам","normalized":"допомога пораненим диким тваринам","kind":"label"}
+{"concept_id":"need:arts:art-framing","lang":"de","term":"Bilderrahmung","normalized":"bilderrahmung","kind":"label"}
+{"concept_id":"need:arts:art-framing","lang":"en","term":"Picture framing service","normalized":"picture framing service","kind":"label"}
+{"concept_id":"need:arts:art-framing","lang":"ru","term":"Обрамление картин","normalized":"обрамление картин","kind":"label"}
+{"concept_id":"need:arts:art-framing","lang":"uk","term":"Обрамлення картин","normalized":"обрамлення картин","kind":"label"}
+{"concept_id":"need:arts:choir-participation","lang":"de","term":"Im Chor mitsingen","normalized":"im chor mitsingen","kind":"label"}
+{"concept_id":"need:arts:choir-participation","lang":"en","term":"Choir participation","normalized":"choir participation","kind":"label"}
+{"concept_id":"need:arts:choir-participation","lang":"ru","term":"Участие в хоре","normalized":"участие в хоре","kind":"label"}
+{"concept_id":"need:arts:choir-participation","lang":"uk","term":"Участь у хорі","normalized":"участь у хорі","kind":"label"}
+{"concept_id":"need:arts:dance-class-booking","lang":"de","term":"Tanzkurs buchen","normalized":"tanzkurs buchen","kind":"label"}
+{"concept_id":"need:arts:dance-class-booking","lang":"en","term":"Dance class booking","normalized":"dance class booking","kind":"label"}
+{"concept_id":"need:arts:dance-class-booking","lang":"ru","term":"Запись на занятия танцами","normalized":"запись на занятия танцами","kind":"label"}
+{"concept_id":"need:arts:dance-class-booking","lang":"uk","term":"Запис на заняття танцями","normalized":"запис на заняття танцями","kind":"label"}
+{"concept_id":"need:arts:instrument-hire","lang":"de","term":"Musikinstrument mieten","normalized":"musikinstrument mieten","kind":"label"}
+{"concept_id":"need:arts:instrument-hire","lang":"en","term":"Musical instrument hire","normalized":"musical instrument hire","kind":"label"}
+{"concept_id":"need:arts:instrument-hire","lang":"ru","term":"Прокат музыкального инструмента","normalized":"прокат музыкального инструмента","kind":"label"}
+{"concept_id":"need:arts:instrument-hire","lang":"uk","term":"Прокат музичного інструмента","normalized":"прокат музичного інструмента","kind":"label"}
+{"concept_id":"need:arts:painting-class","lang":"de","term":"Malkurs","normalized":"malkurs","kind":"label"}
+{"concept_id":"need:arts:painting-class","lang":"en","term":"Painting class","normalized":"painting class","kind":"label"}
+{"concept_id":"need:arts:painting-class","lang":"ru","term":"Занятия живописью","normalized":"занятия живописью","kind":"label"}
+{"concept_id":"need:arts:painting-class","lang":"uk","term":"Заняття живописом","normalized":"заняття живописом","kind":"label"}
+{"concept_id":"need:arts:photography-class","lang":"de","term":"Fotokurs","normalized":"fotokurs","kind":"label"}
+{"concept_id":"need:arts:photography-class","lang":"en","term":"Photography class","normalized":"photography class","kind":"label"}
+{"concept_id":"need:arts:photography-class","lang":"ru","term":"Обучение фотографии","normalized":"обучение фотографии","kind":"label"}
+{"concept_id":"need:arts:photography-class","lang":"uk","term":"Навчання фотографії","normalized":"навчання фотографії","kind":"label"}
+{"concept_id":"need:arts:pottery-class","lang":"de","term":"Töpferkurs","normalized":"töpferkurs","kind":"label"}
+{"concept_id":"need:arts:pottery-class","lang":"en","term":"Pottery class","normalized":"pottery class","kind":"label"}
+{"concept_id":"need:arts:pottery-class","lang":"ru","term":"Занятия гончарным делом","normalized":"занятия гончарным делом","kind":"label"}
+{"concept_id":"need:arts:pottery-class","lang":"uk","term":"Заняття гончарством","normalized":"заняття гончарством","kind":"label"}
+{"concept_id":"need:arts:sewing-class","lang":"de","term":"Nähkurs","normalized":"nähkurs","kind":"label"}
+{"concept_id":"need:arts:sewing-class","lang":"en","term":"Sewing class","normalized":"sewing class","kind":"label"}
+{"concept_id":"need:arts:sewing-class","lang":"ru","term":"Обучение шитью","normalized":"обучение шитью","kind":"label"}
+{"concept_id":"need:arts:sewing-class","lang":"uk","term":"Навчання шиття","normalized":"навчання шиття","kind":"label"}
+{"concept_id":"need:arts:theatre-group","lang":"de","term":"Amateurtheater mitmachen","normalized":"amateurtheater mitmachen","kind":"label"}
+{"concept_id":"need:arts:theatre-group","lang":"en","term":"Amateur theatre participation","normalized":"amateur theatre participation","kind":"label"}
+{"concept_id":"need:arts:theatre-group","lang":"ru","term":"Участие в любительском театре","normalized":"участие в любительском театре","kind":"label"}
+{"concept_id":"need:arts:theatre-group","lang":"uk","term":"Участь в аматорському театрі","normalized":"участь в аматорському театрі","kind":"label"}
 {"concept_id":"need:business:appliance-repair","lang":"de","term":"Haushaltsgerätereparatur","normalized":"haushaltsgerätereparatur","kind":"label"}
 {"concept_id":"need:business:appliance-repair","lang":"en","term":"Appliance repair","normalized":"appliance repair","kind":"label"}
 {"concept_id":"need:business:appliance-repair","lang":"ru","term":"Ремонт бытовой техники","normalized":"ремонт бытовой техники","kind":"label"}
@@ -6,26 +118,50 @@
 {"concept_id":"need:business:business-bookkeeping","lang":"en","term":"Business bookkeeping","normalized":"business bookkeeping","kind":"label"}
 {"concept_id":"need:business:business-bookkeeping","lang":"ru","term":"Бухгалтерия бизнеса","normalized":"бухгалтерия бизнеса","kind":"label"}
 {"concept_id":"need:business:business-bookkeeping","lang":"uk","term":"Бухгалтерія бізнесу","normalized":"бухгалтерія бізнесу","kind":"label"}
+{"concept_id":"need:business:business-insurance-advice","lang":"de","term":"Unternehmensversicherung Beratung","normalized":"unternehmensversicherung beratung","kind":"label"}
+{"concept_id":"need:business:business-insurance-advice","lang":"en","term":"Business insurance advice","normalized":"business insurance advice","kind":"label"}
+{"concept_id":"need:business:business-insurance-advice","lang":"ru","term":"Консультация по страхованию бизнеса","normalized":"консультация по страхованию бизнеса","kind":"label"}
+{"concept_id":"need:business:business-insurance-advice","lang":"uk","term":"Консультація зі страхування бізнесу","normalized":"консультація зі страхування бізнесу","kind":"label"}
 {"concept_id":"need:business:business-premises","lang":"de","term":"Gewerberaum finden","normalized":"gewerberaum finden","kind":"label"}
 {"concept_id":"need:business:business-premises","lang":"en","term":"Find business premises","normalized":"find business premises","kind":"label"}
 {"concept_id":"need:business:business-premises","lang":"ru","term":"Поиск помещения для бизнеса","normalized":"поиск помещения для бизнеса","kind":"label"}
 {"concept_id":"need:business:business-premises","lang":"uk","term":"Пошук приміщення для бізнесу","normalized":"пошук приміщення для бізнесу","kind":"label"}
+{"concept_id":"need:business:business-succession","lang":"de","term":"Unternehmensnachfolge Beratung","normalized":"unternehmensnachfolge beratung","kind":"label"}
+{"concept_id":"need:business:business-succession","lang":"en","term":"Business succession advice","normalized":"business succession advice","kind":"label"}
+{"concept_id":"need:business:business-succession","lang":"ru","term":"Консультация по передаче бизнеса","normalized":"консультация по передаче бизнеса","kind":"label"}
+{"concept_id":"need:business:business-succession","lang":"uk","term":"Консультація з передання бізнесу","normalized":"консультація з передання бізнесу","kind":"label"}
 {"concept_id":"need:business:clothing-alterations","lang":"de","term":"Kleideränderungen","normalized":"kleideränderungen","kind":"label"}
 {"concept_id":"need:business:clothing-alterations","lang":"en","term":"Clothing alterations","normalized":"clothing alterations","kind":"label"}
 {"concept_id":"need:business:clothing-alterations","lang":"ru","term":"Подгонка и ремонт одежды","normalized":"подгонка и ремонт одежды","kind":"label"}
 {"concept_id":"need:business:clothing-alterations","lang":"uk","term":"Підгонка та ремонт одягу","normalized":"підгонка та ремонт одягу","kind":"label"}
+{"concept_id":"need:business:commercial-lease-review","lang":"de","term":"Gewerbemietvertrag prüfen","normalized":"gewerbemietvertrag prüfen","kind":"label"}
+{"concept_id":"need:business:commercial-lease-review","lang":"en","term":"Commercial lease review","normalized":"commercial lease review","kind":"label"}
+{"concept_id":"need:business:commercial-lease-review","lang":"ru","term":"Проверка договора коммерческой аренды","normalized":"проверка договора коммерческой аренды","kind":"label"}
+{"concept_id":"need:business:commercial-lease-review","lang":"uk","term":"Перевірка договору комерційної оренди","normalized":"перевірка договору комерційної оренди","kind":"label"}
 {"concept_id":"need:business:commercial-register","lang":"de","term":"Handelsregistereintrag","normalized":"handelsregistereintrag","kind":"label"}
 {"concept_id":"need:business:commercial-register","lang":"en","term":"Commercial register entry","normalized":"commercial register entry","kind":"label"}
 {"concept_id":"need:business:commercial-register","lang":"ru","term":"Запись в торговый реестр","normalized":"запись в торговый реестр","kind":"label"}
 {"concept_id":"need:business:commercial-register","lang":"uk","term":"Запис до торгового реєстру","normalized":"запис до торгового реєстру","kind":"label"}
+{"concept_id":"need:business:coworking-booking","lang":"de","term":"Coworking-Platz buchen","normalized":"coworking platz buchen","kind":"label"}
+{"concept_id":"need:business:coworking-booking","lang":"en","term":"Coworking desk booking","normalized":"coworking desk booking","kind":"label"}
+{"concept_id":"need:business:coworking-booking","lang":"ru","term":"Бронирование места в коворкинге","normalized":"бронирование места в коворкинге","kind":"label"}
+{"concept_id":"need:business:coworking-booking","lang":"uk","term":"Бронювання місця в коворкінгу","normalized":"бронювання місця в коворкінгу","kind":"label"}
 {"concept_id":"need:business:key-cutting","lang":"de","term":"Schlüssel nachmachen","normalized":"schlüssel nachmachen","kind":"label"}
 {"concept_id":"need:business:key-cutting","lang":"en","term":"Key cutting","normalized":"key cutting","kind":"label"}
 {"concept_id":"need:business:key-cutting","lang":"ru","term":"Изготовление ключей","normalized":"изготовление ключей","kind":"label"}
 {"concept_id":"need:business:key-cutting","lang":"uk","term":"Виготовлення ключів","normalized":"виготовлення ключів","kind":"label"}
+{"concept_id":"need:business:payroll-service","lang":"de","term":"Lohnbuchhaltung","normalized":"lohnbuchhaltung","kind":"label"}
+{"concept_id":"need:business:payroll-service","lang":"en","term":"Payroll administration service","normalized":"payroll administration service","kind":"label"}
+{"concept_id":"need:business:payroll-service","lang":"ru","term":"Расчёт заработной платы","normalized":"расчёт заработной платы","kind":"label"}
+{"concept_id":"need:business:payroll-service","lang":"uk","term":"Розрахунок заробітної плати","normalized":"розрахунок заробітної плати","kind":"label"}
 {"concept_id":"need:business:printing-service","lang":"de","term":"Druckservice","normalized":"druckservice","kind":"label"}
 {"concept_id":"need:business:printing-service","lang":"en","term":"Printing service","normalized":"printing service","kind":"label"}
 {"concept_id":"need:business:printing-service","lang":"ru","term":"Услуги печати","normalized":"услуги печати","kind":"label"}
 {"concept_id":"need:business:printing-service","lang":"uk","term":"Послуги друку","normalized":"послуги друку","kind":"label"}
+{"concept_id":"need:business:product-photography","lang":"de","term":"Produktfotografie","normalized":"produktfotografie","kind":"label"}
+{"concept_id":"need:business:product-photography","lang":"en","term":"Product photography","normalized":"product photography","kind":"label"}
+{"concept_id":"need:business:product-photography","lang":"ru","term":"Предметная фотосъёмка","normalized":"предметная фотосъёмка","kind":"label"}
+{"concept_id":"need:business:product-photography","lang":"uk","term":"Предметне фотографування","normalized":"предметне фотографування","kind":"label"}
 {"concept_id":"need:business:repair-electronics","lang":"de","term":"Elektronikreparatur","normalized":"elektronikreparatur","kind":"label"}
 {"concept_id":"need:business:repair-electronics","lang":"en","term":"Electronics repair","normalized":"electronics repair","kind":"label"}
 {"concept_id":"need:business:repair-electronics","lang":"ru","term":"Ремонт электроники","normalized":"ремонт электроники","kind":"label"}
@@ -34,6 +170,14 @@
 {"concept_id":"need:business:start-business","lang":"en","term":"Starting a business advice","normalized":"starting a business advice","kind":"label"}
 {"concept_id":"need:business:start-business","lang":"ru","term":"Консультация по открытию бизнеса","normalized":"консультация по открытию бизнеса","kind":"label"}
 {"concept_id":"need:business:start-business","lang":"uk","term":"Консультація з відкриття бізнесу","normalized":"консультація з відкриття бізнесу","kind":"label"}
+{"concept_id":"need:business:tender-search","lang":"de","term":"Öffentliche Ausschreibungen finden","normalized":"öffentliche ausschreibungen finden","kind":"label"}
+{"concept_id":"need:business:tender-search","lang":"en","term":"Public tender search","normalized":"public tender search","kind":"label"}
+{"concept_id":"need:business:tender-search","lang":"ru","term":"Поиск государственных тендеров","normalized":"поиск государственных тендеров","kind":"label"}
+{"concept_id":"need:business:tender-search","lang":"uk","term":"Пошук державних тендерів","normalized":"пошук державних тендерів","kind":"label"}
+{"concept_id":"need:business:trademark-registration","lang":"de","term":"Marke anmelden","normalized":"marke anmelden","kind":"label"}
+{"concept_id":"need:business:trademark-registration","lang":"en","term":"Trademark registration routing","normalized":"trademark registration routing","kind":"label"}
+{"concept_id":"need:business:trademark-registration","lang":"ru","term":"Регистрация торговой марки","normalized":"регистрация торговой марки","kind":"label"}
+{"concept_id":"need:business:trademark-registration","lang":"uk","term":"Реєстрація торговельної марки","normalized":"реєстрація торговельної марки","kind":"label"}
 {"concept_id":"need:business:translation-service","lang":"de","term":"Übersetzungsdienst","normalized":"übersetzungsdienst","kind":"label"}
 {"concept_id":"need:business:translation-service","lang":"en","term":"Translation service","normalized":"translation service","kind":"label"}
 {"concept_id":"need:business:translation-service","lang":"ru","term":"Услуги перевода","normalized":"услуги перевода","kind":"label"}
@@ -78,6 +222,54 @@
 {"concept_id":"need:care:senior-advice","lang":"en","term":"Advice for older people","normalized":"advice for older people","kind":"label"}
 {"concept_id":"need:care:senior-advice","lang":"ru","term":"Консультация для пожилых","normalized":"консультация для пожилых","kind":"label"}
 {"concept_id":"need:care:senior-advice","lang":"uk","term":"Консультація для літніх людей","normalized":"консультація для літніх людей","kind":"label"}
+{"concept_id":"need:commerce:cake-order","lang":"de","term":"Torte bestellen","normalized":"torte bestellen","kind":"label"}
+{"concept_id":"need:commerce:cake-order","lang":"en","term":"Custom cake order","normalized":"custom cake order","kind":"label"}
+{"concept_id":"need:commerce:cake-order","lang":"ru","term":"Заказ торта","normalized":"заказ торта","kind":"label"}
+{"concept_id":"need:commerce:cake-order","lang":"uk","term":"Замовлення торта","normalized":"замовлення торта","kind":"label"}
+{"concept_id":"need:commerce:dry-cleaning","lang":"de","term":"Chemische Reinigung","normalized":"chemische reinigung","kind":"label"}
+{"concept_id":"need:commerce:dry-cleaning","lang":"en","term":"Dry cleaning service","normalized":"dry cleaning service","kind":"label"}
+{"concept_id":"need:commerce:dry-cleaning","lang":"ru","term":"Химчистка одежды","normalized":"химчистка одежды","kind":"label"}
+{"concept_id":"need:commerce:dry-cleaning","lang":"uk","term":"Хімчистка одягу","normalized":"хімчистка одягу","kind":"label"}
+{"concept_id":"need:commerce:flower-delivery","lang":"de","term":"Blumenlieferung","normalized":"blumenlieferung","kind":"label"}
+{"concept_id":"need:commerce:flower-delivery","lang":"en","term":"Flower delivery","normalized":"flower delivery","kind":"label"}
+{"concept_id":"need:commerce:flower-delivery","lang":"ru","term":"Доставка цветов","normalized":"доставка цветов","kind":"label"}
+{"concept_id":"need:commerce:flower-delivery","lang":"uk","term":"Доставка квітів","normalized":"доставка квітів","kind":"label"}
+{"concept_id":"need:commerce:food-allergen-enquiry","lang":"de","term":"Lebensmittelallergene erfragen","normalized":"lebensmittelallergene erfragen","kind":"label"}
+{"concept_id":"need:commerce:food-allergen-enquiry","lang":"en","term":"Food allergen enquiry","normalized":"food allergen enquiry","kind":"label"}
+{"concept_id":"need:commerce:food-allergen-enquiry","lang":"ru","term":"Уточнение аллергенов в продуктах","normalized":"уточнение аллергенов в продуктах","kind":"label"}
+{"concept_id":"need:commerce:food-allergen-enquiry","lang":"uk","term":"Уточнення алергенів у продуктах","normalized":"уточнення алергенів у продуктах","kind":"label"}
+{"concept_id":"need:commerce:laundry-service","lang":"de","term":"Wäscheservice","normalized":"wäscheservice","kind":"label"}
+{"concept_id":"need:commerce:laundry-service","lang":"en","term":"Laundry service","normalized":"laundry service","kind":"label"}
+{"concept_id":"need:commerce:laundry-service","lang":"ru","term":"Услуги стирки","normalized":"услуги стирки","kind":"label"}
+{"concept_id":"need:commerce:laundry-service","lang":"uk","term":"Послуги прання","normalized":"послуги прання","kind":"label"}
+{"concept_id":"need:commerce:mobility-aid-rental","lang":"de","term":"Mobilitätshilfen mieten","normalized":"mobilitätshilfen mieten","kind":"label"}
+{"concept_id":"need:commerce:mobility-aid-rental","lang":"en","term":"Mobility aid rental","normalized":"mobility aid rental","kind":"label"}
+{"concept_id":"need:commerce:mobility-aid-rental","lang":"ru","term":"Прокат средств передвижения","normalized":"прокат средств передвижения","kind":"label"}
+{"concept_id":"need:commerce:mobility-aid-rental","lang":"uk","term":"Прокат засобів пересування","normalized":"прокат засобів пересування","kind":"label"}
+{"concept_id":"need:commerce:parcel-collection","lang":"de","term":"Paket abholen","normalized":"paket abholen","kind":"label"}
+{"concept_id":"need:commerce:parcel-collection","lang":"en","term":"Parcel collection service","normalized":"parcel collection service","kind":"label"}
+{"concept_id":"need:commerce:parcel-collection","lang":"ru","term":"Получение посылки","normalized":"получение посылки","kind":"label"}
+{"concept_id":"need:commerce:parcel-collection","lang":"uk","term":"Отримання посилки","normalized":"отримання посилки","kind":"label"}
+{"concept_id":"need:commerce:parcel-return","lang":"de","term":"Paket zurücksenden","normalized":"paket zurücksenden","kind":"label"}
+{"concept_id":"need:commerce:parcel-return","lang":"en","term":"Parcel return service","normalized":"parcel return service","kind":"label"}
+{"concept_id":"need:commerce:parcel-return","lang":"ru","term":"Возврат посылки","normalized":"возврат посылки","kind":"label"}
+{"concept_id":"need:commerce:parcel-return","lang":"uk","term":"Повернення посилки","normalized":"повернення посилки","kind":"label"}
+{"concept_id":"need:commerce:prescription-glasses","lang":"de","term":"Brille anpassen lassen","normalized":"brille anpassen lassen","kind":"label"}
+{"concept_id":"need:commerce:prescription-glasses","lang":"en","term":"Prescription glasses fitting","normalized":"prescription glasses fitting","kind":"label"}
+{"concept_id":"need:commerce:prescription-glasses","lang":"ru","term":"Подбор очков по рецепту","normalized":"подбор очков по рецепту","kind":"label"}
+{"concept_id":"need:commerce:prescription-glasses","lang":"uk","term":"Підбір окулярів за рецептом","normalized":"підбір окулярів за рецептом","kind":"label"}
+{"concept_id":"need:commerce:product-recall","lang":"de","term":"Produktrückruf prüfen","normalized":"produktrückruf prüfen","kind":"label"}
+{"concept_id":"need:commerce:product-recall","lang":"en","term":"Product recall information","normalized":"product recall information","kind":"label"}
+{"concept_id":"need:commerce:product-recall","lang":"ru","term":"Проверка отзыва товара","normalized":"проверка отзыва товара","kind":"label"}
+{"concept_id":"need:commerce:product-recall","lang":"uk","term":"Перевірка відкликання товару","normalized":"перевірка відкликання товару","kind":"label"}
+{"concept_id":"need:commerce:shoe-fitting","lang":"de","term":"Schuhanpassung Beratung","normalized":"schuhanpassung beratung","kind":"label"}
+{"concept_id":"need:commerce:shoe-fitting","lang":"en","term":"Shoe fitting consultation","normalized":"shoe fitting consultation","kind":"label"}
+{"concept_id":"need:commerce:shoe-fitting","lang":"ru","term":"Подбор обуви","normalized":"подбор обуви","kind":"label"}
+{"concept_id":"need:commerce:shoe-fitting","lang":"uk","term":"Підбір взуття","normalized":"підбір взуття","kind":"label"}
+{"concept_id":"need:commerce:warranty-claim","lang":"de","term":"Garantieanspruch anmelden","normalized":"garantieanspruch anmelden","kind":"label"}
+{"concept_id":"need:commerce:warranty-claim","lang":"en","term":"Product warranty claim","normalized":"product warranty claim","kind":"label"}
+{"concept_id":"need:commerce:warranty-claim","lang":"ru","term":"Обращение по гарантии товара","normalized":"обращение по гарантии товара","kind":"label"}
+{"concept_id":"need:commerce:warranty-claim","lang":"uk","term":"Звернення за гарантією товару","normalized":"звернення за гарантією товару","kind":"label"}
 {"concept_id":"need:community:culture-discount","lang":"de","term":"Kulturvergünstigungen","normalized":"kulturvergünstigungen","kind":"label"}
 {"concept_id":"need:community:culture-discount","lang":"en","term":"Cultural discount access","normalized":"cultural discount access","kind":"label"}
 {"concept_id":"need:community:culture-discount","lang":"ru","term":"Культурные скидки","normalized":"культурные скидки","kind":"label"}
@@ -158,6 +350,78 @@
 {"concept_id":"need:education:tutoring","lang":"en","term":"School tutoring","normalized":"school tutoring","kind":"label"}
 {"concept_id":"need:education:tutoring","lang":"ru","term":"Помощь с учёбой","normalized":"помощь с учёбой","kind":"label"}
 {"concept_id":"need:education:tutoring","lang":"uk","term":"Допомога з навчанням","normalized":"допомога з навчанням","kind":"label"}
+{"concept_id":"need:environment:bulky-waste-disposal","lang":"de","term":"Sperrgut entsorgen","normalized":"sperrgut entsorgen","kind":"label"}
+{"concept_id":"need:environment:bulky-waste-disposal","lang":"en","term":"Bulky waste disposal","normalized":"bulky waste disposal","kind":"label"}
+{"concept_id":"need:environment:bulky-waste-disposal","lang":"ru","term":"Вывоз крупногабаритного мусора","normalized":"вывоз крупногабаритного мусора","kind":"label"}
+{"concept_id":"need:environment:bulky-waste-disposal","lang":"uk","term":"Вивезення великогабаритного сміття","normalized":"вивезення великогабаритного сміття","kind":"label"}
+{"concept_id":"need:environment:composting-help","lang":"de","term":"Kompostberatung","normalized":"kompostberatung","kind":"label"}
+{"concept_id":"need:environment:composting-help","lang":"en","term":"Home composting advice","normalized":"home composting advice","kind":"label"}
+{"concept_id":"need:environment:composting-help","lang":"ru","term":"Консультация по компостированию","normalized":"консультация по компостированию","kind":"label"}
+{"concept_id":"need:environment:composting-help","lang":"uk","term":"Консультація з компостування","normalized":"консультація з компостування","kind":"label"}
+{"concept_id":"need:environment:electronics-recycling","lang":"de","term":"Elektrogeräte recyceln","normalized":"elektrogeräte recyceln","kind":"label"}
+{"concept_id":"need:environment:electronics-recycling","lang":"en","term":"Electronics recycling","normalized":"electronics recycling","kind":"label"}
+{"concept_id":"need:environment:electronics-recycling","lang":"ru","term":"Утилизация электроники","normalized":"утилизация электроники","kind":"label"}
+{"concept_id":"need:environment:electronics-recycling","lang":"uk","term":"Утилізація електроніки","normalized":"утилізація електроніки","kind":"label"}
+{"concept_id":"need:environment:flood-preparation","lang":"de","term":"Hochwasservorsorge für Haushalte","normalized":"hochwasservorsorge für haushalte","kind":"label"}
+{"concept_id":"need:environment:flood-preparation","lang":"en","term":"Household flood preparation","normalized":"household flood preparation","kind":"label"}
+{"concept_id":"need:environment:flood-preparation","lang":"ru","term":"Подготовка дома к наводнению","normalized":"подготовка дома к наводнению","kind":"label"}
+{"concept_id":"need:environment:flood-preparation","lang":"uk","term":"Підготовка оселі до повені","normalized":"підготовка оселі до повені","kind":"label"}
+{"concept_id":"need:environment:garden-waste-disposal","lang":"de","term":"Grünabfall entsorgen","normalized":"grünabfall entsorgen","kind":"label"}
+{"concept_id":"need:environment:garden-waste-disposal","lang":"en","term":"Garden waste disposal","normalized":"garden waste disposal","kind":"label"}
+{"concept_id":"need:environment:garden-waste-disposal","lang":"ru","term":"Утилизация садовых отходов","normalized":"утилизация садовых отходов","kind":"label"}
+{"concept_id":"need:environment:garden-waste-disposal","lang":"uk","term":"Утилізація садових відходів","normalized":"утилізація садових відходів","kind":"label"}
+{"concept_id":"need:environment:hazardous-waste-disposal","lang":"de","term":"Sonderabfall aus Haushalten entsorgen","normalized":"sonderabfall aus haushalten entsorgen","kind":"label"}
+{"concept_id":"need:environment:hazardous-waste-disposal","lang":"en","term":"Household hazardous waste disposal","normalized":"household hazardous waste disposal","kind":"label"}
+{"concept_id":"need:environment:hazardous-waste-disposal","lang":"ru","term":"Утилизация опасных бытовых отходов","normalized":"утилизация опасных бытовых отходов","kind":"label"}
+{"concept_id":"need:environment:hazardous-waste-disposal","lang":"uk","term":"Утилізація небезпечних побутових відходів","normalized":"утилізація небезпечних побутових відходів","kind":"label"}
+{"concept_id":"need:environment:invasive-plant-report","lang":"de","term":"Invasive Pflanzen melden","normalized":"invasive pflanzen melden","kind":"label"}
+{"concept_id":"need:environment:invasive-plant-report","lang":"en","term":"Report invasive plants","normalized":"report invasive plants","kind":"label"}
+{"concept_id":"need:environment:invasive-plant-report","lang":"ru","term":"Сообщение об инвазивных растениях","normalized":"сообщение об инвазивных растениях","kind":"label"}
+{"concept_id":"need:environment:invasive-plant-report","lang":"uk","term":"Повідомлення про інвазивні рослини","normalized":"повідомлення про інвазивні рослини","kind":"label"}
+{"concept_id":"need:environment:noise-complaint","lang":"de","term":"Lärmbeschwerde einreichen","normalized":"lärmbeschwerde einreichen","kind":"label"}
+{"concept_id":"need:environment:noise-complaint","lang":"en","term":"Noise complaint routing","normalized":"noise complaint routing","kind":"label"}
+{"concept_id":"need:environment:noise-complaint","lang":"ru","term":"Подача жалобы на шум","normalized":"подача жалобы на шум","kind":"label"}
+{"concept_id":"need:environment:noise-complaint","lang":"uk","term":"Подання скарги на шум","normalized":"подання скарги на шум","kind":"label"}
+{"concept_id":"need:environment:water-pollution-report","lang":"de","term":"Gewässerverschmutzung melden","normalized":"gewässerverschmutzung melden","kind":"label"}
+{"concept_id":"need:environment:water-pollution-report","lang":"en","term":"Report water pollution","normalized":"report water pollution","kind":"label"}
+{"concept_id":"need:environment:water-pollution-report","lang":"ru","term":"Сообщение о загрязнении воды","normalized":"сообщение о загрязнении воды","kind":"label"}
+{"concept_id":"need:environment:water-pollution-report","lang":"uk","term":"Повідомлення про забруднення води","normalized":"повідомлення про забруднення води","kind":"label"}
+{"concept_id":"need:events:birthday-entertainment","lang":"de","term":"Unterhaltung für Geburtstag buchen","normalized":"unterhaltung für geburtstag buchen","kind":"label"}
+{"concept_id":"need:events:birthday-entertainment","lang":"en","term":"Birthday entertainment booking","normalized":"birthday entertainment booking","kind":"label"}
+{"concept_id":"need:events:birthday-entertainment","lang":"ru","term":"Заказ развлечений на день рождения","normalized":"заказ развлечений на день рождения","kind":"label"}
+{"concept_id":"need:events:birthday-entertainment","lang":"uk","term":"Замовлення розваг на день народження","normalized":"замовлення розваг на день народження","kind":"label"}
+{"concept_id":"need:events:event-catering","lang":"de","term":"Catering für Veranstaltungen","normalized":"catering für veranstaltungen","kind":"label"}
+{"concept_id":"need:events:event-catering","lang":"en","term":"Event catering service","normalized":"event catering service","kind":"label"}
+{"concept_id":"need:events:event-catering","lang":"ru","term":"Кейтеринг для мероприятий","normalized":"кейтеринг для мероприятий","kind":"label"}
+{"concept_id":"need:events:event-catering","lang":"uk","term":"Кейтеринг для заходів","normalized":"кейтеринг для заходів","kind":"label"}
+{"concept_id":"need:events:event-permit","lang":"de","term":"Veranstaltungsbewilligung beantragen","normalized":"veranstaltungsbewilligung beantragen","kind":"label"}
+{"concept_id":"need:events:event-permit","lang":"en","term":"Public event permit routing","normalized":"public event permit routing","kind":"label"}
+{"concept_id":"need:events:event-permit","lang":"ru","term":"Оформление разрешения на мероприятие","normalized":"оформление разрешения на мероприятие","kind":"label"}
+{"concept_id":"need:events:event-permit","lang":"uk","term":"Оформлення дозволу на захід","normalized":"оформлення дозволу на захід","kind":"label"}
+{"concept_id":"need:events:event-sound-hire","lang":"de","term":"Tontechnik für Veranstaltungen mieten","normalized":"tontechnik für veranstaltungen mieten","kind":"label"}
+{"concept_id":"need:events:event-sound-hire","lang":"en","term":"Event sound equipment hire","normalized":"event sound equipment hire","kind":"label"}
+{"concept_id":"need:events:event-sound-hire","lang":"ru","term":"Прокат звука для мероприятий","normalized":"прокат звука для мероприятий","kind":"label"}
+{"concept_id":"need:events:event-sound-hire","lang":"uk","term":"Прокат звуку для заходів","normalized":"прокат звуку для заходів","kind":"label"}
+{"concept_id":"need:events:funeral-arrangements","lang":"de","term":"Bestattung organisieren","normalized":"bestattung organisieren","kind":"label"}
+{"concept_id":"need:events:funeral-arrangements","lang":"en","term":"Funeral arrangements","normalized":"funeral arrangements","kind":"label"}
+{"concept_id":"need:events:funeral-arrangements","lang":"ru","term":"Организация похорон","normalized":"организация похорон","kind":"label"}
+{"concept_id":"need:events:funeral-arrangements","lang":"uk","term":"Організація похорону","normalized":"організація похорону","kind":"label"}
+{"concept_id":"need:events:market-stall","lang":"de","term":"Marktstand anmelden","normalized":"marktstand anmelden","kind":"label"}
+{"concept_id":"need:events:market-stall","lang":"en","term":"Market stall application","normalized":"market stall application","kind":"label"}
+{"concept_id":"need:events:market-stall","lang":"ru","term":"Заявка на торговое место на рынке","normalized":"заявка на торговое место на рынке","kind":"label"}
+{"concept_id":"need:events:market-stall","lang":"uk","term":"Заявка на торгове місце на ринку","normalized":"заявка на торгове місце на ринку","kind":"label"}
+{"concept_id":"need:events:party-equipment-hire","lang":"de","term":"Festausrüstung mieten","normalized":"festausrüstung mieten","kind":"label"}
+{"concept_id":"need:events:party-equipment-hire","lang":"en","term":"Party equipment hire","normalized":"party equipment hire","kind":"label"}
+{"concept_id":"need:events:party-equipment-hire","lang":"ru","term":"Прокат оборудования для праздника","normalized":"прокат оборудования для праздника","kind":"label"}
+{"concept_id":"need:events:party-equipment-hire","lang":"uk","term":"Прокат обладнання для свята","normalized":"прокат обладнання для свята","kind":"label"}
+{"concept_id":"need:events:venue-hire","lang":"de","term":"Veranstaltungsraum mieten","normalized":"veranstaltungsraum mieten","kind":"label"}
+{"concept_id":"need:events:venue-hire","lang":"en","term":"Event venue hire","normalized":"event venue hire","kind":"label"}
+{"concept_id":"need:events:venue-hire","lang":"ru","term":"Аренда зала для мероприятия","normalized":"аренда зала для мероприятия","kind":"label"}
+{"concept_id":"need:events:venue-hire","lang":"uk","term":"Оренда зали для заходу","normalized":"оренда зали для заходу","kind":"label"}
+{"concept_id":"need:events:wedding-photography","lang":"de","term":"Hochzeitsfotografie","normalized":"hochzeitsfotografie","kind":"label"}
+{"concept_id":"need:events:wedding-photography","lang":"en","term":"Wedding photography","normalized":"wedding photography","kind":"label"}
+{"concept_id":"need:events:wedding-photography","lang":"ru","term":"Свадебная фотосъёмка","normalized":"свадебная фотосъёмка","kind":"label"}
+{"concept_id":"need:events:wedding-photography","lang":"uk","term":"Весільне фотографування","normalized":"весільне фотографування","kind":"label"}
 {"concept_id":"need:family:breastfeeding-support","lang":"de","term":"Stillberatung","normalized":"stillberatung","kind":"label"}
 {"concept_id":"need:family:breastfeeding-support","lang":"en","term":"Breastfeeding support","normalized":"breastfeeding support","kind":"label"}
 {"concept_id":"need:family:breastfeeding-support","lang":"ru","term":"Помощь с грудным вскармливанием","normalized":"помощь с грудным вскармливанием","kind":"label"}
@@ -346,6 +610,66 @@
 {"concept_id":"need:health:vision-test","lang":"en","term":"Vision test","normalized":"vision test","kind":"label"}
 {"concept_id":"need:health:vision-test","lang":"ru","term":"Проверка зрения","normalized":"проверка зрения","kind":"label"}
 {"concept_id":"need:health:vision-test","lang":"uk","term":"Перевірка зору","normalized":"перевірка зору","kind":"label"}
+{"concept_id":"need:home:accessibility-conversion","lang":"de","term":"Wohnung barrierefrei umbauen","normalized":"wohnung barrierefrei umbauen","kind":"label"}
+{"concept_id":"need:home:accessibility-conversion","lang":"en","term":"Home accessibility conversion","normalized":"home accessibility conversion","kind":"label"}
+{"concept_id":"need:home:accessibility-conversion","lang":"ru","term":"Переоборудование жилья для доступности","normalized":"переоборудование жилья для доступности","kind":"label"}
+{"concept_id":"need:home:accessibility-conversion","lang":"uk","term":"Переобладнання житла для доступності","normalized":"переобладнання житла для доступності","kind":"label"}
+{"concept_id":"need:home:building-insulation","lang":"de","term":"Gebäudedämmung","normalized":"gebäudedämmung","kind":"label"}
+{"concept_id":"need:home:building-insulation","lang":"en","term":"Building insulation","normalized":"building insulation","kind":"label"}
+{"concept_id":"need:home:building-insulation","lang":"ru","term":"Утепление здания","normalized":"утепление здания","kind":"label"}
+{"concept_id":"need:home:building-insulation","lang":"uk","term":"Утеплення будівлі","normalized":"утеплення будівлі","kind":"label"}
+{"concept_id":"need:home:carpet-cleaning","lang":"de","term":"Teppichreinigung","normalized":"teppichreinigung","kind":"label"}
+{"concept_id":"need:home:carpet-cleaning","lang":"en","term":"Carpet cleaning","normalized":"carpet cleaning","kind":"label"}
+{"concept_id":"need:home:carpet-cleaning","lang":"ru","term":"Чистка ковров","normalized":"чистка ковров","kind":"label"}
+{"concept_id":"need:home:carpet-cleaning","lang":"uk","term":"Чищення килимів","normalized":"чищення килимів","kind":"label"}
+{"concept_id":"need:home:chimney-cleaning","lang":"de","term":"Kaminreinigung","normalized":"kaminreinigung","kind":"label"}
+{"concept_id":"need:home:chimney-cleaning","lang":"en","term":"Chimney cleaning","normalized":"chimney cleaning","kind":"label"}
+{"concept_id":"need:home:chimney-cleaning","lang":"ru","term":"Чистка дымохода","normalized":"чистка дымохода","kind":"label"}
+{"concept_id":"need:home:chimney-cleaning","lang":"uk","term":"Чищення димоходу","normalized":"чищення димоходу","kind":"label"}
+{"concept_id":"need:home:end-tenancy-cleaning","lang":"de","term":"Wohnungsreinigung bei Auszug","normalized":"wohnungsreinigung bei auszug","kind":"label"}
+{"concept_id":"need:home:end-tenancy-cleaning","lang":"en","term":"End of tenancy cleaning","normalized":"end of tenancy cleaning","kind":"label"}
+{"concept_id":"need:home:end-tenancy-cleaning","lang":"ru","term":"Уборка квартиры при выезде","normalized":"уборка квартиры при выезде","kind":"label"}
+{"concept_id":"need:home:end-tenancy-cleaning","lang":"uk","term":"Прибирання квартири при виїзді","normalized":"прибирання квартири при виїзді","kind":"label"}
+{"concept_id":"need:home:furniture-assembly","lang":"de","term":"Möbelmontage","normalized":"möbelmontage","kind":"label"}
+{"concept_id":"need:home:furniture-assembly","lang":"en","term":"Furniture assembly","normalized":"furniture assembly","kind":"label"}
+{"concept_id":"need:home:furniture-assembly","lang":"ru","term":"Сборка мебели","normalized":"сборка мебели","kind":"label"}
+{"concept_id":"need:home:furniture-assembly","lang":"uk","term":"Збирання меблів","normalized":"збирання меблів","kind":"label"}
+{"concept_id":"need:home:garden-maintenance","lang":"de","term":"Gartenpflege","normalized":"gartenpflege","kind":"label"}
+{"concept_id":"need:home:garden-maintenance","lang":"en","term":"Garden maintenance","normalized":"garden maintenance","kind":"label"}
+{"concept_id":"need:home:garden-maintenance","lang":"ru","term":"Уход за садом","normalized":"уход за садом","kind":"label"}
+{"concept_id":"need:home:garden-maintenance","lang":"uk","term":"Догляд за садом","normalized":"догляд за садом","kind":"label"}
+{"concept_id":"need:home:heat-pump-installation","lang":"de","term":"Wärmepumpe installieren","normalized":"wärmepumpe installieren","kind":"label"}
+{"concept_id":"need:home:heat-pump-installation","lang":"en","term":"Heat pump installation","normalized":"heat pump installation","kind":"label"}
+{"concept_id":"need:home:heat-pump-installation","lang":"ru","term":"Установка теплового насоса","normalized":"установка теплового насоса","kind":"label"}
+{"concept_id":"need:home:heat-pump-installation","lang":"uk","term":"Встановлення теплового насоса","normalized":"встановлення теплового насоса","kind":"label"}
+{"concept_id":"need:home:irrigation-installation","lang":"de","term":"Gartenbewässerung installieren","normalized":"gartenbewässerung installieren","kind":"label"}
+{"concept_id":"need:home:irrigation-installation","lang":"en","term":"Garden irrigation installation","normalized":"garden irrigation installation","kind":"label"}
+{"concept_id":"need:home:irrigation-installation","lang":"ru","term":"Монтаж полива сада","normalized":"монтаж полива сада","kind":"label"}
+{"concept_id":"need:home:irrigation-installation","lang":"uk","term":"Монтаж поливу саду","normalized":"монтаж поливу саду","kind":"label"}
+{"concept_id":"need:home:pest-control","lang":"de","term":"Schädlingsbekämpfung","normalized":"schädlingsbekämpfung","kind":"label"}
+{"concept_id":"need:home:pest-control","lang":"en","term":"Pest control service","normalized":"pest control service","kind":"label"}
+{"concept_id":"need:home:pest-control","lang":"ru","term":"Уничтожение вредителей","normalized":"уничтожение вредителей","kind":"label"}
+{"concept_id":"need:home:pest-control","lang":"uk","term":"Знищення шкідників","normalized":"знищення шкідників","kind":"label"}
+{"concept_id":"need:home:radon-testing","lang":"de","term":"Radonmessung im Haus","normalized":"radonmessung im haus","kind":"label"}
+{"concept_id":"need:home:radon-testing","lang":"en","term":"Home radon measurement","normalized":"home radon measurement","kind":"label"}
+{"concept_id":"need:home:radon-testing","lang":"ru","term":"Измерение радона в доме","normalized":"измерение радона в доме","kind":"label"}
+{"concept_id":"need:home:radon-testing","lang":"uk","term":"Вимірювання радону в будинку","normalized":"вимірювання радону в будинку","kind":"label"}
+{"concept_id":"need:home:snow-clearing","lang":"de","term":"Schneeräumung","normalized":"schneeräumung","kind":"label"}
+{"concept_id":"need:home:snow-clearing","lang":"en","term":"Snow clearing service","normalized":"snow clearing service","kind":"label"}
+{"concept_id":"need:home:snow-clearing","lang":"ru","term":"Уборка снега","normalized":"уборка снега","kind":"label"}
+{"concept_id":"need:home:snow-clearing","lang":"uk","term":"Прибирання снігу","normalized":"прибирання снігу","kind":"label"}
+{"concept_id":"need:home:solar-panel-installation","lang":"de","term":"Solaranlage installieren","normalized":"solaranlage installieren","kind":"label"}
+{"concept_id":"need:home:solar-panel-installation","lang":"en","term":"Solar panel installation","normalized":"solar panel installation","kind":"label"}
+{"concept_id":"need:home:solar-panel-installation","lang":"ru","term":"Установка солнечных панелей","normalized":"установка солнечных панелей","kind":"label"}
+{"concept_id":"need:home:solar-panel-installation","lang":"uk","term":"Встановлення сонячних панелей","normalized":"встановлення сонячних панелей","kind":"label"}
+{"concept_id":"need:home:tree-pruning","lang":"de","term":"Baumschnitt","normalized":"baumschnitt","kind":"label"}
+{"concept_id":"need:home:tree-pruning","lang":"en","term":"Tree pruning service","normalized":"tree pruning service","kind":"label"}
+{"concept_id":"need:home:tree-pruning","lang":"ru","term":"Обрезка деревьев","normalized":"обрезка деревьев","kind":"label"}
+{"concept_id":"need:home:tree-pruning","lang":"uk","term":"Обрізування дерев","normalized":"обрізування дерев","kind":"label"}
+{"concept_id":"need:home:water-quality-testing","lang":"de","term":"Trinkwasser untersuchen","normalized":"trinkwasser untersuchen","kind":"label"}
+{"concept_id":"need:home:water-quality-testing","lang":"en","term":"Drinking water testing","normalized":"drinking water testing","kind":"label"}
+{"concept_id":"need:home:water-quality-testing","lang":"ru","term":"Анализ питьевой воды","normalized":"анализ питьевой воды","kind":"label"}
+{"concept_id":"need:home:water-quality-testing","lang":"uk","term":"Аналіз питної води","normalized":"аналіз питної води","kind":"label"}
 {"concept_id":"need:housing:emergency-accommodation","lang":"de","term":"Notunterkunft","normalized":"notunterkunft","kind":"label"}
 {"concept_id":"need:housing:emergency-accommodation","lang":"en","term":"Emergency accommodation","normalized":"emergency accommodation","kind":"label"}
 {"concept_id":"need:housing:emergency-accommodation","lang":"ru","term":"Экстренное размещение","normalized":"экстренное размещение","kind":"label"}
@@ -386,6 +710,46 @@
 {"concept_id":"need:housing:water-leak","lang":"en","term":"Water leak repair","normalized":"water leak repair","kind":"label"}
 {"concept_id":"need:housing:water-leak","lang":"ru","term":"Устранение протечки воды","normalized":"устранение протечки воды","kind":"label"}
 {"concept_id":"need:housing:water-leak","lang":"uk","term":"Усунення витоку води","normalized":"усунення витоку води","kind":"label"}
+{"concept_id":"need:industry:cnc-machining","lang":"de","term":"CNC-Bearbeitung","normalized":"cnc bearbeitung","kind":"label"}
+{"concept_id":"need:industry:cnc-machining","lang":"en","term":"CNC machining service","normalized":"cnc machining service","kind":"label"}
+{"concept_id":"need:industry:cnc-machining","lang":"ru","term":"Обработка на станках с ЧПУ","normalized":"обработка на станках с чпу","kind":"label"}
+{"concept_id":"need:industry:cnc-machining","lang":"uk","term":"Оброблення на верстатах із ЧПК","normalized":"оброблення на верстатах із чпк","kind":"label"}
+{"concept_id":"need:industry:freight-forwarding","lang":"de","term":"Speditionsdienst","normalized":"speditionsdienst","kind":"label"}
+{"concept_id":"need:industry:freight-forwarding","lang":"en","term":"Freight forwarding service","normalized":"freight forwarding service","kind":"label"}
+{"concept_id":"need:industry:freight-forwarding","lang":"ru","term":"Экспедирование грузов","normalized":"экспедирование грузов","kind":"label"}
+{"concept_id":"need:industry:freight-forwarding","lang":"uk","term":"Експедирування вантажів","normalized":"експедирування вантажів","kind":"label"}
+{"concept_id":"need:industry:industrial-automation","lang":"de","term":"Industrieautomation","normalized":"industrieautomation","kind":"label"}
+{"concept_id":"need:industry:industrial-automation","lang":"en","term":"Industrial automation service","normalized":"industrial automation service","kind":"label"}
+{"concept_id":"need:industry:industrial-automation","lang":"ru","term":"Промышленная автоматизация","normalized":"промышленная автоматизация","kind":"label"}
+{"concept_id":"need:industry:industrial-automation","lang":"uk","term":"Промислова автоматизація","normalized":"промислова автоматизація","kind":"label"}
+{"concept_id":"need:industry:laser-cutting","lang":"de","term":"Laserschneiden","normalized":"laserschneiden","kind":"label"}
+{"concept_id":"need:industry:laser-cutting","lang":"en","term":"Laser cutting service","normalized":"laser cutting service","kind":"label"}
+{"concept_id":"need:industry:laser-cutting","lang":"ru","term":"Лазерная резка","normalized":"лазерная резка","kind":"label"}
+{"concept_id":"need:industry:laser-cutting","lang":"uk","term":"Лазерне різання","normalized":"лазерне різання","kind":"label"}
+{"concept_id":"need:industry:measurement-calibration","lang":"de","term":"Messgeräte kalibrieren","normalized":"messgeräte kalibrieren","kind":"label"}
+{"concept_id":"need:industry:measurement-calibration","lang":"en","term":"Measuring instrument calibration","normalized":"measuring instrument calibration","kind":"label"}
+{"concept_id":"need:industry:measurement-calibration","lang":"ru","term":"Калибровка измерительных приборов","normalized":"калибровка измерительных приборов","kind":"label"}
+{"concept_id":"need:industry:measurement-calibration","lang":"uk","term":"Калібрування вимірювальних приладів","normalized":"калібрування вимірювальних приладів","kind":"label"}
+{"concept_id":"need:industry:metal-fabrication","lang":"de","term":"Metallbauarbeiten","normalized":"metallbauarbeiten","kind":"label"}
+{"concept_id":"need:industry:metal-fabrication","lang":"en","term":"Metal fabrication service","normalized":"metal fabrication service","kind":"label"}
+{"concept_id":"need:industry:metal-fabrication","lang":"ru","term":"Изготовление металлоконструкций","normalized":"изготовление металлоконструкций","kind":"label"}
+{"concept_id":"need:industry:metal-fabrication","lang":"uk","term":"Виготовлення металоконструкцій","normalized":"виготовлення металоконструкцій","kind":"label"}
+{"concept_id":"need:industry:packaging-production","lang":"de","term":"Verpackungen herstellen lassen","normalized":"verpackungen herstellen lassen","kind":"label"}
+{"concept_id":"need:industry:packaging-production","lang":"en","term":"Custom packaging production","normalized":"custom packaging production","kind":"label"}
+{"concept_id":"need:industry:packaging-production","lang":"ru","term":"Изготовление упаковки на заказ","normalized":"изготовление упаковки на заказ","kind":"label"}
+{"concept_id":"need:industry:packaging-production","lang":"uk","term":"Виготовлення паковання на замовлення","normalized":"виготовлення паковання на замовлення","kind":"label"}
+{"concept_id":"need:industry:powder-coating","lang":"de","term":"Pulverbeschichtung","normalized":"pulverbeschichtung","kind":"label"}
+{"concept_id":"need:industry:powder-coating","lang":"en","term":"Powder coating service","normalized":"powder coating service","kind":"label"}
+{"concept_id":"need:industry:powder-coating","lang":"ru","term":"Порошковая покраска","normalized":"порошковая покраска","kind":"label"}
+{"concept_id":"need:industry:powder-coating","lang":"uk","term":"Порошкове фарбування","normalized":"порошкове фарбування","kind":"label"}
+{"concept_id":"need:industry:prototype-manufacturing","lang":"de","term":"Prototypenfertigung","normalized":"prototypenfertigung","kind":"label"}
+{"concept_id":"need:industry:prototype-manufacturing","lang":"en","term":"Prototype manufacturing","normalized":"prototype manufacturing","kind":"label"}
+{"concept_id":"need:industry:prototype-manufacturing","lang":"ru","term":"Изготовление прототипов","normalized":"изготовление прототипов","kind":"label"}
+{"concept_id":"need:industry:prototype-manufacturing","lang":"uk","term":"Виготовлення прототипів","normalized":"виготовлення прототипів","kind":"label"}
+{"concept_id":"need:industry:warehouse-storage","lang":"de","term":"Gewerbliche Lagerung","normalized":"gewerbliche lagerung","kind":"label"}
+{"concept_id":"need:industry:warehouse-storage","lang":"en","term":"Commercial warehouse storage","normalized":"commercial warehouse storage","kind":"label"}
+{"concept_id":"need:industry:warehouse-storage","lang":"ru","term":"Складское хранение для бизнеса","normalized":"складское хранение для бизнеса","kind":"label"}
+{"concept_id":"need:industry:warehouse-storage","lang":"uk","term":"Складське зберігання для бізнесу","normalized":"складське зберігання для бізнесу","kind":"label"}
 {"concept_id":"need:legal:administrative-appeal","lang":"de","term":"Verwaltungsrekurs Information","normalized":"verwaltungsrekurs information","kind":"label"}
 {"concept_id":"need:legal:administrative-appeal","lang":"en","term":"Administrative appeal information","normalized":"administrative appeal information","kind":"label"}
 {"concept_id":"need:legal:administrative-appeal","lang":"ru","term":"Информация об административной жалобе","normalized":"информация об административной жалобе","kind":"label"}
@@ -426,6 +790,206 @@
 {"concept_id":"need:legal:victim-support","lang":"en","term":"Victim support","normalized":"victim support","kind":"label"}
 {"concept_id":"need:legal:victim-support","lang":"ru","term":"Помощь пострадавшим","normalized":"помощь пострадавшим","kind":"label"}
 {"concept_id":"need:legal:victim-support","lang":"uk","term":"Допомога постраждалим","normalized":"допомога постраждалим","kind":"label"}
+{"concept_id":"need:outdoors:barbecue-site","lang":"de","term":"Öffentliche Grillstelle finden","normalized":"öffentliche grillstelle finden","kind":"label"}
+{"concept_id":"need:outdoors:barbecue-site","lang":"en","term":"Find a public barbecue site","normalized":"find a public barbecue site","kind":"label"}
+{"concept_id":"need:outdoors:barbecue-site","lang":"ru","term":"Поиск общественного места для барбекю","normalized":"поиск общественного места для барбекю","kind":"label"}
+{"concept_id":"need:outdoors:barbecue-site","lang":"uk","term":"Пошук громадського місця для барбекю","normalized":"пошук громадського місця для барбекю","kind":"label"}
+{"concept_id":"need:outdoors:boat-hire","lang":"de","term":"Boot mieten","normalized":"boot mieten","kind":"label"}
+{"concept_id":"need:outdoors:boat-hire","lang":"en","term":"Boat hire","normalized":"boat hire","kind":"label"}
+{"concept_id":"need:outdoors:boat-hire","lang":"ru","term":"Прокат лодки","normalized":"прокат лодки","kind":"label"}
+{"concept_id":"need:outdoors:boat-hire","lang":"uk","term":"Прокат човна","normalized":"прокат човна","kind":"label"}
+{"concept_id":"need:outdoors:camping-reservation","lang":"de","term":"Campingplatz reservieren","normalized":"campingplatz reservieren","kind":"label"}
+{"concept_id":"need:outdoors:camping-reservation","lang":"en","term":"Campsite reservation","normalized":"campsite reservation","kind":"label"}
+{"concept_id":"need:outdoors:camping-reservation","lang":"ru","term":"Бронирование места в кемпинге","normalized":"бронирование места в кемпинге","kind":"label"}
+{"concept_id":"need:outdoors:camping-reservation","lang":"uk","term":"Бронювання місця в кемпінгу","normalized":"бронювання місця в кемпінгу","kind":"label"}
+{"concept_id":"need:outdoors:climbing-course","lang":"de","term":"Kletterkurs","normalized":"kletterkurs","kind":"label"}
+{"concept_id":"need:outdoors:climbing-course","lang":"en","term":"Climbing course","normalized":"climbing course","kind":"label"}
+{"concept_id":"need:outdoors:climbing-course","lang":"ru","term":"Обучение скалолазанию","normalized":"обучение скалолазанию","kind":"label"}
+{"concept_id":"need:outdoors:climbing-course","lang":"uk","term":"Навчання скелелазіння","normalized":"навчання скелелазіння","kind":"label"}
+{"concept_id":"need:outdoors:cycling-route","lang":"de","term":"Veloroute finden","normalized":"veloroute finden","kind":"label"}
+{"concept_id":"need:outdoors:cycling-route","lang":"en","term":"Find a cycling route","normalized":"find a cycling route","kind":"label"}
+{"concept_id":"need:outdoors:cycling-route","lang":"ru","term":"Поиск велосипедного маршрута","normalized":"поиск велосипедного маршрута","kind":"label"}
+{"concept_id":"need:outdoors:cycling-route","lang":"uk","term":"Пошук велосипедного маршруту","normalized":"пошук велосипедного маршруту","kind":"label"}
+{"concept_id":"need:outdoors:fishing-permit","lang":"de","term":"Fischereipatent beantragen","normalized":"fischereipatent beantragen","kind":"label"}
+{"concept_id":"need:outdoors:fishing-permit","lang":"en","term":"Fishing permit application","normalized":"fishing permit application","kind":"label"}
+{"concept_id":"need:outdoors:fishing-permit","lang":"ru","term":"Оформление разрешения на рыбалку","normalized":"оформление разрешения на рыбалку","kind":"label"}
+{"concept_id":"need:outdoors:fishing-permit","lang":"uk","term":"Оформлення дозволу на риболовлю","normalized":"оформлення дозволу на риболовлю","kind":"label"}
+{"concept_id":"need:outdoors:guided-nature-tour","lang":"de","term":"Geführte Naturexkursion","normalized":"geführte naturexkursion","kind":"label"}
+{"concept_id":"need:outdoors:guided-nature-tour","lang":"en","term":"Guided nature tour","normalized":"guided nature tour","kind":"label"}
+{"concept_id":"need:outdoors:guided-nature-tour","lang":"ru","term":"Экскурсия с природным гидом","normalized":"экскурсия с природным гидом","kind":"label"}
+{"concept_id":"need:outdoors:guided-nature-tour","lang":"uk","term":"Екскурсія з природним гідом","normalized":"екскурсія з природним гідом","kind":"label"}
+{"concept_id":"need:outdoors:hiking-route","lang":"de","term":"Wanderroute finden","normalized":"wanderroute finden","kind":"label"}
+{"concept_id":"need:outdoors:hiking-route","lang":"en","term":"Find a hiking route","normalized":"find a hiking route","kind":"label"}
+{"concept_id":"need:outdoors:hiking-route","lang":"ru","term":"Поиск пешеходного маршрута","normalized":"поиск пешеходного маршрута","kind":"label"}
+{"concept_id":"need:outdoors:hiking-route","lang":"uk","term":"Пошук пішохідного маршруту","normalized":"пошук пішохідного маршруту","kind":"label"}
+{"concept_id":"need:outdoors:ski-equipment-hire","lang":"de","term":"Skiausrüstung mieten","normalized":"skiausrüstung mieten","kind":"label"}
+{"concept_id":"need:outdoors:ski-equipment-hire","lang":"en","term":"Ski equipment hire","normalized":"ski equipment hire","kind":"label"}
+{"concept_id":"need:outdoors:ski-equipment-hire","lang":"ru","term":"Прокат лыжного снаряжения","normalized":"прокат лыжного снаряжения","kind":"label"}
+{"concept_id":"need:outdoors:ski-equipment-hire","lang":"uk","term":"Прокат лижного спорядження","normalized":"прокат лижного спорядження","kind":"label"}
+{"concept_id":"need:outdoors:swimming-lessons","lang":"de","term":"Schwimmunterricht","normalized":"schwimmunterricht","kind":"label"}
+{"concept_id":"need:outdoors:swimming-lessons","lang":"en","term":"Swimming lessons","normalized":"swimming lessons","kind":"label"}
+{"concept_id":"need:outdoors:swimming-lessons","lang":"ru","term":"Уроки плавания","normalized":"уроки плавания","kind":"label"}
+{"concept_id":"need:outdoors:swimming-lessons","lang":"uk","term":"Уроки плавання","normalized":"уроки плавання","kind":"label"}
+{"concept_id":"need:repair:car-body-repair","lang":"de","term":"Karosseriereparatur","normalized":"karosseriereparatur","kind":"label"}
+{"concept_id":"need:repair:car-body-repair","lang":"en","term":"Car body repair","normalized":"car body repair","kind":"label"}
+{"concept_id":"need:repair:car-body-repair","lang":"ru","term":"Кузовной ремонт автомобиля","normalized":"кузовной ремонт автомобиля","kind":"label"}
+{"concept_id":"need:repair:car-body-repair","lang":"uk","term":"Кузовний ремонт автомобіля","normalized":"кузовний ремонт автомобіля","kind":"label"}
+{"concept_id":"need:repair:drain-unblocking","lang":"de","term":"Abflussreinigung","normalized":"abflussreinigung","kind":"label"}
+{"concept_id":"need:repair:drain-unblocking","lang":"en","term":"Drain unblocking","normalized":"drain unblocking","kind":"label"}
+{"concept_id":"need:repair:drain-unblocking","lang":"ru","term":"Прочистка канализации","normalized":"прочистка канализации","kind":"label"}
+{"concept_id":"need:repair:drain-unblocking","lang":"uk","term":"Прочищення каналізації","normalized":"прочищення каналізації","kind":"label"}
+{"concept_id":"need:repair:electrical-fault","lang":"de","term":"Elektrische Störung beheben","normalized":"elektrische störung beheben","kind":"label"}
+{"concept_id":"need:repair:electrical-fault","lang":"en","term":"Electrical fault repair","normalized":"electrical fault repair","kind":"label"}
+{"concept_id":"need:repair:electrical-fault","lang":"ru","term":"Устранение электрической неисправности","normalized":"устранение электрической неисправности","kind":"label"}
+{"concept_id":"need:repair:electrical-fault","lang":"uk","term":"Усунення електричної несправності","normalized":"усунення електричної несправності","kind":"label"}
+{"concept_id":"need:repair:furniture-restoration","lang":"de","term":"Möbelrestaurierung","normalized":"möbelrestaurierung","kind":"label"}
+{"concept_id":"need:repair:furniture-restoration","lang":"en","term":"Furniture restoration","normalized":"furniture restoration","kind":"label"}
+{"concept_id":"need:repair:furniture-restoration","lang":"ru","term":"Реставрация мебели","normalized":"реставрация мебели","kind":"label"}
+{"concept_id":"need:repair:furniture-restoration","lang":"uk","term":"Реставрація меблів","normalized":"реставрація меблів","kind":"label"}
+{"concept_id":"need:repair:jewellery-repair","lang":"de","term":"Schmuckreparatur","normalized":"schmuckreparatur","kind":"label"}
+{"concept_id":"need:repair:jewellery-repair","lang":"en","term":"Jewellery repair","normalized":"jewellery repair","kind":"label"}
+{"concept_id":"need:repair:jewellery-repair","lang":"ru","term":"Ремонт ювелирных изделий","normalized":"ремонт ювелирных изделий","kind":"label"}
+{"concept_id":"need:repair:jewellery-repair","lang":"uk","term":"Ремонт ювелірних виробів","normalized":"ремонт ювелірних виробів","kind":"label"}
+{"concept_id":"need:repair:lockout-assistance","lang":"de","term":"Türöffnung bei Aussperrung","normalized":"türöffnung bei aussperrung","kind":"label"}
+{"concept_id":"need:repair:lockout-assistance","lang":"en","term":"Door lockout assistance","normalized":"door lockout assistance","kind":"label"}
+{"concept_id":"need:repair:lockout-assistance","lang":"ru","term":"Вскрытие двери при потере ключей","normalized":"вскрытие двери при потере ключей","kind":"label"}
+{"concept_id":"need:repair:lockout-assistance","lang":"uk","term":"Відкриття дверей при втраті ключів","normalized":"відкриття дверей при втраті ключів","kind":"label"}
+{"concept_id":"need:repair:musical-instrument-repair","lang":"de","term":"Musikinstrumente reparieren","normalized":"musikinstrumente reparieren","kind":"label"}
+{"concept_id":"need:repair:musical-instrument-repair","lang":"en","term":"Musical instrument repair","normalized":"musical instrument repair","kind":"label"}
+{"concept_id":"need:repair:musical-instrument-repair","lang":"ru","term":"Ремонт музыкальных инструментов","normalized":"ремонт музыкальных инструментов","kind":"label"}
+{"concept_id":"need:repair:musical-instrument-repair","lang":"uk","term":"Ремонт музичних інструментів","normalized":"ремонт музичних інструментів","kind":"label"}
+{"concept_id":"need:repair:piano-tuning","lang":"de","term":"Klavier stimmen","normalized":"klavier stimmen","kind":"label"}
+{"concept_id":"need:repair:piano-tuning","lang":"en","term":"Piano tuning","normalized":"piano tuning","kind":"label"}
+{"concept_id":"need:repair:piano-tuning","lang":"ru","term":"Настройка фортепиано","normalized":"настройка фортепиано","kind":"label"}
+{"concept_id":"need:repair:piano-tuning","lang":"uk","term":"Налаштування фортепіано","normalized":"налаштування фортепіано","kind":"label"}
+{"concept_id":"need:repair:roller-shutter-repair","lang":"de","term":"Rollladenreparatur","normalized":"rollladenreparatur","kind":"label"}
+{"concept_id":"need:repair:roller-shutter-repair","lang":"en","term":"Roller shutter repair","normalized":"roller shutter repair","kind":"label"}
+{"concept_id":"need:repair:roller-shutter-repair","lang":"ru","term":"Ремонт рольставней","normalized":"ремонт рольставней","kind":"label"}
+{"concept_id":"need:repair:roller-shutter-repair","lang":"uk","term":"Ремонт ролет","normalized":"ремонт ролет","kind":"label"}
+{"concept_id":"need:repair:roof-leak-repair","lang":"de","term":"Undichtes Dach reparieren","normalized":"undichtes dach reparieren","kind":"label"}
+{"concept_id":"need:repair:roof-leak-repair","lang":"en","term":"Roof leak repair","normalized":"roof leak repair","kind":"label"}
+{"concept_id":"need:repair:roof-leak-repair","lang":"ru","term":"Устранение протечки крыши","normalized":"устранение протечки крыши","kind":"label"}
+{"concept_id":"need:repair:roof-leak-repair","lang":"uk","term":"Усунення протікання даху","normalized":"усунення протікання даху","kind":"label"}
+{"concept_id":"need:repair:sewing-machine-repair","lang":"de","term":"Nähmaschinenreparatur","normalized":"nähmaschinenreparatur","kind":"label"}
+{"concept_id":"need:repair:sewing-machine-repair","lang":"en","term":"Sewing machine repair","normalized":"sewing machine repair","kind":"label"}
+{"concept_id":"need:repair:sewing-machine-repair","lang":"ru","term":"Ремонт швейной машины","normalized":"ремонт швейной машины","kind":"label"}
+{"concept_id":"need:repair:sewing-machine-repair","lang":"uk","term":"Ремонт швейної машини","normalized":"ремонт швейної машини","kind":"label"}
+{"concept_id":"need:repair:shoe-repair","lang":"de","term":"Schuhreparatur","normalized":"schuhreparatur","kind":"label"}
+{"concept_id":"need:repair:shoe-repair","lang":"en","term":"Shoe repair","normalized":"shoe repair","kind":"label"}
+{"concept_id":"need:repair:shoe-repair","lang":"ru","term":"Ремонт обуви","normalized":"ремонт обуви","kind":"label"}
+{"concept_id":"need:repair:shoe-repair","lang":"uk","term":"Ремонт взуття","normalized":"ремонт взуття","kind":"label"}
+{"concept_id":"need:repair:tool-sharpening","lang":"de","term":"Werkzeuge schärfen","normalized":"werkzeuge schärfen","kind":"label"}
+{"concept_id":"need:repair:tool-sharpening","lang":"en","term":"Tool sharpening","normalized":"tool sharpening","kind":"label"}
+{"concept_id":"need:repair:tool-sharpening","lang":"ru","term":"Заточка инструментов","normalized":"заточка инструментов","kind":"label"}
+{"concept_id":"need:repair:tool-sharpening","lang":"uk","term":"Заточування інструментів","normalized":"заточування інструментів","kind":"label"}
+{"concept_id":"need:repair:tyre-fitting","lang":"de","term":"Reifenmontage","normalized":"reifenmontage","kind":"label"}
+{"concept_id":"need:repair:tyre-fitting","lang":"en","term":"Tyre fitting","normalized":"tyre fitting","kind":"label"}
+{"concept_id":"need:repair:tyre-fitting","lang":"ru","term":"Шиномонтаж","normalized":"шиномонтаж","kind":"label"}
+{"concept_id":"need:repair:tyre-fitting","lang":"uk","term":"Шиномонтаж","normalized":"шиномонтаж","kind":"label"}
+{"concept_id":"need:repair:upholstery-repair","lang":"de","term":"Möbel neu polstern","normalized":"möbel neu polstern","kind":"label"}
+{"concept_id":"need:repair:upholstery-repair","lang":"en","term":"Furniture upholstery repair","normalized":"furniture upholstery repair","kind":"label"}
+{"concept_id":"need:repair:upholstery-repair","lang":"ru","term":"Перетяжка мебели","normalized":"перетяжка мебели","kind":"label"}
+{"concept_id":"need:repair:upholstery-repair","lang":"uk","term":"Перетягування меблів","normalized":"перетягування меблів","kind":"label"}
+{"concept_id":"need:repair:vehicle-inspection-preparation","lang":"de","term":"Fahrzeug für MFK vorbereiten","normalized":"fahrzeug für mfk vorbereiten","kind":"label"}
+{"concept_id":"need:repair:vehicle-inspection-preparation","lang":"en","term":"Vehicle inspection preparation","normalized":"vehicle inspection preparation","kind":"label"}
+{"concept_id":"need:repair:vehicle-inspection-preparation","lang":"ru","term":"Подготовка автомобиля к техосмотру","normalized":"подготовка автомобиля к техосмотру","kind":"label"}
+{"concept_id":"need:repair:vehicle-inspection-preparation","lang":"uk","term":"Підготовка автомобіля до техогляду","normalized":"підготовка автомобіля до техогляду","kind":"label"}
+{"concept_id":"need:repair:watch-repair","lang":"de","term":"Uhrenreparatur","normalized":"uhrenreparatur","kind":"label"}
+{"concept_id":"need:repair:watch-repair","lang":"en","term":"Watch repair","normalized":"watch repair","kind":"label"}
+{"concept_id":"need:repair:watch-repair","lang":"ru","term":"Ремонт часов","normalized":"ремонт часов","kind":"label"}
+{"concept_id":"need:repair:watch-repair","lang":"uk","term":"Ремонт годинників","normalized":"ремонт годинників","kind":"label"}
+{"concept_id":"need:repair:welding-service","lang":"de","term":"Schweissarbeiten","normalized":"schweissarbeiten","kind":"label"}
+{"concept_id":"need:repair:welding-service","lang":"en","term":"Welding service","normalized":"welding service","kind":"label"}
+{"concept_id":"need:repair:welding-service","lang":"ru","term":"Сварочные работы","normalized":"сварочные работы","kind":"label"}
+{"concept_id":"need:repair:welding-service","lang":"uk","term":"Зварювальні роботи","normalized":"зварювальні роботи","kind":"label"}
+{"concept_id":"need:repair:window-repair","lang":"de","term":"Fensterreparatur","normalized":"fensterreparatur","kind":"label"}
+{"concept_id":"need:repair:window-repair","lang":"en","term":"Window repair","normalized":"window repair","kind":"label"}
+{"concept_id":"need:repair:window-repair","lang":"ru","term":"Ремонт окон","normalized":"ремонт окон","kind":"label"}
+{"concept_id":"need:repair:window-repair","lang":"uk","term":"Ремонт вікон","normalized":"ремонт вікон","kind":"label"}
+{"concept_id":"need:repair:windscreen-replacement","lang":"de","term":"Windschutzscheibe ersetzen","normalized":"windschutzscheibe ersetzen","kind":"label"}
+{"concept_id":"need:repair:windscreen-replacement","lang":"en","term":"Windscreen replacement","normalized":"windscreen replacement","kind":"label"}
+{"concept_id":"need:repair:windscreen-replacement","lang":"ru","term":"Замена лобового стекла","normalized":"замена лобового стекла","kind":"label"}
+{"concept_id":"need:repair:windscreen-replacement","lang":"uk","term":"Заміна лобового скла","normalized":"заміна лобового скла","kind":"label"}
+{"concept_id":"need:technology:3d-printing","lang":"de","term":"3D-Druckservice","normalized":"3d druckservice","kind":"label"}
+{"concept_id":"need:technology:3d-printing","lang":"en","term":"3D printing service","normalized":"3d printing service","kind":"label"}
+{"concept_id":"need:technology:3d-printing","lang":"ru","term":"Услуги 3D-печати","normalized":"услуги 3d печати","kind":"label"}
+{"concept_id":"need:technology:3d-printing","lang":"uk","term":"Послуги 3D-друку","normalized":"послуги 3d друку","kind":"label"}
+{"concept_id":"need:technology:accessible-device-setup","lang":"de","term":"Barrierefreie Gerätebedienung einrichten","normalized":"barrierefreie gerätebedienung einrichten","kind":"label"}
+{"concept_id":"need:technology:accessible-device-setup","lang":"en","term":"Accessible device setup","normalized":"accessible device setup","kind":"label"}
+{"concept_id":"need:technology:accessible-device-setup","lang":"ru","term":"Настройка доступности устройств","normalized":"настройка доступности устройств","kind":"label"}
+{"concept_id":"need:technology:accessible-device-setup","lang":"uk","term":"Налаштування доступності пристроїв","normalized":"налаштування доступності пристроїв","kind":"label"}
+{"concept_id":"need:technology:account-recovery","lang":"de","term":"Online-Konto wiederherstellen","normalized":"online konto wiederherstellen","kind":"label"}
+{"concept_id":"need:technology:account-recovery","lang":"en","term":"Online account recovery","normalized":"online account recovery","kind":"label"}
+{"concept_id":"need:technology:account-recovery","lang":"ru","term":"Восстановление доступа к аккаунту","normalized":"восстановление доступа к аккаунту","kind":"label"}
+{"concept_id":"need:technology:account-recovery","lang":"uk","term":"Відновлення доступу до облікового запису","normalized":"відновлення доступу до облікового запису","kind":"label"}
+{"concept_id":"need:technology:backup-setup","lang":"de","term":"Datensicherung einrichten","normalized":"datensicherung einrichten","kind":"label"}
+{"concept_id":"need:technology:backup-setup","lang":"en","term":"Backup setup","normalized":"backup setup","kind":"label"}
+{"concept_id":"need:technology:backup-setup","lang":"ru","term":"Настройка резервного копирования","normalized":"настройка резервного копирования","kind":"label"}
+{"concept_id":"need:technology:backup-setup","lang":"uk","term":"Налаштування резервного копіювання","normalized":"налаштування резервного копіювання","kind":"label"}
+{"concept_id":"need:technology:business-cybersecurity","lang":"de","term":"IT-Sicherheitsprüfung für Unternehmen","normalized":"it sicherheitsprüfung für unternehmen","kind":"label"}
+{"concept_id":"need:technology:business-cybersecurity","lang":"en","term":"Business cybersecurity assessment","normalized":"business cybersecurity assessment","kind":"label"}
+{"concept_id":"need:technology:business-cybersecurity","lang":"ru","term":"Проверка кибербезопасности бизнеса","normalized":"проверка кибербезопасности бизнеса","kind":"label"}
+{"concept_id":"need:technology:business-cybersecurity","lang":"uk","term":"Перевірка кібербезпеки бізнесу","normalized":"перевірка кібербезпеки бізнесу","kind":"label"}
+{"concept_id":"need:technology:computer-repair","lang":"de","term":"Computerreparatur","normalized":"computerreparatur","kind":"label"}
+{"concept_id":"need:technology:computer-repair","lang":"en","term":"Computer repair","normalized":"computer repair","kind":"label"}
+{"concept_id":"need:technology:computer-repair","lang":"ru","term":"Ремонт компьютера","normalized":"ремонт компьютера","kind":"label"}
+{"concept_id":"need:technology:computer-repair","lang":"uk","term":"Ремонт компʼютера","normalized":"ремонт компʼютера","kind":"label"}
+{"concept_id":"need:technology:data-recovery","lang":"de","term":"Datenrettung","normalized":"datenrettung","kind":"label"}
+{"concept_id":"need:technology:data-recovery","lang":"en","term":"Data recovery","normalized":"data recovery","kind":"label"}
+{"concept_id":"need:technology:data-recovery","lang":"ru","term":"Восстановление данных","normalized":"восстановление данных","kind":"label"}
+{"concept_id":"need:technology:data-recovery","lang":"uk","term":"Відновлення даних","normalized":"відновлення даних","kind":"label"}
+{"concept_id":"need:technology:digital-signature","lang":"de","term":"Elektronische Signatur einrichten","normalized":"elektronische signatur einrichten","kind":"label"}
+{"concept_id":"need:technology:digital-signature","lang":"en","term":"Electronic signature setup","normalized":"electronic signature setup","kind":"label"}
+{"concept_id":"need:technology:digital-signature","lang":"ru","term":"Настройка электронной подписи","normalized":"настройка электронной подписи","kind":"label"}
+{"concept_id":"need:technology:digital-signature","lang":"uk","term":"Налаштування електронного підпису","normalized":"налаштування електронного підпису","kind":"label"}
+{"concept_id":"need:technology:internet-contract","lang":"de","term":"Internetanschluss bestellen","normalized":"internetanschluss bestellen","kind":"label"}
+{"concept_id":"need:technology:internet-contract","lang":"en","term":"Home internet subscription","normalized":"home internet subscription","kind":"label"}
+{"concept_id":"need:technology:internet-contract","lang":"ru","term":"Подключение домашнего интернета","normalized":"подключение домашнего интернета","kind":"label"}
+{"concept_id":"need:technology:internet-contract","lang":"uk","term":"Підключення домашнього інтернету","normalized":"підключення домашнього інтернету","kind":"label"}
+{"concept_id":"need:technology:malware-removal","lang":"de","term":"Schadsoftware entfernen","normalized":"schadsoftware entfernen","kind":"label"}
+{"concept_id":"need:technology:malware-removal","lang":"en","term":"Malware removal","normalized":"malware removal","kind":"label"}
+{"concept_id":"need:technology:malware-removal","lang":"ru","term":"Удаление вредоносных программ","normalized":"удаление вредоносных программ","kind":"label"}
+{"concept_id":"need:technology:malware-removal","lang":"uk","term":"Видалення шкідливих програм","normalized":"видалення шкідливих програм","kind":"label"}
+{"concept_id":"need:technology:network-cabling","lang":"de","term":"Netzwerkverkabelung installieren","normalized":"netzwerkverkabelung installieren","kind":"label"}
+{"concept_id":"need:technology:network-cabling","lang":"en","term":"Network cabling installation","normalized":"network cabling installation","kind":"label"}
+{"concept_id":"need:technology:network-cabling","lang":"ru","term":"Прокладка сетевого кабеля","normalized":"прокладка сетевого кабеля","kind":"label"}
+{"concept_id":"need:technology:network-cabling","lang":"uk","term":"Прокладання мережевого кабелю","normalized":"прокладання мережевого кабелю","kind":"label"}
+{"concept_id":"need:technology:online-fraud-help","lang":"de","term":"Hilfe bei Online-Betrug","normalized":"hilfe bei online betrug","kind":"label"}
+{"concept_id":"need:technology:online-fraud-help","lang":"en","term":"Online fraud assistance","normalized":"online fraud assistance","kind":"label"}
+{"concept_id":"need:technology:online-fraud-help","lang":"ru","term":"Помощь при интернет-мошенничестве","normalized":"помощь при интернет мошенничестве","kind":"label"}
+{"concept_id":"need:technology:online-fraud-help","lang":"uk","term":"Допомога при інтернет-шахрайстві","normalized":"допомога при інтернет шахрайстві","kind":"label"}
+{"concept_id":"need:technology:phone-screen-repair","lang":"de","term":"Handy-Display ersetzen","normalized":"handy display ersetzen","kind":"label"}
+{"concept_id":"need:technology:phone-screen-repair","lang":"en","term":"Phone screen replacement","normalized":"phone screen replacement","kind":"label"}
+{"concept_id":"need:technology:phone-screen-repair","lang":"ru","term":"Замена экрана телефона","normalized":"замена экрана телефона","kind":"label"}
+{"concept_id":"need:technology:phone-screen-repair","lang":"uk","term":"Заміна екрана телефона","normalized":"заміна екрана телефона","kind":"label"}
+{"concept_id":"need:technology:photo-scanning","lang":"de","term":"Fotos digitalisieren","normalized":"fotos digitalisieren","kind":"label"}
+{"concept_id":"need:technology:photo-scanning","lang":"en","term":"Photo scanning service","normalized":"photo scanning service","kind":"label"}
+{"concept_id":"need:technology:photo-scanning","lang":"ru","term":"Сканирование фотографий","normalized":"сканирование фотографий","kind":"label"}
+{"concept_id":"need:technology:photo-scanning","lang":"uk","term":"Сканування фотографій","normalized":"сканування фотографій","kind":"label"}
+{"concept_id":"need:technology:printer-installation","lang":"de","term":"Drucker einrichten","normalized":"drucker einrichten","kind":"label"}
+{"concept_id":"need:technology:printer-installation","lang":"en","term":"Printer installation","normalized":"printer installation","kind":"label"}
+{"concept_id":"need:technology:printer-installation","lang":"ru","term":"Настройка принтера","normalized":"настройка принтера","kind":"label"}
+{"concept_id":"need:technology:printer-installation","lang":"uk","term":"Налаштування принтера","normalized":"налаштування принтера","kind":"label"}
+{"concept_id":"need:technology:server-administration","lang":"de","term":"Serveradministration","normalized":"serveradministration","kind":"label"}
+{"concept_id":"need:technology:server-administration","lang":"en","term":"Server administration service","normalized":"server administration service","kind":"label"}
+{"concept_id":"need:technology:server-administration","lang":"ru","term":"Администрирование серверов","normalized":"администрирование серверов","kind":"label"}
+{"concept_id":"need:technology:server-administration","lang":"uk","term":"Адміністрування серверів","normalized":"адміністрування серверів","kind":"label"}
+{"concept_id":"need:technology:software-development","lang":"de","term":"Individuelle Softwareentwicklung","normalized":"individuelle softwareentwicklung","kind":"label"}
+{"concept_id":"need:technology:software-development","lang":"en","term":"Custom software development","normalized":"custom software development","kind":"label"}
+{"concept_id":"need:technology:software-development","lang":"ru","term":"Разработка программ на заказ","normalized":"разработка программ на заказ","kind":"label"}
+{"concept_id":"need:technology:software-development","lang":"uk","term":"Розроблення програм на замовлення","normalized":"розроблення програм на замовлення","kind":"label"}
+{"concept_id":"need:technology:video-digitisation","lang":"de","term":"Videokassetten digitalisieren","normalized":"videokassetten digitalisieren","kind":"label"}
+{"concept_id":"need:technology:video-digitisation","lang":"en","term":"Video cassette digitisation","normalized":"video cassette digitisation","kind":"label"}
+{"concept_id":"need:technology:video-digitisation","lang":"ru","term":"Оцифровка видеокассет","normalized":"оцифровка видеокассет","kind":"label"}
+{"concept_id":"need:technology:video-digitisation","lang":"uk","term":"Оцифрування відеокасет","normalized":"оцифрування відеокасет","kind":"label"}
+{"concept_id":"need:technology:website-development","lang":"de","term":"Website erstellen lassen","normalized":"website erstellen lassen","kind":"label"}
+{"concept_id":"need:technology:website-development","lang":"en","term":"Website development","normalized":"website development","kind":"label"}
+{"concept_id":"need:technology:website-development","lang":"ru","term":"Разработка сайта","normalized":"разработка сайта","kind":"label"}
+{"concept_id":"need:technology:website-development","lang":"uk","term":"Розроблення сайту","normalized":"розроблення сайту","kind":"label"}
+{"concept_id":"need:technology:wifi-installation","lang":"de","term":"WLAN einrichten","normalized":"wlan einrichten","kind":"label"}
+{"concept_id":"need:technology:wifi-installation","lang":"en","term":"Wi-Fi installation","normalized":"wi fi installation","kind":"label"}
+{"concept_id":"need:technology:wifi-installation","lang":"ru","term":"Настройка Wi-Fi","normalized":"настройка wi fi","kind":"label"}
+{"concept_id":"need:technology:wifi-installation","lang":"uk","term":"Налаштування Wi-Fi","normalized":"налаштування wi fi","kind":"label"}
 {"concept_id":"need:transport:accessible-transport","lang":"de","term":"Behindertenfahrdienst","normalized":"behindertenfahrdienst","kind":"label"}
 {"concept_id":"need:transport:accessible-transport","lang":"en","term":"Accessible transport","normalized":"accessible transport","kind":"label"}
 {"concept_id":"need:transport:accessible-transport","lang":"ru","term":"Доступный транспорт для инвалидности","normalized":"доступный транспорт для инвалидности","kind":"label"}

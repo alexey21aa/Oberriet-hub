@@ -1,10 +1,10 @@
 {
-  "candidate_addon": "0.1.7",
-  "checked_at": "2026-10-02T23:20:58.769859+00:00",
-  "passed": 957,
+  "candidate_addon": "0.1.9",
+  "checked_at": "2026-10-03T11:33:00Z",
+  "passed": 958,
   "failed": 0,
   "suites": {
-    "v6-server": 93,
+    "v6-server": 94,
     "v6-answer-packs": 48,
     "v6-import-api": 12,
     "v6-life-search": 31,
@@ -22,9 +22,9 @@
   "external_inference_tested": false,
   "deployed": false,
   "package": {
-    "version": "0.1.7",
-    "bytes": 30842,
-    "sha256": "dde442cdd39c5c58e08c454a27cdb3084841221e19b75eef4b9d8c1286255bd7",
+    "version": "0.1.9",
+    "bytes": 248917,
+    "sha256": "930e25946a8c0d886af983f70916d2b791eae93986ad867ca9a535307c3b7f7f",
     "deployed": false,
     "core_replacement": false,
     "bundled_batches": [
@@ -38,7 +38,11 @@
       "v6-life-tax-extension"
     ],
     "explicit_batch_required": true,
-    "external_health_batch": "data/v6-health-services-delta.json"
+    "external_health_batch": "data/v6-health-services-delta.json",
+    "ontology": {
+      "concepts": 881,
+      "terms": 9789
+    }
   },
   "bundled_overlap_assertions": 2
 }
