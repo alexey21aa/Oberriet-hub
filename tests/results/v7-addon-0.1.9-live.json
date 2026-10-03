@@ -1,0 +1,304 @@
+{
+  "checked_at": "2026-10-03T13:28:41.911Z",
+  "active_core": "0.2.3",
+  "active_addon": "0.1.9",
+  "status": {
+    "version": "0.1.9",
+    "v7_ontology": {
+      "concepts": 881,
+      "terms": 9789
+    },
+    "ready": true,
+    "stats": {
+      "records": 4523,
+      "terms": 5766,
+      "indexed_at": "2026-10-03T10:45:00+00:00"
+    },
+    "index_dirty": false,
+    "index_error": "",
+    "import": {
+      "stage": "complete",
+      "total": 31,
+      "processed": 31,
+      "imported": 31,
+      "skipped": 0,
+      "started_at": "2026-10-02T21:05:33+00:00",
+      "error": "",
+      "completed_at": "2026-10-02T21:06:10+00:00"
+    }
+  },
+  "mandatory_pass": true,
+  "canonical_typo_ids_equal": true,
+  "device_search_parity": true,
+  "device_answer_parity": true,
+  "queries": [
+    {
+      "q": "Спорт для детей",
+      "total": 13,
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-muki",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "Спорт доя детей",
+      "total": 13,
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-muki",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "Танцы для женщин",
+      "total": 3,
+      "ids": [
+        "v6-msor-adult-dance",
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "танци доя женщин",
+      "total": 3,
+      "ids": [
+        "v6-msor-adult-dance",
+        "v6-montlingen-damen",
+        "v6-montlingen-fitness"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "Развлекательные центры для детей",
+      "total": 1,
+      "ids": [
+        "v6-tanoshii"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "Обмен водительских прав",
+      "total": 4,
+      "ids": [
+        "answer-nav-230f4f845371-apply",
+        "nav-07c7e3925550",
+        "nav-d1d228a68254",
+        "answer-nav-909e06ce1d8c-apply"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [
+          "need:transport:driving-licence-exchange"
+        ],
+        "ambiguous": false,
+        "method": "exact",
+        "device_independent": true,
+        "expanded_query": "Führerausweis umtauschen",
+        "mode": "multilingual-label-fallback"
+      }
+    },
+    {
+      "q": "Настройка резервного копирования",
+      "total": 0,
+      "ids": [],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [
+          "need:technology:backup-setup"
+        ],
+        "ambiguous": false,
+        "method": "exact",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "device-low",
+      "total": 13,
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-muki",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    },
+    {
+      "q": "device-high",
+      "total": 13,
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small",
+        "v6-montlingen-boys-youth",
+        "v6-montlingen-girls-middle",
+        "v6-montlingen-girls-small",
+        "v6-montlingen-girls-youth",
+        "v6-montlingen-muki",
+        "v6-kiri-grabs"
+      ],
+      "engine": "v6-server-index",
+      "ontology": {
+        "concept_ids": [],
+        "ambiguous": false,
+        "method": "none",
+        "device_independent": true
+      }
+    }
+  ],
+  "answers": [
+    {
+      "label": "sport-low",
+      "mode": "curated-answer-pack",
+      "answer": "Проверенные варианты в Oberriet и Rheintal:\n\nKiRi · Oberriet: Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Детская гимнастика в местном спортивном клубе.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Дополнительные занятия лёгкой атлетикой для детей.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nУточните актуальное расписание и участие у организатора.",
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small"
+      ],
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "generative_available": false,
+      "retrieval": "server",
+      "language": "ru"
+    },
+    {
+      "label": "sport-high",
+      "mode": "curated-answer-pack",
+      "answer": "Проверенные варианты в Oberriet и Rheintal:\n\nKiRi · Oberriet: Детская борьба для мальчиков и девочек с детсадовского возраста. На школьных каникулах тренировок нет.\nhttps://www.rcog.ch/kinderringen\n\nSTV Oberriet-Eichenwies · Jugi: Детская гимнастика в местном спортивном клубе.\nhttps://www.stvoe.ch/Riegenueberblick/Jugi\n\nTSV Montlingen · Leichtathletik: Дополнительные занятия лёгкой атлетикой для детей.\nhttps://www.tsvmontlingen.ch/riegen/LA\n\nУточните актуальное расписание и участие у организатора.",
+      "ids": [
+        "v6-stvoe-jugi",
+        "v6-montlingen-kitu",
+        "v6-plusport-kids",
+        "v6-kiri-oberriet",
+        "v6-montlingen-athletics",
+        "v6-montlingen-boys-middle",
+        "v6-montlingen-boys-small"
+      ],
+      "sources": [
+        "https://www.rcog.ch/kinderringen",
+        "https://www.stvoe.ch/Riegenueberblick/Jugi",
+        "https://www.tsvmontlingen.ch/riegen/LA"
+      ],
+      "generative_available": false,
+      "retrieval": "server",
+      "language": "ru"
+    },
+    {
+      "label": "licence",
+      "mode": "evidence-pack",
+      "answer": null,
+      "ids": [
+        "nav-07c7e3925550",
+        "nav-d1d228a68254"
+      ],
+      "sources": [
+        "https://www.ch.ch/de/ausweise-und-dokumente/fuhrerausweis/internationaler-fuhrerausweis/",
+        "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
+      ],
+      "generative_available": false,
+      "retrieval": "server",
+      "language": "ru"
+    },
+    {
+      "label": "privacy",
+      "mode": "evidence-pack",
+      "answer": null,
+      "ids": [],
+      "sources": [],
+      "generative_available": false,
+      "retrieval": "server",
+      "language": "ru"
+    }
+  ],
+  "scope": "Live acceptance. No new data import, discovery POI publication, real generative inference or full relevance certification.",
+  "observed_precision_issue": {
+    "query": "Обмен водительских прав",
+    "unrelated_answer_source": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/",
+    "next": "Require concept relevance in multilingual fallback; generic umtauschen token does not prove licence-exchange relevance."
+  },
+  "truncated_probe": {
+    "query": "Регистрация собаки",
+    "parsed": false,
+    "reason": "Connector response truncation; not counted as an acceptance pass."
+  }
+}
