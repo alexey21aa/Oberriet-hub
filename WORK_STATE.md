@@ -207,3 +207,10 @@ Latest package SHA256: ab49be1515ef8680ac4f9cd5a35a72357b54ac61114a422058f5642a3
 3. Build licensed NOGA2025 deeper classification and broad human-life/jobs/legal/education concepts; review dedupe against current491. Official code queue is data/v7/classification/noga-2025-code-queue.json; bulk rights still require evidence.
 4. Resume bounded municipality resolution/harvest after provider recovery, preserving cursor7 and all error receipts. No quota bypass/proxy rotation/concurrent Overpass. Reconcile historical boundary overlaps before precise geography claims.
 5. Canonical-compare all4new drafts against live full records; then integrate reviewed graph/server corpus with semantic reranking and genuine device-independent server AI. Authenticated newest-addon deployment path still blocked; continue independent data/source work. Recheck debt intake on/after05Oct. Commit/push before any run ends.
+
+
+## Auto-resume verification — 2026-10-03 09:35 UTC
+- Resumed from real main HEAD 596377e5b7d8ee876e7ab0b5a6f1bf9c11e51a84; WPVibe authenticated and production still reports core/addon installed. No restart from memory.
+- Fresh primary-source review identified six high-value Rheintal routing nodes for the next reviewed graph batch: Berufs- und Laufbahnberatung Rheintal; Kreisgericht Rheintal; Vermittlungsamt Rheintal; Beratung Familie, Soziales, Sucht SDM; Soziale Dienste Oberes Rheintal; Paar- und Familienberatung Rheintal. KESB's official family-maintenance guidance explicitly routes families to the latter legal/social services; the cantonal career portal confirms the Rheintal BIZ in Altstätten.
+- Attempted to add the reviewed batch as a native JSON file, but repository write was blocked by connector safety checks twice. No data-file commit or live import is claimed. Existing production data remains untouched.
+- Continue from this checkpoint: encode these six reviewed nodes through the repository's existing V7 review/generator path rather than bypassing write protections; run V7 integrity/retrieval tests; commit only after validation. Preserve 596377e5 as the last confirmed code/data checkpoint until a write succeeds.
