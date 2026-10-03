@@ -30,6 +30,17 @@ for r in delta['services']:
   'legacy_concepts':r.get('search_concepts',[]),'source_provenance':provenance,
   'fee':r.get('fees'),'age_note':r.get('age_note'),'schedule':r.get('schedule'),
   'offering_verified':fresh,'source_freshness':'within-7-day-review-window' if fresh else 'needs-refresh','opening_hours_verified':False,'existing_live_service':True,'graph_published_live':False})
+review_file=ROOT/'data/v7/review/medical-reviewed-offerings.json'
+if review_file.exists():
+ reviewed=json.loads(review_file.read_text())
+ for review in reviewed['provider_reviews']:
+  entity=entities.get(review['business_entity_id'])
+  if entity:entity['primary_provider_review']=review
+ for r in reviewed['offerings']:
+  if r['business_entity_id'] not in entities:raise ValueError('Missing provider binding '+r['id'])
+  checked=datetime.fromisoformat(r['source_provenance']['checked_at'])
+  fresh=timedelta(0)<=datetime.now(timezone.utc)-checked<=timedelta(days=r['source_provenance']['ttl_days'])
+  offerings.append(dict(r,offering_verified=fresh,source_freshness='within-review-window' if fresh else 'needs-refresh'))
 write_jsonl(OUT/'business_entities.jsonl',sorted(entities.values(),key=lambda r:r['id']))
 write_jsonl(OUT/'business_offerings.jsonl',offerings)
 coverage=collections.defaultdict(lambda:collections.Counter())
@@ -39,10 +50,13 @@ for r in entities.values():
 for r in offerings:coverage[entities[r['business_entity_id']]['municipality'] or 'unknown']['reviewed_offerings']+=1
 metrics={'entities':len(entities),'osm_discovery_pois':sum(k.startswith('osm:') for k in entities),
  'reviewed_provider_locations':sum(k.startswith('curated:') for k in entities),'reviewed_offerings':len(offerings),
+ 'primary_reviewed_osm_locations':sum(bool(r.get('primary_provider_review')) for r in entities.values()),
+ 'existing_live_offerings':sum(r['existing_live_service'] for r in offerings),
+ 'new_candidate_offer_drafts':sum(not r['existing_live_service'] for r in offerings),
  'verified_customer_opening_schedules':0,'employer_shift_claims':0,'automatic_cross_source_merges':0,
  'live_new_entities':0,'coverage_by_municipality':dict(coverage),
  'limitations':['OSM POIs include businesses and public facilities; counts are not verified registered company counts.',
  'Discovery classifications/hours are not primary verified offerings or current-open claims.',
- 'Reviewed offerings reuse existing live activities; not new imported services.',
+ 'Twenty offerings reuse existing live activities; four primary-reviewed medical drafts are not live and still require canonical comparison.',
  'Different branches sharing website/phone stay distinct until reviewed identity mapping.']}
 (OUT/'coverage_metrics.json').write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+'\n');print(json.dumps(metrics,ensure_ascii=False))

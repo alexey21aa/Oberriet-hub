@@ -1,0 +1,217 @@
+{
+  "provider_reviews": [
+    {
+      "business_entity_id": "osm:node:13109225607",
+      "provider_name": "BauchMedizin Rheintal",
+      "municipality": "Altstätten",
+      "address": "Heidenerstrasse 11, 9450 Altstätten",
+      "contact_provenance": {
+        "source_url": "https://www.bauchmed.ch/kontakt.html",
+        "checked_at": "2026-10-03T08:44:16.961734+00:00",
+        "body_sha256": "09b8bc6af4857e942c6a20ab42f1f5d8addad64f47b31ee54dc8307ab29c3ed8",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "classification_review": "gastroenterology-confirmed",
+      "verified_legal_registration": false
+    },
+    {
+      "business_entity_id": "osm:node:13436092133",
+      "provider_name": "Radiologie Nordost Altstätten",
+      "municipality": "Altstätten",
+      "address": "Churerstrasse 1, 9450 Altstätten",
+      "contact_provenance": {
+        "source_url": "https://www.team-radiologie.ch/die-standorte/radiologie-nordost-in-altstaetten/",
+        "checked_at": "2026-10-03T08:43:29.287441+00:00",
+        "body_sha256": "0483449cf685a2c515d647b9a3cbd939cf7a26051e38b89477f025e6fc922c88",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "classification_review": "radiology-location-confirmed",
+      "verified_legal_registration": false
+    },
+    {
+      "business_entity_id": "osm:node:13158305718",
+      "provider_name": "Laufstil",
+      "municipality": "Altstätten",
+      "address": "Breite 11, 9450 Altstätten",
+      "contact_provenance": {
+        "source_url": "https://laufstil.ch/",
+        "checked_at": "2026-10-03T08:43:21.073774+00:00",
+        "body_sha256": "672a412edb516ebfcfcba980780d50a0d1f5455c00d8370aa61067acf0c6364a",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "classification_review": "osm-doctor-label-not-supported-by-reviewed-content",
+      "verified_legal_registration": false,
+      "clinical_licensure_verified": false,
+      "reviewed_category": "orthopaedic-insole-craft-and-products"
+    }
+  ],
+  "offerings": [
+    {
+      "id": "v7-bauchmed-consultation",
+      "business_entity_id": "osm:node:13109225607",
+      "title": {
+        "en": "Gastroenterology consultation",
+        "de": "Gastroenterologische Sprechstunde",
+        "ru": "Консультация гастроэнтеролога",
+        "uk": "Консультація гастроентеролога"
+      },
+      "description": {
+        "en": "Digestive-system specialist consultations. Contact the practice for appointments.",
+        "de": "Fachärztliche Sprechstunden zum Verdauungssystem. Termine bei der Praxis anfragen.",
+        "ru": "Консультации по заболеваниям пищеварительной системы. Запись через практику.",
+        "uk": "Консультації щодо захворювань травної системи. Запис через практику."
+      },
+      "concept_ids": [
+        "need:health:gastroenterology"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.bauchmed.ch/leistungen.html",
+        "checked_at": "2026-10-03T08:44:10.454959+00:00",
+        "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "offering_verified": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "v7-bauchmed-diagnostics",
+      "business_entity_id": "osm:node:13109225607",
+      "title": {
+        "en": "Digestive-system examinations",
+        "de": "Untersuchungen des Verdauungssystems",
+        "ru": "Обследования пищеварительной системы",
+        "uk": "Обстеження травної системи"
+      },
+      "description": {
+        "en": "Provider lists ultrasound, breath tests, gastroscopy and colonoscopy.",
+        "de": "Die Praxis nennt Ultraschall, Atemtests, Magen- und Darmspiegelungen.",
+        "ru": "Практика предлагает УЗИ, дыхательные тесты, гастроскопию и колоноскопию.",
+        "uk": "Практика пропонує УЗД, дихальні тести, гастроскопію та колоноскопію."
+      },
+      "concept_ids": [
+        "need:health:abdominal-ultrasound",
+        "need:health:breath-testing",
+        "need:health:gastroscopy",
+        "need:health:colonoscopy"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.bauchmed.ch/leistungen.html",
+        "checked_at": "2026-10-03T08:44:10.454959+00:00",
+        "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "offering_verified": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "v7-radiologie-altstaetten",
+      "business_entity_id": "osm:node:13436092133",
+      "title": {
+        "en": "Radiology practice Altstätten",
+        "de": "Radiologische Praxis Altstätten",
+        "ru": "Радиологическая практика Altstätten",
+        "uk": "Радіологічна практика Altstätten"
+      },
+      "description": {
+        "en": "Radiology location at Churerstrasse 1; provider links clinician referral registration.",
+        "de": "Radiologie an der Churerstrasse 1; Anbieter verlinkt die Anmeldung durch Zuweiser.",
+        "ru": "Радиология на Churerstrasse 1; провайдер указывает регистрацию направляющим специалистом.",
+        "uk": "Радіологія на Churerstrasse 1; провайдер вказує реєстрацію спеціалістом, який направляє."
+      },
+      "concept_ids": [
+        "need:health:radiology"
+      ],
+      "source_provenance": {
+        "source_url": "https://www.team-radiologie.ch/die-standorte/radiologie-nordost-in-altstaetten/",
+        "checked_at": "2026-10-03T08:43:29.287441+00:00",
+        "body_sha256": "0483449cf685a2c515d647b9a3cbd939cf7a26051e38b89477f025e6fc922c88",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "offering_verified": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false
+    },
+    {
+      "id": "v7-laufstil-insoles",
+      "business_entity_id": "osm:node:13158305718",
+      "title": {
+        "en": "Custom insoles and foot-support products",
+        "de": "Individuelle Einlagen und Fusshilfsmittel",
+        "ru": "Индивидуальные стельки и средства поддержки стоп",
+        "uk": "Індивідуальні устілки та засоби підтримки стоп"
+      },
+      "description": {
+        "en": "Provider describes custom orthopaedic and sensorimotor insoles. Appointment booking is linked.",
+        "de": "Der Anbieter beschreibt individuelle orthopädische und sensomotorische Einlagen. Terminbuchung ist verlinkt.",
+        "ru": "Провайдер описывает индивидуальные ортопедические и сенсомоторные стельки. Есть ссылка для записи.",
+        "uk": "Провайдер описує індивідуальні ортопедичні та сенсомоторні устілки. Є посилання для запису."
+      },
+      "concept_ids": [
+        "need:health:orthopaedic-insoles"
+      ],
+      "source_provenance": {
+        "source_url": "https://laufstil.ch/deine-ansprechpartnerin/",
+        "checked_at": "2026-10-03T08:44:23.016353+00:00",
+        "body_sha256": "259f392f24793a8fa95786564fc98697aaa768b66f6b1d0468b2a046eb140257",
+        "review_status": "primary-content-reviewed",
+        "trust": "B",
+        "ttl_days": 7,
+        "scope": "directory-offering-only"
+      },
+      "offering_verified": true,
+      "existing_live_service": false,
+      "graph_published_live": false,
+      "canonical_review": "pending-live-full-record-comparison",
+      "eligible_for_live_import": false,
+      "fee": null,
+      "age_note": null,
+      "schedule": null,
+      "opening_hours_verified": false
+    }
+  ],
+  "new_live_imports": 0,
+  "limitations": [
+    "Content is provider directory information, not medical advice or clinical effectiveness verification.",
+    "OSM coordinates/legal identities remain discovery metadata.",
+    "Live full-record canonical comparison required before import.",
+    "Unknown fees, patient age limits and insurance coverage stay unknown."
+  ]
+}

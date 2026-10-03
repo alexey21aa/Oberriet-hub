@@ -1,0 +1,191 @@
+[
+  {
+    "id": "need:health:gastroenterology",
+    "label": "Gastroenterology",
+    "labels": {
+      "en": "Gastroenterology",
+      "de": "Gastroenterologie",
+      "ru": "Гастроэнтерология",
+      "uk": "Гастроентерологія"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "gastroenterology"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.bauchmed.ch/leistungen.html",
+      "checked_at": "2026-10-03T08:44:10.454959+00:00",
+      "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:abdominal-ultrasound",
+    "label": "Abdominal ultrasound",
+    "labels": {
+      "en": "Abdominal ultrasound",
+      "de": "Ultraschall Bauch",
+      "ru": "УЗИ живота",
+      "uk": "УЗД живота"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "abdominal-ultrasound"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.bauchmed.ch/leistungen.html",
+      "checked_at": "2026-10-03T08:44:10.454959+00:00",
+      "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:colonoscopy",
+    "label": "Colonoscopy",
+    "labels": {
+      "en": "Colonoscopy",
+      "de": "Darmspiegelung",
+      "ru": "Колоноскопия",
+      "uk": "Колоноскопія"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "colonoscopy"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.bauchmed.ch/leistungen.html",
+      "checked_at": "2026-10-03T08:44:10.454959+00:00",
+      "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:gastroscopy",
+    "label": "Gastroscopy",
+    "labels": {
+      "en": "Gastroscopy",
+      "de": "Magenspiegelung",
+      "ru": "Гастроскопия",
+      "uk": "Гастроскопія"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "gastroscopy"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.bauchmed.ch/leistungen.html",
+      "checked_at": "2026-10-03T08:44:10.454959+00:00",
+      "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:breath-testing",
+    "label": "Breath test",
+    "labels": {
+      "en": "Breath test",
+      "de": "Atemtest",
+      "ru": "Дыхательный тест",
+      "uk": "Дихальний тест"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "breath-testing"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.bauchmed.ch/leistungen.html",
+      "checked_at": "2026-10-03T08:44:10.454959+00:00",
+      "body_sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:radiology",
+    "label": "Radiology",
+    "labels": {
+      "en": "Radiology",
+      "de": "Radiologie",
+      "ru": "Радиология",
+      "uk": "Радіологія"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "radiology"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://www.team-radiologie.ch/die-standorte/radiologie-nordost-in-altstaetten/",
+      "checked_at": "2026-10-03T08:43:29.287441+00:00",
+      "body_sha256": "0483449cf685a2c515d647b9a3cbd939cf7a26051e38b89477f025e6fc922c88",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  },
+  {
+    "id": "need:health:orthopaedic-insoles",
+    "label": "Orthopaedic insoles",
+    "labels": {
+      "en": "Orthopaedic insoles",
+      "de": "Orthopädische Einlagen",
+      "ru": "Ортопедические стельки",
+      "uk": "Ортопедичні устілки"
+    },
+    "parent_id": "category:healthcare",
+    "classifications": [
+      {
+        "human_need": "orthopaedic-insoles"
+      }
+    ],
+    "source_id": "reviewed-primary-provider",
+    "source_provenance": {
+      "source_url": "https://laufstil.ch/deine-ansprechpartnerin/",
+      "checked_at": "2026-10-03T08:44:23.016353+00:00",
+      "body_sha256": "259f392f24793a8fa95786564fc98697aaa768b66f6b1d0468b2a046eb140257",
+      "review_status": "primary-content-reviewed",
+      "trust": "B",
+      "ttl_days": 7,
+      "scope": "directory-offering-only"
+    },
+    "semantic_review": "primary-offering-distinction-reviewed-cross-taxonomy-audit-pending"
+  }
+]

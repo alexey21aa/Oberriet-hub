@@ -1,0 +1,12 @@
+{
+  "public_pois": 600,
+  "queued_entity_reviews": 180,
+  "unique_candidate_urls": 175,
+  "no_website_metadata": 420,
+  "blocked_url_metadata": 0,
+  "primary_pages_fetched": 6,
+  "primary_provider_reviews_complete": 3,
+  "pending_provider_reviews": 177,
+  "eligible_for_live_import": 0,
+  "scope": "OSM-derived website references are discovery only. Three bounded editorial provider reviews are separate; canonical comparison still pending. DNS/robots/redirect validation required before automated bulk fetch."
+}

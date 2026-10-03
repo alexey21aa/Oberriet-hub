@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-03T08:42:48.539878+00:00",
+  "source": "https://overpass-api.de/api/interpreter",
+  "job": "St. Gallen municipality administrative metadata lookup",
+  "status": "error",
+  "http_status": 504,
+  "action": "stop-provider-requests-and-continue-independent-review",
+  "claims_added": 0
+}

@@ -1,0 +1,882 @@
+{
+  "source_url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025",
+  "checked_at": "2026-10-03T08:42:48.539220+00:00",
+  "http_status": 200,
+  "body_sha256": "d49d46c1f33daac6fd59c7f5171af50adc2531eabbb7e80c0c7dbc8290154ed1",
+  "source_bytes": 76717,
+  "codes": [
+    {
+      "code": "01",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/01",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "02",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/02",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "03",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/03",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "05",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/05",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "06",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/06",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "07",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/07",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "08",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/08",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "09",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/09",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "10",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/10",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "11",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/11",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "12",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/12",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "13",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/13",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "14",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/14",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "15",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/15",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "16",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/16",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "17",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/17",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "18",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/18",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "19",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/19",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "20",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/20",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "21",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/21",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "22",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/22",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "23",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/23",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "24",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/24",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "25",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/25",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "26",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/26",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "27",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/27",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "28",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/28",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "29",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/29",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "30",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/30",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "31",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/31",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "32",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/32",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "33",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/33",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "35",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/35",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "36",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/36",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "37",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/37",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "38",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/38",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "39",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/39",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "41",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/41",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "42",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/42",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "43",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/43",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "46",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/46",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "47",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/47",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "49",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/49",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "50",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/50",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "51",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/51",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "52",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/52",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "53",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/53",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "55",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/55",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "56",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/56",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "58",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/58",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "59",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/59",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "60",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/60",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "61",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/61",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "62",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/62",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "63",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/63",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "64",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/64",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "65",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/65",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "66",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/66",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "68",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/68",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "69",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/69",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "70",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/70",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "71",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/71",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "72",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/72",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "73",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/73",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "74",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/74",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "75",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/75",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "77",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/77",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "78",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/78",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "79",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/79",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "80",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/80",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "81",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/81",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "82",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/82",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "84",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/84",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "85",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/85",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "86",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/86",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "87",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/87",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "88",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/88",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "90",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/90",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "91",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/91",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "92",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/92",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "93",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/93",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "94",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/94",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "95",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/95",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "96",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/96",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "97",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/97",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "98",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/98",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "99",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/99",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "A",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/a",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "B",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/b",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "C",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/c",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "D",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/d",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "E",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/e",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "F",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/f",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "G",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/g",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "H",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/h",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "I",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/i",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "J",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/j",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "K",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/k",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "L",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/l",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "M",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/m",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "N",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/n",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "O",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/o",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "P",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/p",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "Q",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/q",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "R",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/r",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "S",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/s",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "T",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/t",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "U",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/u",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    },
+    {
+      "code": "V",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/v",
+      "classification": "NOGA2025",
+      "status": "official-taxonomy-link-discovery",
+      "businesses_inferred": 0,
+      "license_review": "pending-before-bulk-label-import"
+    }
+  ],
+  "canonical_concepts_added": 0
+}

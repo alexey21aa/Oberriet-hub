@@ -1,3 +1,31 @@
+{"concept_id":"need:health:abdominal-ultrasound","lang":"de","term":"Ultraschall Bauch","normalized":"ultraschall bauch","kind":"label"}
+{"concept_id":"need:health:abdominal-ultrasound","lang":"en","term":"Abdominal ultrasound","normalized":"abdominal ultrasound","kind":"label"}
+{"concept_id":"need:health:abdominal-ultrasound","lang":"ru","term":"УЗИ живота","normalized":"узи живота","kind":"label"}
+{"concept_id":"need:health:abdominal-ultrasound","lang":"uk","term":"УЗД живота","normalized":"узд живота","kind":"label"}
+{"concept_id":"need:health:breath-testing","lang":"de","term":"Atemtest","normalized":"atemtest","kind":"label"}
+{"concept_id":"need:health:breath-testing","lang":"en","term":"Breath test","normalized":"breath test","kind":"label"}
+{"concept_id":"need:health:breath-testing","lang":"ru","term":"Дыхательный тест","normalized":"дыхательный тест","kind":"label"}
+{"concept_id":"need:health:breath-testing","lang":"uk","term":"Дихальний тест","normalized":"дихальний тест","kind":"label"}
+{"concept_id":"need:health:colonoscopy","lang":"de","term":"Darmspiegelung","normalized":"darmspiegelung","kind":"label"}
+{"concept_id":"need:health:colonoscopy","lang":"en","term":"Colonoscopy","normalized":"colonoscopy","kind":"label"}
+{"concept_id":"need:health:colonoscopy","lang":"ru","term":"Колоноскопия","normalized":"колоноскопия","kind":"label"}
+{"concept_id":"need:health:colonoscopy","lang":"uk","term":"Колоноскопія","normalized":"колоноскопія","kind":"label"}
+{"concept_id":"need:health:gastroenterology","lang":"de","term":"Gastroenterologie","normalized":"gastroenterologie","kind":"label"}
+{"concept_id":"need:health:gastroenterology","lang":"en","term":"Gastroenterology","normalized":"gastroenterology","kind":"label"}
+{"concept_id":"need:health:gastroenterology","lang":"ru","term":"Гастроэнтерология","normalized":"гастроэнтерология","kind":"label"}
+{"concept_id":"need:health:gastroenterology","lang":"uk","term":"Гастроентерологія","normalized":"гастроентерологія","kind":"label"}
+{"concept_id":"need:health:gastroscopy","lang":"de","term":"Magenspiegelung","normalized":"magenspiegelung","kind":"label"}
+{"concept_id":"need:health:gastroscopy","lang":"en","term":"Gastroscopy","normalized":"gastroscopy","kind":"label"}
+{"concept_id":"need:health:gastroscopy","lang":"ru","term":"Гастроскопия","normalized":"гастроскопия","kind":"label"}
+{"concept_id":"need:health:gastroscopy","lang":"uk","term":"Гастроскопія","normalized":"гастроскопія","kind":"label"}
+{"concept_id":"need:health:orthopaedic-insoles","lang":"de","term":"Orthopädische Einlagen","normalized":"orthopädische einlagen","kind":"label"}
+{"concept_id":"need:health:orthopaedic-insoles","lang":"en","term":"Orthopaedic insoles","normalized":"orthopaedic insoles","kind":"label"}
+{"concept_id":"need:health:orthopaedic-insoles","lang":"ru","term":"Ортопедические стельки","normalized":"ортопедические стельки","kind":"label"}
+{"concept_id":"need:health:orthopaedic-insoles","lang":"uk","term":"Ортопедичні устілки","normalized":"ортопедичні устілки","kind":"label"}
+{"concept_id":"need:health:radiology","lang":"de","term":"Radiologie","normalized":"radiologie","kind":"label"}
+{"concept_id":"need:health:radiology","lang":"en","term":"Radiology","normalized":"radiology","kind":"label"}
+{"concept_id":"need:health:radiology","lang":"ru","term":"Радиология","normalized":"радиология","kind":"label"}
+{"concept_id":"need:health:radiology","lang":"uk","term":"Радіологія","normalized":"радіологія","kind":"label"}
 {"concept_id":"osm:amenity:animal_boarding","lang":"de","term":"tierpension","normalized":"tierpension","kind":"alias"}
 {"concept_id":"osm:amenity:animal_boarding","lang":"en","term":"Animal Boarding Facility","normalized":"animal boarding facility","kind":"label"}
 {"concept_id":"osm:amenity:animal_boarding","lang":"en","term":"boarding","normalized":"boarding","kind":"alias"}

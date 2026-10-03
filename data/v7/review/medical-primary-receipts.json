@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://www.bauchmed.ch/",
+    "checked_at": "2026-10-03T08:43:12.710189+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bauchmed.ch/",
+    "content_type": "text/html",
+    "sha256": "8892db5336f6c6e2416ba25d2f03cf1f0abd09a3209cc6df9b7d4999274f6773",
+    "bytes": 6695,
+    "status": "fetched"
+  },
+  {
+    "url": "https://laufstil.ch/",
+    "checked_at": "2026-10-03T08:43:21.073774+00:00",
+    "http_status": 200,
+    "final_url": "https://laufstil.ch/",
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "672a412edb516ebfcfcba980780d50a0d1f5455c00d8370aa61067acf0c6364a",
+    "bytes": 148985,
+    "status": "fetched"
+  },
+  {
+    "url": "https://www.team-radiologie.ch/die-standorte/radiologie-nordost-in-altstaetten/",
+    "checked_at": "2026-10-03T08:43:29.287441+00:00",
+    "http_status": 200,
+    "final_url": "https://www.team-radiologie.ch/die-standorte/radiologie-nordost-in-altstaetten/",
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "0483449cf685a2c515d647b9a3cbd939cf7a26051e38b89477f025e6fc922c88",
+    "bytes": 101494,
+    "status": "fetched"
+  },
+  {
+    "url": "https://www.bauchmed.ch/leistungen.html",
+    "checked_at": "2026-10-03T08:44:10.454959+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bauchmed.ch/leistungen.html",
+    "status": "fetched",
+    "bytes": 34009,
+    "sha256": "3fccdea9ada354467027c8f91432fbd3bd1ddeb2fdc2aff574fd1ded5ca94884"
+  },
+  {
+    "url": "https://www.bauchmed.ch/kontakt.html",
+    "checked_at": "2026-10-03T08:44:16.961734+00:00",
+    "http_status": 200,
+    "final_url": "https://www.bauchmed.ch/kontakt.html",
+    "status": "fetched",
+    "bytes": 15179,
+    "sha256": "09b8bc6af4857e942c6a20ab42f1f5d8addad64f47b31ee54dc8307ab29c3ed8"
+  },
+  {
+    "url": "https://laufstil.ch/deine-ansprechpartnerin/",
+    "checked_at": "2026-10-03T08:44:23.016353+00:00",
+    "http_status": 200,
+    "final_url": "https://laufstil.ch/deine-ansprechpartnerin/",
+    "status": "fetched",
+    "bytes": 155779,
+    "sha256": "259f392f24793a8fa95786564fc98697aaa768b66f6b1d0468b2a046eb140257"
+  }
+]

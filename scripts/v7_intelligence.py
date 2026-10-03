@@ -1,5 +1,6 @@
 """Candidate server-side ontology/graph primitives; never browser capability-dependent."""
 import collections,json,math,re,unicodedata
+from datetime import datetime,timezone,timedelta
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 MUNICIPALITIES=['Oberriet','Montlingen','Kriessern','Eichenwies','Altstätten','Rüthi','Eichberg','Rebstein','Marbach','Balgach','Widnau','Diepoldsau','Au','Berneck','St. Margrethen','Buchs','St.Gallen']
@@ -39,7 +40,11 @@ class ConceptIndex:
     longest=max(len(t.split()) for t,k in matches);matches=[m for m in matches if len(m[0].split())==longest]
    else:
     # Whole one-word typos and phrase n-grams, never uncontrolled substring fuzzy.
-    words=q.split();spans={' '.join(words[i:i+n]) for n in range(1,min(5,len(words))+1) for i in range(len(words)-n+1)}
+    words=q.split()
+    # A stray "test" -> "tent" must not turn an unknown medical phrase into
+    # camping. Multiword unknown intent needs a multiword fuzzy match.
+    minimum=1 if len(words)==1 else 2
+    spans={' '.join(words[i:i+n]) for n in range(minimum,min(5,len(words))+1) for i in range(len(words)-n+1)}
     for span in spans:
      if len(span)<4:continue
      for length in [len(span)-1,len(span),len(span)+1]:
@@ -93,3 +98,17 @@ def taxonomy_candidates(index,entities,query,municipality=None,origin=None):
  rows=[r for r in entities if any(all(r.get('category_tags',{}).get(k)==v for k,v in c.items()) for c in classifications)]
  selected=geo_select(rows,municipality,origin)
  return dict(selected,query_understanding=resolved,mode='discovery-only',verified_offerings=0,live=False)
+def reviewed_offering_candidates(index,entities,offerings,query,municipality=None,origin=None):
+ """Search reviewed graph offers independently of OSM discovery categories."""
+ resolved=index.resolve(query);ids=set(resolved['concept_ids']);by_id={r['id']:r for r in entities};matches=[]
+ for offer in offerings:
+  if not ids.intersection(offer.get('concept_ids',[])) or not offer.get('offering_verified'):continue
+  p=offer['source_provenance'];checked=datetime.fromisoformat(p['checked_at'].replace('Z','+00:00'))
+  if checked.tzinfo is None:checked=checked.replace(tzinfo=timezone.utc)
+  if not timedelta(0)<=datetime.now(timezone.utc)-checked<=timedelta(days=p.get('ttl_days',7)):continue
+  entity=by_id.get(offer['business_entity_id'])
+  if not entity:continue
+  review=entity.get('primary_provider_review',{})
+  matches.append(dict(offer,municipality=review.get('municipality',entity.get('municipality')),coordinates=None))
+ selected=geo_select(matches,municipality,origin)
+ return dict(selected,query_understanding=resolved,mode='reviewed-candidate-offerings',live=False,opening_hours_asserted=False)

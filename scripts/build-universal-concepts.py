@@ -44,6 +44,14 @@ def build():
    for text,kind in values:
     n=normalize(text)
     if n and len(n)<=100:aliases[(cid,lang,n)]={'concept_id':cid,'lang':lang,'term':text,'normalized':n,'kind':kind}
+ extension=ROOT/'data/v7/review/medical-concept-extension.json'
+ if extension.exists():
+  for c in json.loads(extension.read_text()):
+   label_key=normalize(c['label']);cid=by_label.get(label_key,c['id'])
+   if cid not in concepts:concepts[cid]=c;by_label[label_key]=cid
+   else:rejected['same_primary_tag_or_label']+=1
+   for lang,text in c['labels'].items():
+    n=normalize(text);aliases[(cid,lang,n)]={'concept_id':cid,'lang':lang,'term':text,'normalized':n,'kind':'label'}
  # Aliases shared by different concepts are ambiguous: retained, never blindly merged.
  rows=sorted(concepts.values(),key=lambda x:x['id']);ars=sorted(aliases.values(),key=lambda x:(x['concept_id'],x['lang'],x['normalized']))
  jsonl(OUT/'concepts.jsonl',rows);jsonl(OUT/'concept_aliases.jsonl',ars)
@@ -54,9 +62,9 @@ def build():
   'unique_terms':len(reverse),'aliases':sum(a['kind']=='alias' for a in ars),
   'translations':sum(a['kind']=='label' and a['lang']!='en' for a in ars),'typo_forms':0,
   'rejected_duplicates':rejected['same_primary_tag_or_label'],'excluded_presets':dict(rejected),
-  'ambiguous_terms':sum(len(v)>1 for v in reverse.values()),'source_breakdown':{'osm-id-schema':len(rows)},
+  'ambiguous_terms':sum(len(v)>1 for v in reverse.values()),'source_breakdown':dict(collections.Counter(r['source_id'] for r in rows)),
   'target_25000_met':False,'target_100000_met':False,'businesses_inferred_from_taxonomy':0,
-  'limitations':['OSM taxonomy breadth only; not complete NOGA/medical/job/human-life coverage.',
+  'limitations':['OSM taxonomy plus seven reviewed health concepts only; not complete NOGA/medical/job/human-life coverage.',
    'Exact normalized label and primary-tag dedupe; embedding semantic audit still pending.',
    'Terms/translations and combinatorial intents do not count as canonical topics.']}
  write(OUT/'concept_metrics.json',json.dumps(metrics,ensure_ascii=False,indent=2)+'\n')

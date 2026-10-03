@@ -15,7 +15,7 @@ Core is 0.2.3 and addon is 0.1.0; latest undeployed V6 package remains 0.1.7.
 - `data/v7/graph/business_entities.jsonl`: discoveries plus reviewed provider
   locations. Shared domains/phones never automatically merge branches.
 - `business_offerings.jsonl`: existing reviewed V6 activities, linked to providers;
-  these 20 offers are already live, not newly imported. Verification expires
+  20 offers are already live; four new medical drafts remain candidate-only and need canonical review. Verification expires
   outside a 7-day source-review window. Customer hours and employer shifts are
   separate and unverified.
 
@@ -46,9 +46,28 @@ subsequent boundary reconciliation is required before precise local claims.
 
 ## Remaining acceptance gaps
 
-484 taxonomy candidates / 7,563 language+normalized-term pairs are not the V7
+491 concept candidates (484 taxonomy + 7 primary-reviewed health distinctions) / 7,591 language+normalized-term pairs are not the V7
 25,000 / 100,000 goals. Zero canonical concepts have completed cross-taxonomy
 semantic audit. NOGA 2025, medical/legal/jobs/human-needs concepts and licensed
 Swiss registry ingestion remain to be added. Metadata discoveries require primary
 provider review before publication. Semantic reranking and actual server-side
 generative inference remain pending; curated evidence packs are not generation.
+
+
+## Primary medical review continuation
+
+`python scripts/add-v7-reviewed-medical.py` reproduces four editorial candidate
+medical offerings from six captured HTTP200/hash receipts and three reviewed
+providers. It does not diagnose, promise clinical effectiveness or insurance
+coverage. Seven distinct health needs extend the lexical registry with four
+languages. `reviewed_offering_candidates` joins offers by concept and rejects
+expired/future source evidence. New offerings remain ineligible for live import
+until full live-record canonical comparison. No opening-now claim is produced.
+
+`python scripts/build-v7-review-queue.py` preserves180 entity-review jobs /175
+unique candidate URLs, with3 primary-content reviews done and177 pending.
+Website metadata alone is not provider identity.420 POIs lack website references.
+The NOGA queue records22 sectors/87 division-code URLs observed from the official
+2025 KUBB page, without importing bulk labels or inventing businesses.109 code
+references do not add109 canonical concepts. Bulk reuse/license review is pending.
+The municipality metadata attempt returned504; independent reviews continued.

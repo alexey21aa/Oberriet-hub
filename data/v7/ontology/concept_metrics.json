@@ -1,9 +1,9 @@
 {
-  "canonical_concepts": 484,
+  "canonical_concepts": 491,
   "canonical_concepts_semantically_audited": 0,
-  "unique_terms": 7563,
+  "unique_terms": 7591,
   "aliases": 7707,
-  "translations": 894,
+  "translations": 915,
   "typo_forms": 0,
   "rejected_duplicates": 289,
   "excluded_presets": {
@@ -13,13 +13,14 @@
   },
   "ambiguous_terms": 861,
   "source_breakdown": {
+    "reviewed-primary-provider": 7,
     "osm-id-schema": 484
   },
   "target_25000_met": false,
   "target_100000_met": false,
   "businesses_inferred_from_taxonomy": 0,
   "limitations": [
-    "OSM taxonomy breadth only; not complete NOGA/medical/job/human-life coverage.",
+    "OSM taxonomy plus seven reviewed health concepts only; not complete NOGA/medical/job/human-life coverage.",
     "Exact normalized label and primary-tag dedupe; embedding semantic audit still pending.",
     "Terms/translations and combinatorial intents do not count as canonical topics."
   ]

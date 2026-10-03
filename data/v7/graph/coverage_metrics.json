@@ -2,7 +2,10 @@
   "entities": 608,
   "osm_discovery_pois": 600,
   "reviewed_provider_locations": 8,
-  "reviewed_offerings": 20,
+  "reviewed_offerings": 24,
+  "primary_reviewed_osm_locations": 3,
+  "existing_live_offerings": 20,
+  "new_candidate_offer_drafts": 4,
   "verified_customer_opening_schedules": 0,
   "employer_shift_claims": 0,
   "automatic_cross_source_merges": 0,
@@ -17,7 +20,7 @@
       "healthcare": 11,
       "craft": 16,
       "leisure": 14,
-      "reviewed_offerings": 3
+      "reviewed_offerings": 7
     },
     "Oberriet": {
       "entities": 156,
@@ -73,7 +76,7 @@
   "limitations": [
     "OSM POIs include businesses and public facilities; counts are not verified registered company counts.",
     "Discovery classifications/hours are not primary verified offerings or current-open claims.",
-    "Reviewed offerings reuse existing live activities; not new imported services.",
+    "Twenty offerings reuse existing live activities; four primary-reviewed medical drafts are not live and still require canonical comparison.",
     "Different branches sharing website/phone stay distinct until reviewed identity mapping."
   ]
 }

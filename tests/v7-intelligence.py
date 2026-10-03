@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Candidate ontology/graph invariants; no live WordPress mutation."""
 import collections,importlib.util,json,math,sys,time
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-from v7_intelligence import ConceptIndex,one_edit,distance_km,geo_select,merge_candidates,taxonomy_candidates
+from v7_intelligence import ConceptIndex,one_edit,distance_km,geo_select,merge_candidates,taxonomy_candidates,reviewed_offering_candidates
 spec=importlib.util.spec_from_file_location('harvester',ROOT/'scripts/harvest-v7-businesses.py');h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
 checks=collections.Counter();failures=[]
 def check(category,condition,detail):
@@ -16,6 +16,7 @@ for a in rows:check('multilingual_exact_alias',a['concept_id'] in index.resolve(
 for c in index.concepts.values():check('concept_integrity',c['parent_id'].startswith('category:') and bool(c['classifications']),c['id'])
 for a,b,want in [('sport','sport',True),('sport','spott',True),('sport','sprt',True),('sport','spoort',True),('sport','sprot',True),('sport','spartt',False),('abcd','cdab',False)]:check('edit_distance',one_edit(a,b)==want,a+' '+b)
 for q,want in [('dentist','osm:amenity:dentist'),('sauna','osm:leisure:sauna'),('swimming pool','osm:leisure:swimming_pool'),('trampoline park','osm:leisure:trampoline_park')]:check('search_concept',want in index.resolve(q)['concept_ids'],q)
+check('unknown_intent_not_camping',index.resolve('unreviewed test')['concept_ids']==[],'stray test/tent fuzzy collision')
 r=index.resolve('dentist Oberriet age 12 years free open now');check('typed_facets',r['facets']=={'municipalities':['Oberriet'],'age':12,'free_requested':True,'open_now_requested':True},str(r))
 try:index.resolve('x'*513);bounded=False
 except ValueError:bounded=True
@@ -37,6 +38,21 @@ pois=json.loads((ROOT/'data/v7/business/business_entities.json').read_text())
 for p in pois:check('discovery_not_verified',not p['offerings_verified'] and not p['opening_hours_verified'] and not p['published_live'],p['id'])
 for q in ['dentist','pharmacy','bakery','sauna','supermarket']:
  r=taxonomy_candidates(index,pois,q,'Oberriet');check('taxonomy_retrieval',all(p['category_tags'] for p in r['results']) and r['mode']=='discovery-only' and r['verified_offerings']==0,q)
+graph=[json.loads(x) for x in (ROOT/'data/v7/graph/business_entities.jsonl').read_text().splitlines()]
+offers=[json.loads(x) for x in (ROOT/'data/v7/graph/business_offerings.jsonl').read_text().splitlines()]
+for q in ['gastroenterology','Гастроэнтерология','Gastroenterologie','Гастроентерологія','colonoscopy','Колоноскопия','Колоноскопія','Darmspiegelung','Gastroscopy','УЗИ живота','УЗД живота','Atemtest','breath test','Radiologie','Радиология','Радіологія','Orthopaedic insoles','Ортопедические стельки','Ортопедичні устілки','Orthopädische Einlagen']:
+ r=reviewed_offering_candidates(index,graph,offers,q,'Altstätten');check('reviewed_graph_multilingual',len(r['results'])>0 and r['stage']=='municipality' and not r['live'] and not r['opening_hours_asserted'],q)
+for q,want in [('колоноскопя','v7-bauchmed-diagnostics'),('гастроскопя','v7-bauchmed-diagnostics'),('Radilogie','v7-radiologie-altstaetten')]:
+ r=reviewed_offering_candidates(index,graph,offers,q,'Altstätten');check('reviewed_graph_typos',want in [x['id'] for x in r['results']],q)
+for age in [8,-1]:
+ copies=[dict(o,source_provenance=dict(o['source_provenance'],checked_at=(datetime.now(timezone.utc)-timedelta(days=age)).isoformat())) for o in offers]
+ check('reviewed_graph_freshness',reviewed_offering_candidates(index,graph,copies,'Radiology','Altstätten')['results']==[],str(age))
+for o in offers:
+ if not o['existing_live_service']:check('draft_import_gate',not o['eligible_for_live_import'] and o['canonical_review'].startswith('pending') and o['fee'] is None and not o['opening_hours_verified'],o['id'])
+qspec=importlib.util.spec_from_file_location('queue_builder',ROOT/'scripts/build-v7-review-queue.py');qb=importlib.util.module_from_spec(qspec);qspec.loader.exec_module(qb)
+for u in ['http://127.0.0.1/','http://169.254.169.254/latest/meta-data/','https://user:secret@example.org/','ftp://example.org/','https://localhost/','http://10.0.0.1/','http://[::1]/','https://test.local/','https://example.org:8443/']:
+ check('review_url_guard',qb.public_url(u) is None,u)
+check('review_url_public',qb.public_url('https://example.org/page#section')=='https://example.org/page','public fragment normalized')
 samples=[];misses=[]
 for t,ids in sorted(index.terms.items()):
  if len(t)<8 or len(ids)!=1:continue
