@@ -1,0 +1,10 @@
+{
+  "https://www.oberriet.ch/dienstleistungen/23986": {
+    "artifact_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+    "artifact_type": "selector",
+    "jurisdiction": {"country": "CH", "canton": "SG"},
+    "evidence_url": "https://www.sg.ch/steuern-finanzen/steuern/formulare-wegleitungen/einkommens-vermoegenssteuer-privatpersonen.html",
+    "checked_at": "2026-10-04",
+    "verification_scope": "official-form-selector"
+  }
+}
